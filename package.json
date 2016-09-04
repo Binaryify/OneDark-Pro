@@ -1,0 +1,42 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "26a529c9-2654-4b95-a63f-02f6a52429e6",
+		"publisherId": "8ae75bda-ec22-4a17-9340-abf1a20beca9",
+		"publisherDisplayName": "zhuangtongfa",
+		"installCount": 51423,
+		"versions": [
+			{
+				"version": "1.0.3",
+				"date": "2015-11-20T08:02:40.517Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.0",
+					"User-Agent": "VSCode 1.2.0",
+					"X-Market-User-Id": "d9c11df9466917b706144a7a2951c03fcbc8f19ffde039d135a8378c15b011a8"
+				},
+				"downloadUrl": "https://zhuangtongfa.gallery.vsassets.io/_apis/public/gallery/publisher/zhuangtongfa/extension/Material-theme/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://zhuangtongfa.gallery.vsassets.io/_apis/public/gallery/publisher/zhuangtongfa/extension/Material-theme/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "Material-theme",
+	"description": "Material themes for VS Code.",
+	"version": "1.0.3",
+	"publisher": "zhuangtongfa",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Material Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Material-Theme.tmTheme"
+			}
+		]
+	},
+	"icon": "icon.svg"
+}
