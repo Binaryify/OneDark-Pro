@@ -23,6 +23,14 @@
 	"description": "Material themes for VS Code.",
 	"version": "1.0.3",
 	"publisher": "zhuangtongfa",
+	"bugs": {
+		"url": "https://github.com/Binaryify/Material-Theme-vscode/issues"
+	},
+	"homepage": "https://github.com/Binaryify/Material-Theme-vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Binaryify/Material-Theme-vscode"
+	},
 	"engines": {
 		"vscode": "^0.10.1"
 	},
