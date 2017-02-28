@@ -580,151 +580,129 @@
 				<string>#c678dd</string>
 			</dict>
 		</dict>
+         <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown headings</string>
+        <key>scope</key>
+        <string>entity.name.section.markdown</string>
+        <key>settings</key>
         <dict>
-			<key>name</key>
-			<string>Bold Markdown</string>
-			<key>scope</key>
-			<string>strong md</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#d19a66</string>
-			</dict>
-		</dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown heading Punctuation Definition</string>
+        <key>scope</key>
+        <string>punctuation.definition.heading.markdown</string>
+        <key>settings</key>
         <dict>
-			<key>name</key>
-			<string>Monospace Markdown</string>
-			<key>scope</key>
-			<string>variable md</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#98c379</string>
-			</dict>
-		</dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown heading setext</string>
+        <key>scope</key>
+        <string>markup.heading.setext</string>
+        <key>settings</key>
         <dict>
-			<key>name</key>
-			<string>Keyword Markdown</string>
-			<key>scope</key>
-			<string>keyword md</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e06c75</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Code</string>
-			<key>scope</key>
-			<string>markup.raw.inline</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#90C378</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Link Text</string>
-			<key>scope</key>
-			<string>string.other.link, punctuation.definition.string.end.markdown</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DF6A73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Link Url</string>
-			<key>scope</key>
-			<string>meta.link</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D2945D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Lists</string>
-			<key>scope</key>
-			<string>markup.list</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DF6A73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Quotes</string>
-			<key>scope</key>
-			<string>markup.quote</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D2945D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Separator</string>
-			<key>scope</key>
-			<string>meta.separator</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#515151</string>
-				<key>foreground</key>
-				<string>#A6B2C0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Inserted</string>
-			<key>scope</key>
-			<string>markup.inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#90C378</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Deleted</string>
-			<key>scope</key>
-			<string>markup.deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DF6A73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Changed</string>
-			<key>scope</key>
-			<string>markup.changed</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C679DD</string>
-			</dict>
-		</dict>
-		<!--<dict>
-			<key>name</key>
-			<string>Colors</string>
-			<key>scope</key>
-			<string>constant.other.color</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#57B6C2</string>
-			</dict>
-		</dict>-->
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Punctuation Definition Bold</string>
+        <key>scope</key>
+        <string>punctuation.definition.bold.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Inline Raw</string>
+        <key>scope</key>
+        <string>markup.inline.raw.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown List Punctuation Definition</string>
+        <key>scope</key>
+        <string>beginning.punctuation.definition.list.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Quote</string>
+        <key>scope</key>
+        <string>markup.quote.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5C6370</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Punctuation Definition String</string>
+        <key>scope</key>
+        <string>punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Punctuation Definition Link</string>
+        <key>scope</key>
+        <string>punctuation.definition.metadata.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Underline Link/Image</string>
+        <key>scope</key>
+        <string>markup.underline.link.markdown,markup.underline.link.image.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Link Title/Description</string>
+        <key>scope</key>
+        <string>string.other.link.title.markdown,string.other.link.description.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
 		<dict>
 			<key>name</key>
 			<string>Regular Expressions</string>
@@ -811,49 +789,71 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>Json key</string>
-			<key>scope</key>
-			<string>source.json                           meta.structure.dictionary.json                              string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DF6A73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Json value</string>
-			<key>scope</key>
-			<string>source.json                       meta.structure.dictionary.json                           meta.structure.dictionary.value.json                       string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#90C378</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>json sub key</string>
-			<key>scope</key>
-			<string>source.json                           meta.structure.dictionary.json                          meta.structure.dictionary.value.json                        meta.structure.dictionary.json                      string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DF6A73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Json sub value</string>
-			<key>scope</key>
-			<string>source.json                       meta.structure.dictionary.json                        meta.structure.dictionary.value.json                       meta.structure.dictionary.json                          meta.structure.dictionary.value.json                            string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#90C378</string>
-			</dict>
-		</dict>
+        <key>name</key>
+        <string>Source Json Meta Structure Dictionary Json &gt; String Quoted Json</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json &gt; string.quoted.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Source Json Meta Structure Dictionary Json &gt; String Quoted Json &gt; Punctuation String</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json &gt; string.quoted.json &gt; punctuation.string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Source Json Meta Structure Dictionary Json &gt; Value Json &gt; String Quoted Json,source Json Meta Structure Array Json &gt; Value Json &gt; String Quoted Json,source Json Meta Structure Dictionary Json &gt; Value Json &gt; String Quoted Json &gt; Punctuation,source Json Meta Structure Array Json &gt; Value Json &gt; String Quoted Json &gt; Punctuation</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json &gt; value.json &gt; string.quoted.json,source.json meta.structure.array.json &gt; value.json &gt; string.quoted.json,source.json meta.structure.dictionary.json &gt; value.json &gt; string.quoted.json &gt; punctuation,source.json meta.structure.array.json &gt; value.json &gt; string.quoted.json &gt; punctuation</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Source Json Meta Structure Dictionary Json &gt; Constant Language Json,source Json Meta Structure Array Json &gt; Constant Language Json</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json &gt; constant.language.json,source.json meta.structure.array.json &gt; constant.language.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56B6C2</string>
+        </dict>
+      </dict>
+			 <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JSON Property Name</string>
+        <key>scope</key>
+        <string>support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JSON Punctuation for Property Name</string>
+        <key>scope</key>
+        <string>support.type.property-name.json punctuation</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
 		<dict>
 			<key>name</key>
 			<string>laravel blade tag</string>
