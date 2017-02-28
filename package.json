@@ -7,7 +7,7 @@
 		"installCount": 51423,
 		"versions": [
 			{
-				"version": "1.0.5",
+				"version": "1.0.6",
 				"date": "2015-11-20T08:02:40.517Z",
 				"downloadHeaders": {
 					"X-Market-Client-Id": "VSCode 1.2.0",
@@ -21,7 +21,7 @@
 	},
 	"name": "Material-theme",
 	"description": "Material themes for VS Code.",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"publisher": "zhuangtongfa",
 	"engines": {
 		"vscode": "^0.10.1"
