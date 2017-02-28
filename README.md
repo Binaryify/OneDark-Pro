@@ -1,7 +1,7 @@
 # Material Theme
-Material Theme fo\r vscode,enjoy it!
+Maybe the best theme on VS Code! 
 
-[github repository](https://github.com/Binaryify/Material-Theme-vscode)
+enjoy it!
 
 # What's new?
 1. improve markdown support 
@@ -12,3 +12,6 @@ Material Theme fo\r vscode,enjoy it!
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot2.png)
+
+
+[github repository](https://github.com/Binaryify/Material-Theme-vscode)
