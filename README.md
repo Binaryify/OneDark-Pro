@@ -1,5 +1,5 @@
 # Material Theme
-Material Theme for vscode,enjoy it!
+Material Theme fo\r vscode,enjoy it!
 
 [github repository](https://github.com/Binaryify/Material-Theme-vscode)
 
