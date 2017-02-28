@@ -171,62 +171,62 @@
 				<string>#abb2bf</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Functions</string>
-			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method</string>
-			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#61afef</string>
+				<key>name</key>
+				<string>Functions</string>
+				<key>scope</key>
+				<string>entity.name.function, meta.require, support.function.any-method</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#61afef</string>
+				</dict>
 			</dict>
-		</dict>
-        <dict>
-			<key>name</key>
-			<string>Classes</string>
-			<key>scope</key>
-			<string>entity.name.type.namespace</string>
-			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#e5c07b</string>
+				<key>name</key>
+				<string>Classes</string>
+				<key>scope</key>
+				<string>entity.name.type.namespace</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#e5c07b</string>
+				</dict>
 			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Classes</string>
-			<key>scope</key>
-			<string>support.class, entity.name.type.class</string>
-			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#e5c07b</string>
-			</dict>
-		</dict>
-        <dict>
-			<key>name</key>
-			<string>Class name</string>
-			<key>scope</key>
-			<string>entity.name.class.identifier.namespace.type</string>
-			<key>settings</key>
+				<key>name</key>
+				<string>Classes</string>
+				<key>scope</key>
+				<string>support.class, entity.name.type.class</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#e5c07b</string>
+				</dict>
+				</dict>
 			<dict>
-				<key>foreground</key>
-				<string>#e5c07b</string>
+				<key>name</key>
+				<string>Class name</string>
+				<key>scope</key>
+				<string>entity.name.class.identifier.namespace.type</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#e5c07b</string>
+				</dict>
 			</dict>
-		</dict>
-        <dict>
-			<key>name</key>
-			<string>Class name</string>
-			<key>scope</key>
-			<string>entity.name.class</string>
-			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#61afef</string>
+				<key>name</key>
+				<string>Class name</string>
+				<key>scope</key>
+				<string>entity.name.class</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#61afef</string>
+				</dict>
 			</dict>
-		</dict>
-		<dict>
+			<dict>
 			<key>name</key>
 			<string>Type Name</string>
 			<key>scope</key>
@@ -236,19 +236,19 @@
 				<key>foreground</key>
 				<string>#e5c07b</string>
 			</dict>
-		</dict>
-        <dict>
-			<key>name</key>
-			<string>Keyword Control</string>
-			<key>scope</key>
-			<string>keyword.control</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c678dd</string>
 			</dict>
-		</dict>
-        <dict>
+					<dict>
+				<key>name</key>
+				<string>Keyword Control</string>
+				<key>scope</key>
+				<string>keyword.control</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#c678dd</string>
+				</dict>
+			</dict>
+			<dict>
 			<key>name</key>
 			<string>Control Elements</string>
 			<key>scope</key>
@@ -258,40 +258,52 @@
 				<key>foreground</key>
 				<string>#d19a66</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Methods</string>
-			<key>scope</key>
-			<string>keyword.other.special-method</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#61afef</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#c678dd</string>
+				<key>name</key>
+				<string>Methods</string>
+				<key>scope</key>
+				<string>keyword.other.special-method</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#61afef</string>
+				</dict>
 			</dict>
-		</dict>
+			<dict>
+				<key>name</key>
+				<string>Storage</string>
+				<key>scope</key>
+				<string>storage</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#c678dd</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Storage JS TS</string>
+				<key>scope</key>
+				<string>token.storage.js,token.storage.ts</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#c678dd</string>
+				</dict>
+			</dict>
+	
+			<dict>
+        <key>name</key>
+        <string>Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void</string>
+        <key>scope</key>
+        <string>source.js keyword.operator.delete,source.js keyword.operator.in,source.js keyword.operator.of,source.js keyword.operator.instanceof,source.js keyword.operator.new,source.js keyword.operator.typeof,source.js keyword.operator.void</string>
+        <key>settings</key>
         <dict>
-			<key>name</key>
-			<string>Storage JS TS</string>
-			<key>scope</key>
-			<string>token.storage.js,token.storage.ts</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c678dd</string>
-			</dict>
-		</dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
         <dict>
 			<key>name</key>
 			<string>Java Storage</string>
