@@ -90,6 +90,55 @@
           <string>#5C6370</string>
         </dict>
       </dict>
+
+<!-- python实参 -->
+      <dict>
+        <key>name</key>
+        <string>meta.function-call.arguments.python</string>
+        <key>scope</key>
+        <string>meta.function-call.arguments.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C60</string>
+        </dict>
+      </dict>
+<!-- python实参 -->
+
+<!-- python属性 -->
+      <dict>
+        <key>name</key>
+        <string>meta.function-call.python</string>
+        <key>scope</key>
+        <string>meta.function-call.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C60</string>
+        </dict>
+      </dict>
+
+      
+<!-- python属性 -->
+
+
+<!-- python 形参 -->
+      <dict>
+        <key>name</key>
+        <string>pyCs</string>
+        <key>scope</key>
+        <string>variable.parameter.function.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D18C4E</string>
+        </dict>
+      </dict>
+
+     
+<!-- python 形参 -->
+
+
       <dict>
         <key>name</key>
         <string>Punctuation Definition Comment</string>
