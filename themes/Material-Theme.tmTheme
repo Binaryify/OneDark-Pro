@@ -91,6 +91,19 @@
         </dict>
       </dict>
 
+<!-- c keyword -->
+      <dict>
+        <key>name</key>
+        <string>keyword.operator.sizeof.c</string>
+        <key>scope</key>
+        <string>keyword.operator.sizeof.c</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C178DD</string>
+        </dict>
+      </dict>
+<!-- c keyword -->
 <!-- python实参 -->
       <dict>
         <key>name</key>
