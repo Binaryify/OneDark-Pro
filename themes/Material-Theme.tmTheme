@@ -90,6 +90,19 @@
           <string>#5C6370</string>
         </dict>
       </dict>
+<!-- js typeof -->
+      <dict>
+        <key>name</key>
+        <string>js typeof</string>
+        <key>scope</key>
+        <string>keyword.operator.expression.typeof.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61afefff</string>
+        </dict>
+      </dict>
+<!-- js typeof -->
 
 <!-- js console -->
       <dict>
