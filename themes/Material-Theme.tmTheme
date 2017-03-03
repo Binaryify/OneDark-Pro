@@ -90,7 +90,19 @@
           <string>#5C6370</string>
         </dict>
       </dict>
-
+<!-- js dom -->
+      <dict>
+        <key>name</key>
+        <string>js dom</string>
+        <key>scope</key>
+        <string>support.type.object.dom.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2ff</string>
+        </dict>
+      </dict>
+<!-- js dom -->
 <!-- c keyword -->
       <dict>
         <key>name</key>
