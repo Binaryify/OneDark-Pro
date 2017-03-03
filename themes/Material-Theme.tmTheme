@@ -90,6 +90,35 @@
           <string>#5C6370</string>
         </dict>
       </dict>
+
+<!-- js console -->
+      <dict>
+        <key>name</key>
+        <string>js console</string>
+        <key>scope</key>
+        <string>support.type.object.console.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2ff</string>
+        </dict>
+      </dict>
+<!-- js console -->
+
+<!-- js operator -->
+      <dict>
+        <key>name</key>
+        <string>js operator</string>
+        <key>scope</key>
+        <string>keyword.operator.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2ff</string>
+        </dict>
+      </dict>
+<!-- js operator -->
+
 <!-- js dom -->
       <dict>
         <key>name</key>
