@@ -90,7 +90,29 @@
           <string>#5C6370</string>
         </dict>
       </dict>
-
+      <dict>
+        <key>name</key>
+        <string>inserted.diff</string>
+        <key>scope</key>
+        <string>markup.inserted.diff</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98c379ff</string>
+        </dict>
+      </dict>
+      
+      <dict>
+        <key>name</key>
+        <string>deleted.diff</string>
+        <key>scope</key>
+        <string>markup.deleted.diff</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75ff</string>
+        </dict>
+      </dict>
 
 			<!-- js template-expression -->
       <dict>
