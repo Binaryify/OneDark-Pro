@@ -101,7 +101,7 @@
           <string>#98c379ff</string>
         </dict>
       </dict>
-      
+
       <dict>
         <key>name</key>
         <string>deleted.diff</string>
@@ -113,6 +113,38 @@
           <string>#e06c75ff</string>
         </dict>
       </dict>
+
+
+      <!-- java modifier.import -->
+      <dict>
+        <key>name</key>
+        <string>java modifier.import</string>
+        <key>scope</key>
+        <string>storage.modifier.import.java,storage.type.java</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
+      <!-- java modifier.import -->
+
+
+      <!-- java variable.name -->
+      <dict>
+        <key>name</key>
+        <string>java variable.name</string>
+        <key>scope</key>
+        <string>meta.definition.variable.name.java</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75ff</string>
+        </dict>
+      </dict>
+      <!-- java variable.name -->
+
+
 
 			<!-- js template-expression -->
       <dict>
