@@ -169,7 +169,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#abb2bfff</string>
+          <string>#e06c75ff</string>
         </dict>
       </dict>
       <!-- js variable.other.readwrite.js -->
@@ -210,10 +210,23 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#56b6c2ff</string>
+          <string>#e06c75ff</string>
         </dict>
       </dict>
-      <!-- js console -->
+      <!-- js console function -->
+      <dict>
+        <key>name</key>
+        <string>js console function</string>
+        <key>scope</key>
+        <string>entity.name.function.js,support.function.console.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61afefff</string>
+        </dict>
+      </dict>
+      <!-- js console function-->
+
       <!-- js operator -->
       <dict>
         <key>name</key>
