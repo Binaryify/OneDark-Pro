@@ -145,6 +145,18 @@
       <!-- java variable.name -->
 
 
+      <dict>
+        <key>name</key>
+        <string>operator logical</string>
+        <key>scope</key>
+        <string>keyword.operator.logical.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2ff</string>
+        </dict>
+      </dict>
+
 
 			<!-- js template-expression -->
       <dict>
