@@ -175,9 +175,10 @@
 			<!-- js variable.other.readwrite.js -->
       <dict>
         <key>name</key>
-        <string>js variable.other.readwrite.js</string>
+        <string>js variable readwrite ,module</string>
         <key>scope</key>
-        <string>variable.other.readwrite.js</string>
+        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js
+        </string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
