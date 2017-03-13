@@ -157,6 +157,45 @@
         </dict>
       </dict>
 
+      
+      <dict>
+        <key>name</key>
+        <string>css color standard name</string>
+        <key>scope</key>
+        <string>support.constant.color.w3c-standard-color-name.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#abb2bfff</string>
+        </dict>
+      </dict>
+
+      <dict>
+        <key>name</key>
+        <string>css attribute-name.id</string>
+        <key>scope</key>
+        <string>support.constant.color.w3c-standard-color-name.css,entity.other.attribute-name.class.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#d19a66ff</string>
+        </dict>
+      </dict>
+
+
+      <!-- css property-name -->
+      <dict>
+        <key>name</key>
+        <string>css property-name</string>
+        <key>scope</key>
+        <string>support.type.vendored.property-name.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2ff</string>
+        </dict>
+      </dict>
+      <!-- css property-name -->
 
 			<!-- js template-expression -->
       <dict>
@@ -177,7 +216,7 @@
         <key>name</key>
         <string>js variable readwrite ,module</string>
         <key>scope</key>
-        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js
+        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js,keyword.operator.accessor.js
         </string>
         <key>settings</key>
         <dict>
@@ -750,18 +789,18 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#61afef</string>
+          <string>#61afefff</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Attribute IDs</string>
+        <string>Attribute class</string>
         <key>scope</key>
-        <string>punctuation.definition.entity</string>
+        <string>entity.other.attribute-name.class.css</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d19a66</string>
+          <string>#d19a66ff</string>
         </dict>
       </dict>
       <dict>
