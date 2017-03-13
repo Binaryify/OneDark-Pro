@@ -4,6 +4,8 @@ Maybe the best theme on VS Code!
 enjoy it!
 
 # changelog 
+2.2.3 improve css's id & class & color name height light
+
 2.2.2 improve README.MD,add changelog 
 
 2.2.1 add js module hight light,add changelog 
