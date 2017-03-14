@@ -216,7 +216,7 @@
         <key>name</key>
         <string>js variable readwrite ,module</string>
         <key>scope</key>
-        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js,keyword.operator.accessor.js
+        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js
         </string>
         <key>settings</key>
         <dict>

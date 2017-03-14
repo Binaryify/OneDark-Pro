@@ -1,4 +1,6 @@
 # changelog 
+2.25 remove js operator accessor hight light
+
 2.24 push changelog to CHANGELOG.md
 
 2.2.3 improve css's id & class & color name height light
