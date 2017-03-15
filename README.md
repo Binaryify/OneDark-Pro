@@ -3,6 +3,8 @@ Maybe the best theme on VS Code!
 
 enjoy it!
 
+[github repository](https://github.com/Binaryify/Material-Theme-vscode)
+
 # What's new?
 1. improve java support
 
@@ -19,5 +21,6 @@ enjoy it!
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot2.png)
 
+# Notice
+If you are a JavaScript programmer, you can install another plugin *Babel ES6/ES7* to improve JavaScript syntax hight light!
 
-[github repository](https://github.com/Binaryify/Material-Theme-vscode)

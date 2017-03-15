@@ -1,4 +1,6 @@
 # changelog 
+2.26 add README.MD notice
+
 2.25 remove js operator accessor hight light
 
 2.24 push changelog to CHANGELOG.md
