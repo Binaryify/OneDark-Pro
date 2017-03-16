@@ -1341,11 +1341,11 @@
         <key>name</key>
         <string>js ts this</string>
         <key>scope</key>
-        <string>var.this.js,var.this.ts</string>
+        <string>var.this.js,var.this.ts,variable.language.this.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#DF6A73</string>
+          <string>#e5c07bff</string>
         </dict>
       </dict>
       <dict>

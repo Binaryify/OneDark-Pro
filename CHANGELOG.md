@@ -1,5 +1,7 @@
 # changelog 
-2.27 import js variable property, js object-literal key ,constant.js and math height light,remove notice
+2.28 improve js 'this' height light 
+
+2.27 improve js variable property, js object-literal key, constant.js and math height light,remove notice
 
 2.26 add README.MD notice
 
