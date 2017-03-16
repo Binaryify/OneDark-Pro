@@ -114,6 +114,32 @@
         </dict>
       </dict>
 
+      <dict>
+        <key>name</key>
+        <string>math js</string>
+        <key>scope</key>
+        <string>support.constant.math.js,support.constant.property.math.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
+
+      <!-- variable.other.constant.js -->
+      <dict>
+        <key>name</key>
+        <string>variable.other.constant.js</string>
+        <key>scope</key>
+        <string>variable.other.constant.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
+      <!-- variable.other.constant.js -->
+
 
       <!-- java modifier.import -->
       <dict>
@@ -216,7 +242,7 @@
         <key>name</key>
         <string>js variable readwrite ,module</string>
         <key>scope</key>
-        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js
+        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js,meta.object-literal.key.js,support.variable.property.js
         </string>
         <key>settings</key>
         <dict>
