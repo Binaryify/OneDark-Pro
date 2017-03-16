@@ -183,16 +183,27 @@
         </dict>
       </dict>
 
-      
+      <dict>
+        <key>name</key>
+        <string>support.constant.property-value.scss</string>
+        <key>scope</key>
+        <string>support.constant.property-value.scss,support.constant.property-value.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#d19a66ff</string>
+        </dict>
+      </dict>
+
       <dict>
         <key>name</key>
         <string>css color standard name</string>
         <key>scope</key>
-        <string>support.constant.color.w3c-standard-color-name.css</string>
+        <string>support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#abb2bfff</string>
+          <string>#d19a66ff</string>
         </dict>
       </dict>
 
