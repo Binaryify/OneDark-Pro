@@ -1,4 +1,6 @@
 # changelog 
+2.29 add css/scss property value hight light 
+
 2.28 improve js 'this' height light 
 
 2.27 improve js variable property, js object-literal key, constant.js and math height light,remove notice
