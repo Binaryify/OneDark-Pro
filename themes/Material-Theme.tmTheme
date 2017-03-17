@@ -247,13 +247,25 @@
         </dict>
       </dict>
       <!-- js template-expression -->
+      <dict>
+        <key>name</key>
+        <string>js module</string>
+        <key>scope</key>
+        <string>support.module.node.js,support.type.object.module.js,support.module.node.js
+        </string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
 
 			<!-- js variable.other.readwrite.js -->
       <dict>
         <key>name</key>
-        <string>js variable readwrite ,module</string>
+        <string>js variable readwrite</string>
         <key>scope</key>
-        <string>variable.other.readwrite.js,support.module.node.js,support.type.object.module.js,support.module.node.js,meta.object-literal.key.js,support.variable.property.js
+        <string>variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js
         </string>
         <key>settings</key>
         <dict>

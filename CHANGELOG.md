@@ -1,4 +1,6 @@
 # changelog 
+2.31 improve js module height light
+
 2.30 improve README.MD
 
 2.29 add css/scss property value hight light 
