@@ -1250,6 +1250,20 @@
           <string>#C679DD</string>
         </dict>
       </dict>
+
+      <dict>
+        <key>name</key>
+        <string>php call-function</string>
+        <key>scope</key>
+        <string>meta.function-call.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61afefff</string>
+        </dict>
+      </dict>
+
+
       <dict>
         <key>name</key>
         <string>python function decorator @</string>
