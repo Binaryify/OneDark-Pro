@@ -113,7 +113,6 @@
           <string>#e06c75ff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>math js</string>
@@ -140,7 +139,52 @@
       </dict>
       <!-- variable.other.constant.js -->
 
+      <dict>
+        <key>name</key>
+        <string>java modifier.import</string>
+        <key>scope</key>
+        <string>storage.type.annotation.java</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
 
+      <dict>
+        <key>name</key>
+        <string>java modifier.import</string>
+        <key>scope</key>
+        <string>source.java</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75ff</string>
+        </dict>
+      </dict>
+
+      <dict>
+        <key>name</key>
+        <string>java modifier.import</string>
+        <key>scope</key>
+        <string>punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,storage.type.generic.java</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#abb2bfff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>java modifier.import</string>
+        <key>scope</key>
+        <string>meta.method.java</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61afefff</string>
+        </dict>
+      </dict>
       <!-- java modifier.import -->
       <dict>
         <key>name</key>
