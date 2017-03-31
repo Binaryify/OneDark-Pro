@@ -1,4 +1,7 @@
 # changelog 
+## 2.3.5 | 2017.3.31   
+improve JavaScript 'instanceof' & 'process' height light 
+
 ## 2.3.4 | 2017.3.29   
 improve Java height light   
 
