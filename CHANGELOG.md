@@ -1,4 +1,7 @@
 # changelog 
+## 2.3.6 | 2017.4.6   
+improve php dollar sign & logical operator height light
+
 ## 2.3.5 | 2017.3.31   
 improve JavaScript 'instanceof' & 'process' height light 
 

@@ -22,6 +22,10 @@
       <string>#515151</string>
       <key>selectionForeground</key>
       <string>#a09f93</string>
+      <key>
+        activityBarBackground
+      </key>
+      <string>#19202b</string>
     </dict>
     <key>settings</key>
     <array>
@@ -1319,6 +1323,31 @@
         <dict>
           <key>foreground</key>
           <string>#61afefff</string>
+        </dict>
+      </dict>
+
+      <dict>
+        <key>name</key>
+        <string>php logical operator</string>
+        <key>scope</key>
+        <string>keyword.operator.logical.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2ff</string>
+        </dict>
+      </dict>
+
+
+      <dict>
+        <key>name</key>
+        <string>php dollar sign</string>
+        <key>scope</key>
+        <string>punctuation.definition.variable.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75ff</string>
         </dict>
       </dict>
 
