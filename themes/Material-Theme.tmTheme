@@ -487,7 +487,6 @@
       </dict>
 
 
-      <!-- c keyword -->
       <dict>
         <key>name</key>
         <string>keyword.operator.sizeof.c</string>
@@ -499,22 +498,47 @@
           <string>#C178DD</string>
         </dict>
       </dict>
-      <!-- c keyword -->
-      <!-- python实参 -->
-      <dict>
-        <key>name</key>
-        <string>meta.function-call.arguments.python</string>
-        <key>scope</key>
-        <string>meta.function-call.arguments.python</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#E06C60</string>
-        </dict>
-      </dict>
-      <!-- python实参 -->
 
-      <!-- python属性 -->
+
+
+      <dict>
+        <key>name</key>
+        <string>python logical</string>
+        <key>scope</key>
+        <string>variable.parameter.function.language.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#d19a66ff</string>
+        </dict>
+      </dict>
+
+
+      <dict>
+        <key>name</key>
+        <string>python logical</string>
+        <key>scope</key>
+        <string>keyword.operator.logical.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#c678ddff</string>
+        </dict>
+      </dict>
+
+
+      <dict>
+        <key>name</key>
+        <string>meta.function-call.arguments.python</string>
+        <key>scope</key>
+        <string>meta.function-call.arguments.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C60</string>
+        </dict>
+      </dict>
+
       <dict>
         <key>name</key>
         <string>meta.function-call.python</string>
@@ -526,8 +550,7 @@
           <string>#E06C60</string>
         </dict>
       </dict>
-      <!-- python属性 -->
-      <!-- python 形参 -->
+      
       <dict>
         <key>name</key>
         <string>pyCs</string>
