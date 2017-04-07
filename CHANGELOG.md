@@ -1,4 +1,7 @@
 # changelog 
+## 2.4.0 | 2017.4.7  
+improve python logical & variable parameter support
+
 ## 2.3.9 | 2017.4.7  
 improve python support
 
