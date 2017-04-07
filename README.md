@@ -19,7 +19,7 @@ enjoy it!
 5. improve JS and JSON support
 
 # CHANGELOG
-[CHANGELOG.MD](CHANGELOG.MD)
+[CHANGELOG.MD](CHANGELOG.md)
 
 # ScreenShot
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot1.png)
