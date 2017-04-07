@@ -117,6 +117,48 @@
           <string>#e06c75ff</string>
         </dict>
       </dict>
+
+      <dict>
+        <key>name</key>
+        <string>c++ source</string>
+        <key>scope</key>
+        <string>source.cpp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#c678ddff</string>
+        </dict>
+      </dict>
+
+      <dict>
+        <key>name</key>
+        <string>c++ control</string>
+        <key>scope</key>
+        <string>keyword.control.cpp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
+
+
+      <dict>
+        <key>name</key>
+        <string>c++ block</string>
+        <key>scope</key>
+        <string>punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c
+
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#abb2bfff</string>
+        </dict>
+      </dict>
+      
+
+
       <dict>
         <key>name</key>
         <string>math js</string>
@@ -1325,6 +1367,9 @@
           <string>#61afefff</string>
         </dict>
       </dict>
+
+      
+
 
       <dict>
         <key>name</key>
