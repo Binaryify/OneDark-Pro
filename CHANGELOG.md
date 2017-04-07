@@ -1,4 +1,7 @@
 # changelog 
+## 2.3.7 | 2017.4.7   
+improve C++ support
+
 ## 2.3.6 | 2017.4.6   
 improve php dollar sign & logical operator height light
 
