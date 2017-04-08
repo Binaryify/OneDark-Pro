@@ -1,5 +1,5 @@
 # changelog 
-## 2.4.2 | 2017.4.8  
+## 2.4.3 | 2017.4.8  
 improve python types support & C++ support
 
 ## 2.4.1 | 2017.4.8  
