@@ -127,6 +127,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>c++ function</string>
+        <key>scope</key>
+        <string>meta.function.c</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75ff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>c++ control</string>
         <key>scope</key>
         <string>keyword.control.cpp</string>
@@ -460,7 +471,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>python logical</string>
+        <string>python parameter</string>
         <key>scope</key>
         <string>variable.parameter.function.language.python</string>
         <key>settings</key>
@@ -477,7 +488,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#56b6c2ff</string>
+          <string>#f78c6cff</string>
         </dict>
       </dict>
       <dict>
@@ -546,7 +557,6 @@
           <string>#61afefff</string>
         </dict>
       </dict>
-      <!-- python 形参 -->
       <dict>
         <key>name</key>
         <string>Punctuation Definition Comment</string>
