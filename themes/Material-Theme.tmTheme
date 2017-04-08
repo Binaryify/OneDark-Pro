@@ -22,9 +22,7 @@
       <string>#515151</string>
       <key>selectionForeground</key>
       <string>#a09f93</string>
-      <key>
-        activityBarBackground
-      </key>
+      <key>        activityBarBackground      </key>
       <string>#19202b</string>
     </dict>
     <key>settings</key>
@@ -105,7 +103,6 @@
           <string>#98c379ff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>deleted.diff</string>
@@ -117,7 +114,6 @@
           <string>#e06c75ff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>c++ source</string>
@@ -129,7 +125,6 @@
           <string>#c678ddff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>c++ control</string>
@@ -141,24 +136,17 @@
           <string>#e5c07bff</string>
         </dict>
       </dict>
-
-
       <dict>
         <key>name</key>
         <string>c++ block</string>
         <key>scope</key>
-        <string>punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c
-
-</string>
+        <string>punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#abb2bfff</string>
         </dict>
       </dict>
-      
-
-
       <dict>
         <key>name</key>
         <string>math js</string>
@@ -170,7 +158,6 @@
           <string>#e5c07bff</string>
         </dict>
       </dict>
-
       <!-- variable.other.constant.js -->
       <dict>
         <key>name</key>
@@ -184,7 +171,6 @@
         </dict>
       </dict>
       <!-- variable.other.constant.js -->
-
       <dict>
         <key>name</key>
         <string>java modifier.import</string>
@@ -196,7 +182,6 @@
           <string>#e5c07bff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>java modifier.import</string>
@@ -208,7 +193,6 @@
           <string>#e06c75ff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>java modifier.import</string>
@@ -244,8 +228,6 @@
         </dict>
       </dict>
       <!-- java modifier.import -->
-
-
       <!-- java variable.name -->
       <dict>
         <key>name</key>
@@ -259,8 +241,6 @@
         </dict>
       </dict>
       <!-- java variable.name -->
-
-
       <dict>
         <key>name</key>
         <string>operator logical</string>
@@ -272,7 +252,6 @@
           <string>#56b6c2ff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>support.constant.property-value.scss</string>
@@ -284,7 +263,6 @@
           <string>#d19a66ff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>css color standard name</string>
@@ -296,7 +274,6 @@
           <string>#d19a66ff</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>css attribute-name.id</string>
@@ -308,8 +285,6 @@
           <string>#d19a66ff</string>
         </dict>
       </dict>
-
-
       <!-- css property-name -->
       <dict>
         <key>name</key>
@@ -323,8 +298,7 @@
         </dict>
       </dict>
       <!-- css property-name -->
-
-			<!-- js template-expression -->
+      <!-- js template-expression -->
       <dict>
         <key>name</key>
         <string>js template-expression</string>
@@ -341,22 +315,19 @@
         <key>name</key>
         <string>js module</string>
         <key>scope</key>
-        <string>support.module.node.js,support.type.object.module.js,support.module.node.js
-        </string>
+        <string>support.module.node.js,support.type.object.module.js,support.module.node.js        </string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#e5c07bff</string>
         </dict>
       </dict>
-
-			<!-- js variable.other.readwrite.js -->
+      <!-- js variable.other.readwrite.js -->
       <dict>
         <key>name</key>
         <string>js variable readwrite</string>
         <key>scope</key>
-        <string>variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js
-        </string>
+        <string>variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js        </string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -364,8 +335,6 @@
         </dict>
       </dict>
       <!-- js variable.other.readwrite.js -->
-
-
       <!-- js json -->
       <dict>
         <key>name</key>
@@ -379,9 +348,7 @@
         </dict>
       </dict>
       <!-- js json -->
-
       <!-- js typeof -->
-
       <dict>
         <key>name</key>
         <string>js Keyword</string>
@@ -393,8 +360,6 @@
           <string>#c678ddff</string>
         </dict>
       </dict>
-
-
       <dict>
         <key>name</key>
         <string>js Keyword</string>
@@ -432,7 +397,6 @@
         </dict>
       </dict>
       <!-- js console function-->
-
       <!-- js operator -->
       <dict>
         <key>name</key>
@@ -459,8 +423,7 @@
         </dict>
       </dict>
       <!-- js dom -->
-
-			<!-- js dom -->
+      <!-- js dom -->
       <dict>
         <key>name</key>
         <string>js dom variable</string>
@@ -473,7 +436,6 @@
         </dict>
       </dict>
       <!-- js dom -->
-
       <dict>
         <key>name</key>
         <string>keyword.operator</string>
@@ -485,8 +447,6 @@
           <string>#56b6c2ff</string>
         </dict>
       </dict>
-
-
       <dict>
         <key>name</key>
         <string>keyword.operator.sizeof.c</string>
@@ -498,9 +458,6 @@
           <string>#C178DD</string>
         </dict>
       </dict>
-
-
-
       <dict>
         <key>name</key>
         <string>python logical</string>
@@ -512,8 +469,17 @@
           <string>#d19a66ff</string>
         </dict>
       </dict>
-
-
+      <dict>
+        <key>name</key>
+        <string>python type</string>
+        <key>scope</key>
+        <string>support.type.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2ff</string>
+        </dict>
+      </dict>
       <dict>
         <key>name</key>
         <string>python logical</string>
@@ -525,8 +491,6 @@
           <string>#c678ddff</string>
         </dict>
       </dict>
-
-
       <dict>
         <key>name</key>
         <string>meta.function-call.arguments.python</string>
@@ -538,7 +502,6 @@
           <string>#E06C60</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>meta.function-call.python</string>
@@ -550,7 +513,6 @@
           <string>#E06C60</string>
         </dict>
       </dict>
-      
       <dict>
         <key>name</key>
         <string>pyCs</string>
@@ -562,7 +524,6 @@
           <string>#D18C4E</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>python block</string>
@@ -574,8 +535,6 @@
           <string>#abb2bfff</string>
         </dict>
       </dict>
-
-
       <dict>
         <key>name</key>
         <string>python function-call.generic</string>
@@ -587,8 +546,6 @@
           <string>#61afefff</string>
         </dict>
       </dict>
-
-
       <!-- python 形参 -->
       <dict>
         <key>name</key>
@@ -1038,8 +995,7 @@
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
-          <string>
-          </string>
+          <string></string>
           <key>foreground</key>
           <string>#e06c75</string>
         </dict>
@@ -1406,7 +1362,6 @@
           <string>#C679DD</string>
         </dict>
       </dict>
-
       <dict>
         <key>name</key>
         <string>php call-function</string>
@@ -1418,10 +1373,6 @@
           <string>#61afefff</string>
         </dict>
       </dict>
-
-      
-
-
       <dict>
         <key>name</key>
         <string>php logical operator</string>
@@ -1433,8 +1384,6 @@
           <string>#56b6c2ff</string>
         </dict>
       </dict>
-
-
       <dict>
         <key>name</key>
         <string>php dollar sign</string>
@@ -1446,8 +1395,6 @@
           <string>#e06c75ff</string>
         </dict>
       </dict>
-
-
       <dict>
         <key>name</key>
         <string>python function decorator @</string>
