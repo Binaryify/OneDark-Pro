@@ -1,4 +1,7 @@
 # changelog 
+## 2.4.6 | 2017.4.9 
+add DOCS
+
 ## 2.4.4 | 2017.4.9 
 improve php support
 

@@ -18,6 +18,9 @@ enjoy it!
 
 5. improve JS and JSON support
 
+# Docs & Contribute  
+[https://binaryify.github.io/Material-Theme-vscode/](https://binaryify.github.io/Material-Theme-vscode/)  
+
 # CHANGELOG
 [CHANGELOG.MD](CHANGELOG.md)
 

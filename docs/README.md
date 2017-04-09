@@ -124,4 +124,3 @@ Now you know how to design the theme
 You can fork my theme, and send a pull request with you version to me, I will review it and merge it or design your theme and publish the VS Code market, here the official docs to publish your theme [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
 
 Try it~
-
