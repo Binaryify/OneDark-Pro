@@ -1374,6 +1374,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>php illegal.non-null-typehinted</string>
+        <key>scope</key>
+        <string>invalid.illegal.non-null-typehinted.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98c379ff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>php call-function</string>
         <key>scope</key>
         <string>meta.function-call.php</string>
