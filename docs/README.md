@@ -1,7 +1,7 @@
 # Material-theme  
 
 ## About
-Material-theme is one of the most famous theme for VS Code, this document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
+[Material-theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is one of the most famous theme for VS Code, this document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
 
 ## Install
 Launch VS Code Quick Open `ctrl(⌘) + P`, then paste the following command, and press enter.
@@ -121,5 +121,7 @@ Now you know the rules for the theme, you just need the code scope and the hex c
 Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change when the window reload
 
 Now you know how to design the theme
-You can fork my theme, and send a pull request with you version to me, I will review it and merge it
+You can fork my theme, and send a pull request with you version to me, I will review it and merge it or design your theme and publish the VS Code market, here the official docs to publish your theme [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
+
+Try it~
 
