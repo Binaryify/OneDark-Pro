@@ -1,4 +1,7 @@
 # changelog 
+## 2.4.4 | 2017.4.9 
+improve php support
+
 ## 2.4.3 | 2017.4.8  
 improve python types support & C++ support
 
