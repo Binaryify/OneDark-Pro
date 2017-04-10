@@ -1451,6 +1451,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>support external php constants</string>
+        <key>scope</key>
+        <string>support.constant.ext.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>php logical operator</string>
         <key>scope</key>
         <string>keyword.operator.logical.php</string>
