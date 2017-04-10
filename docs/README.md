@@ -133,13 +133,13 @@ You can fork my theme, and send a pull request with you version to me, I will re
 
 ### Commonly used color
 The following are my commonly used color:
-- Froly  #e06c75
-- Cadet Blue  #abb2bf
-- Pistachio  #98c379
-- Malibu   #61afef
-- Soft Purple #c678dd
-- Chalky #e5c07b
-- Fountain Blue #56b6c2
+- Froly  #e06c75 (variable)
+- Cadet Blue  #abb2bf (text)
+- Pistachio  #98c379 (string)
+- Malibu   #61afef (function)
+- Soft Purple #c678dd (url,keyword)
+- Chalky #e5c07b (constant)
+- Fountain Blue #56b6c2 ()
 - Whiskey #d19a66
 
 ![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot10.png)
