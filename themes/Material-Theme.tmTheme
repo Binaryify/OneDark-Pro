@@ -1385,6 +1385,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>error suppression</string>
+        <key>scope</key>
+        <string>keyword.operator.error-control.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>php instanceof</string>
         <key>scope</key>
         <string>keyword.operator.type.php</string>
@@ -1451,9 +1462,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>support external php constants</string>
+        <string>support php constants</string>
         <key>scope</key>
-        <string>support.constant.ext.php</string>
+        <string>support.constant.ext.php,support.constant.core.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1462,9 +1473,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>php logical operator</string>
+        <string>php logical/bitwise operator</string>
         <key>scope</key>
-        <string>keyword.operator.logical.php</string>
+        <string>keyword.operator.logical.php,keyword.operator.bitwise.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
