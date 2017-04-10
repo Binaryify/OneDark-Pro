@@ -1416,6 +1416,7 @@
           <string>#abb2bfff</string>
         </dict>
       </dict>
+      <dict>
         <string>php illegal.non-null-typehinted</string>
         <key>scope</key>
         <string>invalid.illegal.non-null-typehinted.php</string>
