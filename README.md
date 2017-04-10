@@ -21,7 +21,7 @@ enjoy it!
 # Docs & Contribute  
 This document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
 [https://binaryify.github.io/Material-Theme-vscode/](https://binaryify.github.io/Material-Theme-vscode/)
-![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot11.png) 
+![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/docs.png) 
 ![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot12.png)
 
 # CHANGELOG
