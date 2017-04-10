@@ -1395,60 +1395,6 @@
         </dict>
       </dict>
       <dict>
-        <string>support external constants</string>
-        <key>scope</key>
-        <string>support.constant.ext.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#D19A66</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>style double quoted array index normal begin</string>
-        <key>scope</key>
-        <string>punctuation.section.array.begin.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#abb2bfff</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>style double quoted array index normal end</string>
-        <key>scope</key>
-        <string>punctuation.section.array.end.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#abb2bfff</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>inline phpdoc keywords</string>
-        <key>scope</key>
-        <string>keyword.other.phpdoc.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C678DD</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>inline phpdoc method styling</string>
-        <key>scope</key>
-        <string>meta.tag.inline.phpdoc.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#61afefff</string>
-        </dict>
-      </dict>
-      <dict>
         <key>name</key>
         <string>php illegal.non-null-typehinted</string>
         <key>scope</key>
