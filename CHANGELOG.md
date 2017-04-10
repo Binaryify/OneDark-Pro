@@ -1,6 +1,6 @@
 # changelog 
-## 2.4.14 | 2017.4.10  
-add keywords
+## 2.4.15 | 2017.4.10  
+add keywords, rename
 
 ## 2.4.12 | 2017.4.10  
 support php constants and normalize array in double quoted strings
