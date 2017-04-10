@@ -1374,6 +1374,28 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>use statement for other classes</string>
+        <key>scope</key>
+        <string>support.other.namespace.use.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>php instanceof</string>
+        <key>scope</key>
+        <string>keyword.operator.type.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>php illegal.non-null-typehinted</string>
         <key>scope</key>
         <string>invalid.illegal.non-null-typehinted.php</string>
