@@ -1,7 +1,7 @@
 {
 	"name": "Material-theme",
 	"description": "Maybe the best theme on VS Code.",
-	"version": "2.4.13",
+	"version": "2.4.14",
 	"publisher": "zhuangtongfa",
 	"bugs": {
 		"url": "https://github.com/Binaryify/Material-Theme-vscode/issues"
@@ -28,7 +28,6 @@
 	},
 	"icon": "icon.svg",
 	"keywords": [
-    "icons",
     "theme",
     "material",
     "material theme"
