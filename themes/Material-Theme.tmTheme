@@ -1385,6 +1385,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>php storage type</string>
+        <key>scope</key>
+        <string>storage.type.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e5c07bff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>php call-function</string>
         <key>scope</key>
         <string>meta.function-call.php</string>

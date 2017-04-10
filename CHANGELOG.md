@@ -1,4 +1,10 @@
 # changelog 
+## 2.4.8 | 2017.4.10  
+improve document
+
+## 2.4.7 | 2017.4.10  
+improve php types support
+
 ## 2.4.6 | 2017.4.9 
 add DOCS
 
