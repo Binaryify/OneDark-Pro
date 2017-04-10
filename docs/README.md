@@ -17,6 +17,7 @@ First, you should press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, and you wil
 
 ## Contribute 
 If you have more better idea about this theme, you can change it by youselft!  
+### Find the VS Code extends path 
 First you should find the VS Code extends path  
 - Windows:
 `C:\Users\yourUserName\.vscode\extensions`  
@@ -32,12 +33,16 @@ Then you should open the 'themes/Material-Theme.tmTheme' path
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot6.png)
 
-You will find the .tmTheme file is a XML file, and you will find it include scope and color value
+You will find the .tmTheme file is a XML file, and you will find it include scope and color value  
 
+### Code snippet tmTheme file format 
 The following is a code snippet tmTheme file format:
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot7.png)
 
+### Principle
 Editor after parsing, the code will specify a scope for each element, the scope which suggest that this element is a keyword or a constant, or is a punctuation, through tmTheme format file to define the scope of the text style accordingly.
+
+### Common scope list
 
 The following are the common scope list
 
@@ -86,6 +91,8 @@ variable.parameter
 
 Can be seen from the above code, actually this tmTheme format file seems to also pretty simple, beginners, however, the hard part is don't know how to write the scope, will it step by step instructions below.
 
+
+### Get code scope
 The following is the function to know the code scope:  
 First,we should a tools to help inspect the scopes of a token and the matching theme rule  
 
@@ -102,6 +109,7 @@ This will show you the token you are on and three sections:
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot8.png)
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot9.png)
 
+### Add/Change code color
 Now you know the rules for the theme, you just need the code scope and the hex color you want, then edit the tmTheme file, add/change code snippet like this:
 
 ```xml
@@ -117,10 +125,26 @@ Now you know the rules for the theme, you just need the code scope and the hex c
   </dict>
 </dict>
 ```
-
+### Reload
 Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change when the window reload
 
 Now you know how to design the theme
 You can fork my theme, and send a pull request with you version to me, I will review it and merge it or design your theme and publish the VS Code market, here the official docs to publish your theme [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
+
+### Commonly used color
+The following are my commonly used color:
+- Froly  #e06c75
+- Cadet Blue  #abb2bf
+- Pistachio  #98c379
+- Malibu   #61afef
+- Soft Purple #c678dd
+- Chalky #e5c07b
+- Fountain Blue #56b6c2
+- Whiskey #d19a66
+
+![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot10.png)
+
+
+
 
 Try it~
