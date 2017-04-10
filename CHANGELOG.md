@@ -1,4 +1,7 @@
 # changelog 
+## 2.4.12 | 2017.4.10  
+support php constants and normalize array in double quoted strings
+
 ## 2.4.11 | 2017.4.10  
 improve document
 
