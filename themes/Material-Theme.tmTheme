@@ -1385,6 +1385,16 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>php instanceof</string>
+        <key>scope</key>
+        <string>keyword.operator.type.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
         <string>support external constants</string>
         <key>scope</key>
         <string>support.constant.ext.php</string>
@@ -1414,17 +1424,6 @@
         <dict>
           <key>foreground</key>
           <string>#abb2bfff</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>php instanceof</string>
-        <key>scope</key>
-        <string>keyword.operator.type.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C678DD</string>
         </dict>
       </dict>
       <dict>
