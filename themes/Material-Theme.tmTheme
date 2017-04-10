@@ -1417,6 +1417,7 @@
         </dict>
       </dict>
       <dict>
+        <key>name</key>
         <string>php illegal.non-null-typehinted</string>
         <key>scope</key>
         <string>invalid.illegal.non-null-typehinted.php</string>
