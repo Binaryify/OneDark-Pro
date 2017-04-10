@@ -15,7 +15,7 @@ First, you should press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, and you wil
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot4.png)
 
-## Contribute 
+## Design 
 If you have more better idea about this theme, you can change it by youselft!  
 ### Find the VS Code extends path 
 First you should find the VS Code extends path  
@@ -128,8 +128,7 @@ Now you know the rules for the theme, you just need the code scope and the hex c
 ### Reload
 Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change when the window reload
 
-Now you know how to design the theme
-You can fork my theme, and send a pull request with you version to me, I will review it and merge it or design your theme and publish the VS Code market, here the official docs to publish your theme [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
+![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot12.png)
 
 ### Commonly used color
 The following are my commonly used color:
@@ -142,14 +141,15 @@ The following are my commonly used color:
 - Cadet Blue : `#ABB2BF` (text)
 - Froly : `#E06C75` (variable)
 
-
-
-
-
-
 ![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot10.png)
 
 
+## Contribute
+Now you know how to design the theme
+You can fork my theme, and send a pull request with you version to me, I will review it and merge it or design your theme and publish the VS Code market, here the official docs to publish your theme [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
 
 
-Try it~
+
+
+
+Try it ~
