@@ -1,15 +1,9 @@
 # changelog 
+## 2.4.16 | 2017.4.12
+improve php & C# SUPPORT
+
 ## 2.4.15 | 2017.4.10  
-add keywords, rename
-
-## 2.4.12 | 2017.4.10  
-support php constants and normalize array in double quoted strings
-
-## 2.4.11 | 2017.4.10  
-improve document
-
-## 2.4.7 | 2017.4.10  
-improve php types support
+support php constants and normalize array in double quoted strings,add keywords, rename
 
 ## 2.4.6 | 2017.4.9 
 add DOCS

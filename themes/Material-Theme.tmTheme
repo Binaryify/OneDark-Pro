@@ -1625,6 +1625,17 @@
           <string>#abb2bf</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>cs local variable</string>
+        <key>scope</key>
+        <string>entity.name.variable.local.cs</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75ff</string>
+        </dict>
+      </dict>
     </array>
     <key>uuid</key>
     <string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>
