@@ -1453,7 +1453,7 @@
         <key>name</key>
         <string>php call-function</string>
         <key>scope</key>
-        <string>meta.function-call.php</string>
+        <string>meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
