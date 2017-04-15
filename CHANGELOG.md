@@ -1,4 +1,7 @@
 # changelog 
+## 2.5.0 | 2017.4.15
+Added php function-call object and static
+
 ## 2.4.16 | 2017.4.12
 improve php & C# SUPPORT
 
