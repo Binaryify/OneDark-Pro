@@ -126,7 +126,7 @@ Now you know the rules for the theme, you just need the code scope and the hex c
 </dict>
 ```
 ### Reload
-Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change when the window reload
+Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change after the window reload
 
 ![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot13.png)
 
