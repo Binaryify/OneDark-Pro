@@ -1464,7 +1464,7 @@
         <key>name</key>
         <string>support php constants</string>
         <key>scope</key>
-        <string>support.constant.ext.php,support.constant.core.php</string>
+        <string>support.constant.ext.php,support.constant.std.php,support.constant.core.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
