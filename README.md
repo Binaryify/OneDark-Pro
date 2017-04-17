@@ -24,7 +24,7 @@ This document will tell you how to install and apply this theme on VS Code, and 
 
 # Notice
 If you want to play around with new colors, use the setting workbench.experimental.colorCustomizations to customize the currently selected theme.
-Your can add this snippet in your "settings.json" file   
+You can add this snippet in your "settings.json" file   
 ```json
 "workbench.experimental.colorCustomizations":{
   "activeTabBackground": "#282c34",
