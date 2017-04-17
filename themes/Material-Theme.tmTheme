@@ -1387,7 +1387,7 @@
         <key>name</key>
         <string>support external constants</string>
         <key>scope</key>
-        <string>support.constant.ext.php</string>
+        <string>support.constant.std.php,support.constant.ext.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
