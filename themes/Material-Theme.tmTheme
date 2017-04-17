@@ -1376,7 +1376,7 @@
         <key>name</key>
         <string>use statement for other classes</string>
         <key>scope</key>
-        <string>support.other.namespace.use.php</string>
+        <string>support.other.namespace.use.php,support.other.namespace.use-as.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1385,13 +1385,24 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>support external constants</string>
+        <string>error suppression</string>
         <key>scope</key>
-        <string>support.constant.std.php,support.constant.ext.php</string>
+        <string>keyword.operator.error-control.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#D19A66</string>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>php instanceof</string>
+        <key>scope</key>
+        <string>keyword.operator.type.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
         </dict>
       </dict>
       <dict>
@@ -1414,39 +1425,6 @@
         <dict>
           <key>foreground</key>
           <string>#abb2bfff</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>php instanceof</string>
-        <key>scope</key>
-        <string>keyword.operator.type.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C678DD</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>inline phpdoc keywords</string>
-        <key>scope</key>
-        <string>keyword.other.phpdoc.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C678DD</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>inline phpdoc method styling</string>
-        <key>scope</key>
-        <string>meta.tag.inline.phpdoc.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#61afefff</string>
         </dict>
       </dict>
       <dict>
@@ -1475,7 +1453,7 @@
         <key>name</key>
         <string>php call-function</string>
         <key>scope</key>
-        <string>meta.function-call.php</string>
+        <string>meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1484,9 +1462,20 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>php logical operator</string>
+        <string>support php constants</string>
         <key>scope</key>
-        <string>keyword.operator.logical.php</string>
+        <string>support.constant.ext.php,support.constant.std.php,support.constant.core.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>php logical/bitwise operator</string>
+        <key>scope</key>
+        <string>keyword.operator.logical.php,keyword.operator.bitwise.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1634,6 +1623,17 @@
         <dict>
           <key>foreground</key>
           <string>#abb2bf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>cs local variable</string>
+        <key>scope</key>
+        <string>entity.name.variable.local.cs</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75ff</string>
         </dict>
       </dict>
     </array>
