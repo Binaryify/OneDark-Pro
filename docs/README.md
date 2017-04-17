@@ -126,9 +126,9 @@ Now you know the rules for the theme, you just need the code scope and the hex c
 </dict>
 ```
 ### Reload
-Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change when the window reload
+Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change after the window reload
 
-![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot12.png)
+![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot13.png)
 
 ### Commonly used color
 The following are my commonly used color:
@@ -143,6 +143,17 @@ The following are my commonly used color:
 
 ![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot10.png)
 
+## Workbench theming
+If you want to play around with new colors, use the setting workbench.experimental.colorCustomizations to customize the currently selected theme.
+Your can add this snippet in your "settings.json" file   
+```json
+"workbench.experimental.colorCustomizations":{
+  "activeTabBackground": "#282c34",
+  "activityBarBackground":"#282c34",
+  "editorGroupBackground": "#282c34",
+  "sideBarBackground": "#282c34"
+}
+```
 
 ## Contribute
 Now you know how to design the theme
