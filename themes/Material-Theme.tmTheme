@@ -1376,7 +1376,7 @@
         <key>name</key>
         <string>use statement for other classes</string>
         <key>scope</key>
-        <string>support.other.namespace.use.php,support.other.namespace.use-as.php</string>
+        <string>support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
