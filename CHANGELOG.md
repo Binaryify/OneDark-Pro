@@ -1,4 +1,7 @@
 # changelog 
+## 2.5.1 | 2017.4.21
+added support support for other class namespace outside use
+
 ## 2.5.0 | 2017.4.15
 Added php function-call object and static
 
