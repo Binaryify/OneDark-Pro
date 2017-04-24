@@ -114,7 +114,7 @@
           <string>#e06c75ff</string>
         </dict>
       </dict>
-      <dict>
+      <!--<dict>
         <key>name</key>
         <string>c++ source</string>
         <key>scope</key>
@@ -124,7 +124,7 @@
           <key>foreground</key>
           <string>#c678ddff</string>
         </dict>
-      </dict>
+      </dict>-->
       <dict>
         <key>name</key>
         <string>c++ function</string>

@@ -1,4 +1,7 @@
 # changelog 
+## 2.5.3 | 2017.4.24
+fix C++ heightlight error
+
 ## 2.5.2 | 2017.4.21
 added support support for other class namespace outside use
 
