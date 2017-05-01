@@ -1,19 +1,20 @@
-# Material-theme  
+# OneDark Pro 
 
 ## About
-[Material-theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is one of the most famous theme for VS Code, this document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
+[OneDark-Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is one of the most famous theme for VS Code, this document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
 
 ## Install
 Launch VS Code Quick Open `ctrl(⌘) + P`, then paste the following command, and press enter.
 ```
-ext install Material-theme
+ext install OneDark Pro
 ```
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot3.png)
-## Apply
-First, you should press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, and you will see a theme selection interface, choose **'material theme'**, and press enter, you will find your VS Code color has change, that mean you apply this theme successfuly!
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot3.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot4.png)
+## Apply
+First, you should press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, and you will see a theme selection interface, choose **'OneDark-Pro'**, and press enter, you will find your VS Code color has change, that mean you apply this theme successfuly!
+
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot4.png)
 
 ## Design 
 If you have more better idea about this theme, you can change it by youselft!  
@@ -27,17 +28,17 @@ First you should find the VS Code extends path
 
 Then you should cd to this theme path and use VS Code open it
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot5.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot5.png)
 
-Then you should open the 'themes/Material-Theme.tmTheme' path
+Then you should open the 'themes/OneDark-Pro.tmTheme' path
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot6.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot6.png)
 
 You will find the .tmTheme file is a XML file, and you will find it include scope and color value  
 
 ### Code snippet tmTheme file format 
 The following is a code snippet tmTheme file format:
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot7.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot7.png)
 
 ### Principle
 Editor after parsing, the code will specify a scope for each element, the scope which suggest that this element is a keyword or a constant, or is a punctuation, through tmTheme format file to define the scope of the text style accordingly.
@@ -106,8 +107,8 @@ This will show you the token you are on and three sections:
 
 - the list of scopes the grammar produces for the token  
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot8.png)
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot9.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot8.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot9.png)
 
 ### Add/Change code color
 Now you know the rules for the theme, you just need the code scope and the hex color you want, then edit the tmTheme file, add/change code snippet like this:
@@ -128,7 +129,7 @@ Now you know the rules for the theme, you just need the code scope and the hex c
 ### Reload
 Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change after the window reload
 
-![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot13.png)
+![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot13.png)
 
 ### Commonly used color
 The following are my commonly used color:
@@ -141,7 +142,7 @@ The following are my commonly used color:
 - Cadet Blue : `#ABB2BF` (text)
 - Froly : `#E06C75` (variable)
 
-![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot10.png)
+![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot10.png)
 
 ## Workbench theming
 If you want to play around with new colors, use the setting workbench.experimental.colorCustomizations to customize the currently selected theme.

@@ -1,5 +1,5 @@
 <img src='icon.svg' style="height:80px;">
-# Material-theme
+# OneDark-Pro
 
 > May be the best theme on VS Code
 
@@ -8,7 +8,7 @@
 
 
 
-[GitHub](https://github.com/Binaryify/Material-Theme-vscode)
+[GitHub](https://github.com/Binaryify/OneDark-Pro)
 [Get Started](#About)
 
 ![color](#ffffff)
