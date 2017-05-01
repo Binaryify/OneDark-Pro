@@ -1,11 +1,11 @@
-# Material Theme
+# OneDark-Pro
 One of the most popular theme on VS Code  
 
 Maybe the best theme on VS Code! 
 
 enjoy it!
 
-[GitHub repository](https://github.com/Binaryify/Material-Theme-vscode)
+[GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
 # What's new?
 1. improve C# support  
@@ -14,10 +14,10 @@ enjoy it!
 
 # Docs & Contribute  
 This document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
-[https://binaryify.github.io/Material-Theme-vscode/](https://binaryify.github.io/Material-Theme-vscode/)
+[https://binaryify.github.io/OneDark-Pro/](https://binaryify.github.io/OneDark-Pro/)
 
-![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/docs.png) 
-![screenshot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot12.png)
+![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/docs.png) 
+![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot12.png)
 
 # CHANGELOG
 [CHANGELOG.MD](CHANGELOG.md)
@@ -35,10 +35,10 @@ You can add this snippet in your "settings.json" file
 ```
 
 # ScreenShot
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot1.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot1.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/screenshot2.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot2.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/js.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/js.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/Material-Theme-vscode/master/static/cpp.png)
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/cpp.png)

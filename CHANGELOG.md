@@ -1,4 +1,7 @@
 # changelog 
+## 2.6.0 | 2017.5.1
+rename to "OneDark Pro" for the reason [https://github.com/Binaryify/OneDark-Pro/issues/40](https://github.com/Binaryify/OneDark-Pro/issues/40)
+
 ## 2.5.3 | 2017.4.24
 fix C++ heightlight error
 
