@@ -1,8 +1,8 @@
 {
 	"name": "Material-theme",
-	"displayName": "OneDark Pro",
+	"displayName": "One Dark Pro",
 	"description": "Maybe the best theme on VS Code.",
-	"version": "2.6.2",
+	"version": "2.6.3",
 	"publisher": "zhuangtongfa",
 	"bugs": {
 		"url": "https://github.com/Binaryify/OneDark-Pro/issues"
@@ -21,7 +21,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "One Dark pro",
+				"label": "One Dark Pro",
 				"uiTheme": "vs-dark",
 				"path": "./themes/OneDark-Pro.tmTheme"
 			}
@@ -30,9 +30,9 @@
 	"icon": "icon.svg",
 	"keywords": [
     "theme",
-    "OneDark",
-    "OneDark Pro",
-		"atom onedark",
-		"one dark"
+		"one dark",
+    "onedark",
+    "one dark pro",
+		"atom"
   ]
 }

@@ -1,4 +1,7 @@
 # changelog 
+## 2.6.3 | 2017.5.2
+Make displayName and label be the same to avoid confusion, for the reason [https://github.com/Binaryify/OneDark-Pro/issues/41](https://github.com/Binaryify/OneDark-Pro/issues/41)
+
 ## 2.6.0 | 2017.5.1
 rename to "OneDark Pro" for the reason [https://github.com/Binaryify/OneDark-Pro/issues/40](https://github.com/Binaryify/OneDark-Pro/issues/40)
 
