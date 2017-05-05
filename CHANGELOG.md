@@ -1,4 +1,7 @@
 # changelog 
+## 2.7.0 | 2017.5.5
+Change theme file format. Add workbench support, improve ts support, update document
+
 ## 2.6.3 | 2017.5.2
 Make displayName and label be the same to avoid confusion, for the reason [https://github.com/Binaryify/OneDark-Pro/issues/41](https://github.com/Binaryify/OneDark-Pro/issues/41)
 
