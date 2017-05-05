@@ -110,18 +110,14 @@ This will show you the token you are on and three sections:
 ### Add/Change code color
 Now you know the rules for the theme, you just need the code scope and the hex color you want, then edit the 'OneDark-Pro.json' file, add/change code snippet like this:
 
-```xml
-<dict>
-  <key>name</key>
-  <string>c++ function</string>
-  <key>scope</key>
-  <string>meta.function.c</string>
-  <key>settings</key>
-  <dict>
-    <key>foreground</key>
-    <string>#e06c75ff</string>
-  </dict>
-</dict>
+```json
+{
+      "name": "c++ function",
+      "scope": "meta.function.c",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+}
 ```
 ### Reload
 Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change after the window reload
