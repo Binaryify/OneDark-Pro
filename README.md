@@ -23,14 +23,14 @@ This document will tell you how to install and apply this theme on VS Code, and 
 [CHANGELOG.MD](CHANGELOG.md)
 
 # Notice
-If you want to play around with new colors, use the setting workbench.experimental.colorCustomizations to customize the currently selected theme.
+If you want to play around with new colors, use the setting workbench.colorCustomizations to customize the currently selected theme.
 You can add this snippet in your "settings.json" file   
 ```json
-"workbench.experimental.colorCustomizations":{
-  "activeTabBackground": "#282c34",
-  "activityBarBackground":"#282c34",
-  "editorGroupBackground": "#282c34",
-  "sideBarBackground": "#282c34"
+"workbench.colorCustomizations":{
+  "tab.activeBackground": "#282c34",
+  "activityBar.background": "#282c34",
+  "editorGroup.background": "#282c34",
+  "sideBar.background": "#282c34"
 }
 ```
 
