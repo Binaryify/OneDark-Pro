@@ -8,9 +8,11 @@ enjoy it!
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
 # What's new?
-1. improve C# support  
+1. Add workbench support
 
-2. improve PHP support  
+2. Improve C# support  
+
+3. Improve PHP support  
 
 # Docs & Contribute  
 This document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 

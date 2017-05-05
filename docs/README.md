@@ -4,10 +4,7 @@
 [OneDark-Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is one of the most famous theme for VS Code, this document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
 
 ## Install
-Launch VS Code Quick Open `ctrl(⌘) + P`, then paste the following command, and press enter.
-```
-ext install OneDark Pro
-```
+Just search it and download it, don't forget apply it ~
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot3.png)
 
@@ -30,18 +27,18 @@ Then you should cd to this theme path and use VS Code open it
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot5.png)
 
-Then you should open the 'themes/OneDark-Pro.tmTheme' path
+Then you should open the 'themes/OneDark-Pro.json' path
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot6.png)
 
-You will find the .tmTheme file is a XML file, and you will find it include scope and color value  
+You will find the 'OneDark-Pro.json' file is a json file, and you will find it include scope and color value  
 
-### Code snippet tmTheme file format 
-The following is a code snippet tmTheme file format:
+### Code snippet 'OneDark-Pro.json' file format 
+The following is a code snippet about the 'OneDark-Pro.json' file format:
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot7.png)
 
 ### Principle
-Editor after parsing, the code will specify a scope for each element, the scope which suggest that this element is a keyword or a constant, or is a punctuation, through tmTheme format file to define the scope of the text style accordingly.
+Editor after parsing, the code will specify a scope for each element, the scope which suggest that this element is a keyword or a constant, or is a punctuation, through 'OneDark-Pro.json' format file to define the scope of the text style accordingly.
 
 ### Common scope list
 
@@ -90,7 +87,7 @@ variable.other
 variable.parameter
 ```
 
-Can be seen from the above code, actually this tmTheme format file seems to also pretty simple, beginners, however, the hard part is don't know how to write the scope, will it step by step instructions below.
+Can be seen from the above code, actually this OneDark_Pro.json format file seems to also pretty simple, beginners, however, the hard part is don't know how to write the scope, will it step by step instructions below.
 
 
 ### Get code scope
@@ -111,7 +108,7 @@ This will show you the token you are on and three sections:
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot9.png)
 
 ### Add/Change code color
-Now you know the rules for the theme, you just need the code scope and the hex color you want, then edit the tmTheme file, add/change code snippet like this:
+Now you know the rules for the theme, you just need the code scope and the hex color you want, then edit the 'OneDark-Pro.json' file, add/change code snippet like this:
 
 ```xml
 <dict>
