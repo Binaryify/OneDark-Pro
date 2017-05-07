@@ -1,34 +1,26 @@
 {
-  "name":"OneDark Pro",
+  "name": "OneDark Pro",
   "type": "dark",
   "colors": {
     "editor.background": "#282c34",
-    "editor.foreground": "#abb2bf",
-    "editor.selectionBackground": "#3e4451",
     "editor.lineHighlightBackground": "#2c323c",
     "editorCursor.foreground": "#528bff",
     "editorWhitespace.foreground": "#4b525b",
     "titleBar.activeBackground": "#282c34",
-
     "activityBar.background": "#333842",
     "sideBar.background": "#21242b",
-
     "tab.activeBackground": "#282c34",
     "tab.inactiveBackground": "#333842",
     "editorGroupHeader.tabsBackground": "#333842",
-
     "statusBar.background": "#414754",
     "statusBar.noFolderBackground": "#40274E",
     "statusBar.debuggingBackground": "#844C33",
-
     "list.activeSelectionBackground": "#273044",
     "list.inactiveSelectionBackground": "#303642",
     "list.hoverBackground": "#292d35",
     "list.focusBackground": "#203154",
-
     "input.background": "#1d1f23",
     "dropdown.background": "#1d1f23",
-
     "button.background": "#404754"
   },
   "tokenColors": [
@@ -178,6 +170,13 @@
       "scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
       "settings": {
         "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "css comma",
+      "scope": "punctuation.separator.list.comma.css",
+      "settings": {
+        "foreground": "#b9c0ca"
       }
     },
     {
