@@ -1,4 +1,7 @@
 # changelog 
+## 2.7.1 | 2017.5.7
+added custom colors for sidebar, statusBar, list, input boxes, etc.
+
 ## 2.7.0 | 2017.5.5
 Change theme file format. Add workbench support, improve ts support, update document
 
