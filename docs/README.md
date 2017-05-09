@@ -1,48 +1,46 @@
 # OneDark Pro 
 
 ## About
-[OneDark-Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is one of the most famous theme for VS Code, this document will tell you how to install and apply this theme on VS Code, and even how to design this theme by yourself! 
+[OneDark-Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
 
 ## Install
-Just search it and download it, don't forget apply it ~
+Using the Extensions menu, search for **'One Dark Pro'**. Don't forget to apply the theme (see below).
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot3.png)
 
 ## Apply
-First, you should press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, and you will see a theme selection interface, choose **'OneDark-Pro'**, and press enter, you will find your VS Code color has change, that mean you apply this theme successfuly!
+Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selection interface. Choose **'One Dark Pro'**.
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot4.png)
 
-## Design 
-If you have more better idea about this theme, you can change it by youselft!  
-### Find the VS Code extends path 
-First you should find the VS Code extends path  
+## Develop 
+If you see any inconsistencies or missing colors, the following guide will show you how to make your own changes. You can submit your improvements as a merge request to this theme.
+
+### Find the VS Code extension path
+
+In a terminal, `cd` to your themes folder
+
 - Windows:
-`C:\Users\yourUserName\.vscode\extensions`  
+`C:\Users\yourUserName\.vscode\extensions\themes`  
 
 - Mac/linux:
-`~/.vscode/extensions/`
-
-Then you should cd to this theme path and use VS Code open it
+`~/.vscode/extensions/themes`
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot5.png)
 
-Then you should open the 'themes/OneDark-Pro.json' path
+Then open 'OneDark-Pro.json' with VS Code: `code OneDark-Pro.json`
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot6.png)
 
-You will find the 'OneDark-Pro.json' file is a json file, and you will find it include scope and color value  
+### Example from 'OneDark-Pro.json'
+The following is a code snippet taken from the **'OneDark-Pro.json'** file:
 
-### Code snippet 'OneDark-Pro.json' file format 
-The following is a code snippet about the 'OneDark-Pro.json' file format:
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot7.png)
 
 ### Principle
-Editor after parsing, the code will specify a scope for each element, the scope which suggest that this element is a keyword or a constant, or is a punctuation, through 'OneDark-Pro.json' format file to define the scope of the text style accordingly.
+VS Code will parse code and specify a scope for each piece of syntax. For example, the scope may be a keyword, a constant, or punctuation. **'OneDark-Pro.json'** includes the settings that tell VS Code how to format the text accordingly, using these scopes.
 
 ### Common scope list
-
-The following are the common scope list
 
 ```
 comment
@@ -87,28 +85,26 @@ variable.other
 variable.parameter
 ```
 
-Can be seen from the above code, actually this OneDark_Pro.json format file seems to also pretty simple, beginners, however, the hard part is don't know how to write the scope, will it step by step instructions below.
-
-
 ### Get code scope
-The following is the function to know the code scope:  
-First,we should a tools to help inspect the scopes of a token and the matching theme rule  
+VS Code comes with a built-in tool to easily obtain the scope of a piece of syntax. 
 
-Press `ctrl(⌘) + shift + P`, then press `dev`, choose **"Developer:Inspect TM Scopes"** option  
+Press `ctrl(⌘) + shift + P`, then type `dev`, and choose **"Developer: Inspect TM Scopes"** option.
 
-This will show you the token you are on and three sections:
+This will show you the selected token's scope. There are four sections:
 
-- metadata used for rendering and operations such as comment line, etc.  
+- the in-scope piece of syntax
 
-- the theme rule that matches and gives the foreground color to the token  
+- language, token type, etc.
 
-- the list of scopes the grammar produces for the token  
+- the theme rule and shows the foreground color of the token
+
+- the list of scopes for the token
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot8.png)
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot9.png)
 
 ### Add/Change code color
-Now you know the rules for the theme, you just need the code scope and the hex color you want, then edit the 'OneDark-Pro.json' file, add/change code snippet like this:
+Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'OneDark-Pro.json'** file, add/change code snippet like this:
 
 ```json
 {
@@ -120,12 +116,12 @@ Now you know the rules for the theme, you just need the code scope and the hex c
 }
 ```
 ### Reload
-Then press `ctrl(⌘) + shift + P`, input **'reload'** and press `enter`, you will find the color of the code had change after the window reload
+Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once the window has reloaded, you will find the color of the code has changed.
 
 ![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot13.png)
 
-### Commonly used color
-The following are my commonly used color:
+### Commonly used theme colors
+
 - Whiskey : `#D19A66` (constant)
 - Fountain Blue : `#56B6C2` (console)
 - Chalky : `#E5C07B` (constant)
@@ -138,8 +134,9 @@ The following are my commonly used color:
 ![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot10.png)
 
 ## Workbench theming
-If you want to play around with new colors, use the setting workbench.colorCustomizations to customize the currently selected theme.
-Your can add this snippet in your "settings.json" file   
+If you want to play around with new colors, use the setting `workbench.colorCustomizations` to customize the currently selected theme.
+For example, you can add this snippet in your "settings.json" file:
+
 ```json
 "workbench.colorCustomizations":{
   "tab.activeBackground": "#282c34",
@@ -149,14 +146,9 @@ Your can add this snippet in your "settings.json" file
 }
 ```
 
-And you also can see the [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) , it is helpful ~
+Please check the official documentation, [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference), for more helpful information.
 
 ## Contribute
-Now you know how to design the theme
-You can fork my theme, and send a pull request with you version to me, I will review it and merge it or design your theme and publish the VS Code market, here the official docs to publish your theme [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
+Now you know how to develop the theme, you can fork this repository and send a pull request with your version. The request will be reviewed, and if successful, merged into this theme and published on the VS Code market.
 
-
-
-
-
-Try it ~
+To publish your own theme, please refer to the official documentation: [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
