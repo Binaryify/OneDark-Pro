@@ -1,38 +1,41 @@
 {
-	"name": "Material-theme",
-	"displayName": "One Dark Pro",
-	"description": "Maybe the best theme on VS Code.",
-	"version": "2.7.1",
-	"publisher": "zhuangtongfa",
-	"bugs": {
-		"url": "https://github.com/Binaryify/OneDark-Pro/issues"
-	},
-	"homepage": "https://binaryify.github.io/OneDark-Pro/",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Binaryify/OneDark-Pro"
-	},
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "One Dark Pro",
-				"uiTheme": "vs-dark",
-				"path": "./themes/OneDark-Pro.json"
-			}
-		]
-	},
-	"icon": "icon.svg",
-	"keywords": [
-		"one dark",
-		"onedark",
-		"one dark pro",
-		"theme",
-		"atom"
-	]
+  "name": "Material-theme",
+  "displayName": "One Dark Pro",
+  "description": "Maybe the best theme on VS Code.",
+  "version": "2.7.1",
+  "publisher": "zhuangtongfa",
+  "bugs": {
+    "url": "https://github.com/Binaryify/OneDark-Pro/issues"
+  },
+  "homepage": "https://binaryify.github.io/OneDark-Pro/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Binaryify/OneDark-Pro"
+  },
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro.json"
+      }
+    ]
+  },
+  "icon": "icon.svg",
+  "keywords": [
+    "one dark",
+    "onedark",
+    "one dark pro",
+    "theme",
+    "atom"
+  ],
+  "devDependencies": {
+    "docsify-cli": "^3.3.2"
+  }
 }
