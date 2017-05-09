@@ -1,4 +1,7 @@
-# changelog 
+# CHANGELOG
+## 2.7.2 | 2017.5.9
+add support for php's goto, update docs
+
 ## 2.7.1 | 2017.5.7
 added custom colors for sidebar, statusBar, list, input boxes, etc.
 
