@@ -4,6 +4,7 @@
   "colors": {
     "activityBar.background": "#282c34",
     "button.background": "#404754",
+    "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.background": "#1d1f23",
     "dropdown.border": "#181A1F",
     "editor.background": "#282c34",
