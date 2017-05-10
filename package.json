@@ -13,7 +13,7 @@
     "url": "https://github.com/Binaryify/OneDark-Pro"
   },
   "engines": {
-    "vscode": "^0.10.1"
+    "vscode": "^1.12.0"
   },
   "categories": [
     "Themes"
