@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.7.3 | 2017.5.10
+New logo and window colour additions and tweaks [https://github.com/Binaryify/OneDark-Pro/pull/51](https://github.com/Binaryify/OneDark-Pro/pull/51)
+
 ## 2.7.2 | 2017.5.9
 add support for php's goto, update docs
 
