@@ -3,6 +3,8 @@
   "type": "dark",
   "colors": {
     "activityBar.background": "#282c34",
+    "activityBarBadge.background": "#C5C5C5",
+    "activityBarBadge.foreground": "#1D1F23",
     "button.background": "#404754",
     "dropdown.background": "#1d1f23",
     "diffEditor.insertedTextBackground": "#00809B33",
@@ -28,10 +30,11 @@
     "input.background": "#1d1f23",
     "list.activeSelectionBackground": "#2c313a",
     "list.activeSelectionForeground": "#d7dae0",
+    "list.focusBackground": "#2c313a",
+    "list.hoverBackground": "#292d35",
+    "list.highlightForeground": "#C5C5C5",
     "list.inactiveSelectionBackground": "#2c313a",
     "list.inactiveSelectionForeground": "#d7dae0",
-    "list.hoverBackground": "#292d35",
-    "list.focusBackground": "#2c313a",
     "notification.background": "#21252b",
     "sideBar.background": "#21252b",
     "sideBarSectionHeader.background": "#282c34",
@@ -50,9 +53,10 @@
   },
   "tokenColors": [
     {
+      "name": "punctuation.definition",
+      "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
       "settings": {
-        "foreground": "#abb2bf",
-        "background": "#282c34"
+        "foreground": "#98c379"
       }
     },
     {

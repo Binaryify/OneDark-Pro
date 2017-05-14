@@ -1,6 +1,9 @@
 # CHANGELOG
+## 2.7.5 | 2017.5.14
+Support php-parser constants, improve activity bar badge color, fix this expand selection error
+
 ## 2.7.4 | 2017.5.11
-Few more workbench colour fixes, Update diffEditor.insertedTextBackground #56 #58
+Few more workbench colour fixes, Update diffEditor.insertedTextBackground 
 
 ## 2.7.3 | 2017.5.10
 New logo and window colour additions and tweaks [https://github.com/Binaryify/OneDark-Pro/pull/51](https://github.com/Binaryify/OneDark-Pro/pull/51)
