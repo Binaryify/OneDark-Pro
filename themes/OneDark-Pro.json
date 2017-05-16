@@ -56,7 +56,7 @@
       "name": "punctuation.definition",
       "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#98c378"
       }
     },
     {
