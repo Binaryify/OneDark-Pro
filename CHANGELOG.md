@@ -1,6 +1,10 @@
 # CHANGELOG
+## 2.7.8 | 2017.5.17
+improve block cursor contrast background color
+
 ## 2.7.7 | 2017.5.16
-Fix this expand selection error, improve block cursor contrast background color, modified/added activityBar colors, added scrollBar colors
+Fix this expand selection error, modified/added activityBar colors, added scrollBar colors
+
 ## 2.7.5 | 2017.5.14
 Support php-parser constants, improve activity bar badge color, fix this expand selection error
 
