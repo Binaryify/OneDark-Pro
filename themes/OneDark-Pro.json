@@ -975,6 +975,13 @@
       }
     },
     {
+      "name": "php heredoc",
+      "scope": "keyword.operator.heredoc.php",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
       "name": "python function decorator @",
       "scope": "meta.function.decorator.python",
       "settings": {
