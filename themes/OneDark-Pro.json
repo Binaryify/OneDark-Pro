@@ -1052,6 +1052,13 @@
       }
     },
     {
+      "name": "ts primitve types",
+      "scope": "support.type.primitive.ts",
+      "settings": {
+        "foreground": "#e5c07b" 
+      }
+    },
+    {
       "name": "block scope",
       "scope": "block.scope.end,block.scope.begin",
       "settings": {
