@@ -968,6 +968,13 @@
       }
     },
     {
+      "name": "php regexp opertator",
+      "scope": "keyword.operator.regexp.php",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
       "name": "php dollar sign",
       "scope": "punctuation.definition.variable.php",
       "settings": {
