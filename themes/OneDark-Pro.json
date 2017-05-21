@@ -962,13 +962,13 @@
     },
     {
       "name": "php logical/bitwise operator",
-      "scope": "keyword.operator.logical.php,keyword.operator.bitwise.php",
+      "scope": "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
-      "name": "php regexp opertator",
+      "name": "php regexp operator",
       "scope": "keyword.operator.regexp.php",
       "settings": {
         "foreground": "#c678dd"
