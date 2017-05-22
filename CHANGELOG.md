@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.7.9 | 2017.5.22
+## 2.8.0 | 2017.5.22
 resolve issue #48 #65 #66 #69 #70, support php comparison, add support for arithmetic operators, add support for php regex operators, 
 support heredoc php operator
 
