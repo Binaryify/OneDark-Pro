@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.7.9 | 2017.5.22
+resolve issue #48 #65 #66 #69 #70, support php comparison, add support for arithmetic operators, add support for php regex operators, 
+support heredoc php operator
+
 ## 2.7.8 | 2017.5.17
 improve block cursor contrast background color
 

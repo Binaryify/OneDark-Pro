@@ -31,7 +31,7 @@
     "input.background": "#1d1f23",
     "list.activeSelectionBackground": "#2c313a",
     "list.activeSelectionForeground": "#d7dae0",
-    "list.focusBackground": "#2c313a",
+    "list.focusBackground": "#383E4A",
     "list.hoverBackground": "#292d35",
     "list.highlightForeground": "#C5C5C5",
     "list.inactiveSelectionBackground": "#2c313a",
@@ -47,7 +47,7 @@
     "statusBarItem.hoverBackground": "#2c313a",
     "statusBar.noFolderBackground": "#21252B",
     "statusBar.debuggingBackground": "#21252B",
-    "tab.activeBackground": "#282c34",
+    "tab.activeBackground": "#2c313a",
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#21252B",
     "titleBar.activeBackground": "#282c34",
@@ -126,6 +126,13 @@
       "scope": "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c",
       "settings": {
         "foreground": "#abb2bf"
+      }
+    },
+    {
+      "name": "js/ts italic",
+      "scope": "entity.other.attribute-name.js,string.quoted.double.js,variable.parameter.js,variable.language.super.js,entity.other.attribute-name.ts,string.quoted.double.ts,variable.parameter.ts,variable.language.super.ts,",
+      "settings": {
+        "fontStyle":"italic"
       }
     },
     {
@@ -1069,7 +1076,8 @@
       "name": "js ts this",
       "scope": "var.this.js,var.this.ts,variable.language.this.js,variable.language.this.ts",
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#e5c07b",
+        "fontStyle":"italic"
       }
     },
     {
