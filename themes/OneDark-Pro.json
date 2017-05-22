@@ -975,6 +975,13 @@
       }
     },
     {
+      "name": "php comparison",
+      "scope": "keyword.operator.comparison.php",
+      "settings": {
+        "foreground": "#56b6c2"  
+      }
+    },
+    {
       "name": "php dollar sign",
       "scope": "punctuation.definition.variable.php",
       "settings": {
