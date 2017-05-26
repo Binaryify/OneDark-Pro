@@ -263,7 +263,7 @@
     },
     {
       "name": "js Keyword",
-      "scope": "keyword.operator.expression.instanceof.js,keyword.operator.expression.instanceof.ts,keyword.operator.new.js,keyword.operator.new.ts",
+      "scope": "keyword.operator.expression.instanceof.js,keyword.operator.expression.instanceof.ts,keyword.operator.new.js,keyword.operator.new.ts,keyword.operator.ternary.js,keyword.operator.ternary.ts",
       "settings": {
         "foreground": "#c678dd"
       }
