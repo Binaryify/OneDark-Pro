@@ -521,6 +521,13 @@
       }
     },
     {
+      "name": "for in js ts",
+      "scope": "keyword.operator.expression.in.ts,keyword.operator.expression.in.js",
+      "settings": {
+        "foreground": "#c678dd"        
+      }
+    },
+    {
       "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
       "scope": "keyword.operator.expression.delete.js,keyword.operator.expression.in.js,keyword.operator.expression.of.js,keyword.operator.expression.instanceof.js,keyword.operator.new.js,keyword.operator.expression.typeof.js,keyword.operator.expression.void.js",
       "settings": {
