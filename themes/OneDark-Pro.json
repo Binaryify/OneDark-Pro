@@ -256,7 +256,7 @@
     },
     {
       "name": "js variable readwrite",
-      "scope": "variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts",
+      "scope": "variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts,support.variable.object.node.ts",
       "settings": {
         "foreground": "#e06c75"
       }
