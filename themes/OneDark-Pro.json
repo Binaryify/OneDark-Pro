@@ -319,7 +319,7 @@
     },
     {
       "name": "keyword.operator",
-      "scope": "keyword.operator.arithmetic.js,keyword.operator.comparison.js,keyword.operator.arithmetic.ts,keyword.operator.comparison.ts",
+      "scope": "keyword.operator.arithmetic.js,keyword.operator.comparison.js,keyword.operator.arithmetic.ts,keyword.operator.comparison.ts,keyword.operator.expression.is.ts",
       "settings": {
         "foreground": "#56b6c2"
       }
