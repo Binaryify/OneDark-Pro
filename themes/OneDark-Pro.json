@@ -199,6 +199,13 @@
       }
     },
     {
+      "name": "operator bitwise",
+      "scope": "keyword.operator.bitwise.js,keyword.operator.bitwise.ts",
+      "settings": {
+       "foreground": "#56b6c2"
+      }
+    },
+    {
       "name": "support.constant.property-value.scss",
       "scope": "support.constant.property-value.scss,support.constant.property-value.css",
       "settings": {
