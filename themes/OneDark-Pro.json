@@ -1077,12 +1077,19 @@
       "scope": "var.this.js,var.this.ts,variable.language.this.js,variable.language.this.ts",
       "settings": {
         "foreground": "#e5c07b",
-        "fontStyle":"italic"
+        "fontStyle": "italic"
       }
     },
     {
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts",
+      "settings": {
+        "foreground": "#e5c07b" 
+      }
+    },
+    {
+      "name": "void keyword",
+      "scope": "keyword.operator.expression.void.ts",
       "settings": {
         "foreground": "#e5c07b" 
       }
