@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.8.1 | 2017.5.29
+support void keyword, support ternary operators, support bitwise operators, support is expression in typescript
+
 ## 2.8.0 | 2017.5.22
 resolve issue #48 #65 #66 #69 #70, support php comparison, add support for arithmetic operators, add support for php regex operators, 
 support heredoc php operator
