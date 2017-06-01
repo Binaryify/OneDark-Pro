@@ -325,6 +325,27 @@
       }
     },
     {
+      "name": "C operator assignment",
+      "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c",
+      "settings": {
+        "foreground": "#c678ddff"
+      }
+    },
+    {
+      "name": "C punctuation",
+      "scope": "punctuation.separator.delimiter.c",
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+    {
+      "name": "C type posix-reserved",
+      "scope": "support.type.posix-reserved.c",
+      "settings": {
+        "foreground": "#57adb8"
+      }
+    },
+    {
       "name": "keyword.operator.sizeof.c",
       "scope": "keyword.operator.sizeof.c",
       "settings": {
