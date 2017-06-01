@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.8.2 | 2017.6.1
+improve C highlight
+
 ## 2.8.1 | 2017.5.29
 support void keyword, support ternary operators, support bitwise operators, support is expression in typescript
 
