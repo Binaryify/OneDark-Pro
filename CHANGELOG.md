@@ -1,4 +1,10 @@
 # CHANGELOG
+## 2.8.4 | 2017.6.2
+Rollback for the issue [#87](https://github.com/Binaryify/OneDark-Pro/issues/87)
+
+## 2.8.3 | 2017.6.2
+improve JS/TS object-literal key highlight
+
 ## 2.8.2 | 2017.6.1
 improve C highlight
 
