@@ -132,7 +132,7 @@
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,variable.parameter.js,variable.language.super.js,entity.other.attribute-name.ts,variable.parameter.ts,variable.language.super.ts,",
       "settings": {
-        "fontStyle":"italic"
+        "fontStyle": "italic"
       }
     },
     {
@@ -202,7 +202,7 @@
       "name": "operator bitwise",
       "scope": "keyword.operator.bitwise.js,keyword.operator.bitwise.ts",
       "settings": {
-       "foreground": "#56b6c2"
+        "foreground": "#56b6c2"
       }
     },
     {
@@ -241,31 +241,24 @@
       }
     },
     {
-      "name": "js/ts template-expression",
+      "name": "js template-expression",
       "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
-      "name": "js/ts module",
+      "name": "js module",
       "scope": "support.module.node.js,support.type.object.module.js,support.module.node.js,support.module.node.ts,support.type.object.module.ts,support.module.node.ts",
       "settings": {
         "foreground": "#e5c07b"
       }
     },
     {
-      "name": "js/ts variable readwrite",
-      "scope": "variable.other.readwrite.js,support.variable.property.js,support.variable.object.process.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts,support.variable.object.node.ts",
+      "name": "js variable readwrite",
+      "scope": "variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts,support.variable.object.node.ts",
       "settings": {
         "foreground": "#e06c75"
-      }
-    },
-    {
-      "name":"meta.object-literal.key",
-      "scope":"meta.object-literal.key.js,meta.object-literal.key.ts",
-      "settings": {
-        "foreground": "#98c379"
       }
     },
     {
@@ -276,56 +269,56 @@
       }
     },
     {
-      "name": "js/ts Keyword",
+      "name": "js Keyword",
       "scope": "keyword.operator.expression.instanceof.js,keyword.operator.expression.instanceof.ts,keyword.operator.new.js,keyword.operator.new.ts,keyword.operator.ternary.js,keyword.operator.ternary.ts",
       "settings": {
         "foreground": "#c678dd"
       }
     },
     {
-      "name": "js/ts Keyword",
+      "name": "js Keyword",
       "scope": "keyword.operator.expression.typeof.js,keyword.operator.expression.typeof.ts",
       "settings": {
         "foreground": "#61afef"
       }
     },
     {
-      "name": "js/ts console",
+      "name": "js console",
       "scope": "support.type.object.console.js,support.type.object.console.ts",
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
-      "name": "js/ts console function",
+      "name": "js console function",
       "scope": "entity.name.function.js,support.function.console.js,entity.name.function.ts,support.function.console.ts",
       "settings": {
         "foreground": "#61afef"
       }
     },
     {
-      "name": "js/ts operator",
+      "name": "js operator",
       "scope": "keyword.operator.js,keyword.operator.ts",
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
-      "name": "js/ts dom",
+      "name": "js dom",
       "scope": "support.type.object.dom.js,support.type.object.dom.ts",
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
-      "name": "js/ts dom variable",
+      "name": "js dom variable",
       "scope": "support.variable.dom.js,support.variable.property.dom.js,support.variable.dom.ts,support.variable.property.dom.ts,",
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
-      "name": "js/ts keyword.operator",
+      "name": "keyword.operator",
       "scope": "keyword.operator.arithmetic.js,keyword.operator.comparison.js,keyword.operator.arithmetic.ts,keyword.operator.comparison.ts,keyword.operator.expression.is.ts",
       "settings": {
         "foreground": "#56b6c2"
@@ -559,7 +552,7 @@
       "name": "for in js ts",
       "scope": "keyword.operator.expression.in.ts,keyword.operator.expression.in.js",
       "settings": {
-        "foreground": "#c678dd"        
+        "foreground": "#c678dd"
       }
     },
     {
@@ -927,14 +920,14 @@
     },
     {
       "name": "laravel blade tag",
-      "scope": "text.html.laravel-blade                        source.php.embedded.line.html                     entity.name.tag.laravel-blade",
+      "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {
         "foreground": "#C679DD"
       }
     },
     {
       "name": "laravel blade @",
-      "scope": "text.html.laravel-blade                         source.php.embedded.line.html                    support.constant.laravel-blade",
+      "scope": "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
       "settings": {
         "foreground": "#C679DD"
       }
@@ -1027,7 +1020,7 @@
       "name": "php comparison",
       "scope": "keyword.operator.comparison.php",
       "settings": {
-        "foreground": "#56b6c2"  
+        "foreground": "#56b6c2"
       }
     },
     {
@@ -1126,14 +1119,14 @@
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts",
       "settings": {
-        "foreground": "#e5c07b" 
+        "foreground": "#e5c07b"
       }
     },
     {
       "name": "void keyword",
       "scope": "keyword.operator.expression.void.ts",
       "settings": {
-        "foreground": "#e5c07b" 
+        "foreground": "#e5c07b"
       }
     },
     {
