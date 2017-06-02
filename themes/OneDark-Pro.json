@@ -241,24 +241,31 @@
       }
     },
     {
-      "name": "js template-expression",
+      "name": "js/ts template-expression",
       "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
-      "name": "js module",
+      "name": "js/ts module",
       "scope": "support.module.node.js,support.type.object.module.js,support.module.node.js,support.module.node.ts,support.type.object.module.ts,support.module.node.ts",
       "settings": {
         "foreground": "#e5c07b"
       }
     },
     {
-      "name": "js variable readwrite",
-      "scope": "variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts,support.variable.object.node.ts",
+      "name": "js/ts variable readwrite",
+      "scope": "variable.other.readwrite.js,support.variable.property.js,support.variable.object.process.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts,support.variable.object.node.ts",
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name":"meta.object-literal.key",
+      "scope":"meta.object-literal.key.js,meta.object-literal.key.ts",
+      "settings": {
+        "foreground": "#98c379"
       }
     },
     {
@@ -269,56 +276,56 @@
       }
     },
     {
-      "name": "js Keyword",
+      "name": "js/ts Keyword",
       "scope": "keyword.operator.expression.instanceof.js,keyword.operator.expression.instanceof.ts,keyword.operator.new.js,keyword.operator.new.ts,keyword.operator.ternary.js,keyword.operator.ternary.ts",
       "settings": {
         "foreground": "#c678dd"
       }
     },
     {
-      "name": "js Keyword",
+      "name": "js/ts Keyword",
       "scope": "keyword.operator.expression.typeof.js,keyword.operator.expression.typeof.ts",
       "settings": {
         "foreground": "#61afef"
       }
     },
     {
-      "name": "js console",
+      "name": "js/ts console",
       "scope": "support.type.object.console.js,support.type.object.console.ts",
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
-      "name": "js console function",
+      "name": "js/ts console function",
       "scope": "entity.name.function.js,support.function.console.js,entity.name.function.ts,support.function.console.ts",
       "settings": {
         "foreground": "#61afef"
       }
     },
     {
-      "name": "js operator",
+      "name": "js/ts operator",
       "scope": "keyword.operator.js,keyword.operator.ts",
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
-      "name": "js dom",
+      "name": "js/ts dom",
       "scope": "support.type.object.dom.js,support.type.object.dom.ts",
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
-      "name": "js dom variable",
+      "name": "js/ts dom variable",
       "scope": "support.variable.dom.js,support.variable.property.dom.js,support.variable.dom.ts,support.variable.property.dom.ts,",
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
-      "name": "keyword.operator",
+      "name": "js/ts keyword.operator",
       "scope": "keyword.operator.arithmetic.js,keyword.operator.comparison.js,keyword.operator.arithmetic.ts,keyword.operator.comparison.ts,keyword.operator.expression.is.ts",
       "settings": {
         "foreground": "#56b6c2"
