@@ -1038,8 +1038,8 @@
       }
     },
     {
-      "name": "php heredoc",
-      "scope": "keyword.operator.heredoc.php",
+      "name": "php heredoc/nowdoc",
+      "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
       "settings": {
         "foreground": "#c678dd"
       }
