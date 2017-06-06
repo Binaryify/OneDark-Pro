@@ -1137,6 +1137,13 @@
       }
     },
     {
+      "name": "for of",
+      "scope": "keyword.operator.expression.of.ts,keyword.operator.expression.of.js",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
       "name": "block scope",
       "scope": "block.scope.end,block.scope.begin",
       "settings": {
