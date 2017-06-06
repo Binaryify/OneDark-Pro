@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.8.5 | 2017.6.6
+Fix js/ts key-value separator highlight error
+
 ## 2.8.4 | 2017.6.2
 Rollback for the issue [#87](https://github.com/Binaryify/OneDark-Pro/issues/87)
 
