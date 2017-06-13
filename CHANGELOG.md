@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.8.6 | 2017.6.13
+Support js/ts for-of operator, support php nowdoc, support void keyword, add bold and italics support for Markdown
+
 ## 2.8.5 | 2017.6.6
 Fix js/ts key-value separator highlight error
 
