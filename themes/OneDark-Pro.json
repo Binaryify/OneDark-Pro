@@ -706,7 +706,7 @@
       "name": "Headings",
       "scope": "markup.heading",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "bold",
         "foreground": "#e06c75"
       }
     },
@@ -728,6 +728,7 @@
       "name": "Bold",
       "scope": "markup.bold",
       "settings": {
+        "fontStyle":"bold",
         "foreground": "#d19a66"
       }
     },
@@ -828,6 +829,20 @@
       "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
       "settings": {
         "foreground": "#61AFEF"
+      }
+    },
+    {
+      "name": "markup.italic.markdown",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "markup.bold.markdown",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold"
       }
     },
     {
