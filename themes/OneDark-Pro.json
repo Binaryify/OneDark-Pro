@@ -12,7 +12,7 @@
     "dropdown.border": "#181A1F",
     "editor.background": "#282c34",
     "editorError.foreground": "#c24038",
-    "editorRuler.foreground": "#484848",
+    "editorRuler.foreground": "#abb2bf26",
     "editor.lineHighlightBackground": "#383E4A",
     "editor.selectionBackground": "#3E4451",
     "editorCursor.foreground": "#f8f8f0",
@@ -39,6 +39,7 @@
     "list.inactiveSelectionBackground": "#2c313a",
     "list.inactiveSelectionForeground": "#d7dae0",
     "notification.background": "#21252b",
+    "peekViewEditor.matchHighlightBackground": "#29244b",
     "scrollbarSlider.background": "#4E566680",
     "scrollbarSlider.activeBackground": "#747D9180",
     "scrollbarSlider.hoverBackground": "#5A637580",
@@ -268,6 +269,13 @@
       "scope": "variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts,support.variable.object.node.ts,variable.other.readwrite.jsx,meta.object-literal.key.jsx,support.variable.property.jsx,support.variable.object.process.jsx,variable.other.readwrite.tsx,meta.object-literal.key.tsx,support.variable.property.tsx,support.variable.object.process.tsx,support.variable.object.node.tsx",
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "comment",
+      "scope": "comment.line.double-slash,comment.block.documentation",
+      "settings": {
+        "fontStyle": "normal"
       }
     },
     {

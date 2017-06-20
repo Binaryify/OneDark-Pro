@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.8.8 | 2017.6.20
+Improve ruler color, improve comment fontStyle, improve peek implementation match highlight background color
+
 ## 2.8.7 | 2017.6.19
 Add jsx/tsx support, improve color of warning/error squiggles, improve ruler color
 
