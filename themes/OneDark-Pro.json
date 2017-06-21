@@ -1019,7 +1019,7 @@
      "settings": {
         "foreground": "#bbbbbb" 
      }
-    }
+    },
     {
       "name": "support php constants",
       "scope": "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php",
