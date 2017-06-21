@@ -7,6 +7,7 @@
     "activityBarBadge.background": "#4D78CC",
     "activityBarBadge.foreground": "#F8FAFD",
     "button.background": "#404754",
+    "debugToolBar.background": "#21252b",
     "dropdown.background": "#1d1f23",
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.border": "#181A1F",
@@ -266,7 +267,7 @@
     },
     {
       "name": "js variable readwrite",
-      "scope": "variable.other.readwrite.js,meta.object-literal.key.js,support.variable.property.js,support.variable.object.process.js,support.variable.object.node.js,variable.other.readwrite.ts,meta.object-literal.key.ts,support.variable.property.ts,support.variable.object.process.ts,support.variable.object.node.ts,variable.other.readwrite.jsx,meta.object-literal.key.jsx,support.variable.property.jsx,support.variable.object.process.jsx,variable.other.readwrite.tsx,meta.object-literal.key.tsx,support.variable.property.tsx,support.variable.object.process.tsx,support.variable.object.node.tsx",
+      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
         "foreground": "#e06c75"
       }
@@ -297,6 +298,13 @@
       "scope": "support.type.object.console",
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "js/ts support.variable.property.process",
+      "scope": "support.variable.property.process",
+      "settings": {
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1014,11 +1022,11 @@
       }
     },
     {
-     "name": "php call-function brackets",
-     "scope": "punctuation.definition.arguments.end.bracket.round.php",
-     "settings": {
-        "foreground": "#bbbbbb" 
-     }
+      "name": "php call-function brackets",
+      "scope": "punctuation.definition.arguments.end.bracket.round.php",
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
     },
     {
       "name": "support php constants",
