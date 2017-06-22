@@ -1025,7 +1025,7 @@
     },
     {
       "name": "php call-function brackets",
-      "scope": "punctuation.definition.arguments.end.bracket.round.php",
+      "scope": "punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php",
       "settings": {
         "foreground": "#bbbbbb"
       }
