@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.8.9 | 2017.6.22
+Improve badge background & background color of 'Go to next error or warning' (Keyboard shortcut: F8) popup, add support.variable.property.process & debugToolBar background & support.variable.object.node support
+
 ## 2.8.8 | 2017.6.20
 Improve ruler color, improve comment fontStyle, improve peek implementation match highlight background color
 
