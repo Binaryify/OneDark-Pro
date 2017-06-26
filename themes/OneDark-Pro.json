@@ -1024,8 +1024,8 @@
       }
     },
     {
-      "name": "php call-function brackets",
-      "scope": "punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php",
+      "name": "php brackets",
+      "scope": "punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php",
       "settings": {
         "foreground": "#bbbbbb"
       }
