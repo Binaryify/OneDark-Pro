@@ -1,6 +1,6 @@
 # CHANGELOG
-## 2.9.0 | 2017.7.1
-Improve php support
+## 2.9.1 | 2017.7.1
+Improve php support, fix icon format error
 
 ## 2.8.9 | 2017.6.22
 Improve badge background & background color of 'Go to next error or warning' (Keyboard shortcut: F8) popup, add support.variable.property.process & debugToolBar background & support.variable.object.node support
