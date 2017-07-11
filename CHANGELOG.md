@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.9.2 | 2017.7.11
+Improve js/ts keyword 'import' highlight
+
 ## 2.9.1 | 2017.7.1
 Improve php support, fix icon format error
 
