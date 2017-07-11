@@ -149,6 +149,13 @@
       }
     },
     {
+      "name": "js/ts import keyword",
+      "scope": "keyword.operator.expression.import",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
       "name": "math js/ts",
       "scope": "support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts,support.constant.math.jsx,support.constant.property.math.jsx,support.constant.math.tsx,support.constant.property.math.tsx",
       "settings": {
