@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.9.3 | 2017.7.12
+reset php function call labels
+
 ## 2.9.2 | 2017.7.11
 Improve js/ts keyword 'import' highlight
 
