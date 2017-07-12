@@ -1031,8 +1031,8 @@
       }
     },
     {
-      "name": "php brackets",
-      "scope": "punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php",
+      "name": "php function-resets",
+      "scope": "punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php",
       "settings": {
         "foreground": "#bbbbbb"
       }
