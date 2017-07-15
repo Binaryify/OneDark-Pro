@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.9.4 | 2017.7.15
+Reset php round bracket in method parameters
+
 ## 2.9.3 | 2017.7.12
 reset php function call labels
 
