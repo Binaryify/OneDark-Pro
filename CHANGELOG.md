@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.9.5 | 2017.7.18
+Increase the contrast of the selected text
+
 ## 2.9.4 | 2017.7.15
 Reset php round bracket in method parameters
 
