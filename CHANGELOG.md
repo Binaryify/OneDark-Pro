@@ -1,6 +1,8 @@
 # CHANGELOG
-## 2.9.6 | 2017.7.19
+## 2.9.7 | 2017.7.19
 Improve selected variable highlight 
+contributor:[@bardiarastin](https://github.com/bardiarastin)
+on issue [#119](https://github.com/Binaryify/OneDark-Pro/issues/119)
 
 ## 2.9.5 | 2017.7.18
 Increase the contrast of the selected text
