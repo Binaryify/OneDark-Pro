@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.9.6 | 2017.7.19
+Improve selected variable highlight 
+
 ## 2.9.5 | 2017.7.18
 Increase the contrast of the selected text
 
