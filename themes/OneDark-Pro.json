@@ -1021,7 +1021,7 @@
     },
     {
       "name": "php types",
-      "scope": "storage.type.php,meta.other.type.phpdoc.php",
+      "scope": "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php",
       "settings": {
         "foreground": "#e5c07b"
       }
