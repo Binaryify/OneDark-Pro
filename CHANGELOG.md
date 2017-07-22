@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.9.8 | 2017.7.22
+Support php types in documentations
+
 ## 2.9.7 | 2017.7.19
 Improve selected variable highlight 
 contributor:[@bardiarastin](https://github.com/bardiarastin)
