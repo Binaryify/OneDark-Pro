@@ -749,7 +749,7 @@
     },
     {
       "name": "Bold",
-      "scope": "markup.bold",
+      "scope": "markup.bold,todo.bold",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#D8985F"
@@ -764,7 +764,7 @@
     },
     {
       "name": "Italic",
-      "scope": "markup.italic, punctuation.definition.italic",
+      "scope": "markup.italic,punctuation.definition.italic,todo.emphasis",
       "settings": {
         "foreground": "#D55FDE"
       }
