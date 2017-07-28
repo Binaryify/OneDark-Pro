@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.10.0 | 2017.7.28
+Support basic markdown syntax when using vscode-todo, fix generic types in phpdoc, improve JavaScript constants color, add vivid theme 
+
+
 ## 2.9.8 | 2017.7.22
 Support php types in documentations
 
