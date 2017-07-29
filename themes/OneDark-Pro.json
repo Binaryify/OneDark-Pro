@@ -160,9 +160,16 @@
     },
     {
       "name": "math js/ts",
-      "scope": "support.constant.math,support.constant.property.math",
+      "scope": "support.constant.math",
       "settings": {
         "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "math property js/ts",
+      "scope": "support.constant.property.math",
+      "settings": {
+        "foreground": "#d19a66"
       }
     },
     {
