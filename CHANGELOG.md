@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.10.2 | 2017.7.29
+## 2.10.3 | 2017.7.29
 Fix php array() syntax, fix the vivid theme file path error
 
 ## 2.10.0 | 2017.7.28
