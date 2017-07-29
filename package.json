@@ -2,7 +2,7 @@
   "name": "Material-theme",
   "displayName": "One Dark Pro",
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "2.10.1",
+  "version": "2.10.2",
   "publisher": "zhuangtongfa",
   "bugs": {
     "url": "https://github.com/Binaryify/OneDark-Pro/issues"
@@ -28,7 +28,7 @@
       {
         "label": "One Dark Pro xxx",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneDark-Pro-xxx.json"
+        "path": "./themes/OneDark-Pro-vivid.json"
       }
     ]
   },

@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.2 | 2017.7.29
+Fix php array() syntax, fix the vivid theme file path error
+
 ## 2.10.0 | 2017.7.28
 Support basic markdown syntax when using vscode-todo, fix generic types in phpdoc, improve JavaScript constants color, add vivid theme 
 
