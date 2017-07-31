@@ -258,7 +258,7 @@
     },
     {
       "name": "css attribute-name.id",
-      "scope": "support.constant.color.w3c-standard-color-name.css,entity.other.attribute-name.class.css",
+      "scope": "support.constant.color.w3c-standard-color-name.css",
       "settings": {
         "foreground": "#d19a66"
       }
@@ -701,14 +701,16 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#61afef",
+        "fontStyle": "normal"
       }
     },
     {
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#d19a66",
+        "fontStyle": "normal"
       }
     },
     {
