@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.10.5 | 2017.7.31
+## 2.10.6 | 2017.7.31
 Make JS Math constants to be in sync with Atom, fix (S)CSS selectors font style error
 
 ## 2.10.3 | 2017.7.29
