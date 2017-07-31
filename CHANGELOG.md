@@ -1,6 +1,6 @@
 # CHANGELOG
-## 2.10.4 | 2017.7.31
-Make JS Math constants to be in sync with Atom
+## 2.10.5 | 2017.7.31
+Make JS Math constants to be in sync with Atom, fix (S)CSS selectors font style error
 
 ## 2.10.3 | 2017.7.29
 Fix php array() syntax, fix the vivid theme file path error
