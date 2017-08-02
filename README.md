@@ -28,6 +28,8 @@ For example, you can add this snippet in your "settings.json" file:
 # ScreenShot
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot1.png)
 
+![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/php.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot2.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/js.png)
