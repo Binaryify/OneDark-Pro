@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.8 | 2017.8.12
+Improve java highlight
+
 ## 2.10.7 | 2017.8.2
 Add php screenshot
 
