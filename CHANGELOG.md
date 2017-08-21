@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.9 | 2017.8.21
+Improve diff highlight
+
 ## 2.10.8 | 2017.8.12
 Improve java highlight
 
