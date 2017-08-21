@@ -103,6 +103,20 @@
       }
     },
     {
+      "name": "markup diff",
+      "scope": "markup.changed.diff",
+      "settings": {
+        "foreground": "#e0c285"
+      }
+    },
+    {
+      "name": "diff",
+      "scope": "meta.diff.header.from-file,punctuation.definition.from-file.diff",
+      "settings": {
+        "foreground": "#569cd6"
+      }
+    },
+    {
       "name": "inserted.diff",
       "scope": "markup.inserted.diff",
       "settings": {
