@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.10.10 | 2017.8.24
+Reset more styles [@jens1o](https://github.com/jens1o)   
+[PR:139](https://github.com/Binaryify/OneDark-Pro/pull/139)
+
 ## 2.10.9 | 2017.8.21
 Improve diff highlight
 
