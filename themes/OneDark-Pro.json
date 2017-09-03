@@ -460,6 +460,13 @@
       }
     },
     {
+      "name": "python placeholder reset to normal string",
+      "scope": "constant.character.format.placeholder.other.python",
+      "settings": {
+        "foreground": "#98c379" 
+      }
+    },
+    {
       "name": "Punctuation Definition Comment",
       "scope": "punctuation.definition.comment",
       "settings": {
