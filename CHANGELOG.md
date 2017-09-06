@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.10.11 | 2017.9.6
+fix Python string color inconsistency issue [@jens1o](https://github.com/jens1o)   
+[PR:142](https://github.com/Binaryify/OneDark-Pro/pull/142)
+
 ## 2.10.10 | 2017.8.24
 Reset more styles [@jens1o](https://github.com/jens1o)   
 [PR:139](https://github.com/Binaryify/OneDark-Pro/pull/139)
