@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.12 | 2017.9.23
+Add TS primitive/builtin types support in TSX
+
 ## 2.10.11 | 2017.9.6
 fix Python string color inconsistency issue [@jens1o](https://github.com/jens1o)   
 [PR:142](https://github.com/Binaryify/OneDark-Pro/pull/142)
