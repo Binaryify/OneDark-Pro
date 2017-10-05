@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.13 | 2017.10.05
+Changed comment to be brighter
+
 ## 2.10.12 | 2017.9.23
 Add TS primitive/builtin types support in TSX
 
