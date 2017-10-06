@@ -148,6 +148,14 @@ For example, you can add this snippet in your "settings.json" file:
 
 Please check the official documentation, [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference), for more helpful information.
 
+## User definable syntax highlighting colors
+You also can custom your syntax highlighting in "setting.json"
+
+![custom](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/customA.png)
+![custom](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/customB.png)
+
+[More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
+
 ## Contribute
 Now you know how to develop the theme, you can fork this repository and send a pull request with your version. The request will be reviewed, and if successful, merged into this theme and published on the VS Code market.
 
