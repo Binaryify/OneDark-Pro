@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.14 | 2017.10.06
+Update docs
+
 ## 2.10.13 | 2017.10.05
 Changed comment to be brighter
 
