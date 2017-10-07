@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.15 | 2017.10.07
+Improve comment highlight
+
 ## 2.10.14 | 2017.10.06
 Update docs
 

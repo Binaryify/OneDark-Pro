@@ -84,14 +84,6 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "foreground": "#5c637",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Comment",
-      "scope": "comment",
-      "settings": {
         "foreground": "#7F848E",
         "fontStyle": "italic"
       }
@@ -477,13 +469,6 @@
       "scope": "constant.character.format.placeholder.other.python",
       "settings": {
         "foreground": "#98c379"
-      }
-    },
-    {
-      "name": "Punctuation Definition Comment",
-      "scope": "punctuation.definition.comment",
-      "settings": {
-        "foreground": "#5C6370"
       }
     },
     {
