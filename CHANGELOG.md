@@ -1,7 +1,6 @@
 # CHANGELOG
-## 2.10.16 | 2017.10.17
+## 2.10.17 | 2017.10.17
 Fix a typo in comment color code
-
 
 ## 2.10.15 | 2017.10.07
 Improve comment highlight
