@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.18 | 2017.11.05
+Improve terminal color
+
 ## 2.10.17 | 2017.10.17
 Fix a typo in comment color code
 
