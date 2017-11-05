@@ -59,6 +59,8 @@
     "tab.activeBackground": "#2c313a",
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#21252B",
+    "terminal.ansiBlack": "#2D3139",
+    "terminal.ansiYellow": "#B4881D",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#282C34",
