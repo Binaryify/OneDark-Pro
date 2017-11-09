@@ -60,6 +60,9 @@
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#21252B",
     "terminal.ansiBlack": "#2D3139",
+    "terminal.ansiBlue": "#2e8ccf",
+    "terminal.ansiGreen": "#98c379ff",
+    "terminal.foreground":"#C8C8C8",
     "terminal.ansiYellow": "#B4881D",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
@@ -67,6 +70,20 @@
     "titleBar.inactiveForeground": "#6B717D"
   },
   "tokenColors": [
+    {
+      "name": "regexp constant character-class",
+      "scope": "constant.other.character-class.regexp",
+      "settings": {
+        "foreground": "#e06c75ff"
+      }
+    },
+    {
+      "name": "regexp operator.quantifier",
+      "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "#d19a66ff"
+      }
+    },
     {
       "name": "punctuation.definition",
       "scope":
@@ -1215,7 +1232,8 @@
     },
     {
       "name": "ts primitive/builtin types",
-      "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
+      "scope":
+        "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
       "settings": {
         "foreground": "#e5c07b"
       }

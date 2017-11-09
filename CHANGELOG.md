@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.19 | 2017.11.09
+Improve terminal & regexp color
+
 ## 2.10.18 | 2017.11.05
 Improve terminal color
 
