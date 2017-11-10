@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.20 | 2017.11.10
+Fix some php highlight
+
 ## 2.10.19 | 2017.11.09
 Improve terminal & regexp color
 
