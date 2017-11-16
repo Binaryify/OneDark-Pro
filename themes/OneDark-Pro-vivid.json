@@ -62,7 +62,7 @@
     "terminal.ansiBlack": "#2D3139",
     "terminal.ansiBlue": "#2e8ccf",
     "terminal.ansiGreen": "#98c379ff",
-    "terminal.foreground":"#C8C8C8",
+    "terminal.foreground": "#C8C8C8",
     "terminal.ansiYellow": "#B4881D",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
@@ -852,6 +852,13 @@
       "scope": "markup.inline.raw.markdown",
       "settings": {
         "foreground": "#89CA78"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "#707784"
       }
     },
     {
