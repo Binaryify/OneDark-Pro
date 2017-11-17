@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.10.22 | 2017.11.17
+Improve markdown inline code highlight
+
 ## 2.10.21 | 2017.11.16
 Improve markdown inline code highlight
 

@@ -859,7 +859,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
-        "foreground": "#707784"
+        "foreground": "#98c379"
       }
     },
     {
