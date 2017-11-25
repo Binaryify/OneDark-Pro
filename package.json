@@ -2,7 +2,7 @@
   "name": "Material-theme",
   "displayName": "One Dark Pro",
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "2.10.22",
+  "version": "2.10.23",
   "publisher": "zhuangtongfa",
   "bugs": {
     "url": "https://github.com/Binaryify/OneDark-Pro/issues"
@@ -15,9 +15,7 @@
   "engines": {
     "vscode": "^1.12.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
@@ -33,13 +31,7 @@
     ]
   },
   "icon": "icon.png",
-  "keywords": [
-    "one dark",
-    "onedark",
-    "one dark pro",
-    "theme",
-    "atom"
-  ],
+  "keywords": ["one dark", "onedark", "one dark pro", "theme", "atom"],
   "devDependencies": {
     "docsify-cli": "^3.3.2"
   }
