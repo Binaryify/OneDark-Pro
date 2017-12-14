@@ -1,8 +1,12 @@
 # CHANGELOG
 
+## 2.11.0 | 2017.12.14
+
+Improve status bar debugging color
+
 ## 2.10.23 | 2017.11.25
 
-fix `use Test\ClassNameA as ClassNameAAliased;` in php
+Fix `use Test\ClassNameA as ClassNameAAliased;` in php
 
 ## 2.10.22 | 2017.11.17
 
