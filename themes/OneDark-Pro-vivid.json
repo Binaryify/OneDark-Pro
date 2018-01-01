@@ -1255,6 +1255,13 @@
       }
     },
     {
+      "name": "cs storage type",
+      "scope": "storage.type.cs",
+      "settings": {
+        "foreground": "#e5c07bff"
+      }
+    },
+    {
       "name": "cs local variable",
       "scope": "entity.name.variable.local.cs",
       "settings": {
