@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.11.1 | 2017.1.1
+## 2.11.1 | 2018.1.1
 
 import C# highlight color [#169 @ritwickdey](https://github.com/Binaryify/OneDark-Pro/issues/169)
 Happy New Year~
