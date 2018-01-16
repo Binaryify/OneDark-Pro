@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.12.1 | 2018.1.16
+## 2.12.2 | 2018.1.16
 
 improve cursor color
 
