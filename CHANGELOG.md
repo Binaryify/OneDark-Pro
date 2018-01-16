@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.12.1 | 2018.1.16
+
+improve cursor color
+
 ## 2.12.0 | 2018.1.15
 
 improve cursor color & selection background color
