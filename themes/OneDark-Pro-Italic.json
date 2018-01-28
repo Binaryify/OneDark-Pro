@@ -97,7 +97,7 @@
       "name": "Text",
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#A6B2C0"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -313,7 +313,7 @@
     },
     {
       "name": "js variable readwrite",
-      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+      "scope": "meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
         "foreground": "#e06c75"
       }
@@ -361,13 +361,6 @@
       }
     },
     {
-      "name": "js operator",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#56b6c2"
-      }
-    },
-    {
       "name": "js dom",
       "scope": "support.type.object.dom",
       "settings": {
@@ -383,7 +376,7 @@
     },
     {
       "name": "keyword.operator",
-      "scope": "keyword.operator.arithmetic,keyword.operator.comparison",
+      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator,punctuation.separator,punctuation.terminator",
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -460,7 +453,7 @@
     },
     {
       "name": "python block",
-      "scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python,meta.function-call.arguments.python",
+      "scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python,meta.function-call.arguments.python",
       "settings": {
         "foreground": "#abb2bf"
       }
@@ -487,24 +480,10 @@
       }
     },
     {
-      "name": "Operators",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#abb2bf"
-      }
-    },
-    {
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
         "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "Variables",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#e06c75"
       }
     },
     {
@@ -1267,7 +1246,8 @@
       "scope": [
         "entity.other.attribute-name.html",
         "entity.other.attribute-name.tag.jade",
-        "entity.other.attribute-name.tag.pug"
+        "entity.other.attribute-name.tag.pug",
+        "entity.other.attribute-name.cfml"
       ],
       "settings": {
         "fontStyle": "italic"
@@ -1283,6 +1263,15 @@
       "name": "this.self",
       "scope": "variable.language",
       "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": "variable.parameter,entity.other.function-parameter.cfml",
+      "settings": {
+        "foreground": "#d19a66",
         "fontStyle": "italic"
       }
     }
