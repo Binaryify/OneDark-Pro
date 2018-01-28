@@ -24,6 +24,11 @@
         "path": "./themes/OneDark-Pro.json"
       },
       {
+        "label": "One Dark Pro Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-Italic.json"
+      },
+      {
         "label": "One Dark Pro Vivid",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-vivid.json"
