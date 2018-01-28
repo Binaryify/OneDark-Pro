@@ -1,8 +1,12 @@
-# OneDark-Pro
+# OneDark Pro Italic
 
 Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code.
 
-[GitHub repository](https://github.com/Binaryify/OneDark-Pro)
+## Italic Theme (Added 1/28/2018)
+
+This repository has been modified from it's original to include an italic version of the theme. The italic settings have been taken from the [Operator Mono Dark Theme](https://github.com/vharadkou/OperatorMonoDarkTheme).
+
+[GitHub repository](https://github.com/markypython/OneDark-Pro)
 
 # CHANGELOG
 
