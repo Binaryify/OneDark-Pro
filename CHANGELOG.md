@@ -1,4 +1,6 @@
 # CHANGELOG
+## 2.12.2 | 2018.2.08
+Improve colors for Editor Tabs
 
 ## 2.12.2 | 2018.1.16
 
