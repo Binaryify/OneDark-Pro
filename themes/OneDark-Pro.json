@@ -62,6 +62,8 @@
     "tab.activeBackground": "#2c313a",
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#21252B",
+    "tab.hoverBackground": "#323842",
+    "tab.unfocusedHoverBackground": "#323842",
     "terminal.ansiBlack": "#2D3139",
     "terminal.ansiBlue": "#2e8ccf",
     "terminal.ansiGreen": "#98c379ff",
