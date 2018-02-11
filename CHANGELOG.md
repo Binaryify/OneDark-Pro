@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.12.4 | 2018.2.11
+Improve React component tags's hightlight color
+
 ## 2.12.3 | 2018.2.08
 Improve colors for Editor Tabs
 

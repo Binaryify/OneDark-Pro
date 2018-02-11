@@ -186,6 +186,13 @@
       }
     },
     {
+      "name": "js/ts support.class.component",
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ef596fff"
+      }
+    },
+    {
       "name": "js/ts import keyword",
       "scope": "keyword.operator.expression.import",
       "settings": {
