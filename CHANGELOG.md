@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.12.5 | 2018.2.17
+Improve bracket visibility
+Improve line highlight background and scrollbar slider background
+
 ## 2.12.4 | 2018.2.11
 Improve React component tags's hightlight color
 
