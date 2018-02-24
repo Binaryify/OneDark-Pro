@@ -1,7 +1,11 @@
 # CHANGELOG
-## 2.12.5 | 2018.2.17
+## 2.12.5 | 2018.2.24
 Improve bracket visibility
+
 Improve line highlight background and scrollbar slider background
+
+Fix weird php behavior when a interface extends a PHP interface
+thanks for @nicovak @jens1o @svipben
 
 ## 2.12.4 | 2018.2.11
 Improve React component tags's hightlight color

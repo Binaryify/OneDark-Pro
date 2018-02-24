@@ -188,13 +188,6 @@
       }
     },
     {
-      "name": "js/ts support.class.component",
-      "scope": "support.class.component",
-      "settings": {
-        "foreground": "#e06c75ff"
-      }
-    },
-    {
       "name": "js/ts import keyword",
       "scope": "keyword.operator.expression.import",
       "settings": {
