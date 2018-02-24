@@ -1057,7 +1057,7 @@
     {
       "name": "use statement for other classes",
       "scope":
-        "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php,entity.other.alias.php",
+        "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php,entity.other.alias.php,meta.interface.php",
       "settings": {
         "foreground": "#e5c07b"
       }
