@@ -1297,6 +1297,27 @@
       "settings": {
         "foreground": "#b267e6"
       }
-    }
+    },
+    {
+			"name": "String interpolation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "Reset JavaScript string interpolation expression",
+			"scope": [
+				"meta.template.expression"
+			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		}
+
   ]
 }
