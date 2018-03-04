@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.12.6 | 2018.2.28
+String Interpolation for visual grepping fixes #191
+
 ## 2.12.5 | 2018.2.24
 Improve bracket visibility
 
