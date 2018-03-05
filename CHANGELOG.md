@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.12.7 | 2018.3.05
+Update integrated terminal colors with One Dark colors
+
 ## 2.12.6 | 2018.2.28
 String Interpolation for visual grepping fixes #191
 
