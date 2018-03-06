@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.12.8 | 2018.3.06
+Improve integrated terminal colors
+
 ## 2.12.7 | 2018.3.05
 Update integrated terminal colors with One Dark colors
 
