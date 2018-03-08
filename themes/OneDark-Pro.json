@@ -94,6 +94,13 @@
   },
   "tokenColors": [
     {
+      "name": "support.constant.edge",
+      "scope": "support.constant.edge",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
       "name": "regexp constant character-class",
       "scope": "constant.other.character-class.regexp",
       "settings": {
