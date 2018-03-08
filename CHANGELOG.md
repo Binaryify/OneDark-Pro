@@ -1,4 +1,11 @@
 # CHANGELOG
+
+## 2.13.0 | 2018.3.08
+* Fixed `findMatchBackground` coloring.
+* New color for line number of the current active line in the editor.
+* Deleted old `notification.background` color because of the new Notification Center.
+* New border colors for editor highlights which improves readability while searching.
+
 ## 2.12.8 | 2018.3.06
 Improve integrated terminal colors
 
