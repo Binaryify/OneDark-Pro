@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 2.13.1 | 2018.3.10
+* Updated border colors for editor highlights.
+
 ## 2.13.0 | 2018.3.08
 * Fixed `findMatchBackground` coloring.
 * New color for line number of the current active line in the editor.
