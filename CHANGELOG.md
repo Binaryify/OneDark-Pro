@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 2.13.2 | 2018.3.11
+* Updated color of current active line and active line number in the editor.
+
 ## 2.13.1 | 2018.3.10
 * Updated border colors for editor highlights.
 
