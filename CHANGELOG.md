@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.13.3 | 2018.3.11
+* Updated cursor color. [#189](https://github.com/Binaryify/OneDark-Pro/issues/189)
+* Removed all terminal colors. [#195](https://github.com/Binaryify/OneDark-Pro/issues/195)
+
 ## 2.13.2 | 2018.3.11
 * Updated color of current active line and active line number in the editor.
 
