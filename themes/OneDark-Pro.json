@@ -21,7 +21,7 @@
     "editor.selectionHighlightBackground": "#ffffff10",
     "editor.selectionHighlightBorder": "#ddd",
     "editorCursor.background": "#ffffffc9",
-    "editorCursor.foreground": "#3f5de6da",
+    "editorCursor.foreground": "#528bff",
     "editorBracketMatch.border": "#515a6b",
     "editorBracketMatch.background": "#515a6b",
     "editor.findMatchBackground": "#42557B",
