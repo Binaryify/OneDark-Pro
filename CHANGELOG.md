@@ -8,6 +8,7 @@
 * Minor changes in `docs/index.html`.
 * Minor changes in `README.md` and `docs/*.md` files.
 * Added `galleryBanner` in `package.json` to match theme colors.
+* Revert back original terminal coloring like it was before.
 
 ## 2.13.3 | 2018.3.11
 * Updated cursor color. [#189](https://github.com/Binaryify/OneDark-Pro/issues/189)
