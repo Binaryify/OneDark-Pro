@@ -1,7 +1,7 @@
-# OneDark Pro 
+# One Dark Pro
 
 ## About
-[OneDark-Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
+[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
 
 ## Install
 Using the Extensions menu, search for **'One Dark Pro'**. Don't forget to apply the theme (see below).
