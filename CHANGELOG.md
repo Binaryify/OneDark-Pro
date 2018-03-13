@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2.13.4 | 2018.3.12
+* Updated `.vsixmanifest` to contain latest and correct data.
+* Updated `LICENSE` copyright date.
+* Deleted `vsc-extension-quickstart.md` which was auto-generated.
+* Updated `name` in themes to match correct theme name.
+* Minor changes in `docs/index.html`.
+* Minor changes in `README.md` and `docs/*.md` files.
+* Added `galleryBanner` in `package.json` to match theme colors.
+* Revert back original terminal coloring like it was before.
+
 ## 2.13.3 | 2018.3.11
 * Updated cursor color. [#189](https://github.com/Binaryify/OneDark-Pro/issues/189)
 * Removed all terminal colors. [#195](https://github.com/Binaryify/OneDark-Pro/issues/195)
