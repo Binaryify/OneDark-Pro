@@ -1,6 +1,6 @@
-# OneDark-Pro
+# [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
-Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code.
+Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
