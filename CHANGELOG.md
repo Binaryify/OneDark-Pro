@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.13.5 | 2018.5.04
+* Improve go&elm highlight
+* Support Highlighted indent guides
+* Hide blue border around file explorer when focused
 
 ## 2.13.4 | 2018.3.12
 * Updated `.vsixmanifest` to contain latest and correct data.
