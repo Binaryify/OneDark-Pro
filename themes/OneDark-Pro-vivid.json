@@ -14,6 +14,7 @@
     "dropdown.border": "#181A1F",
     "editor.background": "#282c34",
     "editorError.foreground": "#c24038",
+    "editorIndentGuide.activeBackground": "#C8C8C859",
     "editorMarkerNavigation.background": "#21252b",
     "editorRuler.foreground": "#AAB1C026",
     "editor.lineHighlightBackground": "#2c313c",
@@ -44,6 +45,7 @@
     "editorSuggestWidget.border": "#181A1F",
     "editorSuggestWidget.selectedBackground": "#2c313a",
     "editorWidget.background": "#21252B",
+    "focusBorder": "#21252b",
     "input.background": "#1d1f23",
     "list.activeSelectionBackground": "#2c313a",
     "list.activeSelectionForeground": "#d7dae0",
@@ -1324,6 +1326,27 @@
       "scope": ["meta.template.expression"],
       "settings": {
         "foreground": "#aab1c0"
+      }
+    },
+    {
+      "name": "go operator",
+      "scope": ["keyword.operator.assignment.go","keyword.operator.address.go"],
+      "settings": {
+        "foreground": "#e5c07bff"
+      }
+    },
+    {
+      "name": "elm prelude",
+      "scope": ["support.type.prelude.elm"],
+      "settings": {
+        "foreground": "#2bbac5ff"
+      }
+    },
+    {
+      "name": "elm constant",
+      "scope": ["support.constant.elm"],
+      "settings": {
+        "foreground": "#d8985fff"
       }
     }
   ]
