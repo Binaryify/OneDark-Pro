@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.13.6 | 2018.5.17
+* Add Contributors
+
 ## 2.13.5 | 2018.5.04
 * Improve go&elm highlight
 * Support Highlighted indent guides
