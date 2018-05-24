@@ -1,5 +1,7 @@
 # [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
-
+[![Backers on Open Collective](https://opencollective.com/onedark-pro/backers/badge.svg)](#backers)
+ [![Sponsors on Open Collective](https://opencollective.com/onedark-pro/sponsors/badge.svg)](#sponsors) 
+ 
 Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
@@ -67,4 +69,34 @@ You also can custom your syntax highlighting in "setting.json"
 [<img alt="garritfra" src="https://avatars3.githubusercontent.com/u/32395585?v=4&s=117" width="117">](https://github.com/garritfra)[<img alt="Or3stis" src="https://avatars0.githubusercontent.com/u/11923550?v=4&s=117" width="117">](https://github.com/Or3stis)[<img alt="Zueuk" src="https://avatars1.githubusercontent.com/u/5717247?v=4&s=117" width="117">](https://github.com/Zueuk)[<img alt="will-stone" src="https://avatars1.githubusercontent.com/u/654103?v=4&s=117" width="117">](https://github.com/will-stone)[<img alt="svipben" src="https://avatars3.githubusercontent.com/u/10441177?v=4&s=117" width="117">](https://github.com/svipben)[<img alt="jens1o" src="https://avatars2.githubusercontent.com/u/11234139?v=4&s=117" width="117">](https://github.com/jens1o)
 
 [<img alt="Binaryify" src="https://avatars1.githubusercontent.com/u/12221718?v=4&s=117" width="117">](https://github.com/Binaryify)
+
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="graphs/contributors"><img src="https://opencollective.com/OneDark-Pro/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/OneDark-Pro#backer)]
+
+<a href="https://opencollective.com/OneDark-Pro#backers" target="_blank"><img src="https://opencollective.com/OneDark-Pro/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/OneDark-Pro#sponsor)]
+
+<a href="https://opencollective.com/OneDark-Pro/sponsor/0/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/1/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/2/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/3/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/4/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/5/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/6/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/7/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/8/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/OneDark-Pro/sponsor/9/website" target="_blank"><img src="https://opencollective.com/OneDark-Pro/sponsor/9/avatar.svg"></a>
+
 
