@@ -322,7 +322,7 @@
       "name": "comment",
       "scope": "comment.line.double-slash,comment.block.documentation",
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": "italic"
       }
     },
     {
