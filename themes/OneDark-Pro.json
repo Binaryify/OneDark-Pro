@@ -2,7 +2,7 @@
   "name": "One Dark Pro",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#2F333D",
+    "activityBar.background": "#21252B",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#4D78CC",
     "activityBarBadge.foreground": "#F8FAFD",
@@ -77,9 +77,9 @@
     "terminal.ansiBlue": "#2e8ccf",
     "terminal.ansiGreen": "#98c379cc",
     "terminal.ansiYellow": "#B4881D",
-    "titleBar.activeBackground": "#282c34",
+    "titleBar.activeBackground": "#21252B",
     "titleBar.activeForeground": "#9da5b4",
-    "titleBar.inactiveBackground": "#282C34",
+    "titleBar.inactiveBackground": "#21252B",
     "titleBar.inactiveForeground": "#6B717D"
   },
   "tokenColors": [
