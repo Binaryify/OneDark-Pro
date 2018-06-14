@@ -72,11 +72,11 @@
     "tab.inactiveBackground": "#21252B",
     "tab.hoverBackground": "#323842",
     "tab.unfocusedHoverBackground": "#323842",
-    "terminal.foreground":"#C8C8C8",
+    "terminal.foreground": "#C8C8C8",
     "terminal.ansiBlack": "#2D3139",
-    "terminal.ansiBlue": "#52ADF2",
-    "terminal.ansiGreen": "#89CA78",
-    "terminal.ansiYellow": "#D8985F",
+    "terminal.ansiBlue": "#61AFEF",
+    "terminal.ansiGreen": "#98C379",
+    "terminal.ansiYellow": "#D19A66",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#282C34",
@@ -1330,7 +1330,10 @@
     },
     {
       "name": "go operator",
-      "scope": ["keyword.operator.assignment.go","keyword.operator.address.go"],
+      "scope": [
+        "keyword.operator.assignment.go",
+        "keyword.operator.address.go"
+      ],
       "settings": {
         "foreground": "#e5c07bff"
       }

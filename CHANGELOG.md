@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.14.0 | 2018.6.14
+* Change terminal ansi color to match syntax color
+* Improve tab
+
 ## 2.13.6 | 2018.5.17
 * Add Contributors
 
