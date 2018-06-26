@@ -5,6 +5,17 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
 # CHANGELOG
+Brief notes to what I changed - focused on ease of reading:
+- Made units (px, em.. etc) red to distinguish between the value itself and the units: easier readability
+- Made pseudo-elements/classes bluish in order to distinguish it from classes (which are the same colour in css/less/scss)
+- Made escaped characters (such as &apos; &copy; etc) red to see them easily, especially in Pug (jade) files where brackets and classes are essentially the same colour
+- The String literal in JS/TS ${} is now purply for easier readability
+- All Comments are now italic
+- Changes to TypeScript/JavaScript (possibly other languages too) syntax highlighting:
+  - Classes now all Yellow (except in TS in the case of: App.getSmth(), as both normal objects and classes use the same code inetrnally, meaning highlighting would be weird)
+  - Property names in ```js let app = { hello: "world"}``` now red, to match selector (eg: ```js app.hello ```) and themselves
+  - Optional operator ```ts ?:``` now purple too
+
 
 [CHANGELOG.MD](CHANGELOG.md)
 
