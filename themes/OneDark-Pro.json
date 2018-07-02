@@ -350,7 +350,7 @@
       "name": "comment",
       "scope": "comment.line.double-slash,comment.block.documentation",
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": "italic"
       }
     },
     {
@@ -363,7 +363,7 @@
     {
       "name": "js/ts Keyword",
       "scope":
-        "keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.ternary",
+      ["keyword.operator.expression.instanceof","keyword.operator.new","keyword.operator.ternary", "keyword.operator.optional"],
       "settings": {
         "foreground": "#c678dd"
       }
@@ -597,9 +597,9 @@
     },
     {
       "name": "Class name",
-      "scope": "entity.name.class",
+      "scope": ["entity.name.class", "variable.other.class"],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#e5c07b"
       }
     },
     {
@@ -808,7 +808,7 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#e06c75"
       }
     },
     {
@@ -1351,6 +1351,34 @@
       "scope": ["support.constant.elm"],
       "settings": {
         "foreground": "#d19a66ff"
+      }
+    },
+    {
+      "name": "template literal",
+      "scope": ["punctuation.quasi.element"],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "html/pug (jade) escaped characters and entities",
+      "scope": ["constant.character.entity"],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the samne colour",
+      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "name": "making property names in objects red",
+      "scope": ["string.unquoted"],
+      "settings": {
+        "foreground": "#e06c75"
       }
     }
   ]
