@@ -1373,13 +1373,6 @@
       "settings": {
         "foreground": "#56B6C2"
       }
-    },
-    {
-      "name": "making property names in objects red",
-      "scope": ["string.unquoted"],
-      "settings": {
-        "foreground": "#e06c75"
-      }
     }
   ]
 }
