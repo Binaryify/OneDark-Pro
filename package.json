@@ -52,5 +52,15 @@
   "galleryBanner": {
     "color": "#2d323b",
     "theme": "dark"
+  },
+  "dependencies": {
+    "opencollective": "^1.0.3"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/OneDark-Pro"
+  },
+  "scripts": {
+    "postinstall": "opencollective postinstall"
   }
 }
