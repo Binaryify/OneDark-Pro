@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.15.1 | 2018.7.05
+- Fix css color highlight error
+- Revert changes to fix YAML unquoted strings
+
 ## 2.15.0 | 2018.7.02
 - Made units (px, em.. etc) red to distinguish between the value itself and the units: easier readability
 - Made pseudo-elements/classes bluish in order to distinguish it from classes (which are the same colour in css/less/scss)
