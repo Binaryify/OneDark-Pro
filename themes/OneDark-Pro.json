@@ -362,8 +362,12 @@
     },
     {
       "name": "js/ts Keyword",
-      "scope":
-      ["keyword.operator.expression.instanceof","keyword.operator.new","keyword.operator.ternary", "keyword.operator.optional"],
+      "scope": [
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.new",
+        "keyword.operator.ternary",
+        "keyword.operator.optional"
+      ],
       "settings": {
         "foreground": "#c678dd"
       }
@@ -808,7 +812,7 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#d19a66ff"
       }
     },
     {
@@ -1368,8 +1372,12 @@
       }
     },
     {
-      "name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the samne colour",
-      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
+      "name":
+        "styling css pseudo-elements/classes to be able to differentiate from classes which are the samne colour",
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
       "settings": {
         "foreground": "#56B6C2"
       }
