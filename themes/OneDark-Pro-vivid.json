@@ -2,7 +2,7 @@
   "name": "One Dark Pro Vivid",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#2F333D",
+    "activityBar.background": "#21252B",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#4D78CC",
     "activityBarBadge.foreground": "#F8FAFD",
@@ -16,7 +16,7 @@
     "editorError.foreground": "#c24038",
     "editorIndentGuide.activeBackground": "#C8C8C859",
     "editorMarkerNavigation.background": "#21252b",
-    "editorRuler.foreground": "#AAB1C026",
+    "editorRuler.foreground": "#abb2bf26",
     "editor.lineHighlightBackground": "#2c313c",
     "editor.selectionBackground": "#67769660",
     "editor.selectionHighlightBackground": "#ffffff10",
@@ -30,7 +30,7 @@
     "editor.findMatchHighlightBackground": "#314365",
     "editor.wordHighlightBackground": "#484e5b",
     "editor.wordHighlightBorder": "#7f848e",
-    "editor.wordHighlightStrongBackground": "#AAB1C026",
+    "editor.wordHighlightStrongBackground": "#abb2bf26",
     "editor.wordHighlightStrongBorder": "#7f848e",
     "editorGroup.background": "#181A1F",
     "editorGroup.border": "#181A1F",
@@ -79,7 +79,7 @@
     "terminal.ansiYellow": "#D19A66",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
-    "titleBar.inactiveBackground": "#282C34",
+    "titleBar.inactiveBackground": "#21252B",
     "titleBar.inactiveForeground": "#6B717D"
   },
   "tokenColors": [
@@ -361,8 +361,12 @@
     },
     {
       "name": "js/ts Keyword",
-      "scope":
-        ["keyword.operator.expression.instanceof","keyword.operator.new","keyword.operator.ternary", "keyword.operator.optional"],
+      "scope": [
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.new",
+        "keyword.operator.ternary",
+        "keyword.operator.optional"
+      ],
       "settings": {
         "foreground": "#D55FDE"
       }
@@ -807,7 +811,7 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#EF596F"
+        "foreground": "#d8985fff"
       }
     },
     {
@@ -1367,17 +1371,14 @@
       }
     },
     {
-      "name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the samne colour",
-      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
+      "name":
+        "styling css pseudo-elements/classes to be able to differentiate from classes which are the samne colour",
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
       "settings": {
         "foreground": "#56B6C2"
-      }
-    },
-    {
-      "name": "making property names in objects red",
-      "scope": ["string.unquoted"],
-      "settings": {
-        "foreground": "#EF596F"
       }
     }
   ]
