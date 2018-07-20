@@ -597,7 +597,7 @@
     },
     {
       "name": "Class name",
-      "scope": ["entity.name.class", "variable.other.class"],
+      "scope": ["entity.name.class", "variable.other.class.js","variable.other.class.ts"],
       "settings": {
         "foreground": "#e5c07b"
       }
