@@ -811,7 +811,7 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#d8985fff"
+        "foreground": "#EF596F"
       }
     },
     {
