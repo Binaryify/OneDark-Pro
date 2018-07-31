@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.15.2 | 2018.7.31
+- Change C/C++ comments from italic to bold
+
 ## 2.15.1 | 2018.7.05
 - Fix css color highlight error
 - Revert changes to fix YAML unquoted strings

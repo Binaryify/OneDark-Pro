@@ -354,6 +354,14 @@
       }
     },
     {
+      "name": "c/c++ comment",
+      "scope":
+        "comment.line.double-slash.c,comment.block.documentation.c,comment.line.double-slash.cpp,comment.block.documentation.cpp",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "js/ts json",
       "scope": "support.constant.json",
       "settings": {
