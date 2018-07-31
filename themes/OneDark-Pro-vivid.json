@@ -431,7 +431,7 @@
     {
       "name": "C operator assignment",
       "scope":
-        "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c",
+        "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.bitwise.shift.c",
       "settings": {
         "foreground": "#D55FDEff"
       }
@@ -611,6 +611,13 @@
       "scope": ["entity.name.class", "variable.other.class"],
       "settings": {
         "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "variable.other.class.php",
+      "settings": {
+        "foreground": "#ef596fff"
       }
     },
     {
