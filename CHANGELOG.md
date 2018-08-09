@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.15.4 | 2018.8.09
+- Change C/C++ comments from bold to italic to make more unified #242
+
 ## 2.15.3 | 2018.7.31
 - Change C/C++ comments from italic to bold
 - Fix php Static class variable highlight error
