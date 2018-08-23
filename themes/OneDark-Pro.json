@@ -426,6 +426,13 @@
       }
     },
     {
+      "name": "Other punctuation .c",
+      "scope": "punctuation.separator.c",
+      "settings": {
+        "foreground": "#c678ddff"
+      }
+    },
+    {
       "name": "C type posix-reserved",
       "scope": "support.type.posix-reserved.c",
       "settings": {
@@ -514,6 +521,13 @@
       "scope": "keyword.operator",
       "settings": {
         "foreground": "#abb2bf"
+      }
+    },
+    {
+      "name": "Compound Assignment Operators",
+      "scope": "keyword.operator.assignment.compound",
+      "settings": {
+        "foreground": "#c678ddff"
       }
     },
     {
