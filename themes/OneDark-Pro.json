@@ -914,7 +914,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition String",
       "scope": "punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown",
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#E06C75"
       }
     },
     {
