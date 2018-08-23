@@ -404,7 +404,13 @@
         "foreground": "#EF596F"
       }
     },
-    
+    {
+      "name": "keyword.operator",
+      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment",
+      "settings": {
+        "foreground": "#2BBAC5"
+      }
+    },
     {
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c",
@@ -507,14 +513,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#2BBAC5"
-      }
-    },
-    {
-      "name": "keyword.operator",
-      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment",
-      "settings": {
-        "foreground": "#2BBAC5"
+        "foreground": "#AAB1C0"
       }
     },
     {
