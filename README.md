@@ -6,11 +6,13 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 
 # CHANGELOG
 [CHANGELOG.MD](CHANGELOG.md)
+> Note: I (@beastdestroyer) could only make changes based on VSCode's LSP, so any changes I wished could have been made won't be able to be present until the LSPs change.
 Changes:
 - Made units red again
-- Adjusted colours of operators to be consistent, such as `++` and `--`
+- Adjusted colours of operators (+ compound operators) to be consistent, such as `++`, `--` and `*=` etc.
 - Improve some syntax highlighting for languages:
-  - Clojure (globals, symbols, vectors and constants)
+  - Clojure (globals, symbols and constants)
+  - C (certain punctuation)
 
 # Docs & Contribute
 
