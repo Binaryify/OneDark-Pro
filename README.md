@@ -14,6 +14,7 @@ Changes:
 - Improve some syntax highlighting for languages:
   - Clojure (globals, symbols and constants)
   - CSS/SCSS/LESS (Colour Operators such as * / + -)
+  - CoffeeScript (Brung some colours closer to JavaScript, for consistency)
 
 # Docs & Contribute
 

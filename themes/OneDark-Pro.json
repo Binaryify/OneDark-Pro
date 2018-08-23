@@ -1389,6 +1389,13 @@
       "settings": {
         "foreground": "#56B6C2"
       }
+    },
+    {
+      "name": "CoffeeScript Function Argument",
+      "scope": ["meta.argument.coffee", "variable.parameter.function.coffee"],
+      "settings": {
+        "foreground": "#e06c75"
+      }
     }
   ]
 }
