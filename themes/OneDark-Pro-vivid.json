@@ -910,14 +910,14 @@
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition String",
       "scope": "punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown",
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#EF596F"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Link",
       "scope": "punctuation.definition.metadata.markdown",
       "settings": {
-        "foreground": "#D55FDE"
+        "foreground": "#EF596F"
       }
     },
     {
