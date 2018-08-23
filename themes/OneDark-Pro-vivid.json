@@ -507,7 +507,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#AAB1C0"
+        "foreground": "#2BBAC5"
       }
     },
     {
