@@ -6,9 +6,11 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 
 # CHANGELOG
 [CHANGELOG.MD](CHANGELOG.md)
-Other Fixes:
-- Fixed PHP static variable bug
-- Fixed Units not being red
+Changes:
+- Made units red again
+- Adjusted colours of operators to be consistent, such as `++` and `--`
+- Improve some syntax highlighting for languages:
+  - Clojure
 
 # Docs & Contribute
 
