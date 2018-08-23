@@ -1361,12 +1361,21 @@
       }
     },
     {
-      "name": "Clojure symbols",
+      "name": "Clojure symbols and vectors",
       "scope": [
-        "meta.symbol.clojure"
+        "meta.symbol.clojure, meta.vector.clojure"
       ],
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Clojure constants",
+      "scope": [
+        "constant.keyword.clojure"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
       }
     }
   ]

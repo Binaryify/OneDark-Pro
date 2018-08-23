@@ -10,7 +10,7 @@ Changes:
 - Made units red again
 - Adjusted colours of operators to be consistent, such as `++` and `--`
 - Improve some syntax highlighting for languages:
-  - Clojure
+  - Clojure (globals, symbols, vectors and constants)
 
 # Docs & Contribute
 
