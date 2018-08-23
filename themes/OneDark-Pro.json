@@ -915,12 +915,20 @@
       "scope": [
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
-        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.metadata.markdown"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Lists",
+      "scope": [
         "markup.list.unnumbered.markdown",
         "markup.list.numbered.markdown"
       ],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#98c379"
       }
     },
     {
