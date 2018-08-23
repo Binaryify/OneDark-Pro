@@ -406,7 +406,7 @@
     },
     {
       "name": "keyword.operator",
-      "scope": "keyword.operator.arithmetic,keyword.operator.comparison",
+      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment",
       "settings": {
         "foreground": "#2BBAC5"
       }
