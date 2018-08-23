@@ -406,14 +406,14 @@
     },
     {
       "name": "keyword.operator",
-      "scope": "keyword.operator.arithmetic,keyword.operator.comparison",
+      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment",
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
       "name": "C operator assignment",
-      "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.bitwise.shift.c",
+      "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c",
       "settings": {
         "foreground": "#c678ddff"
       }
