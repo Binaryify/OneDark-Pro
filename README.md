@@ -10,9 +10,10 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 Changes:
 - Made units red again
 - Adjusted colours of operators (+ compound operators) to be consistent, such as `++`, `--` and `*=` etc.
+- Improve Punctuation (some)
 - Improve some syntax highlighting for languages:
   - Clojure (globals, symbols and constants)
-  - C (certain punctuation)
+  - CSS/SCSS/LESS (Colour Operators such as * / + -)
 
 # Docs & Contribute
 
