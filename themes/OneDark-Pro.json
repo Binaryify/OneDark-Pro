@@ -1363,7 +1363,7 @@
     {
       "name": "Clojure symbols and vectors",
       "scope": [
-        "meta.symbol.clojure, meta.vector.clojure"
+        "meta.symbol.clojure, eta.vector.clojure"
       ],
       "settings": {
         "foreground": "#e06c75"
