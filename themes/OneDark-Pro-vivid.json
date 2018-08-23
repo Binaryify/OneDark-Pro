@@ -419,8 +419,8 @@
       }
     },
     {
-      "name": "C punctuation",
-      "scope": "punctuation.separator.delimiter.c",
+      "name": "Punctuation",
+      "scope": "punctuation.separator.delimiter",
       "settings": {
         "foreground": "#bbbbbb"
       }
