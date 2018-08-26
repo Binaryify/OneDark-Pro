@@ -15,6 +15,7 @@ Changes:
   - Clojure (globals, symbols and constants)
   - CSS/SCSS/LESS (Colour Operators such as * / + -)
   - CoffeeScript (Brung some colours closer to JavaScript, for consistency)
+  - Ini (Highlighted default text so it's visible as values rather than plain text)
   - Markdown (Better Lists and Links and Image highlighting)
 
 # Docs & Contribute
