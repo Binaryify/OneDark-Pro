@@ -274,6 +274,13 @@
       }
     },
     {
+      "name": "operator channel",
+      "scope": "keyword.operator.channel",
+      "settings": {
+        "foreground": "#2BBAC5"
+      }
+    },
+    {
       "name": "support.constant.property-value.scss",
       "scope": "support.constant.property-value.scss,support.constant.property-value.css",
       "settings": {
@@ -1342,6 +1349,13 @@
       }
     },
     {
+      "name": "Go package name",
+      "scope": ["entity.name.package.go"],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
       "name": "elm prelude",
       "scope": ["support.type.prelude.elm"],
       "settings": {
@@ -1413,6 +1427,18 @@
       "settings": {
         "foreground": "#98c379"
       }
+    },
+    {
+      "name": "Makefile prerequisities",
+      "scope": ["meta.scope.prerequisites.makefile"],
+      "settings": {
+        "foreground": "#EF596F"
+      }
+    },
+    {
+      "name": "Makefile text colour",
+      "scope": ["source.makefile"],
+      "settings": { "foreground": "#e5c07b" }
     }
   ]
 }
