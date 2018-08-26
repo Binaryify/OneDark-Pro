@@ -2,7 +2,7 @@
   "name": "One Dark Pro Vivid",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#21252B",
+    "activityBar.background": "#282c34",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#4D78CC",
     "activityBarBadge.foreground": "#F8FAFD",
@@ -911,7 +911,7 @@
       "scope": [
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
-        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.metadata.markdown"
       ],
       "settings": {
         "foreground": "#EF596F"
@@ -1405,6 +1405,13 @@
       "scope": ["meta.arguments.coffee", "variable.parameter.function.coffee"],
       "settings": {
         "foreground": "#EF596F"
+      }
+    },
+    {
+      "name": "Ini Default Text",
+      "scope": ["source.ini"],
+      "settings": {
+        "foreground": "#98c379"
       }
     }
   ]

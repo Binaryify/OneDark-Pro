@@ -2,7 +2,7 @@
   "name": "One Dark Pro",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#21252B",
+    "activityBar.background": "#282C34",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#4D78CC",
     "activityBarBadge.foreground": "#F8FAFD",
@@ -1409,6 +1409,15 @@
       "scope": ["meta.arguments.coffee", "variable.parameter.function.coffee"],
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Ini Default Text",
+      "scope": [
+        "source.ini"
+      ],
+      "settings": {
+        "foreground": "#98c379"
       }
     }
   ]
