@@ -1458,9 +1458,34 @@
       "name": "Groovy Variables",
       "scope": ["meta.definition.variable.name.groovy"],
       "settings": { "foreground": "#EF596F" }
+    },
+    {
+      "name": "Groovy Inheritance",
+      "scope": ["meta.definition.class.inherited.classes.groovy"],
+      "settings": {
+        "foreground": "#89CA78"
+      }
+    },
+    {
+      "name": "HLSL Semantic",
+      "scope": ["support.variable.semantic.hlsl"],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "HLSL Types",
+      "scope": [
+        "support.type.texture.hlsl",
+        "support.type.sampler.hlsl",
+        "support.type.object.hlsl",
+        "support.type.object.rw.hlsl",
+        "support.type.fx.hlsl",
+        "support.type.object.hlsl"
+      ],
+      "settings": {
+        "foreground": "#D55FDE"
+      }
     }
-    
-
-
   ]
 }
