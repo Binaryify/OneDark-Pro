@@ -17,6 +17,7 @@ Changes:
   - CoffeeScript (Brung some colours closer to JavaScript, for consistency)
   - Ini (Highlighted default text so it's visible as values rather than plain text)
   - Go (Package Name highlighting)
+  - Groovy (Better function and variable highlighting)
   - Makefile (Prerequisities highlighting, text colour treated as values inputted, highlighted)
   - Markdown (Better Lists and Links and Image highlighting)
 
