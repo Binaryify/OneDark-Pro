@@ -1439,6 +1439,28 @@
       "name": "Makefile text colour",
       "scope": ["source.makefile"],
       "settings": { "foreground": "#e5c07b" }
+    },
+    {
+      "name": "Groovy import names",
+      "scope": ["storage.modifier.import.groovy"],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "Groovy Methods",
+      "scope": ["meta.method.groovy"],
+      "settings": {
+        "foreground": "#52ADF2"
+      }
+    },
+    {
+      "name": "Groovy Variables",
+      "scope": ["meta.definition.variable.name.groovy"],
+      "settings": { "foreground": "#EF596F" }
     }
+    
+
+
   ]
 }
