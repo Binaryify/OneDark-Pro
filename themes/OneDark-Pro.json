@@ -581,7 +581,7 @@
     },
     {
       "name": "Functions",
-      "scope": "entity.name.function, meta.require, support.function.any-method",
+      "scope": ["entity.name.function", "meta.require", "support.function.any-method", "variable.function"],
       "settings": {
         "foreground": "#61afef"
       }

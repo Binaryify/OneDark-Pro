@@ -18,7 +18,8 @@ Changes:
   - Ini (Highlighted default text so it's visible as values rather than plain text)
   - Go (Package Name highlighting)
   - Groovy (Better function and variable highlighting)
-  - HLSL (More keywords, semantics highlighted, )
+  - HLSL (More keywords, semantics highlighted)
+  - R (Correct Function highlighting)
   - Makefile (Prerequisities highlighting, text colour treated as values inputted, highlighted)
   - Markdown (Better Lists and Links and Image highlighting)
 
