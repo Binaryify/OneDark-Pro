@@ -1501,6 +1501,15 @@
       "settings": {
         "foreground": "#E06C75"
       }
+    },
+    {
+      "name": "Swift types",
+      "scope": [
+        "support.type.swift", "support.type.vb.asp"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
     }
   ]
 }
