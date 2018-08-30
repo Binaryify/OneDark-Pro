@@ -19,9 +19,10 @@ Changes:
   - Go (Package Name highlighting)
   - Groovy (Better function and variable highlighting)
   - HLSL (More keywords, semantics highlighted)
-  - R (Correct Function highlighting)
   - Makefile (Prerequisities highlighting, text colour treated as values inputted, highlighted)
   - Markdown (Better Lists and Links and Image highlighting)
+  - R (Correct Function highlighting)
+  - SQL (Variables Highlighting, Bracketed Text Highlighting)
 
 # Docs & Contribute
 
