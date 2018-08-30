@@ -23,6 +23,8 @@ Changes:
   - Markdown (Better Lists and Links and Image highlighting)
   - R (Correct Function highlighting)
   - SQL (Variables Highlighting, Bracketed Text Highlighting)
+  - Swift (Type Highlighting)
+  - Visual Basic (Type Highlighting)
 
 # Docs & Contribute
 

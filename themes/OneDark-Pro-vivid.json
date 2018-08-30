@@ -1487,6 +1487,15 @@
         "foreground": "#D55FDE"
       }
     },
-    { "name": "SQL Variables", "scope": ["text.variable", "text.bracketed"], "settings": { "foreground": "#EF596F" } }
+    {
+      "name": "SQL Variables",
+      "scope": ["text.variable", "text.bracketed"],
+      "settings": { "foreground": "#EF596F" }
+    },
+    {
+      "name": "Types",
+      "scope": ["support.type.swift", "support.type.vb.asp"],
+      "settings": { "foreground": "#e5c07b" }
+    }
   ]
 }
