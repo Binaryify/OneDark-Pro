@@ -1503,7 +1503,7 @@
       }
     },
     {
-      "name": "Swift types",
+      "name": "types",
       "scope": [
         "support.type.swift", "support.type.vb.asp"
       ],
