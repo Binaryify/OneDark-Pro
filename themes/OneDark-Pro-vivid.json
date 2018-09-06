@@ -925,13 +925,10 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] Markdown Lists",
-      "scope": [
-        "markup.list.unnumbered.markdown",
-        "markup.list.numbered.markdown"
-      ],
+      "name": "beginning.punctuation.definition.list.markdown",
+      "scope": ["beginning.punctuation.definition.list.markdown"],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#ef596f"
       }
     },
     {
