@@ -1,4 +1,23 @@
 # CHANGELOG
+## 2.16.0 | 2018.9.06
+- Made units red again
+- Adjusted colours of operators (+ compound operators) to be consistent, such as `++`, `--` and `*=` etc.
+- Improve Punctuation (some)
+- Improve some syntax highlighting for languages:
+  - Clojure (globals, symbols and constants)
+  - CSS/SCSS/LESS (Colour Operators such as * / + -)
+  - CoffeeScript (Brung some colours closer to JavaScript, for consistency)
+  - Ini (Highlighted default text so it's visible as values rather than plain text)
+  - Go (Package Name highlighting)
+  - Groovy (Better function and variable highlighting)
+  - HLSL (More keywords, semantics highlighted)
+  - Makefile (Prerequisities highlighting, text colour treated as values inputted, highlighted)
+  - Markdown (Better Lists and Links and Image highlighting)
+  - R (Correct Function highlighting)
+  - SQL (Variables Highlighting, Bracketed Text Highlighting)
+  - Swift (Type Highlighting)
+  - Visual Basic (Type Highlighting)
+
 ## 2.15.4 | 2018.8.09
 - Change C/C++ comments from bold to italic to make more unified #242
 
