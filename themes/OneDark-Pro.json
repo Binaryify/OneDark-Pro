@@ -581,7 +581,12 @@
     },
     {
       "name": "Functions",
-      "scope": ["entity.name.function", "meta.require", "support.function.any-method", "variable.function"],
+      "scope": [
+        "entity.name.function",
+        "meta.require",
+        "support.function.any-method",
+        "variable.function"
+      ],
       "settings": {
         "foreground": "#61afef"
       }
@@ -929,13 +934,10 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] Markdown Lists",
-      "scope": [
-        "markup.list.unnumbered.markdown",
-        "markup.list.numbered.markdown"
-      ],
+      "name": "beginning.punctuation.definition.list.markdown",
+      "scope": ["beginning.punctuation.definition.list.markdown"],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#e06c75"
       }
     },
     {
@@ -1495,18 +1497,14 @@
     },
     {
       "name": "SQL Variables",
-      "scope": [
-        "text.variable", "text.bracketed"
-      ],
+      "scope": ["text.variable", "text.bracketed"],
       "settings": {
         "foreground": "#E06C75"
       }
     },
     {
       "name": "types",
-      "scope": [
-        "support.type.swift", "support.type.vb.asp"
-      ],
+      "scope": ["support.type.swift", "support.type.vb.asp"],
       "settings": {
         "foreground": "#e5c07b"
       }
