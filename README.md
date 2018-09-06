@@ -5,15 +5,18 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
 # CHANGELOG
+
 [CHANGELOG.MD](CHANGELOG.md)
+
 > Note: I (@beastdestroyer) could only make changes based on VSCode's LSP, so any changes I wished could have been made won't be able to be present until the LSPs change.
-Changes:
+> Changes:
+
 - Made units red again
 - Adjusted colours of operators (+ compound operators) to be consistent, such as `++`, `--` and `*=` etc.
 - Improve Punctuation (some)
 - Improve some syntax highlighting for languages:
   - Clojure (globals, symbols and constants)
-  - CSS/SCSS/LESS (Colour Operators such as * / + -)
+  - CSS/SCSS/LESS (Colour Operators such as \* / + -)
   - CoffeeScript (Brung some colours closer to JavaScript, for consistency)
   - Ini (Highlighted default text so it's visible as values rather than plain text)
   - Go (Package Name highlighting)
@@ -78,6 +81,7 @@ You also can custom your syntax highlighting in "setting.json"
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
 ## Contributors
+
 [<img alt="ergenekonyigit" src="https://avatars3.githubusercontent.com/u/7110136?v=4&s=117" width="117">](https://github.com/ergenekonyigit)[<img alt="vvs" src="https://avatars1.githubusercontent.com/u/9781?v=4&s=117" width="117">](https://github.com/vvs)[<img alt="harshpatel991" src="https://avatars0.githubusercontent.com/u/3893673?v=4&s=117" width="117">](https://github.com/harshpatel991)[<img alt="merkjs" src="https://avatars2.githubusercontent.com/u/780118?v=4&s=117" width="117">](https://github.com/merkjs)[<img alt="nicovak" src="https://avatars0.githubusercontent.com/u/6214452?v=4&s=117" width="117">](https://github.com/nicovak)[<img alt="wersimmon" src="https://avatars1.githubusercontent.com/u/185822?v=4&s=117" width="117">](https://github.com/wersimmon)
 
 [<img alt="asvetliakov" src="https://avatars2.githubusercontent.com/u/8881674?v=4&s=117" width="117">](https://github.com/asvetliakov)[<img alt="dcervenkov" src="https://avatars3.githubusercontent.com/u/23052054?v=4&s=117" width="117">](https://github.com/dcervenkov)[<img alt="ikatyang" src="https://avatars1.githubusercontent.com/u/8341033?v=4&s=117" width="117">](https://github.com/ikatyang)[<img alt="waterdanceTV" src="https://avatars3.githubusercontent.com/u/31411367?v=4&s=117" width="117">](https://github.com/waterdanceTV)[<img alt="jonathanlaflamme" src="https://avatars1.githubusercontent.com/u/21099980?v=4&s=117" width="117">](https://github.com/jonathanlaflamme)[<img alt="Raul6469" src="https://avatars2.githubusercontent.com/u/24607388?v=4&s=117" width="117">](https://github.com/Raul6469)
@@ -85,4 +89,3 @@ You also can custom your syntax highlighting in "setting.json"
 [<img alt="garritfra" src="https://avatars3.githubusercontent.com/u/32395585?v=4&s=117" width="117">](https://github.com/garritfra)[<img alt="Or3stis" src="https://avatars0.githubusercontent.com/u/11923550?v=4&s=117" width="117">](https://github.com/Or3stis)[<img alt="Zueuk" src="https://avatars1.githubusercontent.com/u/5717247?v=4&s=117" width="117">](https://github.com/Zueuk)[<img alt="will-stone" src="https://avatars1.githubusercontent.com/u/654103?v=4&s=117" width="117">](https://github.com/will-stone)[<img alt="svipben" src="https://avatars3.githubusercontent.com/u/10441177?v=4&s=117" width="117">](https://github.com/svipben)[<img alt="jens1o" src="https://avatars2.githubusercontent.com/u/11234139?v=4&s=117" width="117">](https://github.com/jens1o)
 
 [<img alt="Binaryify" src="https://avatars1.githubusercontent.com/u/12221718?v=4&s=117" width="117">](https://github.com/Binaryify)
-
