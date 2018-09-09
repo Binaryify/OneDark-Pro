@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.16.2 | 2018.9.09
+
+-Change Separates editor styles and syntax highlighting
+
 ## 2.16.1 | 2018.9.06
 
 - Made units red again
