@@ -18,6 +18,12 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "pre-commit": [
+    "build"
+  ],
   "contributes": {
     "themes": [
       {
@@ -52,5 +58,8 @@
   "galleryBanner": {
     "color": "#2d323b",
     "theme": "dark"
+  },
+  "dependencies": {
+    "pre-commit": "^1.2.2"
   }
 }
