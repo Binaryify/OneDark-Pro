@@ -1,8 +1,12 @@
 # CHANGELOG
 
+## 2.16.4
+
+- Edit editor tab highlighting to be the `#282c34` colour to be consistent across the theme
+
 ## 2.16.3 | 2018.9.09
 
--Change Separates editor styles and syntax highlighting
+- Change: Separate editor styles and syntax highlighting
 
 ## 2.16.1 | 2018.9.06
 
