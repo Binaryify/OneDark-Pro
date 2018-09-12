@@ -3,6 +3,7 @@
 ## 2.16.4
 
 - Edit editor tab highlighting to be the `#282c34` colour to be consistent across the theme
+- Improve Python italics support
 
 ## 2.16.3 | 2018.9.09
 
