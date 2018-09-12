@@ -553,6 +553,13 @@
       }
     },
     {
+      "name": "Python Keyword Control",
+      "scope": "keyword.control.import.python,keyword.control.flow.python",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Control Elements",
       "scope": "control.elements, keyword.operator.less",
       "settings": {
