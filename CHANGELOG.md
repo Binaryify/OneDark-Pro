@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.16.4
+## 2.16.5
 
 - Edit editor tab highlighting to be the `#282c34` colour to be consistent across the theme
 - Improve Python italics support
