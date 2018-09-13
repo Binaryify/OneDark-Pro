@@ -1268,7 +1268,7 @@
         "foreground": "#abb2bf"
       }
     },
-        {
+    {
       "name": "Import module JS",
       "scope": [
         "keyword.operator.module"
