@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.17.0
+Rewrite syntax highlight file, simplified color, update docs
+
 ## 2.16.7
 Imporve Ruby and FlowJS support
 

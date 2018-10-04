@@ -1,20 +1,27 @@
 const fs = require('fs')
 const editorConfig = require('./src/editor.json')
-const classicSyntax = require('./src/classic.json')
-const vividSyntax = require('./src/vivid.json')
-const classicThemeJson = {
-  ...editorConfig,
-  ...classicSyntax
-}
-const vividThemeJson = {
-  ...editorConfig,
-  ...vividSyntax
-}
+const { classic, vivid } = require('./src/syntax')
+
 fs.writeFileSync(
   './themes/OneDark-Pro.json',
-  JSON.stringify(classicThemeJson, '', 2)
+  JSON.stringify(
+    {
+      ...editorConfig,
+      ...classic
+    },
+    '',
+    2
+  )
 )
+
 fs.writeFileSync(
   './themes/OneDark-Pro-vivid.json',
-  JSON.stringify(vividThemeJson, '', 2)
+  JSON.stringify(
+    {
+      ...editorConfig,
+      ...vivid
+    },
+    '',
+    2
+  )
 )
