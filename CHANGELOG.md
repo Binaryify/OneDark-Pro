@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.17.0 | 2018.10.04
+## 2.17.1 | 2018.10.04
 - Rewrite syntax highlight file, simplified color, update docs
 
 ## 2.16.7 | 2018.10.04

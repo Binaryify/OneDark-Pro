@@ -36,7 +36,7 @@ const configFactor = type => {
         name: 'Text',
         scope: 'variable.parameter.function',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -95,14 +95,14 @@ const configFactor = type => {
         scope:
           'punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
         name: 'js/ts punctuation separator key-value',
         scope: 'punctuation.separator.key-value',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -160,7 +160,7 @@ const configFactor = type => {
         scope:
           'punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,storage.type.generic.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,meta.method.body.java',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -233,7 +233,7 @@ const configFactor = type => {
         name: 'css comma',
         scope: 'punctuation.separator.list.comma.css',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -362,7 +362,7 @@ const configFactor = type => {
         name: 'Punctuation',
         scope: 'punctuation.separator.delimiter',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -433,7 +433,7 @@ const configFactor = type => {
         scope:
           'punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python,meta.function-call.arguments.python',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -454,14 +454,14 @@ const configFactor = type => {
         name: 'Delimiters',
         scope: 'none',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
         name: 'Operators',
         scope: 'keyword.operator',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -489,7 +489,7 @@ const configFactor = type => {
         name: 'Java Variables',
         scope: 'token.variable.parameter.java',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -510,7 +510,7 @@ const configFactor = type => {
         name: 'Packages',
         scope: 'token.package',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -640,14 +640,14 @@ const configFactor = type => {
         name: 'Support type',
         scope: 'support.type.property-name',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
         name: 'Support type',
         scope: 'support.constant.property-value',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -661,7 +661,7 @@ const configFactor = type => {
         name: 'Meta tag',
         scope: 'meta.tag',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -827,7 +827,7 @@ const configFactor = type => {
         name: '[VSCODE-CUSTOM] Markdown heading setext',
         scope: 'markup.heading.setext',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -1061,14 +1061,14 @@ const configFactor = type => {
         name: 'style double quoted array index normal begin',
         scope: 'punctuation.section.array.begin.php',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
         name: 'style double quoted array index normal end',
         scope: 'punctuation.section.array.end.php',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -1099,7 +1099,7 @@ const configFactor = type => {
         scope:
           'punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php,punctuation.definition.section.switch-block.start.bracket.curly.php,punctuation.definition.section.switch-block.begin.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -1179,21 +1179,21 @@ const configFactor = type => {
         name: 'parameter function js/ts',
         scope: 'function.parameter',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
         name: 'brace function',
         scope: 'function.brace',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
         name: 'parameter function ruby cs',
         scope: 'function.parameter.ruby, function.parameter.cs',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -1252,7 +1252,7 @@ const configFactor = type => {
         name: 'block scope',
         scope: 'block.scope.end,block.scope.begin',
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -1308,7 +1308,7 @@ const configFactor = type => {
         name: 'Reset JavaScript string interpolation expression',
         scope: ['meta.template.expression'],
         settings: {
-          foreground: colorObj['test15']
+          foreground: colorObj['lightWhite']
         }
       },
       {
