@@ -1,4 +1,6 @@
 # CHANGELOG
+## 2.16.7
+Imporve Ruby and FlowJS support
 
 ## 2.16.6
 
