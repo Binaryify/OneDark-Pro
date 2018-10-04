@@ -6,9 +6,9 @@
 
 
 # screenshot
-![screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwk4ach5bj31kw16o0uw.jpg)
+![Screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwkr6i199j31kw16otat.jpg)
 
-![screenshot](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwk6c9egej31kw16odhv.jpg)
+![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwkrv2rorj31kw16odhw.jpg)
 
 ## Install
 Using the Extensions menu, search for **'One Dark Pro'**. Don't forget to apply the theme (see below).
