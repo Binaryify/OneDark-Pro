@@ -1,11 +1,11 @@
 # CHANGELOG
-## 2.17.0
-Rewrite syntax highlight file, simplified color, update docs
+## 2.17.0 | 2018.10.04
+- Rewrite syntax highlight file, simplified color, update docs
 
-## 2.16.7
+## 2.16.7 | 2018.10.04
 Imporve Ruby and FlowJS support
 
-## 2.16.6
+## 2.16.6 | 2018.09.12
 
 - Edit editor tab highlighting to be the `#282c34` colour to be consistent across the theme
 - Improve Python italics support
