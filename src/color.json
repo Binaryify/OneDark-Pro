@@ -10,7 +10,8 @@
     "malibu": "#61AFEF",
     "green": "#98c379",
     "fountainBlue": "#56b6c2",
-    "invalid": "#FFFFFF"
+    "invalid": "#FFFFFF",
+    "lightWhite": "#bbbbbb"
   },
   "vivid": {
     "purple": "#d55fde",
@@ -23,6 +24,7 @@
     "malibu": "#61AFEF",
     "green": "#89ca78",
     "fountainBlue": "#2bbac5",
-    "invalid": "#FFFFFF"
+    "invalid": "#FFFFFF",
+    "lightWhite": "#bbbbbb"
   }
 }
