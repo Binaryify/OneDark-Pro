@@ -4,6 +4,10 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
+
+![screenshot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjzw3c8fj31kw101adb.jpg)
+
+
 # CHANGELOG
 
 [CHANGELOG.MD](CHANGELOG.md)
@@ -20,6 +24,10 @@ OneDark-Pro folder, `npm install` and then run
 locally.
 
 # ScreenShot
+
+![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwk4ach5bj31kw16o0uw.jpg)
+
+![Screenshot](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwk6c9egej31kw16odhv.jpg)
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot1.png)
 
@@ -39,10 +47,9 @@ example, you can add this snippet in your "settings.json" file:
 
 ```json
 "workbench.colorCustomizations":{
-  "tab.activeBackground": "#282c34",
-  "activityBar.background": "#282c34",
-  "editorGroup.background": "#282c34",
-  "sideBar.background": "#282c34"
+    "tab.activeBackground": "#282c34",
+    "activityBar.background": "#282c34",
+    "sideBar.background": "#282c34"
 }
 ```
 
@@ -54,8 +61,9 @@ for more helpful information.
 
 You also can custom your syntax highlighting in "setting.json"
 
-![custom](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/customA.png)
-![custom](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/customB.png)
+![custom]![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
+
+![custom](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
