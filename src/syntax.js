@@ -1,5 +1,5 @@
 const colorConfig = require('./color.json')
-const configFactor = type => {
+const configFactory = type => {
   const colorObj = colorConfig[type]
   return {
     tokenColors: [
@@ -1545,6 +1545,6 @@ const configFactor = type => {
 }
 
 module.exports = {
-  classic: configFactor('classic'),
-  vivid: configFactor('vivid')
+  classic: configFactory('classic'),
+  vivid: configFactory('vivid')
 }
