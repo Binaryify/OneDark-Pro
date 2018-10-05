@@ -138,7 +138,7 @@ const configFactory = type => {
         name: 'js/ts variable.other.constant',
         scope: 'variable.other.constant',
         settings: {
-          foreground: colorObj['whiskey']
+          foreground: colorObj['chalky']
         }
       },
       {
@@ -270,7 +270,7 @@ const configFactory = type => {
         name: 'entity.name.type.module',
         scope: 'entity.name.type.module',
         settings: {
-          foreground: colorObj['whiskey']
+          foreground: colorObj['chalky']
         }
       },
       {
