@@ -214,7 +214,7 @@
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#e5c07b"
       }
     },
     {
@@ -340,7 +340,7 @@
       "name": "entity.name.type.module",
       "scope": "entity.name.type.module",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#e5c07b"
       }
     },
     {
