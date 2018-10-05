@@ -267,6 +267,13 @@ const configFactory = type => {
         }
       },
       {
+        name: 'entity.name.type.module',
+        scope: 'entity.name.type.module',
+        settings: {
+          foreground: colorObj['whiskey']
+        }
+      },
+      {
         name: 'js variable readwrite',
         scope:
           'variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node',
