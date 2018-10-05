@@ -1,6 +1,7 @@
 # CHANGELOG
-## 2.17.2 | 2018.10.05
+## 2.17.3 | 2018.10.05
 - Improve elixir support #262
+- Improve flow support #222
 
 ## 2.17.1 | 2018.10.04
 - Rewrite syntax highlight file, simplified color, update docs

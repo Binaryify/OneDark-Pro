@@ -1333,6 +1333,13 @@ const configFactory = type => {
         }
       },
       {
+        name: 'js Flow',
+        scope: ['support.type.primitive'],
+        settings: {
+          foreground: colorObj['chalky']
+        }
+      },
+      {
         name: 'js class prop',
         scope: ['meta.property.object'],
         settings: {

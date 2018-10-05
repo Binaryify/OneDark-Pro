@@ -1384,6 +1384,15 @@
       }
     },
     {
+      "name": "js Flow",
+      "scope": [
+        "support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
       "name": "js class prop",
       "scope": [
         "meta.property.object"
