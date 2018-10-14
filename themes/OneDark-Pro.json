@@ -9,9 +9,9 @@
     "badge.background": "#282c34",
     "button.background": "#404754",
     "debugToolBar.background": "#21252b",
-    "dropdown.background": "#1d1f23",
     "diffEditor.insertedTextBackground": "#00809B33",
-    "dropdown.border": "#181A1F",
+    "dropdown.background": "#21252B",
+    "dropdown.border": "#21252B",
     "editor.background": "#282c34",
     "editorError.foreground": "#c24038",
     "editorIndentGuide.activeBackground": "#C8C8C859",
@@ -889,6 +889,13 @@
     {
       "name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
       "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "punctuation.definition.list.begin.markdown",
+      "scope": "punctuation.definition.list.begin.markdown",
       "settings": {
         "foreground": "#e06c75"
       }

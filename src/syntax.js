@@ -831,6 +831,13 @@ const configFactory = type => {
         }
       },
       {
+        name: 'punctuation.definition.list.begin.markdown',
+        scope: 'punctuation.definition.list.begin.markdown',
+        settings: {
+          foreground: colorObj['coral']
+        }
+      },
+      {
         name: '[VSCODE-CUSTOM] Markdown heading setext',
         scope: 'markup.heading.setext',
         settings: {
