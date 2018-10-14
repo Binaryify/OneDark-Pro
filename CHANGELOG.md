@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.17.4 | 2018.10.14
+- Improve markdown support
+- Improve editor dropdown color
+
 ## 2.17.3 | 2018.10.05
 - Improve elixir support #262
 - Improve flow support #222
