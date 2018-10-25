@@ -11,7 +11,7 @@
     "debugToolBar.background": "#21252b",
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.background": "#21252B",
-    "dropdown.border": "#F8FAFD",
+    "dropdown.border": "#21252B",
     "editor.background": "#282c34",
     "editorError.foreground": "#c24038",
     "editorIndentGuide.activeBackground": "#C8C8C859",

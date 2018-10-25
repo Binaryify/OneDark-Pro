@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.17.6
+- Fix border in dropdown appearing without focus
+
 ## 2.17.5
 - Change focus from `#21252b` to `#F8FAFD` to improve accessibility in GUIs
 
