@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.17.5
+## 2.17.5 | 2018.10.25
 - Change focus from `#21252b` to `#F8FAFD` to improve accessibility in GUIs
 
 ## 2.17.4 | 2018.10.14
