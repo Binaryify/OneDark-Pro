@@ -1,17 +1,24 @@
-# OneDark Pro 
+# One Dark Pro
 
 ## About
-[OneDark-Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
+[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
+![screenshot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjzw3c8fj31kw101adb.jpg)
+
+
+# screenshot
+![Screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwkr6i199j31kw16otat.jpg)
+
+![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwkrv2rorj31kw16odhw.jpg)
 
 ## Install
 Using the Extensions menu, search for **'One Dark Pro'**. Don't forget to apply the theme (see below).
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot3.png)
+![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwijszewzj31kw101doj.jpg)
 
 ## Apply
 Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selection interface. Choose **'One Dark Pro'**.
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot4.png)
+![ScreenShot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwilva97dj31kw101k08.jpg)
 
 ## Develop 
 If you see any inconsistencies or missing colors, the following guide will show you how to make your own changes. You can submit your improvements as a merge request to this theme.
@@ -26,19 +33,19 @@ In a terminal, `cd` to your themes folder
 - Mac/linux:
 `~/.vscode/extensions/themes`
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot5.png)
+![ScreenShot](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwin60gwrj31kw14dwem.jpg)
 
-Then open 'OneDark-Pro.json' with VS Code: `code OneDark-Pro.json`
+Then open 'color.json', 'syntax.json', 'editor.json' with VS Code: `code src`
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot6.png)
+![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwioznq0dj31kw101tfx.jpg)
 
-### Example from 'OneDark-Pro.json'
-The following is a code snippet taken from the **'OneDark-Pro.json'** file:
+### Example from 'syntax.json'
+The following is a code snippet taken from the **'syntax.json'** file:
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot7.png)
+![ScreenShot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwiqzief1j30z80qkwf3.jpg)
 
 ### Principle
-VS Code will parse code and specify a scope for each piece of syntax. For example, the scope may be a keyword, a constant, or punctuation. **'OneDark-Pro.json'** includes the settings that tell VS Code how to format the text accordingly, using these scopes.
+VS Code will parse code and specify a scope for each piece of syntax. For example, the scope may be a keyword, a constant, or punctuation. **'syntax.json'** includes the settings that tell VS Code how to format the text accordingly, using these scopes.
 
 ### Common scope list
 
@@ -100,38 +107,68 @@ This will show you the selected token's scope. There are four sections:
 
 - the list of scopes for the token
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot8.png)
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot9.png)
+![ScreenShot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjl9f2igj31kw101jxc.jpg)
+![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwjlnqha0j31kw1017a3.jpg)
 
 ### Add/Change code color
-Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'OneDark-Pro.json'** file, add/change code snippet like this:
+Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'syntax.json'** file, add/change code snippet like this:
 
-```json
+```js
 {
       "name": "c++ function",
       "scope": "meta.function.c",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground":  colorObj['coral']
       }
 }
 ```
+
+then run `node build.js` in your terminal (Notice: need Node.JS 6.0+, or just change the 'OneDark-Pro.json' then `reload`(Not recommended))
+
+
+
 ### Reload
 Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once the window has reloaded, you will find the color of the code has changed.
 
-![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot13.png)
+![screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjm9anuij31kw101aft.jpg)
 
-### Commonly used theme colors
+### Colors config
 
-- Whiskey : `#D19A66` (constant)
-- Fountain Blue : `#56B6C2` (console)
-- Chalky : `#E5C07B` (constant)
-- Soft Purple : `#C678DD` (url,keyword)
-- Malibu : `#61AFEF` (function)
-- Pistachio : `#98C379` (string)
-- Cadet Blue : `#ABB2BF` (text)
-- Froly : `#E06C75` (variable)
+`color.json`
+![screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjxs1cc0j31kw101n1h.jpg)
 
-![screenshot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot10.png)
+```json
+{
+  "classic": {
+    "purple": "#c678dd",
+    "error": "#f44747",
+    "coral": "#e06c75",
+    "whiskey": "#d19a66",
+    "chalky": "#E5C07B",
+    "lightDark": "#7F848E",
+    "dark": "#5C6370",
+    "malibu": "#61AFEF",
+    "green": "#98c379",
+    "fountainBlue": "#56b6c2",
+    "invalid": "#FFFFFF"
+  },
+  "vivid": {
+    "purple": "#d55fde",
+    "error": "#f44747",
+    "coral": "#ef596f",
+    "whiskey": "#d19a66",
+    "chalky": "#e5c07b",
+    "lightDark": "#7F848E",
+    "dark": "#5C6370",
+    "malibu": "#61AFEF",
+    "green": "#89ca78",
+    "fountainBlue": "#2bbac5",
+    "invalid": "#FFFFFF"
+  }
+}
+
+
+```
 
 ## Workbench theming
 If you want to play around with new colors, use the setting `workbench.colorCustomizations` to customize the currently selected theme.
@@ -139,10 +176,9 @@ For example, you can add this snippet in your "settings.json" file:
 
 ```json
 "workbench.colorCustomizations":{
-  "tab.activeBackground": "#282c34",
-  "activityBar.background": "#282c34",
-  "editorGroup.background": "#282c34",
-  "sideBar.background": "#282c34"
+    "tab.activeBackground": "#282c34",
+    "activityBar.background": "#282c34",
+    "sideBar.background": "#282c34"
 }
 ```
 
@@ -151,8 +187,10 @@ Please check the official documentation, [Theme Color Reference](https://code.vi
 ## User definable syntax highlighting colors
 You also can custom your syntax highlighting in "setting.json"
 
-![custom](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/customA.png)
-![custom](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/customB.png)
+![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
+
+![custom](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
+
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 

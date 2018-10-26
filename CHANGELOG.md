@@ -1,4 +1,152 @@
 # CHANGELOG
+## 2.17.6 | 2018.10.25
+- Change focus from `#21252b` to `#464646` to improve accessibility in GUIs
+
+## 2.17.4 | 2018.10.14
+- Improve markdown support
+- Improve editor dropdown color
+
+## 2.17.3 | 2018.10.05
+- Improve elixir support #262
+- Improve flow support #222
+
+## 2.17.1 | 2018.10.04
+- Rewrite syntax highlight file, simplified color, update docs
+
+## 2.16.7 | 2018.10.04
+Imporve Ruby and FlowJS support
+
+## 2.16.6 | 2018.09.12
+
+- Edit editor tab highlighting to be the `#282c34` colour to be consistent across the theme
+- Improve Python italics support
+
+## 2.16.3 | 2018.9.09
+
+- Change: Separate editor styles and syntax highlighting
+
+## 2.16.1 | 2018.9.06
+
+- Made units red again
+- Adjusted colours of operators (+ compound operators) to be consistent, such as `++`, `--` and `*=` etc.
+- Improve Punctuation (some)
+- Improve some syntax highlighting for languages:
+  - Clojure (globals, symbols and constants)
+  - CSS/SCSS/LESS (Colour Operators such as \* / + -)
+  - CoffeeScript (Brung some colours closer to JavaScript, for consistency)
+  - Ini (Highlighted default text so it's visible as values rather than plain text)
+  - Go (Package Name highlighting)
+  - Groovy (Better function and variable highlighting)
+  - HLSL (More keywords, semantics highlighted)
+  - Makefile (Prerequisities highlighting, text colour treated as values inputted, highlighted)
+  - Markdown (Better Lists and Links and Image highlighting)
+  - R (Correct Function highlighting)
+  - SQL (Variables Highlighting, Bracketed Text Highlighting)
+  - Swift (Type Highlighting)
+  - Visual Basic (Type Highlighting)
+
+## 2.15.4 | 2018.8.09
+
+- Change C/C++ comments from bold to italic to make more unified #242
+
+## 2.15.3 | 2018.7.31
+
+- Change C/C++ comments from italic to bold
+- Fix php Static class variable highlight error
+- Fix C/C++ right shift highlight error
+
+## 2.15.1 | 2018.7.05
+
+- Fix css color highlight error
+- Revert changes to fix YAML unquoted strings
+
+## 2.15.0 | 2018.7.02
+
+- Made units (px, em.. etc) red to distinguish between the value itself and the units: easier readability
+- Made pseudo-elements/classes bluish in order to distinguish it from classes (which are the same colour in css/less/scss)
+- Made escaped characters (such as &apos; &copy; etc) red to see them easily, especially in Pug (jade) files where brackets and classes are essentially the same colour
+- The String literal in JS/TS ${} is now purply for easier readability
+- All Comments are now italic
+- Changes to TypeScript/JavaScript (possibly other languages too) syntax highlighting:
+  - Classes now all Yellow (except in TS in the case of: App.getSmth(), as both normal objects and classes use the same code inetrnally, meaning highlighting would be weird)
+  - Property names in `js let app = { hello: "world"}` now red, to match selector (eg: `js app.hello`) and themselves
+  - Optional operator `ts ?:` now purple too
+
+## 2.14.0 | 2018.6.14
+
+- Change terminal ansi color to match syntax color
+- Improve tab
+
+## 2.13.6 | 2018.5.17
+
+- Add Contributors
+
+## 2.13.5 | 2018.5.04
+
+- Improve go&elm highlight
+- Support Highlighted indent guides
+- Hide blue border around file explorer when focused
+
+## 2.13.4 | 2018.3.12
+
+- Updated `.vsixmanifest` to contain latest and correct data.
+- Updated `LICENSE` copyright date.
+- Deleted `vsc-extension-quickstart.md` which was auto-generated.
+- Updated `name` in themes to match correct theme name.
+- Minor changes in `docs/index.html`.
+- Minor changes in `README.md` and `docs/*.md` files.
+- Added `galleryBanner` in `package.json` to match theme colors.
+- Revert back original terminal coloring like it was before.
+
+## 2.13.3 | 2018.3.11
+
+- Updated cursor color. [#189](https://github.com/Binaryify/OneDark-Pro/issues/189)
+- Removed all terminal colors. [#195](https://github.com/Binaryify/OneDark-Pro/issues/195)
+
+## 2.13.2 | 2018.3.11
+
+- Updated color of current active line and active line number in the editor.
+
+## 2.13.1 | 2018.3.10
+
+- Updated border colors for editor highlights.
+
+## 2.13.0 | 2018.3.08
+
+- Fixed `findMatchBackground` coloring.
+- New color for line number of the current active line in the editor.
+- Deleted old `notification.background` color because of the new Notification Center.
+- New border colors for editor highlights which improves readability while searching.
+- Add some edgeSyntax syntax support
+
+## 2.12.8 | 2018.3.06
+
+Improve integrated terminal colors
+
+## 2.12.7 | 2018.3.05
+
+Update integrated terminal colors with One Dark colors
+
+## 2.12.6 | 2018.2.28
+
+String Interpolation for visual grepping fixes #191
+
+## 2.12.5 | 2018.2.24
+
+Improve bracket visibility
+
+Improve line highlight background and scrollbar slider background
+
+Fix weird php behavior when a interface extends a PHP interface
+thanks for @nicovak @jens1o @svipben
+
+## 2.12.4 | 2018.2.11
+
+Improve React component tags's hightlight color
+
+## 2.12.3 | 2018.2.08
+
+Improve colors for Editor Tabs
 
 ## 2.12.2 | 2018.1.16
 
