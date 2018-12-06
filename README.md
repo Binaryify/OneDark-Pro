@@ -25,7 +25,7 @@ To help with documentation, first fork and clone this repository.
 Run `npm install`
 
 Then run
-`docsify serve docs` to serve the documentation
+`npm run docs` to serve the documentation
 locally at `localhost:3000`.
 
 # ScreenShot
