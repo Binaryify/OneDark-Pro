@@ -144,13 +144,13 @@ Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once th
     "error": "#f44747",
     "coral": "#e06c75",
     "whiskey": "#d19a66",
-    "chalky": "#E5C07B",
-    "lightDark": "#7F848E",
-    "dark": "#5C6370",
-    "malibu": "#61AFEF",
+    "chalky": "#e5c07b",
+    "lightDark": "#7f848e",
+    "dark": "#5c6370",
+    "malibu": "#61afef",
     "green": "#98c379",
     "fountainBlue": "#56b6c2",
-    "invalid": "#FFFFFF"
+    "invalid": "#ffffff"
   },
   "vivid": {
     "purple": "#d55fde",
@@ -158,12 +158,12 @@ Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once th
     "coral": "#ef596f",
     "whiskey": "#d19a66",
     "chalky": "#e5c07b",
-    "lightDark": "#7F848E",
-    "dark": "#5C6370",
-    "malibu": "#61AFEF",
+    "lightDark": "#7f848e",
+    "dark": "#5c6370",
+    "malibu": "#61afef",
     "green": "#89ca78",
     "fountainBlue": "#2bbac5",
-    "invalid": "#FFFFFF"
+    "invalid": "#ffffff"
   }
 }
 
