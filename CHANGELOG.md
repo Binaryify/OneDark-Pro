@@ -1,4 +1,6 @@
 # CHANGELOG
+## 2.17.8
+
 ## 2.17.7
 - Fix border in dropdown appearing without focus
 
