@@ -59,14 +59,6 @@ const configFactory = type => {
           fontStyle: 'bold',
           foreground: colorObj['chalky']
         }
-      },
-      {
-        name: 'Classes',
-        scope: 'support.class, entity.name.type.class',
-        settings: {
-          fontStyle: 'bold',
-          foreground: colorObj['chalky']
-        }
       }
     ]
   }
@@ -896,6 +888,13 @@ const configFactory = type => {
     {
       name: '[VSCODE-CUSTOM] Markdown heading Punctuation Definition',
       scope: 'punctuation.definition.heading.markdown',
+      settings: {
+        foreground: colorObj['coral']
+      }
+    },
+    {
+      name: 'punctuation.definition.list.begin.markdown',
+      scope: 'punctuation.definition.list.begin.markdown',
       settings: {
         foreground: colorObj['coral']
       }
