@@ -5,7 +5,7 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
 
-![screenshot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjzw3c8fj31kw101adb.jpg)
+![screenshot](https://i.imgur.com/4xrtS6m.png)
 
 
 # CHANGELOG
@@ -18,10 +18,15 @@ This document
 ([https://binaryify.github.io/OneDark-Pro/](https://binaryify.github.io/OneDark-Pro/))
 includes instructions on how to install and edit the theme.
 
-To help with documentation, first fork and clone this repository. `cd` to the
-OneDark-Pro folder, `npm install` and then run
-`./node_modules/docsify-cli/bin/docsify serve docs` to serve the documentation
-locally.
+To help with documentation, first fork and clone this repository.
+
+`cd` to the `OneDark-Pro` folder
+
+Run `npm install`
+
+Then run
+`npm run docs` to serve the documentation
+locally at `localhost:3000`.
 
 # ScreenShot
 
@@ -61,7 +66,7 @@ for more helpful information.
 
 You also can custom your syntax highlighting in "setting.json"
 
-![custom]![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
+![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
 
 ![custom](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
 
