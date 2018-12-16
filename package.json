@@ -24,6 +24,10 @@
   "pre-commit": [
     "build"
   ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
   "contributes": {
     "themes": [
       {
@@ -48,6 +52,7 @@
   ],
   "devDependencies": {
     "docsify-cli": "^3.3.2",
+    "lodash": "^4.17.11",
     "pre-commit": "^1.2.2"
   },
   "__metadata": {
