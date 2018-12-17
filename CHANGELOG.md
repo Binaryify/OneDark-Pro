@@ -1,5 +1,6 @@
 # CHANGELOG
-## 2.17.8
+## 2.18.0
+- Add OneDark-Pro-bold style
 
 ## 2.17.7
 - Fix border in dropdown appearing without focus
