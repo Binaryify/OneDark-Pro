@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.18.0
+## 2.18.1
 - Add OneDark-Pro-bold style
 
 ## 2.17.7
