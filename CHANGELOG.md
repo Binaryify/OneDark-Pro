@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.18.2
+- Update README.MD
+
 ## 2.18.1
 - Add OneDark-Pro-bold style
 

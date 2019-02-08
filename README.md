@@ -12,6 +12,11 @@ Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
 
 [CHANGELOG.MD](CHANGELOG.md)
 
+# Sponsors
+[![codestream](https://alt-images.codestream.com/codestream_logo_onedarkpro.png)](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro)  
+
+Discuss, review, and share code with your team in VS Code. Links discussions about code to your code. Integrates w/ Slack, Jira, Trello, and Live Share.  [Try it free](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro).
+
 # Docs & Contribute
 
 This document
