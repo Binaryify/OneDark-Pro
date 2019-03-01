@@ -1215,13 +1215,6 @@ const configFactory = type => {
       }
     },
     {
-      name: 'php dollar sign',
-      scope: 'punctuation.definition.variable.php',
-      settings: {
-        foreground: colorObj['coral']
-      }
-    },
-    {
       name: 'php heredoc/nowdoc',
       scope: 'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
       settings: {
