@@ -1307,15 +1307,6 @@ const configFactory = type => {
       }
     },
     {
-      name: 'js ts this',
-      scope:
-        'var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx',
-      settings: {
-        foreground: colorObj['chalky'],
-        fontStyle: 'italic'
-      }
-    },
-    {
       name: 'ts primitive/builtin types',
       scope:
         'support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx',
