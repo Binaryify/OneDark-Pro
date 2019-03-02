@@ -555,6 +555,13 @@ const configFactory = type => {
       }
     },
     {
+      name: 'Language variables',
+      scope: 'variable.language',
+      settings: {
+        foreground: colorObj['chalky']
+      }
+    },
+    {
       name: 'Java Variables',
       scope: 'token.variable.parameter.java',
       settings: {
