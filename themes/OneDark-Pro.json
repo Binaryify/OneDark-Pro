@@ -572,6 +572,13 @@
       }
     },
     {
+      "name": "Language variables",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
       "name": "Java Variables",
       "scope": "token.variable.parameter.java",
       "settings": {
