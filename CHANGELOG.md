@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.19.0
+- Improve `this`, `super` highlight [#287](https://github.com/Binaryify/OneDark-Pro/pull/287)
+
 ## 2.18.2
 - Update README.MD
 
