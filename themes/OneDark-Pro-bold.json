@@ -621,6 +621,13 @@
       }
     },
     {
+      "name": "Language variables",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
       "name": "Java Variables",
       "scope": "token.variable.parameter.java",
       "settings": {
@@ -1245,13 +1252,6 @@
       }
     },
     {
-      "name": "php dollar sign",
-      "scope": "punctuation.definition.variable.php",
-      "settings": {
-        "foreground": "#e06c75"
-      }
-    },
-    {
       "name": "php heredoc/nowdoc",
       "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
       "settings": {
@@ -1333,14 +1333,6 @@
       "scope": "selector.sass",
       "settings": {
         "foreground": "#e06c75"
-      }
-    },
-    {
-      "name": "js ts this",
-      "scope": "var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
-      "settings": {
-        "foreground": "#E5C07B",
-        "fontStyle": "italic"
       }
     },
     {

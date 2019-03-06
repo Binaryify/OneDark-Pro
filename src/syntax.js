@@ -555,6 +555,13 @@ const configFactory = type => {
       }
     },
     {
+      name: 'Language variables',
+      scope: 'variable.language',
+      settings: {
+        foreground: colorObj['chalky']
+      }
+    },
+    {
       name: 'Java Variables',
       scope: 'token.variable.parameter.java',
       settings: {
@@ -1215,13 +1222,6 @@ const configFactory = type => {
       }
     },
     {
-      name: 'php dollar sign',
-      scope: 'punctuation.definition.variable.php',
-      settings: {
-        foreground: colorObj['coral']
-      }
-    },
-    {
       name: 'php heredoc/nowdoc',
       scope: 'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
       settings: {
@@ -1304,15 +1304,6 @@ const configFactory = type => {
       scope: 'selector.sass',
       settings: {
         foreground: colorObj['coral']
-      }
-    },
-    {
-      name: 'js ts this',
-      scope:
-        'var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx',
-      settings: {
-        foreground: colorObj['chalky'],
-        fontStyle: 'italic'
       }
     },
     {

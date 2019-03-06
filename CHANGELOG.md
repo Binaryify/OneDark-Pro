@@ -1,7 +1,10 @@
 # CHANGELOG
-## 2.18.3
+
+## 2.19.1 | 2019.03.06
 - Improve C++, Markdown syntax highlight 
 
+## 2.19.0
+- Improve `this`, `super` highlight [#287](https://github.com/Binaryify/OneDark-Pro/pull/287)
 
 ## 2.18.2
 - Update README.MD
