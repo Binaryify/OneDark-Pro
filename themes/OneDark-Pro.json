@@ -176,7 +176,7 @@
     },
     {
       "name": "c++ function",
-      "scope": "meta.function.c",
+      "scope": "meta.function.c,meta.function.cpp",
       "settings": {
         "foreground": "#e06c75"
       }
@@ -440,7 +440,7 @@
     },
     {
       "name": "C operator assignment",
-      "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c",
+      "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
       "settings": {
         "foreground": "#c678dd"
       }
@@ -454,21 +454,21 @@
     },
     {
       "name": "Other punctuation .c",
-      "scope": "punctuation.separator.c",
+      "scope": "punctuation.separator.c,punctuation.separator.cpp",
       "settings": {
         "foreground": "#c678dd"
       }
     },
     {
       "name": "C type posix-reserved",
-      "scope": "support.type.posix-reserved.c",
+      "scope": "support.type.posix-reserved.c,support.type.posix-reserved.cpp",
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
       "name": "keyword.operator.sizeof.c",
-      "scope": "keyword.operator.sizeof.c",
+      "scope": "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
       "settings": {
         "foreground": "#c678dd"
       }
@@ -1222,6 +1222,13 @@
       }
     },
     {
+      "name": "php dollar sign",
+      "scope": "punctuation.definition.variable.php",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
       "name": "php heredoc/nowdoc",
       "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
       "settings": {
@@ -1303,6 +1310,14 @@
       "scope": "selector.sass",
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "js ts this",
+      "scope": "var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
+      "settings": {
+        "foreground": "#e5c07b",
+        "fontStyle": "italic"
       }
     },
     {

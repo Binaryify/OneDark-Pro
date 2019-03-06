@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.19.1 | 2019.03.06
+## 2.19.2 | 2019.03.06
 - Improve C++, Markdown syntax highlight 
 
 ## 2.19.0
