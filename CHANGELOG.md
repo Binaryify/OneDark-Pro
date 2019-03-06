@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.18.3
+- Improve C++, Markdown syntax highlight 
+
+
 ## 2.18.2
 - Update README.MD
 
