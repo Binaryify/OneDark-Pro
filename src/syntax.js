@@ -148,7 +148,7 @@ const configFactory = type => {
     },
     {
       name: 'c++ function',
-      scope: 'meta.function.c',
+      scope: 'meta.function.c,meta.function.cpp',
       settings: {
         foreground: colorObj['coral']
       }
@@ -422,7 +422,7 @@ const configFactory = type => {
     {
       name: 'C operator assignment',
       scope:
-        'keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c',
+        'keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp',
       settings: {
         foreground: colorObj['purple']
       }
@@ -436,21 +436,21 @@ const configFactory = type => {
     },
     {
       name: 'Other punctuation .c',
-      scope: 'punctuation.separator.c',
+      scope: 'punctuation.separator.c,punctuation.separator.cpp',
       settings: {
         foreground: colorObj['purple']
       }
     },
     {
       name: 'C type posix-reserved',
-      scope: 'support.type.posix-reserved.c',
+      scope: 'support.type.posix-reserved.c,support.type.posix-reserved.cpp',
       settings: {
         foreground: colorObj['fountainBlue']
       }
     },
     {
       name: 'keyword.operator.sizeof.c',
-      scope: 'keyword.operator.sizeof.c',
+      scope: 'keyword.operator.sizeof.c,keyword.operator.sizeof.cpp',
       settings: {
         foreground: colorObj['purple']
       }
@@ -1222,6 +1222,13 @@ const configFactory = type => {
       }
     },
     {
+      name: 'php dollar sign',
+      scope: 'punctuation.definition.variable.php',
+      settings: {
+        foreground: colorObj['coral']
+      }
+    },
+    {
       name: 'php heredoc/nowdoc',
       scope: 'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
       settings: {
@@ -1304,6 +1311,15 @@ const configFactory = type => {
       scope: 'selector.sass',
       settings: {
         foreground: colorObj['coral']
+      }
+    },
+    {
+      name: 'js ts this',
+      scope:
+        'var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx',
+      settings: {
+        foreground: colorObj['chalky'],
+        fontStyle: 'italic'
       }
     },
     {
