@@ -68,6 +68,34 @@ const configFactory = type => {
    */
   const tokenColorsDefault = [
     {
+      name: 'storage.modifier.lifetime.rust',
+      scope: ' storage.modifier.lifetime.rust',
+      settings: {
+        foreground: colorObj['lightWhite']
+      }
+    },
+    {
+      name: ' entity.name.type.rust',
+      scope: ' entity.name.type.rust',
+      settings: {
+        foreground: colorObj['fountainBlue']
+      }
+    },
+    {
+      name: 'entity.name.lifetime.rust',
+      scope: 'entity.name.lifetime.rust',
+      settings: {
+        foreground: colorObj['chalky']
+      }
+    },
+    {
+      name: 'variable.language.rust',
+      scope: 'variable.language.rust',
+      settings: {
+        foreground: colorObj['coral']
+      }
+    },
+    {
       name: 'support.constant.edge',
       scope: 'support.constant.edge',
       settings: {
@@ -1222,6 +1250,13 @@ const configFactory = type => {
       }
     },
     {
+      name: 'php dollar sign',
+      scope: 'punctuation.definition.variable.php',
+      settings: {
+        foreground: colorObj['coral']
+      }
+    },
+    {
       name: 'php heredoc/nowdoc',
       scope: 'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
       settings: {
@@ -1304,6 +1339,15 @@ const configFactory = type => {
       scope: 'selector.sass',
       settings: {
         foreground: colorObj['coral']
+      }
+    },
+    {
+      name: 'js ts this',
+      scope:
+        'var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx',
+      settings: {
+        foreground: colorObj['chalky'],
+        fontStyle: 'italic'
       }
     },
     {
