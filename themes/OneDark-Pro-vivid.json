@@ -97,6 +97,34 @@
   },
   "tokenColors": [
     {
+      "name": "storage.modifier.lifetime.rust",
+      "scope": " storage.modifier.lifetime.rust",
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+    {
+      "name": " entity.name.type.rust",
+      "scope": " entity.name.type.rust",
+      "settings": {
+        "foreground": "#2bbac5"
+      }
+    },
+    {
+      "name": "entity.name.lifetime.rust",
+      "scope": "entity.name.lifetime.rust",
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "variable.language.rust",
+      "scope": "variable.language.rust",
+      "settings": {
+        "foreground": "#ef596f"
+      }
+    },
+    {
       "name": "support.constant.edge",
       "scope": "support.constant.edge",
       "settings": {
@@ -1222,6 +1250,13 @@
       }
     },
     {
+      "name": "php dollar sign",
+      "scope": "punctuation.definition.variable.php",
+      "settings": {
+        "foreground": "#ef596f"
+      }
+    },
+    {
       "name": "php heredoc/nowdoc",
       "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
       "settings": {
@@ -1303,6 +1338,14 @@
       "scope": "selector.sass",
       "settings": {
         "foreground": "#ef596f"
+      }
+    },
+    {
+      "name": "js ts this",
+      "scope": "var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
+      "settings": {
+        "foreground": "#e5c07b",
+        "fontStyle": "italic"
       }
     },
     {
