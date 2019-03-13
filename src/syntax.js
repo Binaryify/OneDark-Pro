@@ -68,6 +68,27 @@ const configFactory = type => {
    */
   const tokenColorsDefault = [
     {
+      name: 'source.python',
+      scope: 'source.python',
+      settings: {
+        foreground: colorObj['coral']
+      }
+    },
+    {
+      name: ' punctuation.separator.parameters.python',
+      scope: ' punctuation.separator.parameters.python,punctuation.separator.colon.python',
+      settings: {
+        foreground: colorObj['lightWhite']
+      }
+    },
+    {
+      name: 'variable.parameter.function.language.special.self.python',
+      scope: 'variable.parameter.function.language.special.self.python',
+      settings: {
+        foreground: colorObj['chalky']
+      }
+    },
+    {
       name: 'storage.modifier.lifetime.rust',
       scope: 'storage.modifier.lifetime.rust',
       settings: {
@@ -535,7 +556,7 @@ const configFactory = type => {
     {
       name: 'python block',
       scope:
-        'punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python,meta.function-call.arguments.python',
+        'punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python',
       settings: {
         foreground: colorObj['lightWhite']
       }
