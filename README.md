@@ -78,5 +78,17 @@ You also can custom your syntax highlighting in "setting.json"
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
 ## Contributors
+This project exists thanks to all the people who contribute. 
+[![Contributors](https://opencollective.com/OneDark-Pro/contributors.svg?width=890)](https://github.com/Binaryify/OneDark-Pro/graphs/contributors)
 
-![Contributors](https://opencollective.com/OneDark-Pro/contributors.svg?width=890)
+
+## Backers
+
+ [[Become a backer](https://opencollective.com/onedark-pro#backer)]
+
+<a href="https://opencollective.com/onedark-pro#backers" target="_blank"><img src="https://opencollective.com/onedark-pro/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/onedark-pro#sponsor)]
