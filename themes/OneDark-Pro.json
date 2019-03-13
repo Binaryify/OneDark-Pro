@@ -98,6 +98,27 @@
   },
   "tokenColors": [
     {
+      "name": "source.python",
+      "scope": "source.python",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": " punctuation.separator.parameters.python",
+      "scope": " punctuation.separator.parameters.python,punctuation.separator.colon.python",
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+    {
+      "name": "variable.parameter.function.language.special.self.python",
+      "scope": "variable.parameter.function.language.special.self.python",
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
       "name": "storage.modifier.lifetime.rust",
       "scope": "storage.modifier.lifetime.rust",
       "settings": {
@@ -553,7 +574,7 @@
     },
     {
       "name": "python block",
-      "scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python,meta.function-call.arguments.python",
+      "scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python",
       "settings": {
         "foreground": "#abb2bf"
       }
