@@ -13,6 +13,7 @@
     "dropdown.background": "#21252b",
     "dropdown.border": "#21252b",
     "editor.background": "#282c34",
+    "editor.foreground":"#abb2bf",
     "editorError.foreground": "#c24038",
     "editorIndentGuide.activeBackground": "#c8c8c859",
     "editorMarkerNavigation.background": "#21252b",
