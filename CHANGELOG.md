@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.20.0 | 2019.03.13
+## 2.20.1 | 2019.03.13
 - Improve Rust syntax
 
 - Improve default foreground color
