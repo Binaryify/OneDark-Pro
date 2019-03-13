@@ -69,14 +69,21 @@ const configFactory = type => {
   const tokenColorsDefault = [
     {
       name: 'storage.modifier.lifetime.rust',
-      scope: ' storage.modifier.lifetime.rust',
+      scope: 'storage.modifier.lifetime.rust',
       settings: {
         foreground: colorObj['lightWhite']
       }
     },
     {
-      name: ' entity.name.type.rust',
-      scope: ' entity.name.type.rust',
+      name: 'support.function.std.rust',
+      scope: 'support.function.std.rust',
+      settings: {
+        foreground: colorObj['malibu']
+      }
+    },
+    {
+      name: 'entity.name.type.rust',
+      scope: 'entity.name.type.rust',
       settings: {
         foreground: colorObj['fountainBlue']
       }
