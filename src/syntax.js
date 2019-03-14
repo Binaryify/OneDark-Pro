@@ -690,13 +690,6 @@ const configFactory = type => {
       }
     },
     {
-      name: 'Class name php',
-      scope: 'variable.other.class.php',
-      settings: {
-        foreground: colorObj['coral']
-      }
-    },
-    {
       name: 'Type Name',
       scope: 'entity.name.type',
       settings: {
@@ -1367,15 +1360,6 @@ const configFactory = type => {
       scope: 'selector.sass',
       settings: {
         foreground: colorObj['coral']
-      }
-    },
-    {
-      name: 'js ts this',
-      scope:
-        'var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx',
-      settings: {
-        foreground: colorObj['chalky'],
-        fontStyle: 'italic'
       }
     },
     {
