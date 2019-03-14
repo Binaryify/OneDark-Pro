@@ -676,6 +676,13 @@ const configFactory = type => {
       }
     },
     {
+      name: 'Class name php',
+      scope: 'variable.other.class.php',
+      settings: {
+        foreground: colorObj['coral']
+      }
+    },
+    {
       name: 'Type Name',
       scope: 'entity.name.type',
       settings: {
@@ -1254,13 +1261,6 @@ const configFactory = type => {
       scope: 'keyword.operator.comparison.php',
       settings: {
         foreground: colorObj['fountainBlue']
-      }
-    },
-    {
-      name: 'php dollar sign',
-      scope: 'punctuation.definition.variable.php',
-      settings: {
-        foreground: colorObj['coral']
       }
     },
     {
