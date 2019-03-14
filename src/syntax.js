@@ -68,15 +68,15 @@ const configFactory = type => {
    */
   const tokenColorsDefault = [
     {
-      name: 'source.python',
-      scope: 'source.python',
+      name: 'support.variable.magic.python',
+      scope: 'support.variable.magic.python',
       settings: {
         foreground: colorObj['coral']
       }
     },
     {
       name: ' punctuation.separator.parameters.python',
-      scope: ' punctuation.separator.parameters.python,punctuation.separator.colon.python',
+      scope: 'punctuation.separator.period.python',
       settings: {
         foreground: colorObj['lightWhite']
       }
