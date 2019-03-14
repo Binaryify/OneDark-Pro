@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.20.3 | 2019.03.13
+## 2.20.4 | 2019.03.14
 - Restore Python default foreground color
 
 ## 2.20.2 | 2019.03.13

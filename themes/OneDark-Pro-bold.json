@@ -154,8 +154,8 @@
       }
     },
     {
-      "name": " punctuation.separator.parameters.python",
-      "scope": "punctuation.separator.period.python",
+      "name": "punctuation.separator.parameters.python",
+      "scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,",
       "settings": {
         "foreground": "#abb2bf"
       }
@@ -598,20 +598,6 @@
       "scope": "keyword.operator.logical.python",
       "settings": {
         "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "meta.function-call.arguments.python",
-      "scope": "meta.function-call.arguments.python",
-      "settings": {
-        "foreground": "#e06c75"
-      }
-    },
-    {
-      "name": "meta.function-call.python",
-      "scope": "meta.function-call.python",
-      "settings": {
-        "foreground": "#e06c75"
       }
     },
     {
