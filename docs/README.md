@@ -170,7 +170,7 @@ Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once th
 
 ```
 
-## Workbench theming
+## Tweaks & theming
 If you want to play around with new colors, use the setting `workbench.colorCustomizations` to customize the currently selected theme.
 For example, you can add this snippet in your "settings.json" file:
 
@@ -182,10 +182,26 @@ For example, you can add this snippet in your "settings.json" file:
 }
 ```
 
-Please check the official documentation, [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference), for more helpful information.
+or use the setting `editor.tokenColorCustomizations`
 
-## User definable syntax highlighting colors
-You also can custom your syntax highlighting in "setting.json"
+```json
+"editor.tokenColorCustomizations":{
+    "[One Dark Pro]": {
+      "textMateRules": [
+        {
+          "scope":["source.python"],
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        }
+      ]
+    }
+}
+```
+
+Please check the official documentation,
+[Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) and 
+[Theme Color](https://code.visualstudio.com/docs/getstarted/themes) , for more helpful information.
 
 ![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
 
