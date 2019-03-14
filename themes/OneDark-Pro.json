@@ -98,15 +98,15 @@
   },
   "tokenColors": [
     {
-      "name": "source.python",
-      "scope": "source.python",
+      "name": "support.variable.magic.python",
+      "scope": "support.variable.magic.python",
       "settings": {
         "foreground": "#e06c75"
       }
     },
     {
       "name": " punctuation.separator.parameters.python",
-      "scope": " punctuation.separator.parameters.python,punctuation.separator.colon.python",
+      "scope": "punctuation.separator.period.python",
       "settings": {
         "foreground": "#abb2bf"
       }
