@@ -75,8 +75,8 @@ const configFactory = type => {
       }
     },
     {
-      name: ' punctuation.separator.parameters.python',
-      scope: 'punctuation.separator.period.python',
+      name: 'punctuation.separator.parameters.python',
+      scope: 'punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,',
       settings: {
         foreground: colorObj['lightWhite']
       }
@@ -530,20 +530,6 @@ const configFactory = type => {
       scope: 'keyword.operator.logical.python',
       settings: {
         foreground: colorObj['purple']
-      }
-    },
-    {
-      name: 'meta.function-call.arguments.python',
-      scope: 'meta.function-call.arguments.python',
-      settings: {
-        foreground: colorObj['coral']
-      }
-    },
-    {
-      name: 'meta.function-call.python',
-      scope: 'meta.function-call.python',
-      settings: {
-        foreground: colorObj['coral']
       }
     },
     {
