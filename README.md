@@ -49,7 +49,7 @@ locally at `localhost:3000`.
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/cpp.png)
 
-## Tweaks & Workbench theming
+## Tweaks &  theming
 
 If you want to play around with new colors, use the setting
 `workbench.colorCustomizations` to customize the currently selected theme. For
@@ -63,13 +63,28 @@ example, you can add this snippet in your "settings.json" file:
 }
 ```
 
+or use the setting `workbench.colorCustomizations`
+
+```json
+"editor.tokenColorCustomizations":{
+    "[One Dark Pro]": {
+      "textMateRules": [
+        {
+          "scope":["source.python"],
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        }
+      ]
+    }
+}
+```
+[more info](https://binaryify.github.io/OneDark-Pro)
+
 Please check the official documentation,
-[Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference),
-for more helpful information.
+[Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) and 
+[Theme Color](https://code.visualstudio.com/docs/getstarted/themes), for more helpful information.
 
-## User definable syntax highlighting colors
-
-You also can custom your syntax highlighting in "setting.json"
 
 ![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
 
