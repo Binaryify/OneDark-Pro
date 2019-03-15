@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.20.4 | 2019.03.15
+- Fix two regressions in PHP coloring
+
 ## 2.20.4 | 2019.03.14
 - Restore Python default foreground color
 
