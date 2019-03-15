@@ -63,7 +63,7 @@ example, you can add this snippet in your "settings.json" file:
 }
 ```
 
-or use the setting `workbench.colorCustomizations`
+or use the setting `editor.tokenColorCustomizations`
 
 ```json
 "editor.tokenColorCustomizations":{
