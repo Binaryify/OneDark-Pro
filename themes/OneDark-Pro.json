@@ -694,6 +694,13 @@
       }
     },
     {
+      "name": "Class name php",
+      "scope": "variable.other.class.php",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
       "name": "Type Name",
       "scope": "entity.name.type",
       "settings": {
@@ -1255,13 +1262,6 @@
       "scope": "keyword.operator.comparison.php",
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "php dollar sign",
-      "scope": "punctuation.definition.variable.php",
-      "settings": {
-        "foreground": "#e06c75"
       }
     },
     {
