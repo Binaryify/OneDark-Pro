@@ -227,7 +227,7 @@ const configFactory = type => {
     {
       name: 'js/ts italic',
       scope:
-        'entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super',
+        'entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter',
       settings: {
         fontStyle: 'italic'
       }
@@ -600,7 +600,8 @@ const configFactory = type => {
       name: 'Language variables',
       scope: 'variable.language',
       settings: {
-        foreground: colorObj['chalky']
+        foreground: colorObj['chalky'],
+        fontStyle: 'italic'
       }
     },
     {

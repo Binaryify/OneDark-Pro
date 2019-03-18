@@ -303,7 +303,7 @@
     },
     {
       "name": "js/ts italic",
-      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter",
       "settings": {
         "fontStyle": "italic"
       }
@@ -667,7 +667,8 @@
       "name": "Language variables",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#E5C07B"
+        "foreground": "#E5C07B",
+        "fontStyle": "italic"
       }
     },
     {
