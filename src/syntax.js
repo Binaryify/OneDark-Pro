@@ -103,13 +103,6 @@ const configFactory = type => {
       }
     },
     {
-      name: 'entity.name.type.rust',
-      scope: 'entity.name.type.rust',
-      settings: {
-        foreground: colorObj['fountainBlue']
-      }
-    },
-    {
       name: 'entity.name.lifetime.rust',
       scope: 'entity.name.lifetime.rust',
       settings: {
