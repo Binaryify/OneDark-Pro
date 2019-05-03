@@ -135,13 +135,6 @@
       }
     },
     {
-      "name": "entity.name.type.rust",
-      "scope": "entity.name.type.rust",
-      "settings": {
-        "foreground": "#2bbac5"
-      }
-    },
-    {
       "name": "entity.name.lifetime.rust",
       "scope": "entity.name.lifetime.rust",
       "settings": {
