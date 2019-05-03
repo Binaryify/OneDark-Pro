@@ -68,6 +68,8 @@
     "statusBar.debuggingBackground": "#7e0097",
     "statusBar.debuggingBorder": "#66017a",
     "statusBar.debuggingForeground": "#ffffff",
+    "statusBarItem.remoteForeground": "#f8fafd",
+    "statusBarItem.remoteBackground": "#4d78cc",
     "tab.activeBackground": "#282c34",
     "tab.border": "#181a1f",
     "tab.inactiveBackground": "#21252b",

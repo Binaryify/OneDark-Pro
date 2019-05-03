@@ -1,6 +1,9 @@
 # CHANGELOG
+## 2.22.0 | 2019.05.03
+- Add support for statusBarItem.remoteBackground via:[#302](https://github.com/Binaryify/OneDark-Pro/pull/302)
+
 ## 2.21.0 | 2019.03.24
-- Make Rust type colors consistent with other languages ![#298](https://github.com/Binaryify/OneDark-Pro/pull/298)
+- Make Rust type colors consistent with other languages [#298](https://github.com/Binaryify/OneDark-Pro/pull/298)
 
 ## 2.20.5 | 2019.03.15
 - Fix two regressions in PHP coloring
