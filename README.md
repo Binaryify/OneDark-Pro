@@ -35,9 +35,9 @@ locally at `localhost:3000`.
 
 # ScreenShot
 
-![Screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwkr6i199j31kw16otat.jpg)
+![Screenshot](https://camo.githubusercontent.com/48f39d862900e54913410490e566a9e761bc5ad5/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776b7236693139396a33316b7731366f7461742e6a7067)
 
-![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwkrv2rorj31kw16odhw.jpg)
+![Screenshot](https://camo.githubusercontent.com/fde179ff0b0b0f1c87059726a29fcb9115a1f199/68747470733a2f2f7773322e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776b727632726f726a33316b7731366f6468772e6a7067)
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot1.png)
 
@@ -86,9 +86,9 @@ Please check the official documentation,
 [Theme Color](https://code.visualstudio.com/docs/getstarted/themes), for more helpful information.
 
 
-![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
+![setting.json](https://camo.githubusercontent.com/e3931303eec6fbfb79c424cd30ca2d50f49c8416/68747470733a2f2f7773342e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776a6f716e6274676a33316b773130317768762e6a7067)
 
-![custom](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
+![custom](https://camo.githubusercontent.com/179963baf6ded2934ec5dba08a65f61ca8d0b34f/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776a70776e7137626a33307175313477337a722e6a7067)
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 

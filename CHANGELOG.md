@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.22.1 | 2019.05.05
+- Update README.MD images
+
 ## 2.22.0 | 2019.05.03
 - Add support for statusBarItem.remoteBackground via:[#302](https://github.com/Binaryify/OneDark-Pro/pull/302)
 
