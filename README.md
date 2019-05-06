@@ -99,11 +99,12 @@ This project exists thanks to all the people who contribute.
 
 ## Backers
 
- [[Become a backer](https://opencollective.com/onedark-pro#backer)]
-
 <a href="https://opencollective.com/onedark-pro#backers" target="_blank"><img src="https://opencollective.com/onedark-pro/backers.svg?width=890"></a>
 
 
 ## Sponsors
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/onedark-pro#sponsor)]
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. 
+<a href="https://opencollective.com/onedark-pro#sponsor" target="_blank">
+<img src="https://opencollective.com/onedark-pro/sponsor.svg?width=890">
+</a>
