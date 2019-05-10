@@ -68,6 +68,20 @@ const configFactory = type => {
    */
   const tokenColorsDefault = [
     {
+      name: 'haskell variable generic-type',
+      scope: 'variable.other.generic-type.haskell',
+      settings: {
+        foreground: colorObj['purple']
+      }
+    },
+    {
+      name: 'haskell storage type',
+      scope: 'storage.type.haskell',
+      settings: {
+        foreground: colorObj['whiskey']
+      }
+    },
+    {
       name: 'support.variable.magic.python',
       scope: 'support.variable.magic.python',
       settings: {

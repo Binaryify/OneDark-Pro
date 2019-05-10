@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.23.0 | 2019.05.10
+- Improve haskell highlight
+
 ## 2.22.1 | 2019.05.05
 - Update README.MD images
 
