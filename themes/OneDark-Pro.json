@@ -100,6 +100,20 @@
   },
   "tokenColors": [
     {
+      "name": "haskell variable generic-type",
+      "scope": "variable.other.generic-type.haskell",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "haskell storage type",
+      "scope": "storage.type.haskell",
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
       "name": "support.variable.magic.python",
       "scope": "support.variable.magic.python",
       "settings": {
