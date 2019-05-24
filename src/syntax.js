@@ -454,12 +454,20 @@ const configFactory = type => {
       }
     },
     {
-      name: 'js operator',
+      name: 'operator',
       scope: 'keyword.operator',
       settings: {
         foreground: colorObj['fountainBlue']
       }
     },
+    {
+      name: 'operator',
+      scope: 'keyword.operator.delete',
+      settings: {
+        foreground: colorObj['purple']
+      }
+    },
+   
     {
       name: 'js dom',
       scope: 'support.type.object.dom',

@@ -477,10 +477,17 @@
       }
     },
     {
-      "name": "js operator",
+      "name": "operator",
       "scope": "keyword.operator",
       "settings": {
         "foreground": "#2bbac5"
+      }
+    },
+    {
+      "name": "operator",
+      "scope": "keyword.operator.delete",
+      "settings": {
+        "foreground": "#d55fde"
       }
     },
     {

@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.23.1 | 2019.05.24
+- Fix keyword delete highlight error
+
 ## 2.23.0 | 2019.05.10
 - Improve haskell highlight
 
