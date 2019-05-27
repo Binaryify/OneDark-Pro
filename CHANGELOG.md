@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.23.2 | 2019.05.27
+- Improve peek background color
+
 ## 2.23.1 | 2019.05.24
 - Fix keyword delete highlight error
 
