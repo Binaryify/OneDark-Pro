@@ -1790,9 +1790,7 @@
         "foreground": "#f44747"
       },
       "scope": [
-        "constant.character.character-class.regexp.xi",
-        "variable.other.readwrite.instance.ruby",
-        "variable.other.readwrite.class.ruby"
+        "constant.character.character-class.regexp.xi"
       ]
     },
     {
