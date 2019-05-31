@@ -1802,7 +1802,7 @@
     {
       "name": "comments",
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#7f848e"
       },
       "scope": [
         "beginning.punctuation.definition.list.markdown.xi"
