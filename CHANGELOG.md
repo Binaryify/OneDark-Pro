@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.24.0 | 2019.06.02
+- Add XI language support via:[#308](https://github.com/Binaryify/OneDark-Pro/pull/308)
+
 ## 2.23.2 | 2019.05.27
 - Improve peek background color
 

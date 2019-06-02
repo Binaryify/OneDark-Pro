@@ -1748,7 +1748,7 @@
     {
       "name": "heading 2, callable",
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#2bbac5"
       },
       "scope": [
         "entity.name.class.xi"
@@ -1766,7 +1766,7 @@
     {
       "name": "heading 4, type, class, interface",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#d55fde"
       },
       "scope": [
         "constant.regexp.xi"
@@ -1775,7 +1775,7 @@
     {
       "name": "heading 5, enums, preprocessor, constant, decorator",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#ef596f"
       },
       "scope": [
         "keyword.control.xi"
@@ -1793,7 +1793,7 @@
     {
       "name": "string",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#89ca78"
       },
       "scope": [
         "beginning.punctuation.definition.quote.markdown.xi"
