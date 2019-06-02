@@ -1735,6 +1735,123 @@
       "settings": {
         "foreground": "#e5c07b"
       }
+    },
+    {
+      "name": "heading 1, keyword",
+      "settings": {
+        "foreground": "#e5c07b"
+      },
+      "scope": [
+        "entity.name.function.xi"
+      ]
+    },
+    {
+      "name": "heading 2, callable",
+      "settings": {
+        "foreground": "#56b6c2"
+      },
+      "scope": [
+        "entity.name.class.xi"
+      ]
+    },
+    {
+      "name": "heading 3, property",
+      "settings": {
+        "foreground": "#f44747"
+      },
+      "scope": [
+        "constant.character.character-class.regexp.xi"
+      ]
+    },
+    {
+      "name": "heading 4, type, class, interface",
+      "settings": {
+        "foreground": "#c678dd"
+      },
+      "scope": [
+        "constant.regexp.xi"
+      ]
+    },
+    {
+      "name": "heading 5, enums, preprocessor, constant, decorator",
+      "settings": {
+        "foreground": "#e06c75"
+      },
+      "scope": [
+        "keyword.control.xi"
+      ]
+    },
+    {
+      "name": "heading 6, number",
+      "settings": {
+        "foreground": "#abb2bf"
+      },
+      "scope": [
+        "invalid.xi"
+      ]
+    },
+    {
+      "name": "string",
+      "settings": {
+        "foreground": "#98c379"
+      },
+      "scope": [
+        "beginning.punctuation.definition.quote.markdown.xi"
+      ]
+    },
+    {
+      "name": "comments",
+      "settings": {
+        "foreground": "#7f848e"
+      },
+      "scope": [
+        "beginning.punctuation.definition.list.markdown.xi"
+      ]
+    },
+    {
+      "name": "link",
+      "settings": {
+        "foreground": "#61afef"
+      },
+      "scope": [
+        "constant.character.xi"
+      ]
+    },
+    {
+      "name": "accent",
+      "settings": {
+        "foreground": "#61afef"
+      },
+      "scope": [
+        "accent.xi"
+      ]
+    },
+    {
+      "name": "wikiword",
+      "settings": {
+        "foreground": "#d19a66"
+      },
+      "scope": [
+        "wikiword.xi"
+      ]
+    },
+    {
+      "name": "language operators like '+', '-' etc",
+      "settings": {
+        "foreground": "#ffffff"
+      },
+      "scope": [
+        "constant.other.color.rgb-value.xi"
+      ]
+    },
+    {
+      "name": "elements to dim",
+      "settings": {
+        "foreground": "#5c6370"
+      },
+      "scope": [
+        "punctuation.definition.tag.xi"
+      ]
     }
   ]
 }
