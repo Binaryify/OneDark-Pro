@@ -1769,7 +1769,7 @@
     {
       "name": "heading 1, keyword",
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#E5C07B"
       },
       "scope": [
         "entity.name.function.xi"
@@ -1832,7 +1832,7 @@
     {
       "name": "comments",
       "settings": {
-        "foreground": "#7f848e"
+        "foreground": "#7F848E"
       },
       "scope": [
         "beginning.punctuation.definition.list.markdown.xi"
@@ -1841,7 +1841,7 @@
     {
       "name": "link",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#61AFEF"
       },
       "scope": [
         "constant.character.xi"
@@ -1850,7 +1850,7 @@
     {
       "name": "accent",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#61AFEF"
       },
       "scope": [
         "accent.xi"
@@ -1868,7 +1868,7 @@
     {
       "name": "language operators like '+', '-' etc",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#FFFFFF"
       },
       "scope": [
         "constant.other.color.rgb-value.xi"
@@ -1877,7 +1877,7 @@
     {
       "name": "elements to dim",
       "settings": {
-        "foreground": "#5c6370"
+        "foreground": "#5C6370"
       },
       "scope": [
         "punctuation.definition.tag.xi"

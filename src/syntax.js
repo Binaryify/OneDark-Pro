@@ -90,7 +90,8 @@ const configFactory = type => {
     },
     {
       name: 'punctuation.separator.parameters.python',
-      scope: 'punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,',
+      scope:
+        'punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,',
       settings: {
         foreground: colorObj['lightWhite']
       }
@@ -467,7 +468,7 @@ const configFactory = type => {
         foreground: colorObj['purple']
       }
     },
-   
+
     {
       name: 'js dom',
       scope: 'support.type.object.dom',
@@ -1666,6 +1667,97 @@ const configFactory = type => {
       settings: {
         foreground: colorObj['chalky']
       }
+    },
+    {
+      name: 'heading 1, keyword',
+      settings: {
+        foreground: colorObj['chalky']
+      },
+      scope: ['entity.name.function.xi']
+    },
+    {
+      name: 'heading 2, callable',
+      settings: {
+        foreground: colorObj['fountainBlue']
+      },
+      scope: ['entity.name.class.xi']
+    },
+    {
+      name: 'heading 3, property',
+      settings: {
+        foreground: colorObj['error']
+      },
+      scope: ['constant.character.character-class.regexp.xi']
+    },
+    {
+      name: 'heading 4, type, class, interface',
+      settings: {
+        foreground: colorObj['purple']
+      },
+      scope: ['constant.regexp.xi']
+    },
+    {
+      name: 'heading 5, enums, preprocessor, constant, decorator',
+      settings: {
+        foreground: colorObj['coral']
+      },
+      scope: ['keyword.control.xi']
+    },
+    {
+      name: 'heading 6, number',
+      settings: {
+        foreground: colorObj['lightWhite']
+      },
+      scope: ['invalid.xi']
+    },
+    {
+      name: 'string',
+      settings: {
+        foreground: colorObj['green']
+      },
+      scope: ['beginning.punctuation.definition.quote.markdown.xi']
+    },
+    {
+      name: 'comments',
+      settings: {
+        foreground: colorObj['lightDark']
+      },
+      scope: ['beginning.punctuation.definition.list.markdown.xi']
+    },
+    {
+      name: 'link',
+      settings: {
+        foreground: colorObj['malibu']
+      },
+      scope: ['constant.character.xi']
+    },
+    {
+      name: 'accent',
+      settings: {
+        foreground: colorObj['malibu']
+      },
+      scope: ['accent.xi']
+    },
+    {
+      name: 'wikiword',
+      settings: {
+        foreground: colorObj['whiskey']
+      },
+      scope: ['wikiword.xi']
+    },
+    {
+      name: "language operators like '+', '-' etc",
+      settings: {
+        foreground: colorObj['invalid']
+      },
+      scope: ['constant.other.color.rgb-value.xi']
+    },
+    {
+      name: 'elements to dim',
+      settings: {
+        foreground: colorObj['dark']
+      },
+      scope: ['punctuation.definition.tag.xi']
     }
   ]
 
