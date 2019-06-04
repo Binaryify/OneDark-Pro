@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.24.1 | 2019.06.04
+- Improve XI language support via:[#309](https://github.com/Binaryify/OneDark-Pro/pull/309)
+
 ## 2.24.0 | 2019.06.02
 - Add XI language support via:[#308](https://github.com/Binaryify/OneDark-Pro/pull/308)
 
