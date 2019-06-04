@@ -1757,7 +1757,7 @@
     {
       "name": "heading 3, property",
       "settings": {
-        "foreground": "#f44747"
+        "foreground": "#ef596f"
       },
       "scope": [
         "constant.character.character-class.regexp.xi"
@@ -1775,7 +1775,7 @@
     {
       "name": "heading 5, enums, preprocessor, constant, decorator",
       "settings": {
-        "foreground": "#ef596f"
+        "foreground": "#2bbac5"
       },
       "scope": [
         "keyword.control.xi"

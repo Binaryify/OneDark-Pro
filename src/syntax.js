@@ -1685,7 +1685,7 @@ const configFactory = type => {
     {
       name: 'heading 3, property',
       settings: {
-        foreground: colorObj['error']
+        foreground: colorObj['coral']
       },
       scope: ['constant.character.character-class.regexp.xi']
     },
@@ -1699,7 +1699,7 @@ const configFactory = type => {
     {
       name: 'heading 5, enums, preprocessor, constant, decorator',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['fountainBlue']
       },
       scope: ['keyword.control.xi']
     },
