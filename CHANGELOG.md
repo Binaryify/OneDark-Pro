@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.25.0 | 2019.06.29
+- Improve menu foreground & active tab foreground via:[#299](https://github.com/Binaryify/OneDark-Pro/issues/299)
+
 ## 2.24.1 | 2019.06.04
 - Improve XI language support via:[#309](https://github.com/Binaryify/OneDark-Pro/pull/309)
 
