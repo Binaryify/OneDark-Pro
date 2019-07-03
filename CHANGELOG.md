@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.25.1 | 2019.07.03
+- Fixed `keyof` in typescript highlight error
+
 ## 2.25.0 | 2019.06.29
 - Improve menu foreground & active tab foreground via:[#299](https://github.com/Binaryify/OneDark-Pro/issues/299)
 
