@@ -427,7 +427,8 @@ const configFactory = type => {
         'keyword.operator.expression.instanceof',
         'keyword.operator.new',
         'keyword.operator.ternary',
-        'keyword.operator.optional'
+        'keyword.operator.optional',
+        'keyword.operator.expression.keyof'
       ],
       settings: {
         foreground: colorObj['purple']
