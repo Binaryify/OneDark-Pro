@@ -1761,11 +1761,11 @@ const configFactory = type => {
       scope: ['punctuation.definition.tag.xi']
     },
     {
-      name: 'C++ entity name label',
+      name: 'C++/C#',
       settings: {
         foreground: colorObj['chalky']
       },
-      scope: ['entity.name.label.cs']
+      scope: ['entity.name.label.cs','entity.name.scope-resolution.function.call']
     }
   ]
 

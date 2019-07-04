@@ -1887,12 +1887,13 @@
       ]
     },
     {
-      "name": "C++ entity name label",
+      "name": "C++/C#",
       "settings": {
         "foreground": "#E5C07B"
       },
       "scope": [
-        "entity.name.label.cs"
+        "entity.name.label.cs",
+        "entity.name.scope-resolution.function.call"
       ]
     }
   ]
