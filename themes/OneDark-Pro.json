@@ -1855,6 +1855,15 @@
       "scope": [
         "punctuation.definition.tag.xi"
       ]
+    },
+    {
+      "name": "C++ entity name label",
+      "settings": {
+        "foreground": "#e5c07b"
+      },
+      "scope": [
+        "entity.name.label.cs"
+      ]
     }
   ]
 }
