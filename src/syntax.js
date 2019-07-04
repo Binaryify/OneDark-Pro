@@ -1759,6 +1759,13 @@ const configFactory = type => {
         foreground: colorObj['dark']
       },
       scope: ['punctuation.definition.tag.xi']
+    },
+    {
+      name: 'C++ entity name label',
+      settings: {
+        foreground: colorObj['chalky']
+      },
+      scope: ['entity.name.label.cs']
     }
   ]
 

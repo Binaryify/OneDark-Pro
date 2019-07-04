@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.25.2 | 2019.07.04
+- Fixed C++ highlight error [#313](https://github.com/Binaryify/OneDark-Pro/issues/313)
+
 ## 2.25.1 | 2019.07.03
 - Fixed `keyof` in typescript highlight error
 
