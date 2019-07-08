@@ -302,7 +302,7 @@
     },
     {
       "name": "java type",
-      "scope": "storage.type.annotation.java",
+      "scope": "storage.type.annotation.java,storage.type.object.array.java",
       "settings": {
         "foreground": "#e5c07b"
       }
