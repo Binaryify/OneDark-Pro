@@ -6,11 +6,11 @@
 
 - Fix java highlight [#316](https://github.com/Binaryify/OneDark-Pro/pull/316)  
 
-The changes :
-1. `@` on annotation is now white (this is same in Typescript)
-2. `instanceof` is now highlighted
-3. `List<String>` is now standardized. The bracket is force to white and the type have now same color of type (this is same in Typescript)
-4. `ConfigurationSection[]` have now right type color
+    The changes :
+    1. `@` on annotation is now white (this is same in Typescript)
+    2. `instanceof` is now highlighted
+    3. `List<String>` is now standardized. The bracket is force to white and the type have now same color of type (this is same in Typescript)
+    4. `ConfigurationSection[]` have now right type color
 
 
 
