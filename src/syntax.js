@@ -575,7 +575,7 @@ const configFactory = type => {
       name: 'python placeholder reset to normal string',
       scope: 'constant.character.format.placeholder.other.python',
       settings: {
-        foreground: colorObj['green']
+        foreground: colorObj['whiskey']
       }
     },
     {
