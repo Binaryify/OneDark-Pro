@@ -1,4 +1,22 @@
 # CHANGELOG
+## 2.26.0 | 2019.07.11
+- Changes constant.character.format.placeholder.other.python to whisky for better string formatting visibility in python [#319](https://github.com/Binaryify/OneDark-Pro/pull/319)
+
+- Support Markdown underscore-style headers [#312](https://github.com/Binaryify/OneDark-Pro/issues/312)
+
+- Fix java highlight [#316](https://github.com/Binaryify/OneDark-Pro/pull/316)  
+
+The changes :
+1. `@` on annotation is now white (this is same in Typescript)
+2. `instanceof` is now highlighted
+3. `List<String>` is now standardized. The bracket is force to white and the type have now same color of type (this is same in Typescript)
+4. `ConfigurationSection[]` have now right type color
+
+
+
+>Thanks for [@holdenkilbride](https://github.com/holdenkilbride)  [@orblazer](https://github.com/orblazer) [@Huxpro](https://github.com/Huxpro)
+
+
 ## 2.25.3 | 2019.07.04
 - Fixed C++ highlight error [#313](https://github.com/Binaryify/OneDark-Pro/issues/313)
 

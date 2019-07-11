@@ -302,7 +302,10 @@
     },
     {
       "name": "java type",
-      "scope": "storage.type.annotation.java,storage.type.object.array.java",
+      "scope": [
+        "storage.type.annotation.java",
+        "storage.type.object.array.java"
+      ],
       "settings": {
         "foreground": "#e5c07b"
       }
@@ -336,17 +339,17 @@
       }
     },
     {
-      "name": "java variable.name",
-      "scope": "meta.definition.variable.name.java",
-      "settings": {
-        "foreground": "#e06c75"
-      }
-    },
-    {
       "name": "java instanceof",
       "scope": "keyword.operator.instanceof.java",
       "settings": {
         "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "java variable.name",
+      "scope": "meta.definition.variable.name.java",
+      "settings": {
+        "foreground": "#e06c75"
       }
     },
     {
@@ -604,7 +607,7 @@
       "name": "python placeholder reset to normal string",
       "scope": "constant.character.format.placeholder.other.python",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1870,7 +1873,19 @@
       },
       "scope": [
         "entity.name.label.cs",
-        "entity.name.scope-resolution.function.call"
+        "entity.name.scope-resolution.function.call",
+        "entity.name.scope-resolution.function.definition"
+      ]
+    },
+    {
+      "name": "Markdown underscore-style headers",
+      "settings": {
+        "foreground": "#e06c75"
+      },
+      "scope": [
+        "entity.name.label.cs",
+        "markup.heading.setext.1.markdown",
+        "markup.heading.setext.2.markdown"
       ]
     }
   ]

@@ -302,7 +302,10 @@
     },
     {
       "name": "java type",
-      "scope": "storage.type.annotation.java,storage.type.object.array.java",
+      "scope": [
+        "storage.type.annotation.java",
+        "storage.type.object.array.java"
+      ],
       "settings": {
         "foreground": "#e5c07b"
       }
@@ -339,7 +342,7 @@
       "name": "java instanceof",
       "scope": "keyword.operator.instanceof.java",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#d55fde"
       }
     },
     {
@@ -604,7 +607,7 @@
       "name": "python placeholder reset to normal string",
       "scope": "constant.character.format.placeholder.other.python",
       "settings": {
-        "foreground": "#89ca78"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1870,7 +1873,19 @@
       },
       "scope": [
         "entity.name.label.cs",
-        "entity.name.scope-resolution.function.call"
+        "entity.name.scope-resolution.function.call",
+        "entity.name.scope-resolution.function.definition"
+      ]
+    },
+    {
+      "name": "Markdown underscore-style headers",
+      "settings": {
+        "foreground": "#ef596f"
+      },
+      "scope": [
+        "entity.name.label.cs",
+        "markup.heading.setext.1.markdown",
+        "markup.heading.setext.2.markdown"
       ]
     }
   ]

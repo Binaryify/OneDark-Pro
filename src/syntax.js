@@ -270,7 +270,7 @@ const configFactory = type => {
     },
     {
       name: 'java type',
-      scope: 'storage.type.annotation.java',
+      scope: ['storage.type.annotation.java','storage.type.object.array.java'],
       settings: {
         foreground: colorObj['chalky']
       }
@@ -285,7 +285,7 @@ const configFactory = type => {
     {
       name: 'java modifier.import',
       scope:
-        'punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,storage.type.generic.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,meta.method.body.java',
+        'punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java',
       settings: {
         foreground: colorObj['lightWhite']
       }
@@ -299,9 +299,16 @@ const configFactory = type => {
     },
     {
       name: 'java modifier.import',
-      scope: 'storage.modifier.import.java,storage.type.java',
+      scope: 'storage.modifier.import.java,storage.type.java,storage.type.generic.java',
       settings: {
         foreground: colorObj['chalky']
+      }
+    },
+    {
+      name: "java instanceof",
+      scope: "keyword.operator.instanceof.java",
+      settings: {
+        foreground: colorObj['purple']
       }
     },
     {
@@ -1765,8 +1772,16 @@ const configFactory = type => {
       settings: {
         foreground: colorObj['chalky']
       },
-      scope: ['entity.name.label.cs','entity.name.scope-resolution.function.call']
+      scope: ['entity.name.label.cs','entity.name.scope-resolution.function.call','entity.name.scope-resolution.function.definition']
+    },
+    {
+      name: 'Markdown underscore-style headers',
+      settings: {
+        foreground: colorObj['coral']
+      },
+      scope: ['entity.name.label.cs','markup.heading.setext.1.markdown','markup.heading.setext.2.markdown']
     }
+
   ]
 
   // add ability to generate custom syntax settings per layout type
