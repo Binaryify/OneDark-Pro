@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.26.1 | 2019.08.03
+- Update warning Colors [#324](https://github.com/Binaryify/OneDark-Pro/issues/324)
+
 ## 2.26.0 | 2019.07.11
 - Changes constant.character.format.placeholder.other.python to whisky for better string formatting visibility in python [#319](https://github.com/Binaryify/OneDark-Pro/pull/319)
 
