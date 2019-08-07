@@ -1,5 +1,8 @@
 # CHANGELOG
 ## 2.26.1 | 2019.08.03
+- Change warning color to #d19a66 [#324](https://github.com/Binaryify/OneDark-Pro/issues/324)
+
+## 2.26.1 | 2019.08.03
 - Update warning Colors [#324](https://github.com/Binaryify/OneDark-Pro/issues/324)
 
 ## 2.26.0 | 2019.07.11
