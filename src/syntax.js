@@ -320,7 +320,7 @@ const configFactory = type => {
     },
     {
       name: 'operator logical',
-      scope: 'keyword.operator.logical.js',
+      scope: 'keyword.operator.logical',
       settings: {
         foreground: colorObj['fountainBlue']
       }
@@ -807,12 +807,20 @@ const configFactory = type => {
       }
     },
     {
-      name: 'Strings, Inherited Class',
-      scope: 'string, entity.other.inherited-class',
+      name: 'Strings',
+      scope: 'string',
       settings: {
         foreground: colorObj['green']
       }
     },
+    {
+        name: 'Inherited Class',
+        scope: 'entity.other.inherited-class',
+        settings: {
+          foreground: colorObj['chalky']
+        }
+      },
+   
     {
       name: 'Constant other symbol',
       scope: 'constant.other.symbol',

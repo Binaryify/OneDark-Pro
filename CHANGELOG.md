@@ -1,5 +1,11 @@
 # CHANGELOG
-## 2.26.1 | 2019.08.03
+## 2.26.3 | 2019.08.08
+- Fixed ts if/for/while statements highlight error [#325](https://github.com/Binaryify/OneDark-Pro/issues/325)
+
+- Fixed subclass highlight error [#320](https://github.com/Binaryify/OneDark-Pro/issues/320)
+
+
+## 2.26.2 | 2019.08.03
 - Change warning color to #d19a66 [#324](https://github.com/Binaryify/OneDark-Pro/issues/324)
 
 ## 2.26.1 | 2019.08.03

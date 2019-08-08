@@ -356,7 +356,7 @@
     },
     {
       "name": "operator logical",
-      "scope": "keyword.operator.logical.js",
+      "scope": "keyword.operator.logical",
       "settings": {
         "foreground": "#2bbac5"
       }
@@ -832,10 +832,17 @@
       }
     },
     {
-      "name": "Strings, Inherited Class",
-      "scope": "string, entity.other.inherited-class",
+      "name": "Strings",
+      "scope": "string",
       "settings": {
         "foreground": "#89ca78"
+      }
+    },
+    {
+      "name": "Inherited Class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#e5c07b"
       }
     },
     {
