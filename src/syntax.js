@@ -68,6 +68,13 @@ const configFactory = type => {
    */
   const tokenColorsDefault = [
     {
+      name: 'unison punctuation',
+      scope: 'punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison',
+      settings: {
+        foreground: colorObj['coral']
+      }
+    },
+    {
       name: 'haskell variable generic-type',
       scope: 'variable.other.generic-type.haskell',
       settings: {
@@ -820,7 +827,7 @@ const configFactory = type => {
           foreground: colorObj['chalky']
         }
       },
-   
+
     {
       name: 'Constant other symbol',
       scope: 'constant.other.symbol',
