@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.27.0 | 2019.08.22
+- Support Unison highlight[#326](https://github.com/Binaryify/OneDark-Pro/pull/326)
+
 ## 2.26.3 | 2019.08.08
 - Fixed ts if/for/while statements highlight error [#325](https://github.com/Binaryify/OneDark-Pro/issues/325)
 
