@@ -1903,6 +1903,15 @@
         "markup.heading.setext.1.markdown",
         "markup.heading.setext.2.markdown"
       ]
+    },
+    {
+      "name": "meta.brace.square",
+      "settings": {
+        "foreground": "#abb2bf"
+      },
+      "scope": [
+        " meta.brace.square"
+      ]
     }
   ]
 }

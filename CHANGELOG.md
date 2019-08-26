@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.27.1 | 2019.08.26
+- Fixed highlight error
+
 ## 2.27.0 | 2019.08.22
 - Support Unison highlight[#326](https://github.com/Binaryify/OneDark-Pro/pull/326)
 

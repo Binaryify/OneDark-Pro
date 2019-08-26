@@ -1795,6 +1795,13 @@ const configFactory = type => {
         foreground: colorObj['coral']
       },
       scope: ['entity.name.label.cs','markup.heading.setext.1.markdown','markup.heading.setext.2.markdown']
+    },
+    {
+        name: 'meta.brace.square',
+        settings: {
+          foreground: colorObj['lightWhite']
+        },
+        scope: [' meta.brace.square']
     }
 
   ]
