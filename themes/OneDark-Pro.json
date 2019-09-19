@@ -1137,6 +1137,13 @@
       }
     },
     {
+      "name": "Illegal",
+      "scope": "invalid.illegal.bad-ampersand.html",
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+    {
       "name": "Broken",
       "scope": "invalid.broken",
       "settings": {

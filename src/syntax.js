@@ -69,7 +69,8 @@ const configFactory = type => {
   const tokenColorsDefault = [
     {
       name: 'unison punctuation',
-      scope: 'punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison',
+      scope:
+        'punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison',
       settings: {
         foreground: colorObj['coral']
       }
@@ -277,7 +278,7 @@ const configFactory = type => {
     },
     {
       name: 'java type',
-      scope: ['storage.type.annotation.java','storage.type.object.array.java'],
+      scope: ['storage.type.annotation.java', 'storage.type.object.array.java'],
       settings: {
         foreground: colorObj['chalky']
       }
@@ -306,14 +307,15 @@ const configFactory = type => {
     },
     {
       name: 'java modifier.import',
-      scope: 'storage.modifier.import.java,storage.type.java,storage.type.generic.java',
+      scope:
+        'storage.modifier.import.java,storage.type.java,storage.type.generic.java',
       settings: {
         foreground: colorObj['chalky']
       }
     },
     {
-      name: "java instanceof",
-      scope: "keyword.operator.instanceof.java",
+      name: 'java instanceof',
+      scope: 'keyword.operator.instanceof.java',
       settings: {
         foreground: colorObj['purple']
       }
@@ -821,12 +823,12 @@ const configFactory = type => {
       }
     },
     {
-        name: 'Inherited Class',
-        scope: 'entity.other.inherited-class',
-        settings: {
-          foreground: colorObj['chalky']
-        }
-      },
+      name: 'Inherited Class',
+      scope: 'entity.other.inherited-class',
+      settings: {
+        foreground: colorObj['chalky']
+      }
+    },
 
     {
       name: 'Constant other symbol',
@@ -1111,6 +1113,13 @@ const configFactory = type => {
       scope: 'invalid.illegal',
       settings: {
         foreground: colorObj['invalid']
+      }
+    },
+    {
+      name: 'Illegal',
+      scope: 'invalid.illegal.bad-ampersand.html',
+      settings: {
+        foreground: colorObj['lightWhite']
       }
     },
     {
@@ -1787,23 +1796,30 @@ const configFactory = type => {
       settings: {
         foreground: colorObj['chalky']
       },
-      scope: ['entity.name.label.cs','entity.name.scope-resolution.function.call','entity.name.scope-resolution.function.definition']
+      scope: [
+        'entity.name.label.cs',
+        'entity.name.scope-resolution.function.call',
+        'entity.name.scope-resolution.function.definition'
+      ]
     },
     {
       name: 'Markdown underscore-style headers',
       settings: {
         foreground: colorObj['coral']
       },
-      scope: ['entity.name.label.cs','markup.heading.setext.1.markdown','markup.heading.setext.2.markdown']
+      scope: [
+        'entity.name.label.cs',
+        'markup.heading.setext.1.markdown',
+        'markup.heading.setext.2.markdown'
+      ]
     },
     {
-        name: 'meta.brace.square',
-        settings: {
-          foreground: colorObj['lightWhite']
-        },
-        scope: [' meta.brace.square']
+      name: 'meta.brace.square',
+      settings: {
+        foreground: colorObj['lightWhite']
+      },
+      scope: [' meta.brace.square']
     }
-
   ]
 
   // add ability to generate custom syntax settings per layout type

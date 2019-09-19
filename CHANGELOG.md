@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.27.2 | 2019.09.19
+- Fixed HTML highlight error
+
 ## 2.27.1 | 2019.08.26
 - Fixed highlight error
 
