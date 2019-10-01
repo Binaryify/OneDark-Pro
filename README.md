@@ -6,17 +6,17 @@ Atom's iconic One Dark theme, and one of the most downloaded [themes](https://ma
 
 ![screenshot](https://i.imgur.com/4xrtS6m.png)
 
-# CHANGELOG
+## CHANGELOG
 
 [CHANGELOG.MD](CHANGELOG.md)
 
-# Sponsors
+## Sponsors
 
 [![codestream](https://alt-images.codestream.com/codestream_logo_onedarkpro.png)](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro)
 
 Discuss, review, and share code with your team in the VS Code. Links discussions about code to your code. Integrates w/ Slack, Jira, Trello, and Live Share. [Try it free](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro).
 
-# Docs & Contribute
+## Docs & Contribute
 
 This document
 ([https://binaryify.github.io/OneDark-Pro/](https://binaryify.github.io/OneDark-Pro/))
@@ -32,7 +32,7 @@ Then run
 `npm run docs` to serve the documentation
 locally at `localhost:3000`.
 
-# ScreenShot
+## ScreenShot
 
 ![Screenshot](https://camo.githubusercontent.com/48f39d862900e54913410490e566a9e761bc5ad5/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776b7236693139396a33316b7731366f7461742e6a7067)
 
@@ -48,7 +48,7 @@ locally at `localhost:3000`.
 
 ![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/cpp.png)
 
-## Tweaks & theming
+### Tweaks & theming
 
 If you want to play around with new colors, use the setting
 `workbench.colorCustomizations` to customize the currently selected theme. For
@@ -91,16 +91,16 @@ Please check the official documentation,
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
-## Contributors
+### Contributors
 
 This project exists thanks to all the people who contribute.
 [![Contributors](https://opencollective.com/OneDark-Pro/contributors.svg?width=890)](https://github.com/Binaryify/OneDark-Pro/graphs/contributors)
 
-## Backers
+### Backers
 
 <a href="https://opencollective.com/onedark-pro#backers" target="_blank"><img src="https://opencollective.com/onedark-pro/backers.svg?width=890"></a>
 
-## Sponsors
+### Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
 <a href="https://opencollective.com/onedark-pro#sponsor" target="_blank">
