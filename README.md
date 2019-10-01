@@ -55,27 +55,27 @@ If you want to play around with new colors, use the setting
 example, you can add this snippet in your "settings.json" file:
 
 ```json
-"workbench.colorCustomizations":{
-    "tab.activeBackground": "#282c34",
-    "activityBar.background": "#282c34",
-    "sideBar.background": "#282c34"
+"workbench.colorCustomizations": {
+  "tab.activeBackground": "#282c34",
+  "activityBar.background": "#282c34",
+  "sideBar.background": "#282c34"
 }
 ```
 
 or use the setting `editor.tokenColorCustomizations`
 
 ```json
-"editor.tokenColorCustomizations":{
-    "[One Dark Pro]": {
-      "textMateRules": [
-        {
-          "scope":["source.python"],
-          "settings": {
-            "foreground": "#e06c75"
-          }
+"editor.tokenColorCustomizations": {
+  "[One Dark Pro]": {
+    "textMateRules": [
+      {
+        "scope": ["source.python"],
+        "settings": {
+          "foreground": "#e06c75"
         }
-      ]
-    }
+      }
+    ]
+  }
 }
 ```
 
