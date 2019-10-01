@@ -10,13 +10,13 @@ Atom's iconic One Dark theme, and one of the most downloaded [themes](https://ma
 
 [CHANGELOG.MD](CHANGELOG.md)
 
-## Sponsors
+## SPONSORS
 
 [![codestream](https://alt-images.codestream.com/codestream_logo_onedarkpro.png)](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro)
 
 Discuss, review, and share code with your team in the VS Code. Links discussions about code to your code. Integrates w/ Slack, Jira, Trello, and Live Share. [Try it free](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro).
 
-## Docs & Contribute
+## DOCS & CONTRIBUTE
 
 This document
 ([https://binaryify.github.io/OneDark-Pro/](https://binaryify.github.io/OneDark-Pro/))
@@ -32,7 +32,7 @@ Then run
 `npm run docs` to serve the documentation
 locally at `localhost:3000`.
 
-## ScreenShot
+## SCREENSHOT
 
 ![Screenshot](https://camo.githubusercontent.com/48f39d862900e54913410490e566a9e761bc5ad5/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776b7236693139396a33316b7731366f7461742e6a7067)
 
