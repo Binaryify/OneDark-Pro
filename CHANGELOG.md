@@ -38,7 +38,7 @@
 
   1. `@` on annotation is now white (this is same in Typescript)
   2. `instanceof` is now highlighted
-  3. `List<String>` is now standardized. The bracket is force to white and the type have now same color of type (this is same in Typescript)
+  3. `List<String>` is now standardized. The bracket is forced to white and the type has now the same color of type (this is same in Typescript)
   4. `ConfigurationSection[]` have now right type color
 
 > Thanks for [@holdenkilbride](https://github.com/holdenkilbride) [@orblazer](https://github.com/orblazer) [@Huxpro](https://github.com/Huxpro)
@@ -65,7 +65,7 @@
 
 ## 2.23.2 | 2019.05.27
 
-- Improve peek background color
+- Improve peek background-color
 
 ## 2.23.1 | 2019.05.24
 
@@ -73,7 +73,7 @@
 
 ## 2.23.0 | 2019.05.10
 
-- Improve haskell highlight
+- Improve Haskell highlight
 
 ## 2.22.1 | 2019.05.05
 
@@ -129,7 +129,7 @@
 
 ## 2.17.6 | 2018.10.25
 
-- Change focus from `#F8FAFD` to `#464646` to dim the colour
+- Change focus from `#F8FAFD` to `#464646` to dim the color
 
 ## 2.17.5
 
@@ -151,11 +151,11 @@
 
 ## 2.16.7 | 2018.10.04
 
-Imporve Ruby and FlowJS support
+Improve Ruby and FlowJS support
 
 ## 2.16.6 | 2018.09.12
 
-- Edit editor tab highlighting to be the `#282c34` colour to be consistent across the theme
+- Edit editor tab highlighting to be the `#282c34` color to be consistent across the theme
 - Improve Python italics support
 
 ## 2.16.3 | 2018.9.09
@@ -194,24 +194,24 @@ Imporve Ruby and FlowJS support
 
 ## 2.15.1 | 2018.7.05
 
-- Fix css color highlight error
+- Fix CSS color highlight error
 - Revert changes to fix YAML unquoted strings
 
 ## 2.15.0 | 2018.7.02
 
 - Made units (px, em.. etc) red to distinguish between the value itself and the units: easier readability
-- Made pseudo-elements/classes bluish in order to distinguish it from classes (which are the same colour in css/less/scss)
-- Made escaped characters (such as &apos; &copy; etc) red to see them easily, especially in Pug (jade) files where brackets and classes are essentially the same colour
+- Made pseudo-elements/classes bluish in order to distinguish it from classes (which are the same color in CSS/LESS/SASS)
+- Made escaped characters (such as &apos; &copy; etc) red to see them easily, especially in Pug (jade) files where brackets and classes are essentially the same color
 - The String literal in JS/TS \${} is now purply for easier readability
 - All Comments are now italic
 - Changes to TypeScript/JavaScript (possibly other languages too) syntax highlighting:
-  - Classes now all Yellow (except in TS in the case of: App.getSmth(), as both normal objects and classes use the same code inetrnally, meaning highlighting would be weird)
+  - Classes now all Yellow (except in TS in the case of App.getSmth(), as both normal objects and classes use the same code internally, meaning highlighting would be weird)
   - Property names in `js let app = { hello: "world"}` now red, to match selector (eg: `js app.hello`) and themselves
   - Optional operator `ts ?:` now purple too
 
 ## 2.14.0 | 2018.6.14
 
-- Change terminal ansi color to match syntax color
+- Change terminal ANSI color to match syntax color
 - Improve tab
 
 ## 2.13.6 | 2018.5.17
@@ -226,10 +226,10 @@ Imporve Ruby and FlowJS support
 
 ## 2.13.4 | 2018.3.12
 
-- Updated `.vsixmanifest` to contain latest and correct data.
+- Updated `.vsixmanifest` to contain the latest and correct data.
 - Updated `LICENSE` copyright date.
 - Deleted `vsc-extension-quickstart.md` which was auto-generated.
-- Updated `name` in themes to match correct theme name.
+- Updated `name` in themes to match the correct theme name.
 - Minor changes in `docs/index.html`.
 - Minor changes in `README.md` and `docs/*.md` files.
 - Added `galleryBanner` in `package.json` to match theme colors.
@@ -242,7 +242,7 @@ Imporve Ruby and FlowJS support
 
 ## 2.13.2 | 2018.3.11
 
-- Updated color of current active line and active line number in the editor.
+- Updated color of the currently active line and active line number in the editor.
 
 ## 2.13.1 | 2018.3.10
 
@@ -251,9 +251,9 @@ Imporve Ruby and FlowJS support
 ## 2.13.0 | 2018.3.08
 
 - Fixed `findMatchBackground` coloring.
-- New color for line number of the current active line in the editor.
+- New color for the line number of the currently active line in the editor.
 - Deleted old `notification.background` color because of the new Notification Center.
-- New border colors for editor highlights which improves readability while searching.
+- New border colors for editor highlight which improves readability while searching.
 - Add some edgeSyntax syntax support
 
 ## 2.12.8 | 2018.3.06
@@ -262,7 +262,7 @@ Improve integrated terminal colors
 
 ## 2.12.7 | 2018.3.05
 
-Update integrated terminal colors with One Dark colors
+Update integrated terminal colors with One Dark color
 
 ## 2.12.6 | 2018.2.28
 
@@ -274,12 +274,12 @@ Improve bracket visibility
 
 Improve line highlight background and scrollbar slider background
 
-Fix weird php behavior when a interface extends a PHP interface
+Fix weird PHP behavior when an interface extends a PHP interface
 thanks for @nicovak @jens1o @svipben
 
 ## 2.12.4 | 2018.2.11
 
-Improve React component tags's hightlight color
+Improve React component tags highlight color
 
 ## 2.12.3 | 2018.2.08
 
@@ -317,7 +317,7 @@ Improve markdown inline code highlight
 
 ## 2.10.20 | 2017.11.10
 
-Fix some php highlight
+Fix some PHP highlight
 
 ## 2.10.19 | 2017.11.09
 
@@ -382,11 +382,11 @@ Fix php array() syntax, fix the vivid theme file path error
 ## 2.10.0 | 2017.7.28
 
 Support basic markdown syntax when using vscode-todo, fix generic types in
-phpdoc, improve JavaScript constants color, add vivid theme
+phpdoc, improve JavaScript constants color, add a vivid theme
 
 ## 2.9.8 | 2017.7.22
 
-Support php types in documentations
+Support PHP types in documentations
 
 ## 2.9.7 | 2017.7.19
 
@@ -400,11 +400,11 @@ Increase the contrast of the selected text
 
 ## 2.9.4 | 2017.7.15
 
-Reset php round bracket in method parameters
+Reset PHP round bracket in method parameters
 
 ## 2.9.3 | 2017.7.12
 
-reset php function call labels
+reset PHP function call labels
 
 ## 2.9.2 | 2017.7.11
 
@@ -412,7 +412,7 @@ Improve js/ts keyword 'import' highlight
 
 ## 2.9.1 | 2017.7.1
 
-Improve php support, fix icon format error
+Improve PHP support, fix icon format error
 
 ## 2.8.9 | 2017.6.22
 
@@ -423,16 +423,16 @@ debugToolBar background & support.variable.object.node support
 ## 2.8.8 | 2017.6.20
 
 Improve ruler color, improve comment fontStyle, improve peek implementation
-match highlight background color
+match highlight background-color
 
 ## 2.8.7 | 2017.6.19
 
-Add jsx/tsx support, improve color of warning/error squiggles, improve ruler
+Add jsx/tsx support, improve the color of warning/error squiggles, improve ruler
 color
 
 ## 2.8.6 | 2017.6.13
 
-Support js/ts for-of operator, support php nowdoc, support void keyword, add
+Support js/ts for-of operator, support PHP nowdoc, support void keyword, add
 bold and italics support for Markdown
 
 ## 2.8.5 | 2017.6.6
@@ -454,17 +454,17 @@ improve C highlight
 ## 2.8.1 | 2017.5.29
 
 support void keyword, support ternary operators, support bitwise operators,
-support is expression in typescript
+support is an expression in typescript
 
 ## 2.8.0 | 2017.5.22
 
-resolve issue #48 #65 #66 #69 #70, support php comparison, add support for
-arithmetic operators, add support for php regex operators, support heredoc php
+resolve issue #48 #65 #66 #69 #70, support PHP comparison, add support for
+arithmetic operators, add support for PHP regex operators, support heredoc PHP
 operator
 
 ## 2.7.8 | 2017.5.17
 
-improve block cursor contrast background color
+improve block cursor contrast background-color
 
 ## 2.7.7 | 2017.5.16
 
@@ -482,20 +482,20 @@ Few more workbench colour fixes, Update diffEditor.insertedTextBackground
 
 ## 2.7.3 | 2017.5.10
 
-New logo and window colour additions and tweaks
+New logo and window color additions and tweaks
 [https://github.com/Binaryify/OneDark-Pro/pull/51](https://github.com/Binaryify/OneDark-Pro/pull/51)
 
 ## 2.7.2 | 2017.5.9
 
-add support for php's goto, update docs
+add support for PHP's goto, update docs
 
 ## 2.7.1 | 2017.5.7
 
-added custom colors for sidebar, statusBar, list, input boxes, etc.
+added custom colors for the sidebar, statusBar, list, input boxes, etc.
 
 ## 2.7.0 | 2017.5.5
 
-Change theme file format. Add workbench support, improve ts support, update
+Change the theme file format. Add workbench support, improve ts support, update
 document
 
 ## 2.6.3 | 2017.5.2
@@ -514,11 +514,11 @@ fix C++ heightlight error
 
 ## 2.5.2 | 2017.4.21
 
-added support support for other class namespace outside use
+added support for other class namespaces outside use
 
 ## 2.5.0 | 2017.4.15
 
-Added php function-call object and static
+Added PHP function-call object and static
 
 ## 2.4.16 | 2017.4.12
 
@@ -526,7 +526,7 @@ improve php & C# SUPPORT
 
 ## 2.4.15 | 2017.4.10
 
-support php constants and normalize array in double quoted strings,add keywords,
+support PHP constants and normalize array in double-quoted strings, add keywords,
 rename
 
 ## 2.4.6 | 2017.4.9
@@ -535,7 +535,7 @@ add DOCS
 
 ## 2.4.4 | 2017.4.9
 
-improve php support
+improve PHP support
 
 ## 2.4.3 | 2017.4.8
 
@@ -563,7 +563,7 @@ improve C++ support
 
 ## 2.3.6 | 2017.4.6
 
-improve php dollar sign & logical operator height light
+improve PHP dollar sign & logical operator height light
 
 ## 2.3.5 | 2017.3.31
 
@@ -600,7 +600,7 @@ improve js 'this' height light
 ## 2.2.7
 
 improve js variable property, js object-literal key, constant.js and math height
-light,remove notice
+light, remove the notice
 
 ## 2.2.6
 
