@@ -1,83 +1,102 @@
 # CHANGELOG
+
 ## 2.27.2 | 2019.09.19
+
 - Fixed HTML highlight error
 
 ## 2.27.1 | 2019.08.26
+
 - Fixed highlight error
 
 ## 2.27.0 | 2019.08.22
+
 - Support Unison highlight[#326](https://github.com/Binaryify/OneDark-Pro/pull/326)
 
 ## 2.26.3 | 2019.08.08
+
 - Fixed ts if/for/while statements highlight error [#325](https://github.com/Binaryify/OneDark-Pro/issues/325)
 
 - Fixed subclass highlight error [#320](https://github.com/Binaryify/OneDark-Pro/issues/320)
 
-
 ## 2.26.2 | 2019.08.03
+
 - Change warning color to #d19a66 [#324](https://github.com/Binaryify/OneDark-Pro/issues/324)
 
 ## 2.26.1 | 2019.08.03
+
 - Update warning Colors [#324](https://github.com/Binaryify/OneDark-Pro/issues/324)
 
 ## 2.26.0 | 2019.07.11
+
 - Changes constant.character.format.placeholder.other.python to whisky for better string formatting visibility in python [#319](https://github.com/Binaryify/OneDark-Pro/pull/319)
 
 - Support Markdown underscore-style headers [#312](https://github.com/Binaryify/OneDark-Pro/issues/312)
 
-- Fix java highlight [#316](https://github.com/Binaryify/OneDark-Pro/pull/316)  
+- Fix java highlight [#316](https://github.com/Binaryify/OneDark-Pro/pull/316)
 
-    The changes :
-    1. `@` on annotation is now white (this is same in Typescript)
-    2. `instanceof` is now highlighted
-    3. `List<String>` is now standardized. The bracket is force to white and the type have now same color of type (this is same in Typescript)
-    4. `ConfigurationSection[]` have now right type color
+  The changes :
 
+  1. `@` on annotation is now white (this is same in Typescript)
+  2. `instanceof` is now highlighted
+  3. `List<String>` is now standardized. The bracket is force to white and the type have now same color of type (this is same in Typescript)
+  4. `ConfigurationSection[]` have now right type color
 
-
->Thanks for [@holdenkilbride](https://github.com/holdenkilbride)  [@orblazer](https://github.com/orblazer) [@Huxpro](https://github.com/Huxpro)
-
+> Thanks for [@holdenkilbride](https://github.com/holdenkilbride) [@orblazer](https://github.com/orblazer) [@Huxpro](https://github.com/Huxpro)
 
 ## 2.25.3 | 2019.07.04
+
 - Fixed C++ highlight error [#313](https://github.com/Binaryify/OneDark-Pro/issues/313)
 
 ## 2.25.1 | 2019.07.03
+
 - Fixed `keyof` in typescript highlight error
 
 ## 2.25.0 | 2019.06.29
+
 - Improve menu foreground & active tab foreground via:[#299](https://github.com/Binaryify/OneDark-Pro/issues/299)
 
 ## 2.24.1 | 2019.06.04
+
 - Improve XI language support via:[#309](https://github.com/Binaryify/OneDark-Pro/pull/309)
 
 ## 2.24.0 | 2019.06.02
+
 - Add XI language support via:[#308](https://github.com/Binaryify/OneDark-Pro/pull/308)
 
 ## 2.23.2 | 2019.05.27
+
 - Improve peek background color
 
 ## 2.23.1 | 2019.05.24
+
 - Fix keyword delete highlight error
 
 ## 2.23.0 | 2019.05.10
+
 - Improve haskell highlight
 
 ## 2.22.1 | 2019.05.05
+
 - Update README.MD images
 
 ## 2.22.0 | 2019.05.03
+
 - Add support for statusBarItem.remoteBackground via:[#302](https://github.com/Binaryify/OneDark-Pro/pull/302)
 
 ## 2.21.0 | 2019.03.24
+
 - Make Rust type colors consistent with other languages [#298](https://github.com/Binaryify/OneDark-Pro/pull/298)
 
 ## 2.20.5 | 2019.03.15
+
 - Fix two regressions in PHP coloring
 
 ## 2.20.4 | 2019.03.14
+
 - Restore Python default foreground color
 
 ## 2.20.2 | 2019.03.13
+
 - Improve Rust syntax
 
 - Improve default foreground color
@@ -85,41 +104,53 @@
 - Definitely improve Python highlight 😃
 
 ## 2.19.3 | 2019.03.11
-- Improve Rust syntax highlight 
+
+- Improve Rust syntax highlight
 
 ## 2.19.2 | 2019.03.06
-- Improve C++, Markdown syntax highlight 
+
+- Improve C++, Markdown syntax highlight
 
 ## 2.19.0
+
 - Improve `this`, `super` highlight [#287](https://github.com/Binaryify/OneDark-Pro/pull/287)
 
 ## 2.18.2
+
 - Update README.MD
 
 ## 2.18.1
+
 - Add OneDark-Pro-bold style
 
 ## 2.17.7
+
 - Fix border in dropdown appearing without focus
 
 ## 2.17.6 | 2018.10.25
+
 - Change focus from `#F8FAFD` to `#464646` to dim the colour
 
 ## 2.17.5
+
 - Change focus from `#21252b` to `#F8FAFD` to improve accessibility in GUIs
 
 ## 2.17.4 | 2018.10.14
+
 - Improve markdown support
 - Improve editor dropdown color
 
 ## 2.17.3 | 2018.10.05
+
 - Improve elixir support #262
 - Improve flow support #222
 
 ## 2.17.1 | 2018.10.04
+
 - Rewrite syntax highlight file, simplified color, update docs
 
 ## 2.16.7 | 2018.10.04
+
 Imporve Ruby and FlowJS support
 
 ## 2.16.6 | 2018.09.12
@@ -171,7 +202,7 @@ Imporve Ruby and FlowJS support
 - Made units (px, em.. etc) red to distinguish between the value itself and the units: easier readability
 - Made pseudo-elements/classes bluish in order to distinguish it from classes (which are the same colour in css/less/scss)
 - Made escaped characters (such as &apos; &copy; etc) red to see them easily, especially in Pug (jade) files where brackets and classes are essentially the same colour
-- The String literal in JS/TS ${} is now purply for easier readability
+- The String literal in JS/TS \${} is now purply for easier readability
 - All Comments are now italic
 - Changes to TypeScript/JavaScript (possibly other languages too) syntax highlighting:
   - Classes now all Yellow (except in TS in the case of: App.getSmth(), as both normal objects and classes use the same code inetrnally, meaning highlighting would be weird)
