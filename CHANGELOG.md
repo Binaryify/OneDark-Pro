@@ -1,4 +1,9 @@
 # CHANGELOG
+## 2.28.0 | 2019.10.06
+
+- Improve [#305](https://github.com/Binaryify/OneDark-Pro/issues/305)
+
+- Merge [#336](https://github.com/Binaryify/OneDark-Pro/pull/336) [#337](https://github.com/Binaryify/OneDark-Pro/pull/337) [#338](https://github.com/Binaryify/OneDark-Pro/pull/338) [#339](https://github.com/Binaryify/OneDark-Pro/pull/339) [#341](https://github.com/Binaryify/OneDark-Pro/pull/341)
 
 ## 2.27.2 | 2019.09.19
 

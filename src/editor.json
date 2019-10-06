@@ -29,7 +29,7 @@
     "editorBracketMatch.background": "#515a6b",
     "editor.findMatchBackground": "#42557b",
     "editor.findMatchBorder": "#457dff",
-    "editor.findMatchHighlightBackground": "#314365",
+    "editor.findMatchHighlightBackground": "#d2e0ff2f",
     "editor.wordHighlightBackground": "#484e5b",
     "editor.wordHighlightBorder": "#7f848e",
     "editor.wordHighlightStrongBackground": "#abb2bf26",
