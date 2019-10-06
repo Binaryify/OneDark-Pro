@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2.28.0 | 2019.10.06
+## 2.28.1 | 2019.10.06
 
 - Improve [#305](https://github.com/Binaryify/OneDark-Pro/issues/305)
 
