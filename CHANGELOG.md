@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.28.2 | 2019.10.07
+- Update logo [#343](https://github.com/Binaryify/OneDark-Pro/pull/343)
+
 ## 2.28.1 | 2019.10.06
 
 - Improve [#305](https://github.com/Binaryify/OneDark-Pro/issues/305)
