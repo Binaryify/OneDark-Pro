@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.27.3 | 2019.10.28
+- Improve comparison operators incorrectly highlight [#346](https://github.com/Binaryify/OneDark-Pro/issues/346)
+
 ## 2.27.2 | 2019.09.19
 - Fixed HTML highlight error
 

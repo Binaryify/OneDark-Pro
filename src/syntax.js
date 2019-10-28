@@ -503,7 +503,7 @@ const configFactory = type => {
     {
       name: 'keyword.operator',
       scope:
-        'keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment',
+        'keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational',
       settings: {
         foreground: colorObj['fountainBlue']
       }
