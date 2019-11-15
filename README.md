@@ -8,7 +8,7 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 
 ## CHANGELOG
 
-[CHANGELOG.MD](CHANGELOG.md)
+[CHANGELOG.MD](https://github.com/Binaryify/OneDark-Pro/blob/master/CHANGELOG.md)
 
 ## SPONSORS
 

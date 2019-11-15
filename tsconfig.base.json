@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "preserveWatchOutput": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es6"
+  }
+}

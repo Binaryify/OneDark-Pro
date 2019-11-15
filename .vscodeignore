@@ -1,4 +1,11 @@
-static
-docs
-static/*.*
-docs/*.*
+*
+*/**
+**/.DS_Store
+!out
+!themes
+!package.json
+!README.md
+!CHANGELOG.md
+!LICENSE
+!icon.png
+!temp/.gitkeep

@@ -1,0 +1,1 @@
+export { generateTheme } from './generator'

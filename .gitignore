@@ -1,4 +1,18 @@
-.DS_Store
-node_modules
+# Logs
+logs
 *.log
-explorations
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+out/
+
+# Auto-generated theme file
+themes/*
+!themes/.gitkeep
+!temp/.gitkeep
+flag.txt
