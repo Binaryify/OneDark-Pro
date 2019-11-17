@@ -1,6 +1,6 @@
 # ReleaseNote
 ## v3.0 Feature
-- This version become a dynamic theme, and support custom editor theme(Solarized, Nord, Panda, Ayu, VS Code(dark)), switch `bold`, `italic`, `vivid` in one theme  
+- This version become a dynamic theme, have some breaking change(a little), support switch to other editor theme(Solarized, Nord, Panda, Ayu, VS Code(dark)), switch `bold`, `italic`, `vivid` in one theme  
 
 - The old `Onedark Pro bold`, `Onedark Pro vivid` theme can't use now, but you can switch that in VS Code's setting(support multiple, no more mutual exclusion)
 

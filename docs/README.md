@@ -23,29 +23,22 @@ Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selectio
 ## Develop 
 If you see any inconsistencies or missing colors, the following guide will show you how to make your own changes. You can submit your improvements as a merge request to this theme.
 
-### Find the VS Code extension path
+Clone this repo
+```
+$ git clone git@github.com:Binaryify/OneDark-Pro.git
+```
+Then run
 
-In a terminal, `cd` to your themes folder
+```
+$ npm install 
+```
 
-- Windows:
-`C:\Users\yourUserName\.vscode\extensions\themes`  
+Then use vscode open and press `F5` key
 
-- Mac/linux:
-`~/.vscode/extensions/themes`
-
-![ScreenShot](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwin60gwrj31kw14dwem.jpg)
-
-Then open 'color.json', 'syntax.json', 'editor.json' with VS Code: `code src`
-
-![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwioznq0dj31kw101tfx.jpg)
-
-### Example from 'syntax.json'
-The following is a code snippet taken from the **'syntax.json'** file:
-
-![ScreenShot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwiqzief1j30z80qkwf3.jpg)
+Change the `src/themes/syntax.ts` or `src/themes/editorThemes/*` file then reload vscode and you will see the change
 
 ### Principle
-VS Code will parse code and specify a scope for each piece of syntax. For example, the scope may be a keyword, a constant, or punctuation. **'syntax.json'** includes the settings that tell VS Code how to format the text accordingly, using these scopes.
+VS Code will parse code and specify a scope for each piece of syntax. For example, the scope may be a keyword, a constant, or punctuation. **'syntax.ts'** includes the settings that tell VS Code how to format the text accordingly, using these scopes.
 
 ### Common scope list
 
@@ -111,7 +104,7 @@ This will show you the selected token's scope. There are four sections:
 ![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwjlnqha0j31kw1017a3.jpg)
 
 ### Add/Change code color
-Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'syntax.json'** file, add/change code snippet like this:
+Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'syntax.ts'** file, add/change code snippet like this:
 
 ```js
 {
@@ -123,9 +116,6 @@ Now you know the rules for the theme, you simply need the code scope and the hex
 }
 ```
 
-then run `node build.js` in your terminal (Notice: need Node.JS 6.0+, or just change the 'OneDark-Pro.json' then `reload`(Not recommended))
-
-
 
 ### Reload
 Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once the window has reloaded, you will find the color of the code has changed.
@@ -134,7 +124,7 @@ Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once th
 
 ### Colors config
 
-`color.json`
+`color.ts`
 ![screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjxs1cc0j31kw101n1h.jpg)
 
 ```json
