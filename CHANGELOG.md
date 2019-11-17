@@ -3,7 +3,7 @@
 ## 3.0.0 | 2019.11.27
 - Support dynamic theme  
 
-- Support other editor theme  (Solarized, Nord, Panda, Ayu)
+- Support other editor theme  (Solarized, Nord, Panda, Ayu, VS Code(dark))
 
 - Support switch `bold`, `italic`, `vivid` 
 

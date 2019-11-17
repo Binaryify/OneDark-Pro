@@ -25,7 +25,7 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
 
   private getContent() {
     const content = fs.readFileSync(
-      path.join(__dirname, '../../', 'releaseNote.md'),
+      path.join(__dirname, '../../', 'ReleaseNote.md'),
       'utf-8'
     )
     return content
