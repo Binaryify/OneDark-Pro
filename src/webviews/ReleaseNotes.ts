@@ -6,11 +6,11 @@ export class ReleaseNotesWebview extends WebviewController<{}> {
   }
 
   get id(): string {
-    return 'materialTheme.releaseNotes'
+    return 'Onedark Pro.releaseNotes'
   }
 
   get title(): string {
-    return 'Material Theme Release Notes'
+    return 'Onedark Pro theme Release Notes'
   }
 
   /**

@@ -1,11 +1,5 @@
-*
-*/**
-**/.DS_Store
-!out
-!themes
-!package.json
-!README.md
-!CHANGELOG.md
-!LICENSE
-!icon.png
-!temp/.gitkeep
+!node_modules
+temp/flag.txt
+src
+scripts
+*.vsix

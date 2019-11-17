@@ -1,27 +1,17 @@
 import * as path from 'path'
+import * as fs from 'fs'
+import * as marked from 'marked'
 
-import {
-  workspace as Workspace,
-  Disposable,
-  ExtensionContext,
-  WebviewPanel,
-  ViewColumn,
-  window
-} from 'vscode'
+import { Disposable, WebviewPanel, ViewColumn, window } from 'vscode'
 
 export abstract class WebviewController<TBootstrap> extends Disposable {
   private panel: WebviewPanel | undefined
   private disposablePanel: Disposable | undefined
-  private context: ExtensionContext
 
-  constructor(context: ExtensionContext) {
-    // Applying dispose callback for our disposable function
+  constructor() {
     super(() => this.dispose())
-
-    this.context = context
   }
 
-  abstract get filename(): string
   abstract get id(): string
   abstract get title(): string
 
@@ -33,22 +23,19 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
     }
   }
 
-  private async getHtml(): Promise<string> {
-    const doc = await Workspace.openTextDocument(
-      this.context.asAbsolutePath(
-        path.join('src/webviews/ui/release-notes', this.filename)
-      )
+  private getContent() {
+    const content = fs.readFileSync(
+      path.join(__dirname, '../../', 'releaseNote.md'),
+      'utf-8'
     )
-    return doc.getText()
+    return content
   }
 
   async show(): Promise<void> {
-    const html = await this.getHtml()
+    const content = this.getContent()
 
-    // Replace placeholders in html content for assets and adding configurations as `window.bootstrap`
-    const fullHtml = html
+    const fullHtml = marked(content)
 
-    // If panel already opened just reveal
     if (this.panel !== undefined) {
       this.panel.webview.html = fullHtml
       return this.panel.reveal(ViewColumn.Active)

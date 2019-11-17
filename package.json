@@ -1,8 +1,8 @@
 {
-  "name": "Material-theme-test",
+  "name": "material-theme",
   "displayName": "One Dark Pro test",
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "2.46.0",
+  "version": "3.0.0",
   "publisher": "zhuangtongfa",
   "bugs": {
     "url": "https://github.com/Binaryify/OneDark-Pro/issues"
@@ -26,6 +26,9 @@
     "extends": [
       "@mskelton",
       "@mskelton/eslint-config/typescript"
+    ],
+    "plugins": [
+      "html"
     ]
   },
   "scripts": {
@@ -35,11 +38,10 @@
     "compile": "yarn compile:theme && yarn compile:ts",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "yarn compile:ts -w",
-    "vscode:prepublish": "yarn compile"
+    "vscode:prepublish": "yarn compile",
+    "package": "vsce package"
   },
-  "pre-commit": [
-   
-  ],
+  "pre-commit": [],
   "prettier": {
     "singleQuote": true,
     "semi": false
@@ -58,30 +60,31 @@
         "oneDarkPro.editorTheme": {
           "type": "string",
           "default": "",
-          "markdownDescription": "This setting can make colorCoral color change, default is #e06c75, accept hex color",
+          "markdownDescription": "%description.oneDarkPro.editorTheme%",
           "enum": [
-            "onedark",
+            "Onedark Pro",
             "nord",
             "solarized",
             "solarized flat",
             "panda",
-            "ayu"
+            "ayu",
+            "vscode"
           ]
         },
         "oneDarkPro.italic": {
           "type": "boolean",
           "default": true,
-          "description": "This setting will change some scope's font be italic"
+          "description": "%description.oneDarkPro.italic%"
         },
         "oneDarkPro.vivid": {
           "type": "boolean",
           "default": false,
-          "markdownDescription": "This setting will change the color more vivid"
+          "markdownDescription": "%description.oneDarkPro.vivid%"
         },
         "oneDarkPro.bold": {
           "type": "boolean",
           "default": false,
-          "markdownDescription": "This setting will change some scope's font be bold"
+          "markdownDescription": "%description.oneDarkPro.bold%"
         }
       }
     }
@@ -103,6 +106,7 @@
     "all-contributors-cli": "^6.11.0",
     "docsify-cli": "^4.3.0",
     "eslint": "^6.6.0",
+    "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prettier": "^3.1.1",
@@ -119,5 +123,8 @@
   "galleryBanner": {
     "color": "#2d323b",
     "theme": "dark"
+  },
+  "dependencies": {
+    "marked": "^0.7.0"
   }
 }

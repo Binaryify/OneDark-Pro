@@ -1,6 +1,6 @@
 import { join } from 'path'
 import * as fs from 'fs'
-import { workspace, ExtensionContext } from 'vscode'
+import { workspace } from 'vscode'
 import { generateTheme } from './themes'
 import { detectConfigChanges, promptToReload, writeFile } from './utils'
 import { ReleaseNotesWebview } from './webviews/releasenotes'
@@ -23,11 +23,12 @@ export async function regenerateTheme() {
  * This method is called when the extension is activated.
  * It initializes the core functionality of the extension.
  */
-export function activate(context: ExtensionContext): void {
-  const releaseNotesView = new ReleaseNotesWebview(context)
-  releaseNotesView.show()
+export function activate(): void {
   const flagPath = join(__dirname, '../temp', 'flag.txt')
+
   if (!fs.existsSync(flagPath)) {
+    const releaseNotesView = new ReleaseNotesWebview()
+    releaseNotesView.show()
     writeFile(flagPath, '')
     regenerateTheme().then(promptToReload)
   }

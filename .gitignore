@@ -16,3 +16,4 @@ themes/*
 !themes/.gitkeep
 !temp/.gitkeep
 flag.txt
+*.vsix
