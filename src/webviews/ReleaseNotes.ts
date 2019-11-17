@@ -12,12 +12,4 @@ export class ReleaseNotesWebview extends WebviewController<{}> {
   get title(): string {
     return 'Onedark Pro theme Release Notes'
   }
-
-  /**
-   * This will be called by the WebviewController when init the view
-   * passing as `window.bootstrap` to the view.
-   */
-  getBootstrap() {
-    return {}
-  }
 }

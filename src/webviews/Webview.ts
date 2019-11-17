@@ -15,8 +15,6 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
   abstract get id(): string
   abstract get title(): string
 
-  abstract getBootstrap(): TBootstrap
-
   dispose() {
     if (this.disposablePanel) {
       this.disposablePanel.dispose()

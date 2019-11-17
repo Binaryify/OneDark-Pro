@@ -1,11 +1,17 @@
 # ReleaseNote
 ## v3.0 Feature
-- This version become a dynamic theme, and support custom editor theme, switch `bold`, `italic`, `vivid` in one theme
-- The old `Onedark Pro bold`, `Onedark Pro vivid` can't use now, but you can switch that in VS Code's setting(support multiple, no more mutual exclusion)
+- This version become a dynamic theme, and support custom editor theme(Solarized, Nord, Panda, Ayu, VS Code(dark)), switch `bold`, `italic`, `vivid` in one theme  
+
+- The old `Onedark Pro bold`, `Onedark Pro vivid` theme can't use now, but you can switch that in VS Code's setting(support multiple, no more mutual exclusion)
 
 ![image.png](https://i.loli.net/2019/11/17/JYnl9HRaKzVbyQO.png)
 
 ![image.png](https://i.loli.net/2019/11/17/pRuzNfX8Kg5T3vo.png)
+
+## Notice
+- After change the config, the new theme file will generate, for let the new theme file effect, you should reload VS Code
+
+![image.png](https://i.loli.net/2019/11/17/UTciHtgyx8K9mAk.png)
 
 ### Theme 
 - One Dark Pro
@@ -29,10 +35,6 @@
 - VS Code(dark)
 ![image.png](https://i.loli.net/2019/11/17/nhCmQI4M6wclWzi.png)
 
-## Notice
-- After change the config, the new theme file will generate, for let the new theme file effect, you should reload VS Code  
-
-![image.png](https://i.loli.net/2019/11/17/UTciHtgyx8K9mAk.png)
 
 
 

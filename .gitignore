@@ -12,8 +12,6 @@ node_modules/
 out/
 
 # Auto-generated theme file
-themes/*
-!themes/.gitkeep
 !temp/.gitkeep
 flag.txt
 *.vsix
