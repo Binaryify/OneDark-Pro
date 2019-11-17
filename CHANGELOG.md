@@ -1,6 +1,8 @@
 # CHANGELOG
 
 ## 3.0.0 | 2019.11.27
+- Refactoring with TypeScript
+
 - Support dynamic theme  
 
 - Support switch to other editor theme  (Solarized, Nord, Panda, Ayu, VS Code(dark))
