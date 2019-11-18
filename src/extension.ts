@@ -3,7 +3,7 @@ import * as fs from 'fs'
 import { workspace } from 'vscode'
 import { generateTheme } from './themes'
 import { detectConfigChanges, promptToReload, writeFile } from './utils'
-import { ReleaseNotesWebview } from './webviews/releasenotes'
+import { ReleaseNotesWebview } from './webviews/ReleaseNotes'
 
 const THEME_PATH = join(__dirname, '..', 'themes', 'OneDark-Pro.json')
 
