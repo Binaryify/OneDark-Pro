@@ -1,6 +1,10 @@
 # CHANGELOG
+## 3.0.1 | 2019.11.17
+- Fixed work tree selected background color error
 
-## 3.0.0 | 2019.11.27
+- Fixed CHANGELOG.MD date error
+
+## 3.0.0 | 2019.11.17
 - Refactoring with TypeScript
 
 - Support dynamic theme  
