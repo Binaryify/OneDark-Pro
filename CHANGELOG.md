@@ -1,5 +1,8 @@
 # CHANGELOG
-## 3.0.1 | 2019.11.17
+## 3.0.2 | 2019.11.18
+- Fixed the file name error 
+
+## 3.0.1 | 2019.11.18
 - Fixed work tree selected background color error
 
 - Fixed CHANGELOG.MD date error
