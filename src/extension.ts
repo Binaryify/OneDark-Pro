@@ -1,10 +1,10 @@
 import { join } from 'path'
 import * as fs from 'fs'
-import { workspace } from 'vscode'
+import { workspace, commands as Commands, ConfigurationTarget } from 'vscode'
 import { generateTheme } from './themes'
 import { detectConfigChanges, promptToReload, writeFile } from './utils'
 import { ReleaseNotesWebview } from './webviews/ReleaseNotes'
-
+import { changelogMessage } from './helpers/message'
 const THEME_PATH = join(__dirname, '..', 'themes', 'OneDark-Pro.json')
 
 export async function regenerateTheme() {
@@ -23,12 +23,13 @@ export async function regenerateTheme() {
  * This method is called when the extension is activated.
  * It initializes the core functionality of the extension.
  */
-export function activate(): void {
+export async function activate() {
   const flagPath = join(__dirname, '../temp', 'flag.txt')
-
+  const releaseNotesView = new ReleaseNotesWebview()
   if (!fs.existsSync(flagPath)) {
-    const releaseNotesView = new ReleaseNotesWebview()
-    releaseNotesView.show()
+    if (await changelogMessage()) {
+      releaseNotesView.show()
+    }
     writeFile(flagPath, '')
     regenerateTheme().then(promptToReload)
   }
@@ -37,6 +38,31 @@ export function activate(): void {
     detectConfigChanges(event, () => {
       // update theme json file with new options
       regenerateTheme().then(promptToReload)
+    })
+  })
+  Commands.registerCommand('oneDarkPro.showReleaseNotes', () => {
+    releaseNotesView.show()
+  })
+
+  const settingArr = ['Vivid', 'Italic', 'Bold']
+  settingArr.forEach(settingItem => {
+    Commands.registerCommand(`oneDarkPro.set${settingItem}`, () => {
+      workspace
+        .getConfiguration()
+        .update(
+          `oneDarkPro.${settingItem.toLowerCase()}`,
+          true,
+          ConfigurationTarget.Global
+        )
+    })
+    Commands.registerCommand(`oneDarkPro.cancel${settingItem}`, () => {
+      workspace
+        .getConfiguration()
+        .update(
+          `oneDarkPro.${settingItem.toLowerCase()}`,
+          false,
+          ConfigurationTarget.Global
+        )
     })
   })
 }

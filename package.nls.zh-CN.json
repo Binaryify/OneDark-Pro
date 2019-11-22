@@ -1,6 +1,13 @@
 {
     "description.oneDarkPro.editorTheme": "设置不同编辑器主题",
-    "description.oneDarkPro.italic": "设置斜体",
+    "description.oneDarkPro.italic": "设置部分代码为斜体",
     "description.oneDarkPro.vivid": "设置色彩为 vivid",
-    "description.oneDarkPro.bold": "设置粗体"
+    "description.oneDarkPro.bold": "设置部分代码为粗体",
+    "description.oneDarkPro.showReleaseNote": "展示发行说明",
+    "description.oneDarkPro.setVivid": "设置色彩为 vivid",
+    "description.oneDarkPro.cancenVivid": "设置色彩为 vivid",
+    "description.oneDarkPro.setBold": "设置部分代码为粗体",
+    "description.oneDarkPro.cancenBold": "取消设置部分代码为粗体",
+    "description.oneDarkPro.setItalic": "设置部分代码为斜体",
+    "description.oneDarkPro.cancenItalic": "取消设置部分代码为斜体"
 }
