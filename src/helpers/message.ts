@@ -3,7 +3,7 @@ import { window as Window } from 'vscode'
 const MESSAGES = {
   CHANGELOG: {
     message:
-      'One Dark Pro Theme was updated. Check the release notes for more details.',
+      'One Dark Pro Theme was updated. Check the changelog for more details.',
     options: { cancel: 'Maybe later', ok: 'Show me' }
   },
   INSTALLATION: {

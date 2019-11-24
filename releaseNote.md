@@ -30,7 +30,7 @@
 ![image.png](https://i.loli.net/2019/11/17/lpq6tvywL9hOSBj.png)
 
 - Ayu
-![image.png](https://i.loli.net/2019/11/17/hoyRFxtP9Kp4lge.png)
+![image.png](https://i.loli.net/2019/11/23/txfJHVmKsyrnU2Y.png)
 
 - VS Code(dark)
 ![image.png](https://i.loli.net/2019/11/17/nhCmQI4M6wclWzi.png)

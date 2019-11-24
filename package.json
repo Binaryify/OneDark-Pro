@@ -2,7 +2,7 @@
     "name": "material-theme",
     "displayName": "One Dark Pro",
     "description": "Atom's iconic One Dark theme for Visual Studio Code",
-    "version": "3.0.3",
+    "version": "3.1.0",
     "publisher": "zhuangtongfa",
     "bugs": {
         "url": "https://github.com/Binaryify/OneDark-Pro/issues"
@@ -49,8 +49,8 @@
     "contributes": {
         "commands": [
             {
-                "command": "oneDarkPro.showReleaseNotes",
-                "title": "%description.oneDarkPro.showReleaseNote%",
+                "command": "oneDarkPro.showChangelog",
+                "title": "%description.oneDarkPro.showChangelog%",
                 "category": "OneDark Pro"
             },
             {
@@ -80,7 +80,7 @@
             },
             {
                 "command": "oneDarkPro.cancelBold",
-                "title": "%description.oneDarkPro.cencelBold%",
+                "title": "%description.oneDarkPro.cancelBold%",
                 "category": "OneDark Pro"
             }
         ],

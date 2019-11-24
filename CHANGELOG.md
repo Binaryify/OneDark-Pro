@@ -1,4 +1,13 @@
 # CHANGELOG
+## 3.1.0 | 2019.11.24
+- Fixed rust highlight error[#356](https://github.com/Binaryify/OneDark-Pro/issues/356)
+
+- Fixed jsx highlight error[#358](https://github.com/Binaryify/OneDark-Pro/issues/358)
+
+- Show open changelog button on notification in the bottom right corne
+
+- Support commands to set/cancel `bold`, `italic`, `vivid` 
+
 ## 3.0.3 | 2019.11.18
 - Fixed the file name error 
 
@@ -15,6 +24,9 @@
 - Support switch to other editor theme  (Solarized, Nord, Panda, Ayu, VS Code(dark))
 
 - Support switch `bold`, `italic`, `vivid` 
+
+### More
+- Read [release note](https://github.com/Binaryify/OneDark-Pro/blob/master/releaseNote.md)
 
 
 ## 2.28.3 | 2019.10.28

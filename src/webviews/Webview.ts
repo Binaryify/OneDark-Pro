@@ -1,7 +1,3 @@
-import * as path from 'path'
-import * as fs from 'fs'
-import * as marked from 'marked'
-
 import { Disposable, WebviewPanel, ViewColumn, window } from 'vscode'
 
 export abstract class WebviewController<TBootstrap> extends Disposable {
@@ -14,6 +10,7 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
 
   abstract get id(): string
   abstract get title(): string
+  abstract get content(): string
 
   dispose() {
     if (this.disposablePanel) {
@@ -21,18 +18,8 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
     }
   }
 
-  private getContent() {
-    const content = fs.readFileSync(
-      path.join(__dirname, '../../', 'ReleaseNote.md'),
-      'utf-8'
-    )
-    return content
-  }
-
   async show(): Promise<void> {
-    const content = this.getContent()
-
-    const fullHtml = marked(content)
+    const fullHtml = this.content
 
     if (this.panel !== undefined) {
       this.panel.webview.html = fullHtml

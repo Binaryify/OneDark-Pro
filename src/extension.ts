@@ -3,7 +3,7 @@ import * as fs from 'fs'
 import { workspace, commands as Commands, ConfigurationTarget } from 'vscode'
 import { generateTheme } from './themes'
 import { detectConfigChanges, promptToReload, writeFile } from './utils'
-import { ReleaseNotesWebview } from './webviews/ReleaseNotes'
+import { ChangelogWebview } from './webviews/Changelog'
 import { changelogMessage } from './helpers/message'
 const THEME_PATH = join(__dirname, '..', 'themes', 'OneDark-Pro.json')
 
@@ -25,10 +25,10 @@ export async function regenerateTheme() {
  */
 export async function activate() {
   const flagPath = join(__dirname, '../temp', 'flag.txt')
-  const releaseNotesView = new ReleaseNotesWebview()
+  const changelogView = new ChangelogWebview()
   if (!fs.existsSync(flagPath)) {
     if (await changelogMessage()) {
-      releaseNotesView.show()
+      changelogView.show()
     }
     writeFile(flagPath, '')
     regenerateTheme().then(promptToReload)
@@ -40,8 +40,8 @@ export async function activate() {
       regenerateTheme().then(promptToReload)
     })
   })
-  Commands.registerCommand('oneDarkPro.showReleaseNotes', () => {
-    releaseNotesView.show()
+  Commands.registerCommand('oneDarkPro.showChangelog', () => {
+    changelogView.show()
   })
 
   const settingArr = ['Vivid', 'Italic', 'Bold']

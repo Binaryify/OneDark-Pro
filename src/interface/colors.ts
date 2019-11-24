@@ -1,12 +1,14 @@
-export interface Colors {
+export default interface Colors {
   chalky: string
   coral: string
-  cyan: string
+  dark: string
   error: string
-  ivory: string
+  fountainBlue: string
+  green: string
+  invalid: string
+  lightDark: string
+  lightWhite: string
   malibu: string
-  sage: string
-  stone: string
-  violet: string
+  purple: string
   whiskey: string
 }

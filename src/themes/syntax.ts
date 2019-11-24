@@ -1,11 +1,12 @@
+import Colors from '../interface/colors'
 import colorConfig from './color'
-import { cloneDeep } from '../utils/cloneDeep'
+// import { cloneDeep } from '../utils/cloneDeep'
 import { uniqBy } from '../utils/uniqBy'
 
 const configFactory = configuration => {
   //   const colorObj = colorConfig[type]
-  const colorConfigClone = cloneDeep(colorConfig)
-  let colorObj = colorConfigClone.classic
+  const colorConfigClone = colorConfig
+  let colorObj: Colors = colorConfigClone.classic
   if (configuration.vivid) {
     colorObj = colorConfigClone.vivid
   }
@@ -507,6 +508,13 @@ const configFactory = configuration => {
       scope: 'keyword.operator',
       settings: {
         foreground: colorObj.fountainBlue
+      }
+    },
+    {
+      name: 'keyword.operator.misc.rust',
+      scope: 'keyword.operator.misc.rust',
+      settings: {
+        foreground: colorObj.lightWhite
       }
     },
     {
@@ -1115,6 +1123,14 @@ const configFactory = configuration => {
       scope: 'punctuation.section.embedded, variable.interpolation',
       settings: {
         foreground: colorObj.coral
+      }
+    },
+    {
+      name: 'Embedded',
+      scope:
+        'punctuation.section.embedded.begin,punctuation.section.embedded.end',
+      settings: {
+        foreground: colorObj.purple
       }
     },
     {

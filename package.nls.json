@@ -3,11 +3,11 @@
   "description.oneDarkPro.italic": "This setting will change some scope's font be italic",
   "description.oneDarkPro.vivid": "This setting will change the color more vivid",
   "description.oneDarkPro.bold": "This setting will change some scope's font be bold",
-  "description.oneDarkPro.showReleaseNote": "show release note",
+  "description.oneDarkPro.showChangelog": "show changelog",
   "description.oneDarkPro.setVivid": "set color be vivid",
-  "description.oneDarkPro.cancenVivid": "set color be vivid",
+  "description.oneDarkPro.cancelVivid": "set color be vivid",
   "description.oneDarkPro.setBold": "set some code be bold",
-  "description.oneDarkPro.cancenBold": "set some code be bold",
+  "description.oneDarkPro.cancelBold": "set some code be bold",
   "description.oneDarkPro.setItalic": "set some code be italic",
-  "description.oneDarkPro.cancenItalic": "set some code be italic"
+  "description.oneDarkPro.cancelItalic": "set some code be italic"
 }
