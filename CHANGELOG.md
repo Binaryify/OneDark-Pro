@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.1.1 | 2019.11.24
+- Fixed i18n error 
+
 ## 3.1.0 | 2019.11.24
 - Fixed rust highlight error [#356](https://github.com/Binaryify/OneDark-Pro/issues/356)
 
