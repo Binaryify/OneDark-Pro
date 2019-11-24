@@ -1,8 +1,8 @@
 # CHANGELOG
 ## 3.1.0 | 2019.11.24
-- Fixed rust highlight error[#356](https://github.com/Binaryify/OneDark-Pro/issues/356)
+- Fixed rust highlight error [#356](https://github.com/Binaryify/OneDark-Pro/issues/356)
 
-- Fixed jsx highlight error[#358](https://github.com/Binaryify/OneDark-Pro/issues/358)
+- Fixed jsx highlight error [#358](https://github.com/Binaryify/OneDark-Pro/issues/358)
 
 - Show open changelog button on notification in the bottom right corne
 
