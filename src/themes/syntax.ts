@@ -431,14 +431,6 @@ const configFactory = configuration => {
       }
     },
     {
-      name: 'js/ts template-expression',
-      scope:
-        'punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end',
-      settings: {
-        foreground: colorObj.coral
-      }
-    },
-    {
       name: 'js/ts module',
       scope:
         'support.module.node,support.type.object.module,support.module.node',

@@ -1595,13 +1595,6 @@
       }
     },
     {
-      "name": "js/ts template-expression",
-      "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
-      "settings": {
-        "foreground": "#e06c75"
-      }
-    },
-    {
       "name": "css property-name",
       "scope": "support.type.vendored.property-name.css",
       "settings": {
