@@ -2,9 +2,10 @@ import { join } from 'path'
 import * as fs from 'fs'
 import { workspace, commands as Commands, ConfigurationTarget } from 'vscode'
 import { generateTheme } from './themes'
-import { detectConfigChanges, promptToReload, writeFile } from './utils'
+import { detectConfigChanges, writeFile } from './utils'
 import { ChangelogWebview } from './webviews/Changelog'
-import { changelogMessage } from './helpers/message'
+// import { changelogMessage } from './helpers/message'
+import rewriteUserConfig from './utils/rewriteUserConfig'
 const THEME_PATH = join(__dirname, '..', 'themes', 'OneDark-Pro.json')
 
 export async function regenerateTheme() {
@@ -26,18 +27,21 @@ export async function regenerateTheme() {
 export async function activate() {
   const flagPath = join(__dirname, '../temp', 'flag.txt')
   const changelogView = new ChangelogWebview()
+
   if (!fs.existsSync(flagPath)) {
-    if (await changelogMessage()) {
-      changelogView.show()
-    }
+    rewriteUserConfig()
+    // if (await changelogMessage()) {
+    //   changelogView.show()
+    // }
     writeFile(flagPath, '')
-    regenerateTheme().then(promptToReload)
+    // regenerateTheme().then(promptToReload)
   }
   // Observe changes in the config
   workspace.onDidChangeConfiguration(event => {
     detectConfigChanges(event, () => {
+      rewriteUserConfig()
       // update theme json file with new options
-      regenerateTheme().then(promptToReload)
+      //   regenerateTheme().then(promptToReload)
     })
   })
   Commands.registerCommand('oneDarkPro.showChangelog', () => {

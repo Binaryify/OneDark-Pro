@@ -101,14 +101,6 @@ const configFactory = configuration => {
         }
       },
       {
-        name: '[VSCODE-CUSTOM] Markdown Quote',
-        scope: 'markup.quote.markdown',
-        settings: {
-          fontStyle: 'italic',
-          foreground: colorObj.dark
-        }
-      },
-      {
         name: 'markup.italic.markdown',
         scope: 'markup.italic.markdown',
         settings: {
@@ -496,13 +488,6 @@ const configFactory = configuration => {
       }
     },
     {
-      name: 'operator',
-      scope: 'keyword.operator',
-      settings: {
-        foreground: colorObj.fountainBlue
-      }
-    },
-    {
       name: 'keyword.operator.misc.rust',
       scope: 'keyword.operator.misc.rust',
       settings: {
@@ -623,13 +608,6 @@ const configFactory = configuration => {
       scope: 'constant.character.format.placeholder.other.python',
       settings: {
         foreground: colorObj.whiskey
-      }
-    },
-    {
-      name: 'Delimiters',
-      scope: 'none',
-      settings: {
-        foreground: colorObj.lightWhite
       }
     },
     {
@@ -869,20 +847,6 @@ const configFactory = configuration => {
       }
     },
     {
-      name: 'Floats',
-      scope: 'none',
-      settings: {
-        foreground: colorObj.whiskey
-      }
-    },
-    {
-      name: 'Boolean',
-      scope: 'none',
-      settings: {
-        foreground: colorObj.whiskey
-      }
-    },
-    {
       name: 'Constants',
       scope: 'constant',
       settings: {
@@ -931,13 +895,6 @@ const configFactory = configuration => {
       scope: 'meta.selector',
       settings: {
         foreground: colorObj.purple
-      }
-    },
-    {
-      name: 'Values',
-      scope: 'none',
-      settings: {
-        foreground: colorObj.whiskey
       }
     },
     {
@@ -1348,13 +1305,6 @@ const configFactory = configuration => {
         'support.token.decorator.python,meta.function.decorator.identifier.python',
       settings: {
         foreground: colorObj.fountainBlue
-      }
-    },
-    {
-      name: 'parameter function',
-      scope: 'function.parameter',
-      settings: {
-        foreground: colorObj.whiskey
       }
     },
     {

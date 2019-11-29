@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.2.0 | 2019.11.29
+- 
+
 ## 3.1.2 | 2019.11.25
 - Fixed template expression highlight error [#358](https://github.com/Binaryify/OneDark-Pro/issues/358)
 
