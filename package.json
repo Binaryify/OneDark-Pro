@@ -22,6 +22,7 @@
     "categories": [
         "Themes"
     ],
+    "extensionKind": ["ui"],
     "eslintConfig": {
         "extends": [
             "@mskelton",

@@ -1,24 +1,10 @@
 import { join } from 'path'
 import * as fs from 'fs'
 import { workspace, commands as Commands, ConfigurationTarget } from 'vscode'
-import { generateTheme } from './themes'
 import { detectConfigChanges, writeFile } from './utils'
 import { ChangelogWebview } from './webviews/Changelog'
 // import { changelogMessage } from './helpers/message'
-import rewriteUserConfig from './utils/rewriteUserConfig'
-const THEME_PATH = join(__dirname, '..', 'themes', 'OneDark-Pro.json')
-
-export async function regenerateTheme() {
-  const configuration = workspace.getConfiguration('oneDarkPro')
-
-  const theme = generateTheme({
-    bold: configuration.get<boolean>('bold'),
-    editorTheme: configuration.get<string>('editorTheme'),
-    italic: configuration.get<boolean>('italic'),
-    vivid: configuration.get<boolean>('vivid')
-  })
-  return writeFile(THEME_PATH, theme)
-}
+import { updateTheme } from './utils/updateTheme'
 
 /**
  * This method is called when the extension is activated.
@@ -27,21 +13,31 @@ export async function regenerateTheme() {
 export async function activate() {
   const flagPath = join(__dirname, '../temp', 'flag.txt')
   const changelogView = new ChangelogWebview()
-
   if (!fs.existsSync(flagPath)) {
-    rewriteUserConfig()
     // if (await changelogMessage()) {
     //   changelogView.show()
     // }
     writeFile(flagPath, '')
-    // regenerateTheme().then(promptToReload)
+
+    const configArr = [
+      { defaultVal: false, type: 'bold' },
+      { defaultVal: true, type: 'italic' },
+      { defaultVal: false, type: 'vivid' }
+    ]
+    const configuration = workspace.getConfiguration('oneDarkPro')
+    const isDefaultConfig = configArr.every(item => {
+      return configuration.get<boolean>(item.type) === item.defaultVal
+    })
+
+    if (!isDefaultConfig) {
+      updateTheme()
+    }
   }
   // Observe changes in the config
   workspace.onDidChangeConfiguration(event => {
     detectConfigChanges(event, () => {
-      rewriteUserConfig()
       // update theme json file with new options
-      //   regenerateTheme().then(promptToReload)
+      updateTheme()
     })
   })
   Commands.registerCommand('oneDarkPro.showChangelog', () => {
