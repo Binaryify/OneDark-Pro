@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.2.1 | 2019.12.10
+- Fixed [#362](https://github.com/Binaryify/OneDark-Pro/issues/362)
+
 ## 3.2.0 | 2019.11.29
 - Won't prompt to reload after extension update when using default config
 

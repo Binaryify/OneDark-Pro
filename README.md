@@ -12,9 +12,10 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 
 ## SPONSORS
 
-[![codestream](https://alt-images.codestream.com/codestream_logo_onedarkpro.png)](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro)
+[![codestream](https://alt-images.codestream.com/codestream_logo_onedarkpro.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
 
-Discuss, review, and share code with your team in the VS Code. Links discussions about code to your code. Integrates w/ Slack, Jira, Trello, and Live Share. [Try it free](https://codestream.com/?utm_source=vscmarket&utm_medium=banner&utm_campaign=onedarkpro).
+Discussing code is now as easy as highlighting a block and typing a comment right from your IDE. Take the pain out of code reviews and improve code quality.
+ [Try it free](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner).
 
 ## DOCS & CONTRIBUTE
 
