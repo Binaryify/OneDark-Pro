@@ -145,7 +145,7 @@ const configFactory = configuration => {
     {
       name: 'punctuation.separator.parameters.python',
       scope:
-        'punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,',
+        'punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python',
       settings: {
         foreground: colorObj.lightWhite
       }
