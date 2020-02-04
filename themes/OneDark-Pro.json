@@ -1731,7 +1731,7 @@
     },
     {
       "name": "diff",
-      "scope": "meta.diff.header.from-file,punctuation.definition.from-file.diff",
+      "scope": "meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff",
       "settings": {
         "foreground": "#61afef"
       }
@@ -1822,7 +1822,7 @@
     },
     {
       "name": "punctuation.separator.parameters.python",
-      "scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,",
+      "scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python",
       "settings": {
         "foreground": "#abb2bf"
       }

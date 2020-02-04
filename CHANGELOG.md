@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.2.2 | 2020.02.04
+- Highlight diff to-file [#376](https://github.com/Binaryify/OneDark-Pro/pull/376)
+
 ## 3.2.1 | 2019.12.10
 - Fixed [#362](https://github.com/Binaryify/OneDark-Pro/issues/362)
 
