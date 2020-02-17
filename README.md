@@ -35,19 +35,19 @@ locally at `localhost:3000`.
 
 ## SCREENSHOT
 
-![Screenshot](https://camo.githubusercontent.com/48f39d862900e54913410490e566a9e761bc5ad5/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776b7236693139396a33316b7731366f7461742e6a7067)
+![Screenshot](https://ww2.sinaimg.cn/large/006tNbRwgy1fvwk4ach5bj31kw16o0uw.jpg)
 
-![Screenshot](https://camo.githubusercontent.com/fde179ff0b0b0f1c87059726a29fcb9115a1f199/68747470733a2f2f7773322e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776b727632726f726a33316b7731366f6468772e6a7067)
+![Screenshot](https://ww4.sinaimg.cn/large/006tNbRwgy1fvwk6c9egej31kw16odhv.jpg)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot1.png)
+![ScreenShot](/static/screenshot1.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/php.png)
+![ScreenShot](/static/php.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot2.png)
+![ScreenShot](/static/screenshot2.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/js.png)
+![ScreenShot](/static/js.png)
 
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/cpp.png)
+![ScreenShot](/static/cpp.png)
 
 ### Tweaks & theming
 
@@ -86,9 +86,9 @@ Please check the official documentation,
 [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) and
 [Theme Color](https://code.visualstudio.com/docs/getstarted/themes), for more helpful information.
 
-![setting.json](https://camo.githubusercontent.com/e3931303eec6fbfb79c424cd30ca2d50f49c8416/68747470733a2f2f7773342e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776a6f716e6274676a33316b773130317768762e6a7067)
+![setting.json](https://ww4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
 
-![custom](https://camo.githubusercontent.com/179963baf6ded2934ec5dba08a65f61ca8d0b34f/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776a70776e7137626a33307175313477337a722e6a7067)
+![custom](https://ww3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
