@@ -237,7 +237,8 @@ const configFactory = configuration => {
     },
     {
       name: 'diff',
-      scope: 'meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff',
+      scope:
+        'meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff',
       settings: {
         foreground: colorObj.malibu
       }
@@ -1799,6 +1800,13 @@ const configFactory = configuration => {
       scope: 'markup.quote.markdown',
       settings: {
         foreground: colorObj.dark
+      }
+    },
+    {
+      name: 'punctuation.definition.block.sequence.item.yaml',
+      scope: 'punctuation.definition.block.sequence.item.yaml',
+      settings: {
+        foreground: colorObj.lightWhite
       }
     }
   ]

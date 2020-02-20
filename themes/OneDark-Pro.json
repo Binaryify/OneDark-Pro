@@ -105,6 +105,13 @@
   "name": "One Dark Pro",
   "tokenColors": [
     {
+      "name": "punctuation.definition.block.sequence.item.yaml",
+      "scope": "punctuation.definition.block.sequence.item.yaml",
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+    {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
       "settings": {

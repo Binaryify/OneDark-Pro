@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.2.3 | 2020.02.20
+- Fixed embedded YAML list dash highlight error[#370](https://github.com/Binaryify/OneDark-Pro/issues/370)
+
 ## 3.2.2 | 2020.02.04
 - Highlight diff to-file [#376](https://github.com/Binaryify/OneDark-Pro/pull/376)
 
