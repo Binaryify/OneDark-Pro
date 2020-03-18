@@ -64,7 +64,7 @@ export default {
   'sideBar.background': '#21252b',
   'sideBarSectionHeader.background': '#282c34',
   'statusBar.background': '#21252b',
-  'statusBar.debuggingBackground': '#7e0097',
+  'statusBar.debuggingBackground': '#cc6633',
   'statusBar.debuggingBorder': '#66017a',
   'statusBar.debuggingForeground': '#ffffff',
   'statusBar.foreground': '#9da5b4',

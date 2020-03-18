@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.2.4 | 2020.03.18
+- Update debug status bar background [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
+
 ## 3.2.3 | 2020.02.20
 - Fixed embedded YAML list dash highlight error[#370](https://github.com/Binaryify/OneDark-Pro/issues/370)
 
