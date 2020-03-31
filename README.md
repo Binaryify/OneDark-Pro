@@ -35,9 +35,9 @@ locally at `localhost:3000`.
 
 ## SCREENSHOT
 
-![Screenshot](https://ww2.sinaimg.cn/large/006tNbRwgy1fvwk4ach5bj31kw16o0uw.jpg)
+![Screenshot](/static/006tNbRwgy1fvwk4ach5bj31kw16o0uw.jpg)
 
-![Screenshot](https://ww4.sinaimg.cn/large/006tNbRwgy1fvwk6c9egej31kw16odhv.jpg)
+![Screenshot](/static/006tNbRwgy1fvwk6c9egej31kw16odhv.jpg)
 
 ![ScreenShot](/static/screenshot1.png)
 
@@ -86,9 +86,9 @@ Please check the official documentation,
 [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) and
 [Theme Color](https://code.visualstudio.com/docs/getstarted/themes), for more helpful information.
 
-![setting.json](https://ww4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
+![setting.json](/static/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
 
-![custom](https://ww3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
+![custom](/static/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 

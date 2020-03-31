@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.2.5 | 2020.03.31
+- Fixed broken images url
+
 ## 3.2.4 | 2020.03.18
 - Update debug status bar background [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
 
