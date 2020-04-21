@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.3.0 | 2020.04.21
+- Update terminal color
+
 ## 3.2.5 | 2020.03.31
 - Fixed broken images url
 

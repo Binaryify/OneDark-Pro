@@ -34,7 +34,7 @@ Then run
 locally at `localhost:3000`.
 
 ## SCREENSHOT
-
+![ScreenShot](/static/code.png)
 ![Screenshot](/static/006tNbRwgy1fvwk4ach5bj31kw16o0uw.jpg)
 
 ![Screenshot](/static/006tNbRwgy1fvwk6c9egej31kw16odhv.jpg)
