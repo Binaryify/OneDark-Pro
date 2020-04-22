@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.3.1 | 2020.04.22
+- Fixed terminal color error
+
 ## 3.3.0 | 2020.04.21
 - Update terminal color
 
