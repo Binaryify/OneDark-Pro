@@ -1822,6 +1822,13 @@ const configFactory = configuration => {
       return setting.name + setting.scope
     })
   }
-  return result
+  return {
+    semanticTokenColors: {
+      'variable.defaultLibrary': {
+        foreground: colorObj.chalky
+      }
+    },
+    tokenColors: result
+  }
 }
 export default configFactory

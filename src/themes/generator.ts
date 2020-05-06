@@ -6,7 +6,9 @@ export function generateTheme(configuration: ThemeConfiguration) {
   return {
     colors: createEditorTokens(configuration),
     name: 'One Dark Pro',
-    tokenColors: configFactory(configuration),
+    semanticHighlighting: true,
+    semanticTokenColors: configFactory(configuration).semanticTokenColors,
+    tokenColors: configFactory(configuration).tokenColors,
     type: 'dark'
   }
 }

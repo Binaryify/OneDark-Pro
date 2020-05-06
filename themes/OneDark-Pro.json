@@ -103,6 +103,12 @@
     "titleBar.inactiveForeground": "#6b717d"
   },
   "name": "One Dark Pro",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "variable.defaultLibrary": {
+      "foreground": "#e5c07b"
+    }
+  },
   "tokenColors": [
     {
       "name": "punctuation.definition.block.sequence.item.yaml",

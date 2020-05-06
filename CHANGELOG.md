@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.4.0 | 2020.05.06
+### Breaking change
+- Enable semantic highlighting by default [#386](https://github.com/Binaryify/OneDark-Pro/issues/386)  
+You could set `"editor.semanticHighlighting.enabled": false` in your `setting.json` to close this setting
+
 ## 3.3.1 | 2020.04.22
 - Fixed terminal color error
 
