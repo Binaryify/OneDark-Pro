@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.5.0 | 2020.05.09
+- Add markdown preview color highlight support
+
 ## 3.4.0 | 2020.05.06
 ### Breaking change
 - Enable semantic highlighting by default [#386](https://github.com/Binaryify/OneDark-Pro/issues/386)  
