@@ -33,7 +33,10 @@
         ],
         "plugins": [
             "html"
-        ]
+        ],
+        "rules": {
+            "sort/imports": "off"
+        }
     },
     "scripts": {
         "docs": "docsify serve docs",
