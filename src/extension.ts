@@ -1,6 +1,6 @@
 import { join } from 'path'
 import * as fs from 'fs'
-import { workspace, commands as Commands, ConfigurationTarget } from 'vscode'
+import { commands as Commands, ConfigurationTarget, workspace } from 'vscode'
 import { detectConfigChanges, writeFile } from './utils'
 import { ChangelogWebview } from './webviews/Changelog'
 // import { changelogMessage } from './helpers/message'

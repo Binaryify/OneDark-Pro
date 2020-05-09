@@ -1,4 +1,4 @@
-import { window, commands } from 'vscode'
+import { commands, window } from 'vscode'
 
 export function promptToReload() {
   const action = 'Reload'
