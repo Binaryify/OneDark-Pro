@@ -1,4 +1,4 @@
-import { Disposable, WebviewPanel, ViewColumn, window } from 'vscode'
+import { Disposable, ViewColumn, WebviewPanel, window } from 'vscode'
 
 export abstract class WebviewController<TBootstrap> extends Disposable {
   private panel: WebviewPanel | undefined
