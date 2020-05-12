@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.5.5 | 2020.05.12
+- Limit markdown preview style in dark mode
+
 ## 3.5.0 | 2020.05.09
 - Add markdown preview color highlight support
 
