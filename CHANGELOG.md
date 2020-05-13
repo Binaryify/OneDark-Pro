@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.6.0 | 2020.05.13
+- Revert markdown preview color highlight support change
+
 ## 3.5.5 | 2020.05.12
 - Limit markdown preview style in dark mode
 
