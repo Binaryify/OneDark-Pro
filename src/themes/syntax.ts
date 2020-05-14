@@ -640,6 +640,13 @@ const configFactory = configuration => {
       }
     },
     {
+      name: 'Variables',
+      scope: 'variable.c',
+      settings: {
+        foreground: colorObj.lightWhite
+      }
+    },
+    {
       name: 'Language variables',
       scope: 'variable.language',
       settings: {

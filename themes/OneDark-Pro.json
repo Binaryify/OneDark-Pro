@@ -1357,6 +1357,13 @@
     },
     {
       "name": "Variables",
+      "scope": "variable.c",
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+    {
+      "name": "Variables",
       "scope": "variable",
       "settings": {
         "foreground": "#e06c75"

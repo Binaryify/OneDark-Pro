@@ -1,4 +1,6 @@
 # CHANGELOG
+## 3.6.1 | 2020.05.14
+- Fixed C/C++ variables highlight error [#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
 ## 3.6.0 | 2020.05.13
 - Revert markdown preview color highlight support change
 
