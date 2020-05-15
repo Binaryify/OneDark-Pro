@@ -47,7 +47,8 @@
         "watch:theme": "nodemon ./scripts/generate-theme.ts",
         "watch:ts": "yarn compile:ts -w",
         "vscode:prepublish": "yarn compile",
-        "package": "vsce package"
+        "package": "vsce package",
+        "complete:sass":"npx sass --no-source-map scss:styles"
     },
     "pre-commit": [],
     "prettier": {

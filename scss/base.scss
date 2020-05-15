@@ -1,57 +1,53 @@
 .vscode-dark {
-  .vscode-body {
+  &.vscode-body {
     box-sizing: border-box;
     min-width: 200px;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 40px;
-    border: 1px solid transparent;
   }
 
-  .vscode-body blockquote {
+  &.vscode-body blockquote {
     background-color: initial;
   }
 
-  .vscode-body pre {
+  &.vscode-body pre {
     color: initial;
   }
 
-  .vscode-body code {
+  &.vscode-body code {
     color: inherit;
   }
 
-  .vscode-body pre code {
+  &.vscode-body pre code {
     color: initial;
   }
 
-  .vscode-body code > div {
+  &.vscode-body code > div {
     background: none;
   }
 
-  .vscode-body table th,
-  .vscode-body table td {
+  &.vscode-body table th,
+  &.vscode-body table td {
     border: 1px solid rgba(171, 178, 191, 0.5) !important;
   }
 
-  .vscode-body.showEditorSelection .code-active-line:before {
-    border-left: 3px solid rgba(0, 0, 0, 0.15);
-  }
-
-  .vscode-body.showEditorSelection .code-line:hover:before {
-    border-left: 3px solid rgba(0, 0, 0, 0.4);
-  }
-
-  .vscode-body.showEditorSelection .code-line .code-line:hover:before {
+  &.vscode-body.showEditorSelection .code-active-line:before {
     border-left: none;
   }
 
-  .vscode-body p,
-  .vscode-body blockquote,
-  .vscode-body ul,
-  .vscode-body ol,
-  .vscode-body dl,
-  .vscode-body table,
-  .vscode-body pre {
+  &.vscode-body.showEditorSelection .code-line:hover:before {
+    border-left: none;
+  }
+
+  &.vscode-body.showEditorSelection .code-line .code-line:hover:before {
+    border-left: none;
+  }
+
+  &.vscode-body p,
+  &.vscode-body blockquote,
+  &.vscode-body ul,
+  &.vscode-body ol,
+  &.vscode-body dl,
+  &.vscode-body table,
+  &.vscode-body pre {
     margin-top: 16px;
     margin-bottom: 16px;
   }

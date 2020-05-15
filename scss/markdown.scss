@@ -15,6 +15,8 @@
     font-size: 16px;
     line-height: 1.5;
     word-wrap: break-word;
+    background: #282c34;
+    padding-top:20px;
   }
 
   &.vscode-body .pl-c {
@@ -211,7 +213,7 @@
   }
 
   &.vscode-body a {
-    color: #0366d6;
+    color: #528bff;
     text-decoration: none;
   }
 
@@ -426,9 +428,17 @@
   }
 
   &.vscode-body blockquote {
-    padding: 0 1em;
-    color: #6a737d;
-    border-left: 0.25em solid #dfe2e5;
+   /* padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5; */
+  padding: 8.5px 17px;
+  margin: 1.5em 0;
+    font-size: inherit;
+    color: #7c879c;
+    border-color: #4b5362;
+    border-width: 4px;
+    border-left: 5px solid #4b5362;
+    background: transparent;
   }
 
   &.vscode-body blockquote > :first-child {
@@ -464,6 +474,8 @@
     margin-bottom: 16px;
     font-weight: 600;
     line-height: 1.25;
+    color:rgb(240,240,240);
+    border-bottom: none;
   }
 
   &.vscode-body h1 .octicon-link,
@@ -498,13 +510,13 @@
   &.vscode-body h1 {
     padding-bottom: 0.3em;
     font-size: 2em;
-    border-bottom: 1px solid rgba(171, 178, 191, 0.5);
+    // border-bottom: 1px solid rgba(171, 178, 191, 0.5);
   }
 
   &.vscode-body h2 {
     padding-bottom: 0.3em;
     font-size: 1.5em;
-    border-bottom: 1px solid rgba(171, 178, 191, 0.5);
+    // border-bottom: 1px solid rgba(171, 178, 191, 0.5);
   }
 
   &.vscode-body h3 {
@@ -594,7 +606,8 @@
   &.vscode-body img {
     max-width: 100%;
     box-sizing: content-box;
-    background-color: #fff;
+    // background-color: #fff;
+    display: block;
   }
 
   &.vscode-body img[align='right'] {
@@ -609,8 +622,10 @@
     padding: 0.2em 0.4em;
     margin: 0;
     font-size: 85%;
-    background-color: rgba(27, 31, 35, 0.05);
+    background-color: #3a3f4b;
     border-radius: 3px;
+    color:white;
+    margin:0 1px;
   }
 
   &.vscode-body pre {
@@ -645,7 +660,7 @@
     /* background-color: #f6f8fa; */
 
     border-radius: 3px;
-    background-color: rgb(33, 37, 43);
+    background-color: #31363f;
   }
 
   &.vscode-body pre code {

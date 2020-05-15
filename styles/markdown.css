@@ -12,6 +12,8 @@
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
+  background: #282c34;
+  padding-top: 20px;
 }
 .vscode-dark.vscode-body .pl-c {
   color: #6a737d;
@@ -153,7 +155,7 @@
   line-height: inherit;
 }
 .vscode-dark.vscode-body a {
-  color: #0366d6;
+  color: #528bff;
   text-decoration: none;
 }
 .vscode-dark.vscode-body a:hover {
@@ -309,9 +311,17 @@
   border: 0;
 }
 .vscode-dark.vscode-body blockquote {
-  padding: 0 1em;
+  /* padding: 0 1em;
   color: #6a737d;
-  border-left: 0.25em solid #dfe2e5;
+  border-left: 0.25em solid #dfe2e5; */
+  padding: 8.5px 17px;
+  margin: 1.5em 0;
+  font-size: inherit;
+  color: #7c879c;
+  border-color: #4b5362;
+  border-width: 4px;
+  border-left: 5px solid #4b5362;
+  background: transparent;
 }
 .vscode-dark.vscode-body blockquote > :first-child {
   margin-top: 0;
@@ -337,6 +347,8 @@
   margin-bottom: 16px;
   font-weight: 600;
   line-height: 1.25;
+  color: #f0f0f0;
+  border-bottom: none;
 }
 .vscode-dark.vscode-body h1 .octicon-link, .vscode-dark.vscode-body h2 .octicon-link, .vscode-dark.vscode-body h3 .octicon-link, .vscode-dark.vscode-body h4 .octicon-link, .vscode-dark.vscode-body h5 .octicon-link, .vscode-dark.vscode-body h6 .octicon-link {
   color: #1b1f23;
@@ -352,12 +364,10 @@
 .vscode-dark.vscode-body h1 {
   padding-bottom: 0.3em;
   font-size: 2em;
-  border-bottom: 1px solid rgba(171, 178, 191, 0.5);
 }
 .vscode-dark.vscode-body h2 {
   padding-bottom: 0.3em;
   font-size: 1.5em;
-  border-bottom: 1px solid rgba(171, 178, 191, 0.5);
 }
 .vscode-dark.vscode-body h3 {
   font-size: 1.25em;
@@ -424,7 +434,7 @@
 .vscode-dark.vscode-body img {
   max-width: 100%;
   box-sizing: content-box;
-  background-color: #fff;
+  display: block;
 }
 .vscode-dark.vscode-body img[align=right] {
   padding-left: 20px;
@@ -436,8 +446,10 @@
   padding: 0.2em 0.4em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(27, 31, 35, 0.05);
+  background-color: #3a3f4b;
   border-radius: 3px;
+  color: white;
+  margin: 0 1px;
 }
 .vscode-dark.vscode-body pre {
   word-wrap: normal;
@@ -465,7 +477,7 @@
   line-height: 1.45;
   /* background-color: #f6f8fa; */
   border-radius: 3px;
-  background-color: #21252b;
+  background-color: #31363f;
 }
 .vscode-dark.vscode-body pre code {
   display: inline;
@@ -514,5 +526,3 @@
 .vscode-dark.vscode-body hr {
   border-bottom-color: #eee;
 }
-
-/*# sourceMappingURL=markdown.css.map */

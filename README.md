@@ -49,6 +49,16 @@ locally at `localhost:3000`.
 
 ![ScreenShot](/static/cpp.png)
 
+## Custom markdown preview style
+If you want to make your markdown preview become atom's style, you could add this snippet in your "setting.json" file:
+```json
+"markdown.styles": [
+    "https://cdn.jsdelivr.net/gh/Binaryify/OneDark-Pro/styles/base.css",
+    "https://cdn.jsdelivr.net/gh/Binaryify/OneDark-Pro/styles/markdown.css",
+    "https://cdn.jsdelivr.net/gh/Binaryify/OneDark-Pro/styles/atom-one-dark.css"
+]
+```
+
 ### Tweaks & theming
 
 If you want to play around with new colors, use the setting
