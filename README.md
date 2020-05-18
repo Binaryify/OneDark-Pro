@@ -58,6 +58,7 @@ If you want to make your markdown preview become atom's style, you could add thi
     "https://cdn.jsdelivr.net/gh/Binaryify/OneDark-Pro/styles/atom-one-dark.css"
 ]
 ```
+![Markdown](/static/markdown.png)
 
 ### Tweaks & theming
 
