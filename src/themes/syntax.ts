@@ -1258,6 +1258,13 @@ const configFactory = configuration => {
     },
     {
       name: 'support php constants',
+      scope: 'support.constant.core.rust',
+      settings: {
+        foreground: colorObj.whiskey
+      }
+    },
+    {
+      name: 'support php constants',
       scope:
         'support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php',
       settings: {
@@ -1831,6 +1838,12 @@ const configFactory = configuration => {
   }
   return {
     semanticTokenColors: {
+      enumMember: {
+        foreground: colorObj.fountainBlue
+      },
+      'variable.constant': {
+        foreground: colorObj.whiskey
+      },
       'variable.defaultLibrary': {
         foreground: colorObj.chalky
       }

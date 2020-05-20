@@ -79,23 +79,26 @@
     "tab.hoverBackground": "#323842",
     "tab.inactiveBackground": "#21252b",
     "tab.unfocusedHoverBackground": "#323842",
-    "terminal.ansiBlack": "#2d3139",
-    "terminal.ansiBlue": "#61afef",
-    "terminal.ansiBrightBlack": "#7f848e",
-    "terminal.ansiBrightBlue": "#528bff",
-    "terminal.ansiBrightCyan": "#56b6c2",
-    "terminal.ansiBrightGreen": "#98c379",
-    "terminal.ansiBrightMagenta": "#7e0097",
-    "terminal.ansiBrightRed": "#f44747",
-    "terminal.ansiBrightWhite": "#d7dae0",
-    "terminal.ansiBrightYellow": "#e5c07b",
-    "terminal.ansiCyan": "#56b6c2",
-    "terminal.ansiGreen": "#98c379",
-    "terminal.ansiMagenta": "#c678dd",
-    "terminal.ansiRed": "#e06c75",
-    "terminal.ansiWhite": "#d7dae0",
-    "terminal.ansiYellow": "#e5c07b",
-    "terminal.foreground": "#c8c8c8",
+    "terminal.ansiBlack": "#3f4451",
+    "terminal.ansiBlue": "#4aa5f0",
+    "terminal.ansiBrightBlack": "#4f5666",
+    "terminal.ansiBrightBlue": "#4dc4ff",
+    "terminal.ansiBrightCyan": "#4cd1e0",
+    "terminal.ansiBrightGreen": "#a5e075",
+    "terminal.ansiBrightMagenta": "#de73ff",
+    "terminal.ansiBrightRed": "#ff616e",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#f0a45d",
+    "terminal.ansiCyan": "#42b3c2",
+    "terminal.ansiGreen": "#8cc265",
+    "terminal.ansiMagenta": "#c162de",
+    "terminal.ansiRed": "#e05561",
+    "terminal.ansiWhite": "#e6e6e6",
+    "terminal.ansiYellow": "#d18f52",
+    "terminal.background": "#282c34",
+    "terminal.border": "#abb2bf",
+    "terminal.foreground": "#abb2bf",
+    "terminal.selectionBackground": "#3f445150",
     "textLink.foreground": "#61afef",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
@@ -105,6 +108,12 @@
   "name": "One Dark Pro",
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "enumMember": {
+      "foreground": "#56b6c2"
+    },
+    "variable.constant": {
+      "foreground": "#d19a66"
+    },
     "variable.defaultLibrary": {
       "foreground": "#e5c07b"
     }
@@ -758,6 +767,13 @@
     {
       "name": "support php constants",
       "scope": "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php",
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "support php constants",
+      "scope": "support.constant.core.rust",
       "settings": {
         "foreground": "#d19a66"
       }

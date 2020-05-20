@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.7.0 | 2020.05.20
+- Improve terminal color highlight [#382](https://github.com/Binaryify/OneDark-Pro/issues/382)
+
+- Improve Rust highlight [#393](https://github.com/Binaryify/OneDark-Pro/issues/393)
+
 ## 3.6.2 | 2020.05.18
 - Update README.MD
 
