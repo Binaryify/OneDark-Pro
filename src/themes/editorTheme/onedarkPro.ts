@@ -97,7 +97,7 @@ export default {
   'terminal.background': '#282c34',
   'terminal.border': '#abb2bf',
   'terminal.foreground': '#abb2bf',
-  'terminal.selectionBackground': '#3f445150',
+  'terminal.selectionBackground': '#abb2bf30',
   'textLink.foreground': '#61afef',
   'titleBar.activeBackground': '#282c34',
   'titleBar.activeForeground': '#9da5b4',
