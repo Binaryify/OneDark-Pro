@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.7.2 | 2020.06.11
+## 3.7.3 | 2020.06.11
 - Support markdown preview color highlight 
 
 ## 3.7.1 | 2020.05.22
