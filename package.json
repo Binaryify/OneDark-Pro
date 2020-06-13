@@ -46,7 +46,7 @@
         "lint": "eslint . --ext .ts",
         "watch:theme": "nodemon ./scripts/generate-theme.ts",
         "watch:ts": "yarn compile:ts -w",
-        "vscode:prepublish": "compile:sass && yarn compile",
+        "vscode:prepublish": "yarn compile:sass && yarn compile",
         "package": "vsce package",
         "compile:sass":"npx sass --no-source-map scss:styles && npx sass --no-source-map scss:styles/origin"
     },
