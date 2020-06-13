@@ -5,6 +5,7 @@ import { detectConfigChanges, writeFile } from './utils'
 import { ChangelogWebview } from './webviews/Changelog'
 // import { changelogMessage } from './helpers/message'
 import { updateTheme } from './utils/updateTheme'
+import updateCSS from './utils/updateCSS'
 
 /**
  * This method is called when the extension is activated.
@@ -32,12 +33,16 @@ export async function activate() {
     if (!isDefaultConfig) {
       updateTheme()
     }
+    if (!configuration.get<boolean>('markdownStyle')) {
+      updateCSS()
+    }
   }
   // Observe changes in the config
   workspace.onDidChangeConfiguration(event => {
     detectConfigChanges(event, () => {
       // update theme json file with new options
       updateTheme()
+      updateCSS()
     })
   })
   Commands.registerCommand('oneDarkPro.showChangelog', () => {

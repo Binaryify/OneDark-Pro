@@ -9,5 +9,6 @@
   "description.oneDarkPro.setBold": "set some code be bold",
   "description.oneDarkPro.cancelBold": "set some code be bold",
   "description.oneDarkPro.setItalic": "set some code be italic",
-  "description.oneDarkPro.cancelItalic": "set some code be italic"
+  "description.oneDarkPro.cancelItalic": "set some code be italic",
+  "description.oneDarkPro.markdownStyle": "Use markdown style"
 }

@@ -9,5 +9,6 @@
     "description.oneDarkPro.setBold": "设置部分代码为粗体",
     "description.oneDarkPro.cancelBold": "取消设置部分代码为粗体",
     "description.oneDarkPro.setItalic": "设置部分代码为斜体",
-    "description.oneDarkPro.cancelItalic": "取消设置部分代码为斜体"
+    "description.oneDarkPro.cancelItalic": "取消设置部分代码为斜体",
+    "description.oneDarkPro.markdownStyle": "使用内置的markdown样式"
 }

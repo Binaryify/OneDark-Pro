@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.8.0 | 2020.06.13
+- Support toggle markdown style in setting
+
 ## 3.7.3 | 2020.06.11
 - Support markdown preview color highlight 
 
