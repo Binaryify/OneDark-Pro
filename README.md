@@ -52,6 +52,7 @@ locally at `localhost:3000`.
 ## Markdown preview style
 
 ![Markdown](/static/markdown.png)
+You can toggle whether to use markdown style in vscode setting (default use)
 
 ### Tweaks & theming
 
