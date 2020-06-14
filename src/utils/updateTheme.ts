@@ -4,26 +4,13 @@ import { generateTheme } from '../themes'
 import { promptToReload, writeFile } from './index'
 const THEME_PATH = join(__dirname, '../../', 'themes', 'OneDark-Pro.json')
 async function regenerateTheme() {
-  const configuration = workspace.getConfiguration('oneDarkPro')
-
-  const theme = generateTheme({
-    bold: configuration.get<boolean>('bold'),
-    editorTheme: configuration.get<string>('editorTheme'),
-    italic: configuration.get<boolean>('italic'),
-    vivid: configuration.get<boolean>('vivid')
-  })
+  const theme = generateTheme.fromSettings()
   return writeFile(THEME_PATH, theme)
 }
 
 function getDiffConfig() {
-  const configuration = workspace.getConfiguration('oneDarkPro')
-  const defaultTheme = generateTheme({ italic: true })
-  const newTheme = generateTheme({
-    bold: configuration.get<boolean>('bold'),
-    editorTheme: configuration.get<string>('editorTheme'),
-    italic: configuration.get<boolean>('italic'),
-    vivid: configuration.get<boolean>('vivid')
-  })
+  const defaultTheme = generateTheme.default()
+  const newTheme = generateTheme.fromSettings()
   const colorsDiffObj = {}
   const tokenDiffArr = []
   for (const key in defaultTheme.colors) {
