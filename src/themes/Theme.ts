@@ -1,5 +1,5 @@
 import { ThemeConfiguration } from '../interface'
-import createEditorTokens from './editor'
+import * as data from './themeData.json'
 import configFactory from './syntax'
 
 export class Theme {
@@ -17,4 +17,8 @@ export class Theme {
     this.colors = createEditorTokens(configuration)
   }
 
+}
+
+function createEditorTokens  (config: ThemeConfiguration) {
+  return (config.editorTheme in data.editorThemes) ? data.editorThemes[config.editorTheme] : data.editorThemes.oneDarkPro
 }
