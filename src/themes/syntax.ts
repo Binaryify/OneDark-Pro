@@ -2,11 +2,16 @@ import Colors from '../interface/colors'
 import { TokenColor } from '../interface'
 import * as data from './themeData.json'
 // import { cloneDeep } from '../utils/cloneDeep'
-import { uniqBy } from '../utils/uniqBy'
 
 export default function (configuration) {
 
   let result: TokenColor[] = data.tokenColors.default
+
+  function uniqBy(baseArray: TokenColor[], overrides: TokenColor[]): TokenColor[] {
+    const obj = {}
+    baseArray.concat(overrides).forEach(item => (obj[item.name + item.scope] = item))
+    return Object.values(obj)
+  }
 
   if (configuration.bold) {
     result = uniqBy(result, data.tokenColors.bold)
