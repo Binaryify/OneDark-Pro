@@ -1,15 +1,10 @@
 import Colors from '../interface/colors'
-import colorConfig from './color'
+import * as data from './themeData.json'
 // import { cloneDeep } from '../utils/cloneDeep'
 import { uniqBy } from '../utils/uniqBy'
 
 const configFactory = configuration => {
-  //   const colorObj = colorConfig[type]
-  const colorConfigClone = colorConfig
-  let colorObj: Colors = colorConfigClone.classic
-  if (configuration.vivid) {
-    colorObj = colorConfigClone.vivid
-  }
+  const colorObj: Colors = configuration.vivid ? data.textColors.vivid : data.textColors.classic
   let tokenColorsBold
   let tokenColorsItalic
   /**
