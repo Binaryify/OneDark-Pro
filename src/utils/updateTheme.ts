@@ -2,10 +2,11 @@ import { ConfigurationTarget, workspace } from 'vscode'
 import { join } from 'path'
 import { generateTheme } from '../themes'
 import { promptToReload, writeFile } from './index'
-const THEME_PATH = join(__dirname, '../../', 'themes', 'OneDark-Pro.json')
-async function regenerateTheme() {
+
+function updateTheme() {
+  const THEME_PATH = join(__dirname, '../../', 'themes', 'OneDark-Pro.json')
   const theme = generateTheme.fromSettings()
-  return writeFile(THEME_PATH, theme)
+  writeFile(THEME_PATH, theme).then(promptToReload)
 }
 
 function getDiffConfig() {
@@ -64,15 +65,5 @@ function cleanUserConfig() {
       {},
       ConfigurationTarget.Global
     )
-}
-function updateTheme() {
-  // const configuration = workspace.getConfiguration('oneDarkPro')
-  // cleanUserConfig()
-  // if (configuration.get<boolean>('workbenchMode')) {
-  //   rewriteUserConfig()
-  // } else {
-  //   regenerateTheme().then(promptToReload)
-  // }
-  regenerateTheme().then(promptToReload)
 }
 export { rewriteUserConfig, cleanUserConfig, updateTheme }
