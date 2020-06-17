@@ -3,35 +3,29 @@ import * as data from './themeData.json'
 // import { cloneDeep } from '../utils/cloneDeep'
 import { uniqBy } from '../utils/uniqBy'
 
-const configFactory = configuration => {
+export default function (configuration) {
+
+  let result: any = data.tokenColors.default
+
+  if (configuration.bold) {
+    result = uniqBy([...data.tokenColors.bold, ...result], setting => {
+      return setting.name + setting.scope
+    })
+  }
+  if (configuration.italic) {
+    result = uniqBy([...data.tokenColors.italic, ...result], setting => {
+      return setting.name + setting.scope
+    })
+  }
+
+  // Fill in color placeholders with concrete color values
   const colorObj: Colors = configuration.vivid ? data.textColors.vivid : data.textColors.classic
-  let tokenColorsBold
-  let tokenColorsItalic
-  /**
-   * Overwrites for theme type "bold"
-   */
-  if (configuration.bold) {
-    tokenColorsBold = data.tokenColors.bold
-  }
-  if (configuration.italic) {
-    tokenColorsItalic = data.tokenColors.italic
-  }
-  /**
-   * Default theme settings
-   */
-  const tokenColorsDefault = data.tokenColors.default
-  let result: any = tokenColorsDefault
-  //   add ability to generate custom syntax settings per layout type
-  if (configuration.bold) {
-    result = uniqBy([...tokenColorsBold, ...result], setting => {
-      return setting.name + setting.scope
-    })
-  }
-  if (configuration.italic) {
-    result = uniqBy([...tokenColorsItalic, ...result], setting => {
-      return setting.name + setting.scope
-    })
-  }
+  result.forEach(token => {
+    if (token.settings.foreground) {
+      if (token.settings.foreground in colorObj) { token.settings.foreground = colorObj[token.settings.foreground] }
+    }
+  });
+
   return {
     semanticTokenColors: {
       enumMember: {
@@ -47,4 +41,3 @@ const configFactory = configuration => {
     tokenColors: result
   }
 }
-export default configFactory
