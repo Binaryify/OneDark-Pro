@@ -9,14 +9,10 @@ export default function (configuration) {
   let result: TokenColor[] = data.tokenColors.default
 
   if (configuration.bold) {
-    result = uniqBy([...data.tokenColors.bold, ...result], setting => {
-      return setting.name + setting.scope
-    }) as TokenColor[]
+    result = uniqBy(result, data.tokenColors.bold)
   }
   if (configuration.italic) {
-    result = uniqBy([...data.tokenColors.italic, ...result], setting => {
-      return setting.name + setting.scope
-    }) as TokenColor[]
+    result = uniqBy(result, data.tokenColors.italic)
   }
 
   // Fill in color placeholders with concrete color values

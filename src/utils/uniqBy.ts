@@ -1,10 +1,7 @@
-export const uniqBy = (arr, fn, obj = {}) => {
-  return (
-    arr
-      .reverse()
-      .forEach(
-        item => (obj[typeof fn === 'function' ? fn(item) : item[fn]] = item)
-      ),
-    Object.values(obj)
-  )
+import { TokenColor } from '../interface'
+
+export function uniqBy(baseArray: TokenColor[], overrides: TokenColor[]): TokenColor[] {
+  const obj = {}
+  baseArray.concat(overrides).forEach(item => (obj[item.name + item.scope] = item))
+  return Object.values(obj)
 }
