@@ -3,7 +3,6 @@ import * as fs from 'fs'
 import { commands as Commands, ConfigurationTarget, workspace } from 'vscode'
 import { writeFile } from './utils'
 import { ChangelogWebview } from './webviews/Changelog'
-// import { changelogMessage } from './helpers/message'
 import { updateTheme } from './utils/updateTheme'
 import updateCSS from './utils/updateCSS'
 
@@ -14,9 +13,7 @@ import updateCSS from './utils/updateCSS'
 export async function activate() {
   const flagPath = join(__dirname, '../temp', 'flag.txt')
   if (!fs.existsSync(flagPath)) {
-    // if (await changelogMessage()) {
-    //   changelogView.show()
-    // }
+
     writeFile(flagPath, '')
 
     const configArr = [
