@@ -1,4 +1,4 @@
-export default interface Colors {
+export interface Colors {
   chalky: string
   coral: string
   dark: string

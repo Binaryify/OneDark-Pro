@@ -1,10 +1,8 @@
 import { join } from 'path'
 import * as fs from 'fs'
 import { commands as Commands, ConfigurationTarget, workspace } from 'vscode'
-import { writeFile } from './utils'
 import { ChangelogWebview } from './webviews/Changelog'
-import { updateTheme } from './utils/updateTheme'
-import updateCSS from './utils/updateCSS'
+import { updateTheme, updateCSS, writeFile } from './utils'
 
 /**
  * This method is called when the extension is activated.

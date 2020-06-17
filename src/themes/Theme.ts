@@ -1,6 +1,5 @@
-import { ThemeConfiguration } from '../interface'
+import { Colors, ThemeConfiguration } from '../interface'
 import * as data from './themeData.json'
-import Colors from '../interface/colors'
 import { TokenColor } from '../interface'
 
 export class Theme {

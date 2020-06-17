@@ -1,9 +1,11 @@
 import { workspace } from 'vscode'
 import { join } from 'path'
 import * as fs from 'fs'
-import { promptToReload } from './index'
+import { promptToReload } from './'
+
 const getCSSPath = file => join(__dirname, '../../', 'styles', file)
-function updateCSS() {
+
+export function updateCSS() {
   const configuration = workspace.getConfiguration('oneDarkPro')
   const files = [
     'atom-one-dark-inside.css',
@@ -24,4 +26,3 @@ function updateCSS() {
   }
   promptToReload()
 }
-export default updateCSS
