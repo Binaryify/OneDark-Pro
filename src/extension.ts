@@ -1,11 +1,8 @@
 import { join } from 'path'
 import * as fs from 'fs'
 import { commands as Commands, ConfigurationTarget, workspace } from 'vscode'
-import { detectConfigChanges, writeFile } from './utils'
 import { ChangelogWebview } from './webviews/Changelog'
-// import { changelogMessage } from './helpers/message'
-import { updateTheme } from './utils/updateTheme'
-import updateCSS from './utils/updateCSS'
+import { updateTheme, updateCSS, writeFile } from './utils'
 
 /**
  * This method is called when the extension is activated.
@@ -13,11 +10,8 @@ import updateCSS from './utils/updateCSS'
  */
 export async function activate() {
   const flagPath = join(__dirname, '../temp', 'flag.txt')
-  const changelogView = new ChangelogWebview()
   if (!fs.existsSync(flagPath)) {
-    // if (await changelogMessage()) {
-    //   changelogView.show()
-    // }
+
     writeFile(flagPath, '')
 
     const configArr = [
@@ -39,14 +33,13 @@ export async function activate() {
   }
   // Observe changes in the config
   workspace.onDidChangeConfiguration(event => {
-    detectConfigChanges(event, () => {
-      // update theme json file with new options
+    if (event.affectsConfiguration('oneDarkPro')) {
       updateTheme()
       updateCSS()
-    })
+    }
   })
   Commands.registerCommand('oneDarkPro.showChangelog', () => {
-    changelogView.show()
+    new ChangelogWebview().show()
   })
 
   const settingArr = ['Vivid', 'Italic', 'Bold']

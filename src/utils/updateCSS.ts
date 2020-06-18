@@ -1,28 +1,28 @@
 import { workspace } from 'vscode'
 import { join } from 'path'
 import * as fs from 'fs'
-import { promptToReload } from './index'
+import { promptToReload } from './'
+
 const getCSSPath = file => join(__dirname, '../../', 'styles', file)
-function updateCSS() {
+
+export function updateCSS() {
   const configuration = workspace.getConfiguration('oneDarkPro')
+  const files = [
+    'atom-one-dark-inside.css',
+    'base-inside.css',
+    'markdown-inside.css'
+  ]
   if (!configuration.get<boolean>('markdownStyle')) {
-    fs.writeFileSync(getCSSPath('atom-one-dark-inside.css'), '')
-    fs.writeFileSync(getCSSPath('base-inside.css'), '')
-    fs.writeFileSync(getCSSPath('markdown-inside.css'), '')
+    files.forEach(file => {
+      fs.writeFileSync(getCSSPath(file), '')
+    })
   } else {
-    fs.writeFileSync(
-      getCSSPath('./atom-one-dark-inside.css'),
-      fs.readFileSync(getCSSPath('./origin/atom-one-dark-inside.css'))
-    )
-    fs.writeFileSync(
-      getCSSPath('./base-inside.css'),
-      fs.readFileSync(getCSSPath('./origin/base-inside.css'))
-    )
-    fs.writeFileSync(
-      getCSSPath('./markdown-inside.css'),
-      fs.readFileSync(getCSSPath('./origin/markdown-inside.css'))
-    )
+    files.forEach(file => {
+      fs.writeFileSync(
+        getCSSPath(`./${file}`),
+        fs.readFileSync(getCSSPath(`./origin/${file}`))
+      )
+    })
   }
   promptToReload()
 }
-export default updateCSS

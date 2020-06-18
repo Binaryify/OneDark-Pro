@@ -1,14 +1,24 @@
-import { ThemeConfiguration } from '../interface'
-import createEditorTokens from './editor'
-import configFactory from './syntax'
+import { workspace } from 'vscode'
+import { Theme } from './Theme'
 
-export function generateTheme(configuration: ThemeConfiguration) {
-  return {
-    colors: createEditorTokens(configuration),
-    name: 'One Dark Pro',
-    semanticHighlighting: true,
-    semanticTokenColors: configFactory(configuration).semanticTokenColors,
-    tokenColors: configFactory(configuration).tokenColors,
-    type: 'dark'
+const defaultSettings = {
+  bold: false,
+  editorTheme: 'oneDarkPro',
+  italic: true,
+  vivid: false
+}
+
+export const generateTheme = {
+  default: function(): Theme {
+    return new Theme(defaultSettings)
+  },
+  fromSettings: function(): Theme {
+    const configuration = workspace.getConfiguration('oneDarkPro')
+    return new Theme({
+      bold: configuration.get<boolean>('bold', defaultSettings.bold),
+      editorTheme: configuration.get<string>('editorTheme', defaultSettings.editorTheme),
+      italic: configuration.get<boolean>('italic', defaultSettings.italic),
+      vivid: configuration.get<boolean>('vivid', defaultSettings.vivid)
+    })
   }
 }
