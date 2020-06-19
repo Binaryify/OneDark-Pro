@@ -1,12 +1,6 @@
 import { workspace } from 'vscode'
 import { Theme } from './Theme'
-
-const defaultSettings = {
-  bold: false,
-  editorTheme: 'oneDarkPro',
-  italic: true,
-  vivid: false
-}
+import * as defaultSettings from '../defaultConfig.json'
 
 export const generateTheme = {
   default: function(): Theme {
