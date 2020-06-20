@@ -40,7 +40,7 @@
     },
     "scripts": {
         "docs": "docsify serve docs",
-        "compile:theme": "ts-node ./scripts/generate-theme.ts",
+        "compile:theme": "ts-node --project scripts/tsconfig.json scripts/generate-theme.ts",
         "compile:ts": "tsc -p src",
         "compile": "yarn compile:theme && yarn compile:ts",
         "lint": "eslint . --ext .ts",
