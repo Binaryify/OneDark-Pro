@@ -1863,6 +1863,7 @@
     "list.inactiveSelectionForeground": "#d7dae0",
     "list.warningForeground": "#d19a66",
     "menu.foreground": "#c8c8c8",
+    "panelSectionHeader.background": "#21252b",
     "peekViewEditor.background": "#1b1d23",
     "peekViewEditor.matchHighlightBackground": "#29244b",
     "peekViewResult.background": "#22262b",

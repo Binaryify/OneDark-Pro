@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.8.1 | 2020.06.20
+- Improve panel section header background color [#400](https://github.com/Binaryify/OneDark-Pro/issues/400)
+
 ## 3.8.0 | 2020.06.13
 - Support toggle markdown style in setting
 
