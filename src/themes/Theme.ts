@@ -3,9 +3,9 @@ import * as data from './themeData.json'
 import { TokenColor } from '../interface'
 
 export class Theme {
-  name: string = 'One Dark Pro'
-  type: string = 'dark'
-  semanticHighlighting: boolean = true
+  name = 'One Dark Pro'
+  type = 'dark'
+  semanticHighlighting = true
   semanticTokenColors
   tokenColors
   colors
