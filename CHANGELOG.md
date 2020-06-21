@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.8.2 | 2020.06.21
+- Improve terminal color
+
 ## 3.8.1 | 2020.06.20
 - Improve panel section header background color [#400](https://github.com/Binaryify/OneDark-Pro/issues/400)
 
