@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.8.3 | 2020.07.06
+- Fixed rust highlight color error [#404](https://github.com/Binaryify/OneDark-Pro/issues/404)
+
 ## 3.8.2 | 2020.06.21
 - Improve terminal color
 

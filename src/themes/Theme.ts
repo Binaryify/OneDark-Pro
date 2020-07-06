@@ -1,35 +1,23 @@
-import { Colors, ThemeConfiguration } from '../interface'
+import { Colors, ThemeConfiguration, TokenColor } from '../interface'
 import * as data from './themeData.json'
-import { TokenColor } from '../interface'
 
-export class Theme {
-  name = 'One Dark Pro'
-  type = 'dark'
-  semanticHighlighting = true
-  semanticTokenColors
-  tokenColors
-  colors
-
-  constructor(configuration: ThemeConfiguration) {
-    const themeTokens = configFactory(configuration)
-    this.semanticTokenColors = themeTokens.semanticTokenColors
-    this.tokenColors = themeTokens.tokenColors
-    this.colors = createEditorTokens(configuration)
-  }
-
-}
-
-function createEditorTokens  (config: ThemeConfiguration) {
-  return (config.editorTheme in data.editorThemes) ? data.editorThemes[config.editorTheme] : data.editorThemes.oneDarkPro
+function createEditorTokens(config: ThemeConfiguration) {
+  return config.editorTheme in data.editorThemes
+    ? data.editorThemes[config.editorTheme]
+    : data.editorThemes.oneDarkPro
 }
 
 function configFactory(configuration) {
-
   let result: TokenColor[] = data.tokenColors.default
 
-  function uniqBy(baseArray: TokenColor[], overrides: TokenColor[]): TokenColor[] {
+  function uniqBy(
+    baseArray: TokenColor[],
+    overrides: TokenColor[]
+  ): TokenColor[] {
     const obj = {}
-    baseArray.concat(overrides).forEach(item => (obj[item.name + item.scope] = item))
+    baseArray
+      .concat(overrides)
+      .forEach(item => (obj[item.name + item.scope] = item))
     return Object.values(obj)
   }
 
@@ -41,10 +29,14 @@ function configFactory(configuration) {
   }
 
   // Fill in color placeholders with concrete color values
-  const colorObj: Colors = configuration.vivid ? data.textColors.vivid : data.textColors.classic
+  const colorObj: Colors = configuration.vivid
+    ? data.textColors.vivid
+    : data.textColors.classic
   result.forEach(token => {
     if (token.settings.foreground) {
-      if (token.settings.foreground in colorObj) { token.settings.foreground = colorObj[token.settings.foreground] }
+      if (token.settings.foreground in colorObj) {
+        token.settings.foreground = colorObj[token.settings.foreground]
+      }
     }
   })
 
@@ -61,5 +53,20 @@ function configFactory(configuration) {
       }
     },
     tokenColors: result
+  }
+}
+export class Theme {
+  name = 'One Dark Pro'
+  type = 'dark'
+  semanticHighlighting = true
+  semanticTokenColors
+  tokenColors
+  colors
+
+  constructor(configuration: ThemeConfiguration) {
+    const themeTokens = configFactory(configuration)
+    this.semanticTokenColors = themeTokens.semanticTokenColors
+    this.tokenColors = themeTokens.tokenColors
+    this.colors = createEditorTokens(configuration)
   }
 }

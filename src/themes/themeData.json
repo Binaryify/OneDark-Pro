@@ -1218,6 +1218,13 @@
         }
       },
       {
+        "name": "keyword.operator.sigil.rust",
+        "scope": "keyword.operator.sigil.rust",
+        "settings": {
+          "foreground": "purple"
+        }
+      },
+      {
         "name": "operator",
         "scope": "keyword.operator.delete",
         "settings": {
