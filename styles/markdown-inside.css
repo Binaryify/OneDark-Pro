@@ -434,7 +434,7 @@
 .vscode-dark[data-vscode-theme-name="One Dark Pro"].vscode-body img {
   max-width: 100%;
   box-sizing: content-box;
-  display: block;
+  display: inline-block;
 }
 .vscode-dark[data-vscode-theme-name="One Dark Pro"].vscode-body img[align=right] {
   padding-left: 20px;

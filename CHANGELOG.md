@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.8.4 | 2020.07.19
+- Improve markdown image css
+
 ## 3.8.3 | 2020.07.06
 - Fixed rust highlight color error [#404](https://github.com/Binaryify/OneDark-Pro/issues/404)
 
