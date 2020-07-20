@@ -113,13 +113,14 @@
                     "default": "",
                     "markdownDescription": "%description.oneDarkPro.editorTheme%",
                     "enum": [
-                        "Onedark Pro",
+                        "onedarkPro",
                         "nord",
                         "solarized",
-                        "solarized flat",
+                        "solarizedFlat",
                         "panda",
                         "ayu",
-                        "vscode"
+                        "vscode",
+                        "justBlack"
                     ]
                 },
                 "oneDarkPro.italic": {
