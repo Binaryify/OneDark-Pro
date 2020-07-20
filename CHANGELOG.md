@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.8.5 | 2020.07.20
+- Add black color theme support [#410](https://github.com/Binaryify/OneDark-Pro/pull/410)
+- Fixed config don't work issue [#366](https://github.com/Binaryify/OneDark-Pro/issues/366)
+
 ## 3.8.4 | 2020.07.19
 - Improve markdown image css
 
