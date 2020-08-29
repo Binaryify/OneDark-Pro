@@ -178,6 +178,6 @@
         "theme": "dark"
     },
     "dependencies": {
-        "marked": "^0.7.0"
+        "marked": "^0.8.0"
     }
 }
