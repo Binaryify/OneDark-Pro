@@ -171,7 +171,7 @@
         "prettier": "1.19.1",
         "ts-node": "8.10.2",
         "typescript": "3.7.5",
-        "vsce": "1.73.0"
+        "vsce": "1.79.4"
     },
     "galleryBanner": {
         "color": "#2d323b",
