@@ -1105,10 +1105,10 @@ eslint-plugin-prettier@3.1.4:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-sort@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sort/-/eslint-plugin-sort-1.4.0.tgz#6521a7fb34152c45b38fb9c51b935843ddf06b71"
-  integrity sha512-OyhUZEnb4JF0mTdRFU1SGE1ybuJdQRT3VfJUjE5cl0QvwI8zQiIgEN3AqLTu02l/ubIuGPJSwYQG2A5xM/Q1Uw==
+eslint-plugin-sort@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sort/-/eslint-plugin-sort-1.5.0.tgz#b91ee8498ca0795ef4821537e3e2e65bc5b44f2f"
+  integrity sha512-zKb/dVoHcsIvcqcCC2wUViNyaL/AMzwf5dO2PcQPh0WRFtEZyMzpF0FGvZRKHGowuvGiZnKnfpQldV2ZgmnMfQ==
 
 eslint-scope@5.1.0:
   version "5.1.0"
@@ -3396,10 +3396,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@3.7.5:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
-  integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
+typescript@3.9.7:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
