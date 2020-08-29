@@ -1498,6 +1498,13 @@
         }
       },
       {
+        "name": "Namespaces",
+        "scope": "entity.name.namespace",
+        "settings": {
+          "foreground": "chalky"
+        }
+      },
+      {
         "name": "Variables",
         "scope": "variable",
         "settings": {

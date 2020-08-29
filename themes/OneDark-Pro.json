@@ -535,6 +535,13 @@
       }
     },
     {
+      "name": "Namespaces",
+      "scope": "entity.name.namespace",
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
       "name": "Variables",
       "scope": "variable",
       "settings": {

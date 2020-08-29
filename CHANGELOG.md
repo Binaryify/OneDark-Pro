@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.8.6 | 2020.08.29
+## 3.8.7 | 2020.08.29
 - Fixed JavaScript operator color error [#407](https://github.com/Binaryify/OneDark-Pro/issues/407)
 - Fixed [#412](https://github.com/Binaryify/OneDark-Pro/issues/412)
 
