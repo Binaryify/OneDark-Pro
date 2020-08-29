@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.8.6 | 2020.08.29
+- Fixed JavaScript operator color error [#407](https://github.com/Binaryify/OneDark-Pro/issues/407)
+- Fixed [#412](https://github.com/Binaryify/OneDark-Pro/issues/412)
+
 ## 3.8.5 | 2020.07.20
 - Add black color theme support [#410](https://github.com/Binaryify/OneDark-Pro/pull/410)
 - Fixed config don't work issue [#366](https://github.com/Binaryify/OneDark-Pro/issues/366)

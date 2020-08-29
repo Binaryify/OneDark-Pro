@@ -1484,6 +1484,13 @@
         }
       },
       {
+        "name": "Compound Assignment Operators js/ts",
+        "scope": "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts",
+        "settings": {
+          "foreground": "fountainBlue"
+        }
+      },
+      {
         "name": "Keywords",
         "scope": "keyword",
         "settings": {

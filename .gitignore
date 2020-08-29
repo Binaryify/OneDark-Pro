@@ -15,3 +15,4 @@ out/
 !temp/.gitkeep
 flag.txt
 *.vsix
+yarn.lock
