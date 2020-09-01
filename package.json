@@ -162,7 +162,7 @@
         "@typescript-eslint/eslint-plugin": "3.10.1",
         "all-contributors-cli": "6.17.2",
         "docsify-cli": "4.4.0",
-        "eslint": "7.7.0",
+        "eslint": "7.8.0",
         "eslint-plugin-html": "6.0.3",
         "eslint-plugin-prettier": "3.1.4",
         "eslint-plugin-sort": "1.5.0",
