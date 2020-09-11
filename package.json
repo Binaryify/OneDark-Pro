@@ -158,7 +158,7 @@
         "@mskelton/eslint-config": "5.11.2",
         "@mskelton/prettier-config": "5.1.0",
         "@types/node": "12.12.55",
-        "@types/vscode": "1.48.0",
+        "@types/vscode": "1.49.0",
         "@typescript-eslint/eslint-plugin": "4.0.1",
         "all-contributors-cli": "6.17.2",
         "docsify-cli": "4.4.0",
