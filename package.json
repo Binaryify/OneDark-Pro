@@ -170,7 +170,7 @@
         "pre-commit": "1.2.2",
         "prettier": "2.1.1",
         "ts-node": "8.10.2",
-        "typescript": "4.0.2",
+        "typescript": "4.0.3",
         "vsce": "1.79.5"
     },
     "galleryBanner": {
