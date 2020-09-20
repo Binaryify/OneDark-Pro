@@ -155,7 +155,7 @@
         "atom"
     ],
     "devDependencies": {
-        "@mskelton/eslint-config": "5.11.2",
+        "@mskelton/eslint-config": "5.11.3",
         "@mskelton/prettier-config": "5.1.0",
         "@types/node": "12.12.55",
         "@types/vscode": "1.48.0",
