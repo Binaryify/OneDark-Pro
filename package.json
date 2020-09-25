@@ -113,7 +113,8 @@
                     "default": "",
                     "markdownDescription": "%description.oneDarkPro.editorTheme%",
                     "enum": [
-                        "onedarkPro",
+                        "oneDarkPro",
+                        "oneDarkProFlat",
                         "nord",
                         "solarized",
                         "solarizedFlat",
