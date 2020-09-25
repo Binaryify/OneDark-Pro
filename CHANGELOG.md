@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.9.0 | 2020.09.25
+- Add oneDarkProFlat theme [#453](https://github.com/Binaryify/OneDark-Pro/pull/453)
+
 ## 3.8.7 | 2020.08.29
 - Fixed JavaScript operator color error [#407](https://github.com/Binaryify/OneDark-Pro/issues/407)
 - Fixed [#412](https://github.com/Binaryify/OneDark-Pro/issues/412)
