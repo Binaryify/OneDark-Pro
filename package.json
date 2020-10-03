@@ -2,7 +2,7 @@
     "name": "material-theme",
     "displayName": "One Dark Pro",
     "description": "Atom's iconic One Dark theme for Visual Studio Code",
-    "version": "3.9.0",
+    "version": "3.9.1",
     "publisher": "zhuangtongfa",
     "bugs": {
         "url": "https://github.com/Binaryify/OneDark-Pro/issues"
@@ -40,15 +40,15 @@
     },
     "scripts": {
         "docs": "docsify serve docs",
-        "compile:theme": "ts-node --project scripts/tsconfig.json scripts/generate-theme.ts",
-        "compile:ts": "tsc -p src",
-        "compile": "yarn compile:theme && yarn compile:ts",
+        "build:theme": "ts-node --project scripts/tsconfig.json scripts/generate-theme.ts",
+        "build:ts": "tsc -p src",
+        "build": "yarn build:theme && yarn build:ts",
         "lint": "eslint . --ext .ts",
         "watch:theme": "nodemon ./scripts/generate-theme.ts",
-        "watch:ts": "yarn compile:ts -w",
-        "vscode:prepublish": "yarn compile:sass && yarn compile",
+        "watch:ts": "yarn build:ts -w",
+        "vscode:prepublish": "yarn build:sass && yarn build",
         "package": "vsce package",
-        "compile:sass":"npx sass --no-source-map scss:styles && npx sass --no-source-map scss:styles/origin"
+        "build:sass":"npx sass --no-source-map scss:styles && npx sass --no-source-map scss:styles/origin"
     },
     "pre-commit": [],
     "prettier": {
