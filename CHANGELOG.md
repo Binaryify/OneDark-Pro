@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.9.2 | 2020.10.05
+- Update screenshots
+
 ## 3.9.1 | 2020.10.03
 - Fixed iffy wording on command pallet commands [#458](https://github.com/Binaryify/OneDark-Pro/pull/458)
 

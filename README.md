@@ -35,7 +35,7 @@ locally at `localhost:3000`.
 
 ![ScreenShot](https://user-images.githubusercontent.com/29161635/95036840-22e20c00-0697-11eb-9780-7a9f7055b08d.png)
 
-![Screenshot](/https://user-images.githubusercontent.com/29161635/95036900-4a38d900-0697-11eb-8771-ba2a25dca77a.jpg)
+![Screenshot](https://user-images.githubusercontent.com/29161635/95036900-4a38d900-0697-11eb-8771-ba2a25dca77a.jpg)
 
 ![Screenshot](https://user-images.githubusercontent.com/29161635/95036953-6dfc1f00-0697-11eb-97d4-9de6ad5db740.jpg)
 
