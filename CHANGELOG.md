@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.9.3 | 2020.10.07
+- Improve Elixir highlight [#464](https://github.com/Binaryify/OneDark-Pro/issues/464)
+
 ## 3.9.2 | 2020.10.05
 - Update screenshots
 
