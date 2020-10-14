@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this theme
 title: ''
-labels: ''
+labels: feature request
 assignees: ''
 
 ---
