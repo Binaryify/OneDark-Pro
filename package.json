@@ -160,7 +160,7 @@
         "@mskelton/prettier-config": "5.1.0",
         "@types/node": "12.12.64",
         "@types/vscode": "1.50.0",
-        "@typescript-eslint/eslint-plugin": "4.4.1",
+        "@typescript-eslint/eslint-plugin": "4.5.0",
         "all-contributors-cli": "6.19.0",
         "docsify-cli": "4.4.0",
         "eslint": "7.11.0",
