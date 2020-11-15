@@ -54,7 +54,7 @@ locally at `localhost:3000`.
 
 ## Markdown preview style
 
-![Markdown](https://cdn-static.binaryify.com/markdown.png)
+![Markdown](https://cdn-static.binaryify.com/markdown-2.png)
 You can toggle whether to use markdown style in vscode setting (default use)
 
 ### Tweaks & theming

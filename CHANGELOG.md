@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.9.4 | 2020.11.15
+## 3.9.5 | 2020.11.15
 - Update docs and screenshots
 
 ## 3.9.3 | 2020.10.07
