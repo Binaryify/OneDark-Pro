@@ -1423,11 +1423,20 @@
     {
       "name": "go operator",
       "scope": [
-        "keyword.operator.assignment.go",
-        "keyword.operator.address.go"
+        "keyword.operator.assignment.go"
       ],
       "settings": {
         "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "go operator",
+      "scope": [
+        "keyword.operator.arithmetic.go",
+        "keyword.operator.address.go"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
       }
     },
     {
