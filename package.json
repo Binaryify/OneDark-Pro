@@ -48,7 +48,7 @@
         "watch:ts": "yarn build:ts -w",
         "vscode:prepublish": "yarn build:sass && yarn build",
         "package": "vsce package",
-        "build:sass":"npx sass --no-source-map scss:styles && npx sass --no-source-map scss:styles/origin"
+        "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin"
     },
     "prettier": {
         "singleQuote": true,
@@ -168,6 +168,7 @@
         "eslint-plugin-sort": "1.5.0",
         "nodemon": "1.19.4",
         "prettier": "2.1.2",
+        "sass": "^1.29.0",
         "ts-node": "8.10.2",
         "typescript": "4.0.3",
         "vsce": "1.81.1"
