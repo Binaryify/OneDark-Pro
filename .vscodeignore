@@ -1,6 +1,18 @@
 !node_modules
 temp/flag.txt
-src
-scripts
-static
 *.vsix
+
+# Source
+.github/
+.vscode/
+out/**/*.js.map
+scripts/
+scss/
+src/
+
+# Dev config files
+.eslintignore
+.gitignore
+nodemon.json
+renovate.json
+**/tsconfig*.json
