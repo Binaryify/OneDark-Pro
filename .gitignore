@@ -10,6 +10,7 @@ node_modules/
 
 # Build output
 out/
+styles/
 
 # Auto-generated theme file
 !temp/.gitkeep
