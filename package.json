@@ -42,11 +42,11 @@
         "docs": "docsify serve docs",
         "build:theme": "ts-node --project scripts/tsconfig.json scripts/generate-theme.ts",
         "build:ts": "tsc -p src",
-        "build": "yarn build:theme && yarn build:ts",
+        "build": "yarn build:sass && yarn build:theme && yarn build:ts",
         "lint": "eslint . --ext .ts",
         "watch:theme": "nodemon ./scripts/generate-theme.ts",
         "watch:ts": "yarn build:ts -w",
-        "vscode:prepublish": "yarn build:sass && yarn build",
+        "vscode:prepublish": "yarn build",
         "package": "vsce package",
         "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin"
     },
