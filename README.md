@@ -2,12 +2,6 @@
 
 Atom's iconic One Dark theme, and one of the most installed [themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) for VS Code!
 
-![screenshot](https://user-images.githubusercontent.com/29161635/95036516-3476e400-0696-11eb-839a-7958f29d533d.png)
-
-## CHANGELOG
-
-[CHANGELOG.MD](https://github.com/Binaryify/OneDark-Pro/blob/master/CHANGELOG.md)
-
 ## SPONSORS
 
 [![codestream](https://alt-images.codestream.com/codestream_logo_onedarkpro.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
@@ -15,46 +9,30 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites.
  [Learn more](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner).
 
-## DOCS & CONTRIBUTE
-
-This document
-([https://binaryify.github.io/OneDark-Pro/](https://binaryify.github.io/OneDark-Pro/))
-includes instructions on how to install and edit the theme.
-
-To help with documentation, first fork and clone this repository.
-
-`cd` to the `OneDark-Pro` folder
-
-Run `yarn`
-
-Then run
-`npm run docs` to serve the documentation
-locally at `localhost:3000`.
-
 ## SCREENSHOT
-![ScreenShot](https://cdn-static.binaryify.com/normal.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/normal.png)
 
 ### Italic
-![ScreenShot](https://cdn-static.binaryify.com/italic.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/italic.png)
 
 ### Default theme
-![ScreenShot](https://cdn-static.binaryify.com/editor.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/editor.png)
 
 ### Flat theme 
-![ScreenShot](https://cdn-static.binaryify.com/editorflat.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/editorflat.png)
 
 ### Terminal
-![ScreenShot](https://cdn-static.binaryify.com/terminal.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/terminal.png)
 
 ### Setting
-![ScreenShot](https://cdn-static.binaryify.com/setting.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/setting.png)
 
 ### Built in themes
-![ScreenShot](https://cdn-static.binaryify.com/built-in-themes.png)
+![built-in themes](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/built-in-themes.png)
 
 ## Markdown preview style
 
-![Markdown](https://cdn-static.binaryify.com/markdown-2.png)
+![Markdown](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/markdown.png)
 You can toggle whether to use markdown style in vscode setting (default use)
 
 ### Tweaks & theming
@@ -142,9 +120,28 @@ Please check the official documentation,
 [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) and
 [Theme Color](https://code.visualstudio.com/docs/getstarted/themes), for more helpful information.
 
-![custom](https://user-images.githubusercontent.com/29161635/95037202-2f1a9900-0698-11eb-89d7-674b872c068c.jpg)
+
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
+
+## CHANGELOG
+
+[CHANGELOG.MD](https://github.com/Binaryify/OneDark-Pro/blob/master/CHANGELOG.md)
+## DOCS & CONTRIBUTE
+
+This document
+([https://binaryify.github.io/OneDark-Pro/](https://binaryify.github.io/OneDark-Pro/))
+includes instructions on how to install and edit the theme.
+
+To help with documentation, first fork and clone this repository.
+
+`cd` to the `OneDark-Pro` folder
+
+Run `yarn`
+
+Then run
+`npm run docs` to serve the documentation
+locally at `localhost:3000`.
 
 ### Contributors
 

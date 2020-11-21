@@ -2,23 +2,15 @@
 
 ## About
 [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
-![screenshot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjzw3c8fj31kw101adb.jpg)
-
-
 # screenshot
-![Screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwkr6i199j31kw16otat.jpg)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/normal.png)
 
-![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwkrv2rorj31kw16odhw.jpg)
-
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/italic.png)
 ## Install
 Using the Extensions menu, search for **'One Dark Pro'**. Don't forget to apply the theme (see below).
 
-![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwijszewzj31kw101doj.jpg)
-
 ## Apply
 Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selection interface. Choose **'One Dark Pro'**.
-
-![ScreenShot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwilva97dj31kw101k08.jpg)
 
 ## Develop 
 If you see any inconsistencies or missing colors, the following guide will show you how to make your own changes. You can submit your improvements as a merge request to this theme.
@@ -102,8 +94,7 @@ This will show you the selected token's scope. There are four sections:
 
 - the list of scopes for the token
 
-![ScreenShot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjl9f2igj31kw101jxc.jpg)
-![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwjlnqha0j31kw1017a3.jpg)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/scope.png)
 
 ### Add/Change code color
 Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'syntax.ts'** file, add/change code snippet like this:
@@ -121,46 +112,6 @@ Now you know the rules for the theme, you simply need the code scope and the hex
 
 ### Reload
 Then press `ctrl(⌘) + shift + P`, type **'reload'** and press `enter`. Once the window has reloaded, you will find the color of the code has changed.
-
-![screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjm9anuij31kw101aft.jpg)
-
-### Colors config
-
-`color.ts`
-![screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjxs1cc0j31kw101n1h.jpg)
-
-```json
-{
-  "classic": {
-    "purple": "#c678dd",
-    "error": "#f44747",
-    "coral": "#e06c75",
-    "whiskey": "#d19a66",
-    "chalky": "#e5c07b",
-    "lightDark": "#7f848e",
-    "dark": "#5c6370",
-    "malibu": "#61afef",
-    "green": "#98c379",
-    "fountainBlue": "#56b6c2",
-    "invalid": "#ffffff"
-  },
-  "vivid": {
-    "purple": "#d55fde",
-    "error": "#f44747",
-    "coral": "#ef596f",
-    "whiskey": "#d19a66",
-    "chalky": "#e5c07b",
-    "lightDark": "#7f848e",
-    "dark": "#5c6370",
-    "malibu": "#61afef",
-    "green": "#89ca78",
-    "fountainBlue": "#2bbac5",
-    "invalid": "#ffffff"
-  }
-}
-
-
-```
 
 ## Tweaks & theming
 If you want to play around with new colors, use the setting `workbench.colorCustomizations` to customize the currently selected theme.
@@ -194,10 +145,6 @@ or use the setting `editor.tokenColorCustomizations`
 Please check the official documentation,
 [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) and 
 [Theme Color](https://code.visualstudio.com/docs/getstarted/themes) , for more helpful information.
-
-![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
-
-![custom](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
 
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
