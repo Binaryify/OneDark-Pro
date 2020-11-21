@@ -2525,11 +2525,20 @@
       {
         "name": "go operator",
         "scope": [
-          "keyword.operator.assignment.go",
-          "keyword.operator.address.go"
+          "keyword.operator.assignment.go"
         ],
         "settings": {
           "foreground": "chalky"
+        }
+      },
+      {
+        "name": "go operator",
+        "scope": [
+          "keyword.operator.arithmetic.go",
+          "keyword.operator.address.go"
+        ],
+        "settings": {
+          "foreground": "purple"
         }
       },
       {
