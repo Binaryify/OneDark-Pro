@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.9.7 | 2020.11.21
+- Update screenshots and docs
+
 ## 3.9.6 | 2020.11.16
 - Fixed golang syntax highlighting error  [#482](https://github.com/Binaryify/OneDark-Pro/issues/482)
 
