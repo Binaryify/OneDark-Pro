@@ -10,9 +10,9 @@ node_modules/
 
 # Build output
 out/
+styles/
 
 # Auto-generated theme file
 !temp/.gitkeep
 flag.txt
 *.vsix
-yarn.lock

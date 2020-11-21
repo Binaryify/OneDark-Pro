@@ -1,0 +1,29 @@
+name: CD
+
+on:
+  create:
+    tag:
+      - \d+\.\d+\.\d+(\.[\w\d-]+)?
+env: 
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+        # Make sure the version number in the tag matches the version in package.json
+      - name: match-tag-to-package-version
+        uses: geritol/match-tag-to-package-version@0.0.2 # https://github.com/geritol/match-tag-to-package-version
+        env:
+          TAG_PREFIX: refs/tags/
+
+        # Install deps, build, pack and deploy
+      - name: Build
+        run: yarn install && npx vsce publish
+        env:
+          VSCE_PAT: ${{secrets.VSCE_PAT}}

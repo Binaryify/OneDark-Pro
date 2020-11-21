@@ -42,15 +42,14 @@
         "docs": "docsify serve docs",
         "build:theme": "ts-node --project scripts/tsconfig.json scripts/generate-theme.ts",
         "build:ts": "tsc -p src",
-        "build": "yarn build:theme && yarn build:ts",
+        "build": "yarn build:sass && yarn build:theme && yarn build:ts",
         "lint": "eslint . --ext .ts",
         "watch:theme": "nodemon ./scripts/generate-theme.ts",
         "watch:ts": "yarn build:ts -w",
-        "vscode:prepublish": "yarn build:sass && yarn build",
+        "vscode:prepublish": "yarn build",
         "package": "vsce package",
-        "build:sass":"npx sass --no-source-map scss:styles && npx sass --no-source-map scss:styles/origin"
+        "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin"
     },
-    "pre-commit": [],
     "prettier": {
         "singleQuote": true,
         "semi": false
@@ -168,8 +167,8 @@
         "eslint-plugin-prettier": "3.1.4",
         "eslint-plugin-sort": "1.5.0",
         "nodemon": "1.19.4",
-        "pre-commit": "1.2.2",
         "prettier": "2.1.2",
+        "sass": "^1.29.0",
         "ts-node": "8.10.2",
         "typescript": "4.0.3",
         "vsce": "1.81.1"
