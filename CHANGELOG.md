@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.9.8 | 2020.11.25
+- Add editorLineNumber.activeForeground highlight [#487](https://github.com/Binaryify/OneDark-Pro/issues/487)
+
+- Update license
+
 ## 3.9.7 | 2020.11.21
 - Update screenshots and docs
 
