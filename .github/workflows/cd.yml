@@ -24,6 +24,6 @@ jobs:
 
         # Install deps, build, pack and deploy
       - name: Build
-        run: yarn install && npx vsce publish
+        run: yarn install && yarn vsce publish
         env:
           VSCE_PAT: ${{secrets.VSCE_PAT}}
