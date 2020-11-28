@@ -167,7 +167,7 @@
         "eslint-plugin-prettier": "3.1.4",
         "eslint-plugin-sort": "1.5.0",
         "nodemon": "1.19.4",
-        "prettier": "2.1.2",
+        "prettier": "2.2.1",
         "sass": "1.29.0",
         "ts-node": "8.10.2",
         "typescript": "4.0.3",
