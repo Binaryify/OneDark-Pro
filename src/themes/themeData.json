@@ -2912,7 +2912,8 @@
       },
       {
         "scope": [
-          "constant.language.symbol.elixir"
+          "constant.language.symbol.elixir",
+          "constant.language.symbol.double-quoted.elixir"
         ],
         "settings": {
           "foreground": "fountainBlue"
