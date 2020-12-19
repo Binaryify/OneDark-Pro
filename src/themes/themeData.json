@@ -2918,6 +2918,22 @@
         "settings": {
           "foreground": "fountainBlue"
         }
+      },
+      {
+        "scope": [
+          "entity.name.variable.parameter.cs"
+        ],
+        "settings": {
+          "foreground": "chalky"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.variable.field.cs"
+        ],
+        "settings": {
+          "foreground": "coral"
+        }
       }
     ],
     "bold": [

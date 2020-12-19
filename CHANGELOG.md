@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.9.12 | 2020.12.19
+- Improve C# color highlight [#493](https://github.com/Binaryify/OneDark-Pro/issues/493)
+
+- Improve Elixir color highlight [#495](https://github.com/Binaryify/OneDark-Pro/pull/495)
+
 ## 3.9.11 | 2020.11.25
 - Update editorLineNumber.activeForeground color [#487](https://github.com/Binaryify/OneDark-Pro/issues/487)
 
