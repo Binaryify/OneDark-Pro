@@ -1809,7 +1809,8 @@
     },
     {
       "scope": [
-        "constant.language.symbol.elixir"
+        "constant.language.symbol.elixir",
+        "constant.language.symbol.double-quoted.elixir"
       ],
       "settings": {
         "foreground": "#56b6c2"
