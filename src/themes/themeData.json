@@ -2934,6 +2934,27 @@
         "settings": {
           "foreground": "coral"
         }
+      },
+      {
+        "name": "Deleted",
+        "scope": "markup.deleted",
+        "settings": {
+          "foreground": "coral"
+        }
+      },
+      {
+        "name": "Inserted",
+        "scope": "markup.inserted",
+        "settings": {
+          "foreground": "green"
+        }
+      },
+      {
+        "name": "Underline",
+        "scope": "markup.underline",
+        "settings": {
+          "fontStyle": "underline"
+        }
       }
     ],
     "bold": [

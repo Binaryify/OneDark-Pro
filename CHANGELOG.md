@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.9.13 | 2021.01.28
+- Fixed [#502](https://github.com/Binaryify/OneDark-Pro/issues/502)
+
 ## 3.9.12 | 2020.12.19
 - Improve C# color highlight [#493](https://github.com/Binaryify/OneDark-Pro/issues/493)
 
