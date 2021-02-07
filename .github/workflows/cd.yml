@@ -1,15 +1,13 @@
 name: CD
 
-on:
-  create:
-    tag:
-      - \d+\.\d+\.\d+(\.[\w\d-]+)?
+on: create
 env: 
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
 
   deploy:
+    if: (github.event.ref_type == 'tag')
     runs-on: ubuntu-latest
     steps:
 
