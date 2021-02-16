@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.9.14 | 2021.02.16
+- Add shadow theme[#512](https://github.com/Binaryify/OneDark-Pro/pull/512)
+
 ## 3.9.13 | 2021.01.28
 - Fixed [#502](https://github.com/Binaryify/OneDark-Pro/issues/502)
 
