@@ -987,15 +987,15 @@ docsify-server-renderer@>=4:
     resolve-pathname "^3.0.0"
 
 docsify@>=3, docsify@^4.11.4:
-  version "4.11.6"
-  resolved "https://registry.yarnpkg.com/docsify/-/docsify-4.11.6.tgz#60334a398cf8b3abd7258863a9764f2518458684"
-  integrity sha512-6h3hB2Ni7gpOeu1fl1sDOmufuplIDmeFHsps17Qbg9VOS3h2tJ63FiW2w5oAydGyzaLrqu58FV7Mg4b6p0z9mg==
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/docsify/-/docsify-4.12.0.tgz#ac08a5b4a17bd80413b22e5201e35678cdd7e57f"
+  integrity sha512-oLr48dLeJ8sTVQfL8HLFqd2sPPG8DNAOvYAXXJQr/+/K9uC2KDhoeu+GGj5U2uFGR5czF3oLvqNBxhEElg1wGw==
   dependencies:
-    dompurify "^2.0.8"
-    marked "^1.1.1"
+    dompurify "^2.2.6"
+    marked "^1.2.9"
     medium-zoom "^1.0.6"
     opencollective-postinstall "^2.0.2"
-    prismjs "^1.19.0"
+    prismjs "^1.23.0"
     strip-indent "^3.0.0"
     tinydate "^1.3.0"
     tweezer.js "^1.4.0"
@@ -1056,10 +1056,10 @@ domhandler@^3.0.0, domhandler@^3.3.0:
   dependencies:
     domelementtype "^2.0.1"
 
-dompurify@^2.0.8:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.2.tgz#cb8c2b1a2f3c8a0b565127504ae4eedec176a972"
-  integrity sha512-BsGR4nDLaC5CNBnyT5I+d5pOeaoWvgVeg6Gq/aqmKYWMPR07131u60I80BvExLAJ0FQEIBQ1BTicw+C5+jOyrg==
+dompurify@^2.0.8, dompurify@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.6.tgz#54945dc5c0b45ce5ae228705777e8e59d7b2edc4"
+  integrity sha512-7b7ZArhhH0SP6W2R9cqK6RjaU82FZ2UPM7RO8qN1b1wyvC/NY1FNWcX1Pu00fFOAnzEORtwXe4bPaClg6pUybQ==
 
 domutils@1.5.1:
   version "1.5.1"
@@ -2286,10 +2286,10 @@ markdown-it@^10.0.0:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-marked@^1.1.1:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.4.tgz#94e99230b03496c9383b1322ac51bc17dd388a1d"
-  integrity sha512-6x5TFGCTKSQBLTZtOburGxCxFEBJEGYVLwCMTBCxzvyuisGcC20UNzDSJhCr/cJ/Kmh6ulfJm10g6WWEAJ3kvg==
+marked@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.9.tgz#53786f8b05d4c01a2a5a76b7d1ec9943d29d72dc"
+  integrity sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==
 
 marked@^2.0.0:
   version "2.0.0"
@@ -2788,10 +2788,10 @@ prettier@2.2.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
   integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
 
-prismjs@^1.19.0:
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.22.0.tgz#73c3400afc58a823dd7eed023f8e1ce9fd8977fa"
-  integrity sha512-lLJ/Wt9yy0AiSYBf212kK3mM5L8ycwlyTlSxHBAneXLR0nzFMlZ5y7riFPF3E33zXOF2IH95xdY5jIyZbM9z/w==
+prismjs@^1.23.0:
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
   optionalDependencies:
     clipboard "^2.0.0"
 
