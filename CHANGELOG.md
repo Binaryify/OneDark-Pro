@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.10.2 | 2021.04.03
+## 3.10.4 | 2021.04.03
 - Improve focus border highlight [#527](https://github.com/Binaryify/OneDark-Pro/issues/527)
 
 ## 3.10.1 | 2021.04.03
