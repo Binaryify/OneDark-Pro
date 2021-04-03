@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.10.0 | 2021.04.03
+- Make default theme sidebar more flat
+ 
+- Improve flat theme
+
 ## 3.9.15 | 2021.02.16
 - Add shadow theme[#512](https://github.com/Binaryify/OneDark-Pro/pull/512)
 
