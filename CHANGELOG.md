@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.10.5 | 2021.04.04
+- Change default theme sidebar background back and improve color [#528](https://github.com/Binaryify/OneDark-Pro/issues/528)
+
 ## 3.10.4 | 2021.04.03
 - Improve focus border highlight [#527](https://github.com/Binaryify/OneDark-Pro/issues/527)
 
