@@ -13,7 +13,7 @@
         "url": "https://github.com/Binaryify/OneDark-Pro"
     },
     "engines": {
-        "vscode": "^1.50.0"
+        "vscode": "^1.55.0"
     },
     "activationEvents": [
         "*"
