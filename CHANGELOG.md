@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.10.0 | 2021.04.03
+## 3.10.1 | 2021.04.03
 - Make default theme sidebar more flat
  
 - Improve flat theme
