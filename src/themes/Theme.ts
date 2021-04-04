@@ -52,13 +52,13 @@ function configFactory(configuration) {
         foreground: colorObj.chalky
       },
       "variable:python": {
-        "foreground": "#abb2bf"
+        "foreground": colorObj.lightWhite
       },
       "variable.readonly:python": {
-        "foreground": "#D19A66",
+        "foreground": colorObj.whiskey
       },
       "parameter:python": {
-        "foreground": "#D19A66",
+        "foreground": colorObj.whiskey
       },
     },
     tokenColors: result

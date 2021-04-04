@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.10.8 | 2021.04.04
+## 3.10.9 | 2021.04.04
 - Fix Python semantic highlighting error [#439](https://github.com/Binaryify/OneDark-Pro/issues/439)
 
 ## 3.10.7 | 2021.04.04

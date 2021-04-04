@@ -16,10 +16,10 @@
       "foreground": "#abb2bf"
     },
     "variable.readonly:python": {
-      "foreground": "#D19A66"
+      "foreground": "#d19a66"
     },
     "parameter:python": {
-      "foreground": "#D19A66"
+      "foreground": "#d19a66"
     }
   },
   "tokenColors": [
