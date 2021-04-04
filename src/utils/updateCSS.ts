@@ -24,5 +24,5 @@ export function updateCSS() {
       )
     })
   }
-  promptToReload()
+  // promptToReload()
 }

@@ -50,7 +50,16 @@ function configFactory(configuration) {
       },
       'variable.defaultLibrary': {
         foreground: colorObj.chalky
-      }
+      },
+      "variable:python": {
+        "foreground": "#abb2bf"
+      },
+      "variable.readonly:python": {
+        "foreground": "#D19A66",
+      },
+      "parameter:python": {
+        "foreground": "#D19A66",
+      },
     },
     tokenColors: result
   }
