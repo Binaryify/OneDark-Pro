@@ -1890,6 +1890,7 @@
     "badge.background": "#282c34",
     "button.background": "#404754",
     "debugToolBar.background": "#21252b",
+    "descriptionForeground": "#abb2bf",
     "diffEditor.insertedTextBackground": "#00809b33",
     "dropdown.background": "#21252b",
     "dropdown.border": "#21252b",
@@ -1900,6 +1901,9 @@
     "editor.foreground": "#abb2bf",
     "editor.lineHighlightBackground": "#2c313c",
     "editorLineNumber.activeForeground": "#abb2bf",
+    "editorGutter.addedBackground": "#109868",
+    "editorGutter.deletedBackground": "#9A353D",
+    "editorGutter.modifiedBackground": "#948B60",
     "editor.selectionBackground": "#67769660",
     "editor.selectionHighlightBackground": "#ffffff10",
     "editor.selectionHighlightBorder": "#dddddd",
@@ -1991,10 +1995,15 @@
     "terminal.border": "#abb2bf",
     "terminal.foreground": "#abb2bf",
     "terminal.selectionBackground": "#abb2bf30",
+    "textBlockQuote.background": "#2e3440",
+    "textBlockQuote.border": "#4b5362",
     "textLink.foreground": "#61afef",
+    "textPreformat.foreground": "#404754",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#21252b",
-    "titleBar.inactiveForeground": "#6b717d"
+    "titleBar.inactiveForeground": "#6b717d",
+    "walkThrough.embeddedEditorBackground": "#2e3440",
+    "welcomePage.buttonHoverBackground": "#404754"
   }
 }
