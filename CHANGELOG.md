@@ -2,6 +2,11 @@
 ## 3.10.6 | 2021.04.04
 - Change default theme sidebar background back and improve color [#528](https://github.com/Binaryify/OneDark-Pro/issues/528)
 
+- Improve gutter indicators highlight color [#529](https://github.com/Binaryify/OneDark-Pro/issues/529)
+
+- Improve Welcome page/Interface Overview/Playground UI [#369](https://github.com/Binaryify/OneDark-Pro/issues/369)
+
+
 ## 3.10.4 | 2021.04.03
 - Improve focus border highlight [#527](https://github.com/Binaryify/OneDark-Pro/issues/527)
 
