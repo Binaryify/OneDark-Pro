@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.10.5 | 2021.04.04
+## 3.10.6 | 2021.04.04
 - Change default theme sidebar background back and improve color [#528](https://github.com/Binaryify/OneDark-Pro/issues/528)
 
 ## 3.10.4 | 2021.04.03

@@ -16,7 +16,7 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 ![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/italic.png)
 
 ### Default theme
-![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/editor.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/editor1.png)
 
 ### Flat theme 
 ![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/editorflat.png)
