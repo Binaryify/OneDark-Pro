@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.10.6 | 2021.04.04
+## 3.10.7 | 2021.04.04
 - Change default theme sidebar background back and improve color [#528](https://github.com/Binaryify/OneDark-Pro/issues/528)
 
 - Improve gutter indicators highlight color [#529](https://github.com/Binaryify/OneDark-Pro/issues/529)

@@ -1998,7 +1998,7 @@
     "textBlockQuote.background": "#2e3440",
     "textBlockQuote.border": "#4b5362",
     "textLink.foreground": "#61afef",
-    "textPreformat.foreground": "#404754",
+    "textPreformat.foreground": "#d19a66",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#21252b",
