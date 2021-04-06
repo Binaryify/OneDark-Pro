@@ -1,4 +1,11 @@
 # CHANGELOG
+## 3.10.10 | 2021.04.06
+- Fix Python semantic highlighting error [#439]
+
+- Improve Dart/Flutter semantic highlighting [#394](https://github.com/Binaryify/OneDark-Pro/issues/394)
+
+- Added new gutter colors to shadow theme [#530](https://github.com/Binaryify/OneDark-Pro/pull/530)
+
 ## 3.10.9 | 2021.04.04
 - Fix Python semantic highlighting error [#439](https://github.com/Binaryify/OneDark-Pro/issues/439)
 

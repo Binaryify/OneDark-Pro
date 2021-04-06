@@ -51,14 +51,14 @@ function configFactory(configuration) {
       'variable.defaultLibrary': {
         foreground: colorObj.chalky
       },
-      "variable:python": {
-        "foreground": colorObj.lightWhite
+      "variable:dart":{
+        foreground: colorObj.whiskey
       },
-      "variable.readonly:python": {
-        "foreground": colorObj.whiskey
+      "property:dart":{
+        foreground: colorObj.whiskey
       },
-      "parameter:python": {
-        "foreground": colorObj.whiskey
+      "annotation:dart":{
+        foreground: colorObj.whiskey
       },
     },
     tokenColors: result

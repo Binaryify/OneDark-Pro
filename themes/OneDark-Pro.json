@@ -12,13 +12,13 @@
     "variable.defaultLibrary": {
       "foreground": "#e5c07b"
     },
-    "variable:python": {
-      "foreground": "#abb2bf"
-    },
-    "variable.readonly:python": {
+    "variable:dart": {
       "foreground": "#d19a66"
     },
-    "parameter:python": {
+    "property:dart": {
+      "foreground": "#d19a66"
+    },
+    "annotation:dart": {
       "foreground": "#d19a66"
     }
   },
@@ -1965,6 +1965,8 @@
     "scrollbarSlider.activeBackground": "#747d9180",
     "scrollbarSlider.background": "#4e566660",
     "scrollbarSlider.hoverBackground": "#5a637580",
+    "settings.focusedRowBackground": "#282c34",
+    "settings.headerForeground": "#fff",
     "sideBar.background": "#21252b",
     "sideBar.foreground": "#abb2bf",
     "sideBarSectionHeader.background": "#282c34",
