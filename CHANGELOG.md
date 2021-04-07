@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.10.11 | 2021.04.07
+- Improve Dart/Flutter semantic highlighting [#394](https://github.com/Binaryify/OneDark-Pro/issues/394)
+
 ## 3.10.10 | 2021.04.06
 - Fix Python semantic highlighting error [#439]
 

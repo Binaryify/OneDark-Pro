@@ -20,6 +20,9 @@
     },
     "annotation:dart": {
       "foreground": "#d19a66"
+    },
+    "parameter.label:dart": {
+      "foreground": "#abb2bf"
     }
   },
   "tokenColors": [

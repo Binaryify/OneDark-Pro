@@ -60,6 +60,9 @@ function configFactory(configuration) {
       "annotation:dart":{
         foreground: colorObj.whiskey
       },
+      "parameter.label:dart":{
+        "foreground": colorObj.lightWhite
+      },
     },
     tokenColors: result
   }
