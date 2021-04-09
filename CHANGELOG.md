@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.10.12 | 2021.04.09
+- Improve minimap gutter indicators [#534](https://github.com/Binaryify/OneDark-Pro/issues/534)
+
+- Improve PHP highlight [#533](https://github.com/Binaryify/OneDark-Pro/issues/533)
+
 ## 3.10.11 | 2021.04.07
 - Improve Dart/Flutter semantic highlighting [#394](https://github.com/Binaryify/OneDark-Pro/issues/394)
 

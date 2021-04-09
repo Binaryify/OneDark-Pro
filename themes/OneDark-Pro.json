@@ -1866,6 +1866,15 @@
       }
     },
     {
+      "name": "punctuation.section.embedded.begin.php",
+      "scope": [
+        "punctuation.section.embedded.begin.php"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
@@ -1960,6 +1969,9 @@
     "list.warningForeground": "#d19a66",
     "menu.foreground": "#abb2bf",
     "menu.separatorBackground": "#343a45",
+    "minimapGutter.addedBackground": "#109868",
+    "minimapGutter.deletedBackground": "#9A353D",
+    "minimapGutter.modifiedBackground": "#948B60",
     "panelSectionHeader.background": "#21252b",
     "peekViewEditor.background": "#1b1d23",
     "peekViewEditor.matchHighlightBackground": "#29244b",

@@ -501,6 +501,9 @@
       "list.warningForeground": "#d19a66",
       "menu.foreground": "#abb2bf",
       "menu.separatorBackground": "#343a45",
+      "minimapGutter.addedBackground": "#109868",
+      "minimapGutter.deletedBackground": "#9A353D",
+      "minimapGutter.modifiedBackground": "#948B60",
       "panelSectionHeader.background": "#21252b",
       "peekViewEditor.background": "#1b1d23",
       "peekViewEditor.matchHighlightBackground": "#29244b",
@@ -635,6 +638,9 @@
       "menu.separatorBackground": "#343a45",
       "menubar.selectionBackground": "#323842",
       "menubar.selectionForeground": "#f0f0f0",
+      "minimapGutter.addedBackground": "#109868",
+      "minimapGutter.deletedBackground": "#9A353D",
+      "minimapGutter.modifiedBackground": "#948B60",
       "notificationLink.foreground": "#f0f0f0",
       "notifications.foreground": "#969aa4",
       "panel.background": "#282c34",
@@ -3094,6 +3100,15 @@
         "scope": "markup.underline",
         "settings": {
           "fontStyle": "underline"
+        }
+      },
+      {
+        "name": "punctuation.section.embedded.begin.php",
+        "scope": [
+          "punctuation.section.embedded.begin.php"
+        ],
+        "settings": {
+          "foreground": "coral"
         }
       }
     ],
