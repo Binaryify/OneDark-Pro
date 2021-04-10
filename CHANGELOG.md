@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.10.12 | 2021.04.09
+## 3.10.12 | 2021.04.10
 - Improve minimap gutter indicators [#534](https://github.com/Binaryify/OneDark-Pro/issues/534)
 
 - Improve PHP highlight [#533](https://github.com/Binaryify/OneDark-Pro/issues/533)
