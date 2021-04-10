@@ -12,7 +12,8 @@
       "lightWhite": "#abb2bf",
       "malibu": "#61afef",
       "purple": "#c678dd",
-      "whiskey": "#d19a66"
+      "whiskey": "#d19a66",
+      "deepRed": "#BE5046"
     },
     "vivid": {
       "chalky": "#e5c07b",
@@ -26,7 +27,8 @@
       "lightWhite": "#abb2bf",
       "malibu": "#61afef",
       "purple": "#d55fde",
-      "whiskey": "#d19a66"
+      "whiskey": "#d19a66",
+      "deepRed": "#BE5046"
     }
   },
   "editorThemes": {
@@ -2328,7 +2330,7 @@
       },
       {
         "name": "use statement for other classes",
-        "scope": "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php,entity.other.alias.php,meta.interface.php",
+        "scope": "support.other.namespace.use.php,support.other.namespace.use-as.php,entity.other.alias.php,meta.interface.php",
         "settings": {
           "foreground": "chalky"
         }
@@ -3108,7 +3110,16 @@
           "punctuation.section.embedded.begin.php"
         ],
         "settings": {
-          "foreground": "coral"
+          "foreground": "deepRed"
+        }
+      },
+      {
+        "name": "support.other.namespace.php",
+        "scope": [
+          "support.other.namespace.php"
+        ],
+        "settings": {
+          "foreground": "lightWhite"
         }
       }
     ],
