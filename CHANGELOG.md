@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.10.14 | 2021.05.01
+## 3.10.14 | 2021.05.05
 - Improve JavaScript highlight [#538](https://github.com/Binaryify/OneDark-Pro/issues/538)
 
 - Add secondary button styles [#541](https://github.com/Binaryify/OneDark-Pro/issues/541)
