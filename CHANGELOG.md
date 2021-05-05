@@ -1,4 +1,11 @@
 # CHANGELOG
+## 3.10.14 | 2021.05.01
+- Improve JavaScript highlight [#538](https://github.com/Binaryify/OneDark-Pro/issues/538)
+
+- Add secondary button styles [#541](https://github.com/Binaryify/OneDark-Pro/issues/541)
+
+- Support Workspace Trust [#544](https://github.com/Binaryify/OneDark-Pro/issues/544)
+
 ## 3.10.13 | 2021.04.13
 - Fixed PHP highlight error [#533](https://github.com/Binaryify/OneDark-Pro/issues/533)
 

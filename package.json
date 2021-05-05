@@ -1,184 +1,190 @@
 {
-    "name": "material-theme",
-    "displayName": "One Dark Pro",
-    "description": "Atom's iconic One Dark theme for Visual Studio Code",
-    "version": "3.10.13",
-    "publisher": "zhuangtongfa",
-    "bugs": {
-        "url": "https://github.com/Binaryify/OneDark-Pro/issues"
-    },
-    "homepage": "https://binaryify.github.io/OneDark-Pro/",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Binaryify/OneDark-Pro"
-    },
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "activationEvents": [
-        "*"
+  "name": "material-theme",
+  "displayName": "One Dark Pro",
+  "description": "Atom's iconic One Dark theme for Visual Studio Code",
+  "version": "3.10.14",
+  "publisher": "zhuangtongfa",
+  "bugs": {
+    "url": "https://github.com/Binaryify/OneDark-Pro/issues"
+  },
+  "homepage": "https://binaryify.github.io/OneDark-Pro/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Binaryify/OneDark-Pro"
+  },
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "categories": [
+    "Themes"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "@mskelton",
+      "@mskelton/eslint-config/typescript"
     ],
-    "main": "./out/extension.js",
-    "categories": [
-        "Themes"
+    "plugins": [
+      "html"
     ],
-    "extensionKind": [
-        "ui",
-        "workspace"
-    ],
-    "eslintConfig": {
-        "extends": [
-            "@mskelton",
-            "@mskelton/eslint-config/typescript"
-        ],
-        "plugins": [
-            "html"
-        ],
-        "rules": {
-            "sort/imports": "off"
-        }
-    },
-    "scripts": {
-        "docs": "docsify serve docs",
-        "build:theme": "ts-node --project scripts/tsconfig.json scripts/generate-theme.ts",
-        "build:ts": "tsc -p src",
-        "build": "yarn build:sass && yarn build:theme && yarn build:ts",
-        "lint": "eslint . --ext .ts",
-        "watch:theme": "nodemon ./scripts/generate-theme.ts",
-        "watch:ts": "yarn build:ts -w",
-        "vscode:prepublish": "yarn build",
-        "package": "vsce package",
-        "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin"
-    },
-    "prettier": {
-        "singleQuote": true,
-        "semi": false
-    },
-    "contributes": {
-        "markdown.previewStyles": [
-            "./styles/base-inside.css",
-            "./styles/markdown-inside.css",
-            "./styles/atom-one-dark-inside.css"
-        ],
-        "commands": [
-            {
-                "command": "oneDarkPro.showChangelog",
-                "title": "%description.oneDarkPro.showChangelog%",
-                "category": "OneDark Pro"
-            },
-            {
-                "command": "oneDarkPro.setVivid",
-                "title": "%description.oneDarkPro.setVivid%",
-                "category": "OneDark Pro"
-            },
-            {
-                "command": "oneDarkPro.cancelVivid",
-                "title": "%description.oneDarkPro.cancelVivid%",
-                "category": "OneDark Pro"
-            },
-            {
-                "command": "oneDarkPro.setItalic",
-                "title": "%description.oneDarkPro.setItalic%",
-                "category": "OneDark Pro"
-            },
-            {
-                "command": "oneDarkPro.cancelItalic",
-                "title": "%description.oneDarkPro.cancelItalic%",
-                "category": "OneDark Pro"
-            },
-            {
-                "command": "oneDarkPro.setBold",
-                "title": "%description.oneDarkPro.setBold%",
-                "category": "OneDark Pro"
-            },
-            {
-                "command": "oneDarkPro.cancelBold",
-                "title": "%description.oneDarkPro.cancelBold%",
-                "category": "OneDark Pro"
-            }
-        ],
-        "themes": [
-            {
-                "label": "One Dark Pro",
-                "uiTheme": "vs-dark",
-                "path": "./themes/OneDark-Pro.json"
-            }
-        ],
-        "configuration": {
-            "title": "One Dark Pro",
-            "properties": {
-                "oneDarkPro.editorTheme": {
-                    "type": "string",
-                    "default": "",
-                    "markdownDescription": "%description.oneDarkPro.editorTheme%",
-                    "enum": [
-                        "oneDarkPro",
-                        "oneDarkProFlat",
-                        "nord",
-                        "solarized",
-                        "solarizedFlat",
-                        "shadow",
-                        "panda",
-                        "ayu",
-                        "vscode",
-                        "justBlack"
-                    ]
-                },
-                "oneDarkPro.italic": {
-                    "type": "boolean",
-                    "default": true,
-                    "description": "%description.oneDarkPro.italic%"
-                },
-                "oneDarkPro.vivid": {
-                    "type": "boolean",
-                    "default": false,
-                    "markdownDescription": "%description.oneDarkPro.vivid%"
-                },
-                "oneDarkPro.bold": {
-                    "type": "boolean",
-                    "default": false,
-                    "markdownDescription": "%description.oneDarkPro.bold%"
-                },
-                "oneDarkPro.markdownStyle": {
-                    "type": "boolean",
-                    "default": true,
-                    "description": "%description.oneDarkPro.markdownStyle%"
-                }
-            }
-        }
-    },
-    "icon": "icon.png",
-    "keywords": [
-        "one dark",
-        "onedark",
-        "one dark pro",
-        "theme",
-        "atom"
-    ],
-    "devDependencies": {
-        "@mskelton/eslint-config": "6.1.0",
-        "@mskelton/prettier-config": "5.1.0",
-        "@types/node": "12.20.3",
-        "@types/vscode": "1.55.0",
-        "@typescript-eslint/eslint-plugin": "4.15.1",
-        "all-contributors-cli": "6.19.0",
-        "docsify-cli": "4.4.3",
-        "eslint": "7.20.0",
-        "eslint-plugin-html": "6.0.3",
-        "eslint-plugin-prettier": "3.3.1",
-        "eslint-plugin-sort": "1.5.0",
-        "nodemon": "1.19.4",
-        "prettier": "2.2.1",
-        "sass": "1.29.0",
-        "ts-node": "8.10.2",
-        "typescript": "4.1.5",
-        "vsce": "1.87.1"
-    },
-    "galleryBanner": {
-        "color": "#2d323b",
-        "theme": "dark"
-    },
-    "dependencies": {
-        "marked": "^2.0.0"
+    "rules": {
+      "sort/imports": "off"
     }
+  },
+  "scripts": {
+    "docs": "docsify serve docs",
+    "build:theme": "ts-node --project scripts/tsconfig.json scripts/generate-theme.ts",
+    "build:ts": "tsc -p src",
+    "build": "yarn build:sass && yarn build:theme && yarn build:ts",
+    "lint": "eslint . --ext .ts",
+    "watch:theme": "nodemon ./scripts/generate-theme.ts",
+    "watch:ts": "yarn build:ts -w",
+    "vscode:prepublish": "yarn build",
+    "package": "vsce package",
+    "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "contributes": {
+    "markdown.previewStyles": [
+      "./styles/base-inside.css",
+      "./styles/markdown-inside.css",
+      "./styles/atom-one-dark-inside.css"
+    ],
+    "commands": [
+      {
+        "command": "oneDarkPro.showChangelog",
+        "title": "%description.oneDarkPro.showChangelog%",
+        "category": "OneDark Pro"
+      },
+      {
+        "command": "oneDarkPro.setVivid",
+        "title": "%description.oneDarkPro.setVivid%",
+        "category": "OneDark Pro"
+      },
+      {
+        "command": "oneDarkPro.cancelVivid",
+        "title": "%description.oneDarkPro.cancelVivid%",
+        "category": "OneDark Pro"
+      },
+      {
+        "command": "oneDarkPro.setItalic",
+        "title": "%description.oneDarkPro.setItalic%",
+        "category": "OneDark Pro"
+      },
+      {
+        "command": "oneDarkPro.cancelItalic",
+        "title": "%description.oneDarkPro.cancelItalic%",
+        "category": "OneDark Pro"
+      },
+      {
+        "command": "oneDarkPro.setBold",
+        "title": "%description.oneDarkPro.setBold%",
+        "category": "OneDark Pro"
+      },
+      {
+        "command": "oneDarkPro.cancelBold",
+        "title": "%description.oneDarkPro.cancelBold%",
+        "category": "OneDark Pro"
+      }
+    ],
+    "themes": [
+      {
+        "label": "One Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro.json"
+      }
+    ],
+    "configuration": {
+      "title": "One Dark Pro",
+      "properties": {
+        "oneDarkPro.editorTheme": {
+          "type": "string",
+          "default": "",
+          "markdownDescription": "%description.oneDarkPro.editorTheme%",
+          "enum": [
+            "oneDarkPro",
+            "oneDarkProFlat",
+            "nord",
+            "solarized",
+            "solarizedFlat",
+            "shadow",
+            "panda",
+            "ayu",
+            "vscode",
+            "justBlack"
+          ]
+        },
+        "oneDarkPro.italic": {
+          "type": "boolean",
+          "default": true,
+          "description": "%description.oneDarkPro.italic%"
+        },
+        "oneDarkPro.vivid": {
+          "type": "boolean",
+          "default": false,
+          "markdownDescription": "%description.oneDarkPro.vivid%"
+        },
+        "oneDarkPro.bold": {
+          "type": "boolean",
+          "default": false,
+          "markdownDescription": "%description.oneDarkPro.bold%"
+        },
+        "oneDarkPro.markdownStyle": {
+          "type": "boolean",
+          "default": true,
+          "description": "%description.oneDarkPro.markdownStyle%"
+        }
+      }
+    }
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "one dark",
+    "onedark",
+    "one dark pro",
+    "onedark pro",
+    "theme",
+    "atom"
+  ],
+  "devDependencies": {
+    "@mskelton/eslint-config": "6.1.0",
+    "@mskelton/prettier-config": "5.1.0",
+    "@types/node": "12.20.3",
+    "@types/vscode": "1.55.0",
+    "@typescript-eslint/eslint-plugin": "4.15.1",
+    "all-contributors-cli": "6.19.0",
+    "docsify-cli": "4.4.3",
+    "eslint": "7.20.0",
+    "eslint-plugin-html": "6.0.3",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-sort": "1.5.0",
+    "nodemon": "1.19.4",
+    "prettier": "2.2.1",
+    "sass": "1.29.0",
+    "ts-node": "8.10.2",
+    "typescript": "4.1.5",
+    "vsce": "1.87.1"
+  },
+  "galleryBanner": {
+    "color": "#2d323b",
+    "theme": "dark"
+  },
+  "dependencies": {
+    "marked": "^2.0.0"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  }
 }

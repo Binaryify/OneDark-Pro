@@ -444,6 +444,8 @@
       "activityBarBadge.foreground": "#f8fafd",
       "badge.background": "#282c34",
       "button.background": "#404754",
+      "button.secondaryBackground": "#30333d",
+      "button.secondaryForeground": "#c0bdbd",
       "debugToolBar.background": "#21252b",
       "descriptionForeground": "#abb2bf",
       "diffEditor.insertedTextBackground": "#00809b33",
@@ -459,6 +461,9 @@
       "editorGutter.addedBackground": "#109868",
       "editorGutter.deletedBackground": "#9A353D",
       "editorGutter.modifiedBackground": "#948B60",
+      "editorOverviewRuler.addedBackground": "#109868",
+      "editorOverviewRuler.deletedBackground": "#9A353D",
+      "editorOverviewRuler.modifiedBackground": "#948B60",
       "editor.selectionBackground": "#67769660",
       "editor.selectionHighlightBackground": "#ffffff10",
       "editor.selectionHighlightBorder": "#dddddd",
@@ -574,6 +579,8 @@
       "badge.background": "#21252b",
       "breadcrumbPicker.background": "#21252b",
       "button.background": "#404754",
+      "button.secondaryBackground": "#30333d",
+      "button.secondaryForeground": "#c0bdbd",
       "debugToolBar.background": "#21252b",
       "descriptionForeground": "#abb2bf",
       "diffEditor.insertedTextBackground": "#00809b33",
@@ -590,6 +597,9 @@
       "editorGutter.addedBackground": "#109868",
       "editorGutter.deletedBackground": "#9A353D",
       "editorGutter.modifiedBackground": "#948B60",
+      "editorOverviewRuler.addedBackground": "#109868",
+      "editorOverviewRuler.deletedBackground": "#9A353D",
+      "editorOverviewRuler.modifiedBackground": "#948B60",
       "editor.selectionBackground": "#67769660",
       "editor.selectionHighlightBackground": "#404859",
       "editor.selectionHighlightBorder": "#404859",
@@ -1992,13 +2002,6 @@
         }
       },
       {
-        "name": "Inherited Class",
-        "scope": "entity.other.inherited-class",
-        "settings": {
-          "foreground": "chalky"
-        }
-      },
-      {
         "name": "Constant other symbol",
         "scope": "constant.other.symbol",
         "settings": {
@@ -3121,6 +3124,33 @@
         ],
         "settings": {
           "foreground": "lightWhite"
+        }
+      },
+      {
+        "name": "variable.other.object",
+        "scope": [
+          "variable.other.object"
+        ],
+        "settings": {
+          "foreground": "chalky"
+        }
+      },
+      {
+        "name": "variable.other.constant.property",
+        "scope": [
+          "variable.other.constant.property"
+        ],
+        "settings": {
+          "foreground": "coral"
+        }
+      },
+      {
+        "name": "entity.other.inherited-class",
+        "scope": [
+          "entity.other.inherited-class"
+        ],
+        "settings": {
+          "foreground": "chalky"
         }
       }
     ],

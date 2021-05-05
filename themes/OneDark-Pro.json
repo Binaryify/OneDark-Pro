@@ -752,13 +752,6 @@
       }
     },
     {
-      "name": "Inherited Class",
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "foreground": "#e5c07b"
-      }
-    },
-    {
       "name": "Constant other symbol",
       "scope": "constant.other.symbol",
       "settings": {
@@ -1885,6 +1878,33 @@
       }
     },
     {
+      "name": "variable.other.object",
+      "scope": [
+        "variable.other.object"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "variable.other.constant.property",
+      "scope": [
+        "variable.other.constant.property"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "entity.other.inherited-class",
+      "scope": [
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
@@ -1920,6 +1940,8 @@
     "activityBarBadge.foreground": "#f8fafd",
     "badge.background": "#282c34",
     "button.background": "#404754",
+    "button.secondaryBackground": "#30333d",
+    "button.secondaryForeground": "#c0bdbd",
     "debugToolBar.background": "#21252b",
     "descriptionForeground": "#abb2bf",
     "diffEditor.insertedTextBackground": "#00809b33",
@@ -1935,6 +1957,9 @@
     "editorGutter.addedBackground": "#109868",
     "editorGutter.deletedBackground": "#9A353D",
     "editorGutter.modifiedBackground": "#948B60",
+    "editorOverviewRuler.addedBackground": "#109868",
+    "editorOverviewRuler.deletedBackground": "#9A353D",
+    "editorOverviewRuler.modifiedBackground": "#948B60",
     "editor.selectionBackground": "#67769660",
     "editor.selectionHighlightBackground": "#ffffff10",
     "editor.selectionHighlightBorder": "#dddddd",
