@@ -6,6 +6,8 @@
 
 - Support Workspace Trust [#544](https://github.com/Binaryify/OneDark-Pro/issues/544)
 
+- Improve editorOverviewRuler [#540](https://github.com/Binaryify/OneDark-Pro/issues/540)
+
 ## 3.10.13 | 2021.04.13
 - Fixed PHP highlight error [#533](https://github.com/Binaryify/OneDark-Pro/issues/533)
 
