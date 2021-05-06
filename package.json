@@ -4,6 +4,7 @@
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
   "version": "3.10.14",
   "publisher": "zhuangtongfa",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Binaryify/OneDark-Pro/issues"
   },
@@ -186,5 +187,22 @@
     "untrustedWorkspaces": {
       "supported": true
     }
-  }
+  },
+  "badges": [
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/version/zhuangtongfa.Material-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
+      "description": "Extension version"
+    },
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/installs/zhuangtongfa.Material-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
+      "description": "Extension installs"
+    },
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/rating/zhuangtongfa.Material-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
+      "description": "Extension Rating"
+    }
+  ]
 }
