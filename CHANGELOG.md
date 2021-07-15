@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.10.16 | 2021.07.15
+- Update CodeStream logo [#566](https://github.com/Binaryify/OneDark-Pro/pull/566)
+
 ## 3.10.15 | 2021.07.12
 - Fixed checkbox visible issue [#563](https://github.com/Binaryify/OneDark-Pro/issues/563)
 ## 3.10.14 | 2021.05.05
