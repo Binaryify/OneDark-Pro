@@ -4,7 +4,7 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 
 ## SPONSORS
 
-[![codestream](https://alt-images.codestream.com/codestream_logo_onedarkpro.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
+[![codestream](https://alt-images.codestream.com/codestream_logo_pkief_material.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
 
 Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites.
  [Learn more](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner).
