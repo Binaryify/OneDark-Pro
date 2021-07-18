@@ -30,6 +30,8 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 ### Built in themes
 ![built-in themes](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/built-in-themes.png)
 
+### Notice
+Setting only support default theme(One Dark Pro).
 ## Markdown preview style
 
 ![Markdown](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/markdown.png)

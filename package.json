@@ -2,7 +2,7 @@
   "name": "material-theme",
   "displayName": "One Dark Pro",
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "3.10.16",
+  "version": "3.11.0",
   "publisher": "zhuangtongfa",
   "license": "MIT",
   "bugs": {
@@ -103,6 +103,11 @@
         "label": "One Dark Pro",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro.json"
+      },
+      {
+        "label": "One Dark Pro Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-flat.json"
       }
     ],
     "configuration": {
@@ -186,7 +191,8 @@
   "capabilities": {
     "untrustedWorkspaces": {
       "supported": true
-    }
+    },
+    "virtualWorkspaces": true
   },
   "badges": [
     {

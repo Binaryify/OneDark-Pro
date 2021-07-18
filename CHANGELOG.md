@@ -1,4 +1,11 @@
 # CHANGELOG
+## 3.11.0 | 2021.07.18
+- Support virtual workspaces [#546](https://github.com/Binaryify/OneDark-Pro/issues/546)
+
+- Build script generate flat theme now
+
+- Add highlight for currently focused tab[#565](https://github.com/Binaryify/OneDark-Pro/issues/565)
+
 ## 3.10.16 | 2021.07.15
 - Update CodeStream logo [#566](https://github.com/Binaryify/OneDark-Pro/pull/566)
 
