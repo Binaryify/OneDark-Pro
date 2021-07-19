@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.11.1 | 2021.07.19
+- Remove highlight for currently focused tab and add custom `tab.activeBorder` color code snippet in README.md [#565](https://github.com/Binaryify/OneDark-Pro/issues/565)
+
 ## 3.11.0 | 2021.07.18
 - Support virtual workspaces [#546](https://github.com/Binaryify/OneDark-Pro/issues/546)
 

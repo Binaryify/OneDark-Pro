@@ -47,7 +47,8 @@ example, you can add this snippet in your "settings.json" file:
 "workbench.colorCustomizations": {
   "tab.activeBackground": "#282c34",
   "activityBar.background": "#282c34",
-  "sideBar.background": "#282c34"
+  "sideBar.background": "#282c34",
+  "tab.activeBorder": "#d19a66",
 }
 ```
 

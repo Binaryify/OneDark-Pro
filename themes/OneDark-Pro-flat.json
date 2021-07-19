@@ -2063,7 +2063,7 @@
     "statusBarItem.remoteBackground": "#282c34",
     "statusBarItem.remoteForeground": "#f8fafd",
     "tab.activeBackground": "#282c34",
-    "tab.activeBorder": "#d19a66",
+    "tab.activeBorder": "#f0f0f0",
     "tab.activeForeground": "#dcdcdc",
     "tab.border": "#282c34",
     "tab.hoverBackground": "#323842",
