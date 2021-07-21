@@ -1,7 +1,6 @@
-import { workspace } from 'vscode'
+import { Uri, workspace } from 'vscode'
+import { TextEncoder } from "util";
 import { join } from 'path'
-import * as fs from 'fs'
-import { promptToReload } from './'
 
 const getCSSPath = file => join(__dirname, '../../', 'styles', file)
 
@@ -14,14 +13,14 @@ export function updateCSS() {
   ]
   if (!configuration.get<boolean>('markdownStyle')) {
     files.forEach(file => {
-      fs.writeFileSync(getCSSPath(file), '')
+      workspace.fs.writeFile(Uri.file(getCSSPath(file)), new TextEncoder().encode(''))
     })
   } else {
-    files.forEach(file => {
-      fs.writeFileSync(
-        getCSSPath(`./${file}`),
-        fs.readFileSync(getCSSPath(`./origin/${file}`))
-      )
+    files.forEach(async file => {
+      const fileContents = await workspace.fs.readFile(Uri.file(getCSSPath(`./origin/${file}`)))
+      workspace.fs.writeFile(
+        Uri.file(getCSSPath(`./${file}`)), 
+        fileContents)
     })
   }
   // promptToReload()

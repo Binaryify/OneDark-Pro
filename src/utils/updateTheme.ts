@@ -1,9 +1,11 @@
 import { join } from 'path'
+import { Uri, workspace } from 'vscode'
+import { TextEncoder } from "util";
 import { generateTheme } from '../themes'
-import { promptToReload, writeFile } from './'
+import { promptToReload } from './'
 
 export function updateTheme() {
-  const THEME_PATH = join(__dirname, '../../', 'themes', 'OneDark-Pro.json')
+  const THEME_PATH = Uri.file(join(__dirname, '../../', 'themes', 'OneDark-Pro.json'))
   const theme = generateTheme.fromSettings()
-  writeFile(THEME_PATH, theme).then(promptToReload)
+  workspace.fs.writeFile(THEME_PATH, new TextEncoder().encode(JSON.stringify(theme))).then(promptToReload)
 }
