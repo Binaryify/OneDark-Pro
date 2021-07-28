@@ -5,7 +5,7 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 ## SPONSORS
 
 
-[![bloop](./screenshots/bloop.png)](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
+[![bloop](./screenshots/bloop_small.png)](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
 
 Bored of trawling through the docs? Get JS and TS code examples from documentation and Open Source right in your IDE 
 [Learn more](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner).
