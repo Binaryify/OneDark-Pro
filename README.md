@@ -4,9 +4,8 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 
 ## SPONSORS
 
-<a href="https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner">
-<img src="./screenshots/bloop.png" style="height:50px">
-</a>
+
+[![bloop](./screenshots/bloop.png)](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
 
 Bored of trawling through the docs? Get JS and TS code examples from documentation and Open Source right in your IDE 
 [Learn more](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner).
