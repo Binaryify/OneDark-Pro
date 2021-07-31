@@ -331,6 +331,13 @@
       }
     },
     {
+      "name": "CSS Preprocessor property-name",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
       "name": "js/ts module",
       "scope": "support.module.node,support.type.object.module,support.module.node",
       "settings": {
