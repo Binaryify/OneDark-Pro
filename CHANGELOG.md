@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.11.3 | 2021.08.06
+- Fixed Markdown style was missing under the Flat theme
+
 ## 3.11.2 | 2021.07.28
 - Update README.MD
 
