@@ -186,7 +186,7 @@
     "theme": "dark"
   },
   "dependencies": {
-    "marked": "^2.0.0"
+    "marked": "^3.0.0"
   },
   "capabilities": {
     "untrustedWorkspaces": {
