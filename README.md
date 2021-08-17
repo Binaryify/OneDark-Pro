@@ -52,6 +52,10 @@ Setting only support default theme(One Dark Pro).
 ![Markdown](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/markdown.png)
 You can toggle whether to use markdown style in vscode setting (default use)
 
+### Darker theme
+
+![ScreenShot](./screenshots/editordarker.png)
+
 ### Tweaks & theming
 
 If you want to play around with new colors, use the setting

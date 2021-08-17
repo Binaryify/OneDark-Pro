@@ -108,6 +108,11 @@
         "label": "One Dark Pro Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-flat.json"
+      },
+      {
+        "label": "One Dark Pro Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-darker.json"
       }
     ],
     "configuration": {
