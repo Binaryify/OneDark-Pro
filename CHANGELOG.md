@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.11.4 | 2021.08.19
+- Added darker theme option [#585](https://github.com/Binaryify/OneDark-Pro/pull/585) 
+
 ## 3.11.3 | 2021.08.06
 - Fixed Markdown style was missing under the Flat theme
 
