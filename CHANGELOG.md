@@ -1,4 +1,13 @@
 # CHANGELOG
+## 3.11.4 | 2021.08.19
+- Added darker theme option [#585](https://github.com/Binaryify/OneDark-Pro/pull/585) 
+
+## 3.11.3 | 2021.08.06
+- Fixed Markdown style was missing under the Flat theme
+
+## 3.11.2 | 2021.07.28
+- Update README.MD
+
 ## 3.11.1 | 2021.07.19
 - Remove highlight for currently focused tab and add custom `tab.activeBorder` color code snippet in README.md [#565](https://github.com/Binaryify/OneDark-Pro/issues/565)
 

@@ -2,6 +2,7 @@ import { join } from 'path'
 import { Theme } from '../src/themes/Theme'
 import * as defaultSettings from '../src/defaultConfig.json'
 import * as flatConfig from '../src/flatConfig.json'
+import * as darkerConfig from '../src/darkerConfig.json'
 import { promises as fs } from 'fs'
 
 export function writeFile(path: string, data: unknown): Promise<void> {
@@ -16,4 +17,9 @@ writeFile(
 writeFile(
   join(__dirname, '..', 'themes', 'OneDark-Pro-flat.json'),
   new Theme(flatConfig)
+)
+
+writeFile(
+  join(__dirname, '..', 'themes', 'OneDark-Pro-darker.json'),
+  new Theme(darkerConfig)
 )
