@@ -48,7 +48,7 @@
     "lint": "eslint . --ext .ts",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "yarn build:ts -w",
-    "vscode:prepublish": "yarn build",
+    "vscode:prepublish": "yarn build && yarn package-web",
     "package": "vsce package",
     "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin",
     "compile-web": "webpack --config ./build/web-extension.webpack.config.js",
