@@ -1,10 +1,10 @@
 import { Colors, ThemeConfiguration, TokenColor } from '../interface'
-import * as data from './themeData.json'
+import data from './themeData'
 
-function createEditorTokens(config: ThemeConfiguration) {
+async function createEditorTokens(config: ThemeConfiguration) {
   return config.editorTheme in data.editorThemes
-    ? data.editorThemes[config.editorTheme]
-    : data.editorThemes.oneDarkPro
+    ? (await data.editorThemes[config.editorTheme]()).default
+    : (await data.editorThemes.oneDarkPro()).default
 }
 
 function configFactory(configuration) {
@@ -17,7 +17,7 @@ function configFactory(configuration) {
     const obj = {}
     baseArray
       .concat(overrides)
-      .forEach(item => (obj[item.name + item.scope] = item))
+      .forEach((item) => (obj[item.name + item.scope] = item))
     return Object.values(obj)
   }
 
@@ -32,39 +32,39 @@ function configFactory(configuration) {
   const colorObj: Colors = configuration.vivid
     ? data.textColors.vivid
     : data.textColors.classic
-  result.forEach(token => {
+  result.forEach((token) => {
     if (token.settings.foreground) {
       if (token.settings.foreground in colorObj) {
         token.settings.foreground = colorObj[token.settings.foreground]
       }
     }
   })
-
+  console.log('result', result)
   return {
     semanticTokenColors: {
       enumMember: {
-        foreground: colorObj.fountainBlue
+        foreground: colorObj.fountainBlue,
       },
       'variable.constant': {
-        foreground: colorObj.whiskey
+        foreground: colorObj.whiskey,
       },
       'variable.defaultLibrary': {
-        foreground: colorObj.chalky
+        foreground: colorObj.chalky,
       },
-      "variable:dart":{
-        foreground: colorObj.whiskey
+      'variable:dart': {
+        foreground: colorObj.whiskey,
       },
-      "property:dart":{
-        foreground: colorObj.whiskey
+      'property:dart': {
+        foreground: colorObj.whiskey,
       },
-      "annotation:dart":{
-        foreground: colorObj.whiskey
+      'annotation:dart': {
+        foreground: colorObj.whiskey,
       },
-      "parameter.label:dart":{
-        "foreground": colorObj.lightWhite
+      'parameter.label:dart': {
+        foreground: colorObj.lightWhite,
       },
     },
-    tokenColors: result
+    tokenColors: result,
   }
 }
 export class Theme {
@@ -76,9 +76,16 @@ export class Theme {
   colors
 
   constructor(configuration: ThemeConfiguration) {
+    console.log('new')
     const themeTokens = configFactory(configuration)
     this.semanticTokenColors = themeTokens.semanticTokenColors
     this.tokenColors = themeTokens.tokenColors
-    this.colors = createEditorTokens(configuration)
+    // this.colors = createEditorTokens(configuration)
+  }
+  static async init(config) {
+    return {
+      ...new Theme(config),
+      colors: await createEditorTokens(config),
+    }
   }
 }

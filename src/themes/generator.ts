@@ -3,16 +3,18 @@ import { Theme } from './Theme'
 import * as defaultSettings from '../defaultConfig.json'
 
 export const generateTheme = {
-  default: function(): Theme {
-    return new Theme(defaultSettings)
+  default: async function () {
+    return await Theme.init(defaultSettings)
   },
-  fromSettings: function(): Theme {
+  fromSettings: async function (themeName?: string) {
     const configuration = workspace.getConfiguration('oneDarkPro')
-    return new Theme({
+    return await Theme.init({
       bold: configuration.get<boolean>('bold', defaultSettings.bold),
-      editorTheme: configuration.get<string>('editorTheme', defaultSettings.editorTheme),
+      editorTheme:
+        themeName ||
+        configuration.get<string>('editorTheme', defaultSettings.editorTheme),
       italic: configuration.get<boolean>('italic', defaultSettings.italic),
-      vivid: configuration.get<boolean>('vivid', defaultSettings.vivid)
+      vivid: configuration.get<boolean>('vivid', defaultSettings.vivid),
     })
-  }
+  },
 }

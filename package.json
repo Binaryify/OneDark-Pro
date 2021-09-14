@@ -120,7 +120,7 @@
       "properties": {
         "oneDarkPro.editorTheme": {
           "type": "string",
-          "default": "",
+          "default": "oneDarkPro",
           "markdownDescription": "%description.oneDarkPro.editorTheme%",
           "enum": [
             "oneDarkPro",
@@ -132,7 +132,8 @@
             "panda",
             "ayu",
             "vscode",
-            "justBlack"
+            "justBlack",
+            "ocean"
           ]
         },
         "oneDarkPro.italic": {
