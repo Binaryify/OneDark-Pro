@@ -1,8 +1,8 @@
 {
   "name": "material-theme",
   "displayName": "One Dark Pro",
-  "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "3.11.4",
+  "description": "Atom‘s iconic One Dark theme for Visual Studio Code",
+  "version": "3.12.0",
   "publisher": "zhuangtongfa",
   "license": "MIT",
   "bugs": {
@@ -133,6 +133,7 @@
             "ayu",
             "vscode",
             "justBlack",
+            "oneDarkProDarker",
             "ocean"
           ]
         },
@@ -155,6 +156,81 @@
           "type": "boolean",
           "default": true,
           "description": "%description.oneDarkPro.markdownStyle%"
+        },
+        "oneDarkPro.color": {
+          "type": "object",
+          "scope": "resource",
+          "default": {
+            "chalky": "",
+            "coral": "",
+            "dark": "",
+            "error": "",
+            "fountainBlue": "",
+            "green": "",
+            "invalid": "",
+            "lightDark": "",
+            "lightWhite": "",
+            "malibu": "",
+            "purple": "",
+            "whiskey": "",
+            "deepRed": ""
+          },
+          "properties": {
+            "chalky": {
+              "type": "string",
+              "default": ""
+            },
+            "coral": {
+              "type": "string",
+              "default": ""
+            },
+            "dark": {
+              "type": "string",
+              "default": ""
+            },
+            "error": {
+              "type": "string",
+              "default": ""
+            },
+            "fountainBlue": {
+              "type": "string",
+              "default": ""
+            },
+            "green": {
+              "type": "string",
+              "default": ""
+            },
+            "invalid": {
+              "type": "string",
+              "default": ""
+            },
+            "lightDark": {
+              "type": "string",
+              "default": ""
+            },
+            "lightWhite": {
+              "type": "string",
+              "default": ""
+            },
+            "malibu": {
+              "type": "string",
+              "default": ""
+            },
+            "purple": {
+              "type": "string",
+              "default": ""
+            },
+            "whiskey": {
+              "type": "string",
+              "default": ""
+            },
+            "deepRed": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          "additionalProperties": false,
+          "markdownDescription": "Code highlight color, read more [docs](https://binaryify.github.io/OneDark-Pro/#/?id=highlight-color-custom)"
         }
       }
     }

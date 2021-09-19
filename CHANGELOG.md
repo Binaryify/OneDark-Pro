@@ -1,4 +1,12 @@
 # CHANGELOG
+## 3.12.0 | 2021.09.19
+- Dynamically loading themes files, add `Starfall Ocean` in built-in themes [#605](https://github.com/Binaryify/OneDark-Pro/issues/605)
+
+- Add variables colors settings [#605](https://github.com/Binaryify/OneDark-Pro/issues/605)
+
+- One Dark Pro Flat/One Dark Pro Darker support set `Bold & Italics` [#606](https://github.com/Binaryify/OneDark-Pro/issues/606)
+
+- Support `Inlay hints` [#603](https://github.com/Binaryify/OneDark-Pro/issues/603)
 ## 3.11.4 | 2021.08.19
 - Added darker theme option [#585](https://github.com/Binaryify/OneDark-Pro/pull/585) 
 

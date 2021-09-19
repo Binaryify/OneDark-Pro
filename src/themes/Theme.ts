@@ -29,9 +29,16 @@ function configFactory(configuration) {
   }
 
   // Fill in color placeholders with concrete color values
-  const colorObj: Colors = configuration.vivid
+  let colorObj: Colors = configuration.vivid
     ? data.textColors.vivid
     : data.textColors.classic
+  for (let key in colorObj) {
+    // console.log(configuration)
+    if (configuration[key]) {
+      colorObj[key] = configuration[key]
+    }
+  }
+
   result.forEach((token) => {
     if (token.settings.foreground) {
       if (token.settings.foreground in colorObj) {
@@ -39,7 +46,6 @@ function configFactory(configuration) {
       }
     }
   })
-  console.log('result', result)
   return {
     semanticTokenColors: {
       enumMember: {
@@ -76,7 +82,6 @@ export class Theme {
   colors
 
   constructor(configuration: ThemeConfiguration) {
-    console.log('new')
     const themeTokens = configFactory(configuration)
     this.semanticTokenColors = themeTokens.semanticTokenColors
     this.tokenColors = themeTokens.tokenColors

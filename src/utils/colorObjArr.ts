@@ -1,0 +1,15 @@
+export default [
+  'chalky',
+  'coral',
+  'dark',
+  'error',
+  'fountainBlue',
+  'green',
+  'invalid',
+  'lightDark',
+  'lightWhite',
+  'malibu',
+  'purple',
+  'whiskey',
+  'deepRed',
+]
