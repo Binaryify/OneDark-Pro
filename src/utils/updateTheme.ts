@@ -11,11 +11,11 @@ export async function updateTheme() {
     ),
     writeFile(
       join(__dirname, '../../', 'themes', 'OneDark-Pro-flat.json'),
-      await generateTheme.fromSettings('oneDarkProFlat')
+      await generateTheme.fromSettings('One Dark Pro Flat')
     ),
     writeFile(
       join(__dirname, '../../', 'themes', 'OneDark-Pro-darker.json'),
-      await generateTheme.fromSettings('oneDarkProDarker')
+      await generateTheme.fromSettings('One Dark Pro Darker')
     ),
   ]
   await Promise.all(promiseArr)

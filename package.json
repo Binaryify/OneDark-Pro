@@ -120,21 +120,22 @@
       "properties": {
         "oneDarkPro.editorTheme": {
           "type": "string",
-          "default": "oneDarkPro",
+          "default": "One Dark Pro",
           "markdownDescription": "%description.oneDarkPro.editorTheme%",
           "enum": [
-            "oneDarkPro",
-            "oneDarkProFlat",
-            "nord",
-            "solarized",
-            "solarizedFlat",
-            "shadow",
-            "panda",
-            "ayu",
-            "vscode",
-            "justBlack",
-            "oneDarkProDarker",
-            "ocean"
+            "One Dark Pro",
+            "One Dark Pro Flat",
+            "Nord",
+            "Solarized",
+            "Solarized Flat",
+            "Shadow",
+            "Panda",
+            "Ayu",
+            "VS Code",
+            "Just Black",
+            "One Dark Pro Darker",
+            "Ocean",
+            "Tokyo"
           ]
         },
         "oneDarkPro.italic": {

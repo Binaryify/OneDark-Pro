@@ -4,7 +4,7 @@ import data from './themeData'
 async function createEditorTokens(config: ThemeConfiguration) {
   return config.editorTheme in data.editorThemes
     ? (await data.editorThemes[config.editorTheme]()).default
-    : (await data.editorThemes.oneDarkPro()).default
+    : (await data.editorThemes['One Dark Pro']()).default
 }
 
 function configFactory(configuration) {
@@ -33,7 +33,6 @@ function configFactory(configuration) {
     ? data.textColors.vivid
     : data.textColors.classic
   for (let key in colorObj) {
-    // console.log(configuration)
     if (configuration[key]) {
       colorObj[key] = configuration[key]
     }
