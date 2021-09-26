@@ -1010,6 +1010,41 @@ export default {
         },
       },
       {
+        "name": "[VSCODE-CUSTOM] Asciidoc Inline Raw",
+        "scope": "markup.raw.monospace.asciidoc",
+        "settings": {
+          "foreground": "green"
+        }
+      },
+      {
+        "name": "[VSCODE-CUSTOM] Asciidoc Inline Raw Punctuation Definition",
+        "scope": "punctuation.definition.asciidoc",
+        "settings": {
+          "foreground": "chalky"
+        }
+      },
+      {
+        "name": "[VSCODE-CUSTOM] Asciidoc List Punctuation Definition",
+        "scope": "markup.list.asciidoc",
+        "settings": {
+          "foreground": "chalky"
+        }
+      },
+      {
+        "name": "[VSCODE-CUSTOM] Asciidoc underline link",
+        "scope": "markup.link.asciidoc,markup.other.url.asciidoc",
+        "settings": {
+          "foreground": "purple"
+        }
+      },
+      {
+        "name": "[VSCODE-CUSTOM] Asciidoc link name",
+        "scope": "string.unquoted.asciidoc,markup.other.url.asciidoc",
+        "settings": {
+          "foreground": "malibu"
+        }
+      },
+      {
         name: 'Regular Expressions',
         scope: 'string.regexp',
         settings: {
