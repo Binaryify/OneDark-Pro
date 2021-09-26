@@ -923,7 +923,7 @@ export default {
         name: 'punctuation.definition.list.begin.markdown',
         scope: 'punctuation.definition.list.begin.markdown',
         settings: {
-          foreground: 'coral',
+          foreground: 'chalky',
         },
       },
       {
@@ -955,10 +955,17 @@ export default {
         },
       },
       {
+        name: '[VSCODE-CUSTOM] Markdown Inline Raw punctuation',
+        scope: 'punctuation.definition.raw.markdown',
+        settings: {
+          foreground: 'chalky',
+        },
+      },
+      {
         name: '[VSCODE-CUSTOM] Markdown List Punctuation Definition',
         scope: 'punctuation.definition.list.markdown',
         settings: {
-          foreground: 'coral',
+          foreground: 'chalky',
         },
       },
       {
