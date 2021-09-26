@@ -31,6 +31,10 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 
 ![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/editorflat.png)
 
+### Darker theme
+
+![ScreenShot](./screenshots/editordarker.png)
+
 ### Terminal
 
 ![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/terminal.png)
@@ -52,9 +56,14 @@ Setting only support default theme(One Dark Pro).
 ![Markdown](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/markdown.png)
 You can toggle whether to use markdown style in vscode setting (default use)
 
-### Darker theme
 
-![ScreenShot](./screenshots/editordarker.png)
+### Suggest Editor Settings
+```
+ "editor.fontSize": 20,
+ "editor.lineHeight": 30,
+ "editor.fontFamily": "JetBrains Mono",
+```
+JetBrains Mono Download: https://www.jetbrains.com/lp/mono
 
 ### Tweaks & theming
 

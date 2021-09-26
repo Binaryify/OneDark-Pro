@@ -1,4 +1,6 @@
 # CHANGELOG
+## 3.12.1 | 2021.09.26
+- Fixed One Dark Pro Darker theme's markdown style no apply problem
 ## 3.12.0 | 2021.09.19
 - Dynamically loading themes files, add `Starfall Ocean` in built-in themes [#605](https://github.com/Binaryify/OneDark-Pro/issues/605)
 
