@@ -149,6 +149,14 @@ Please check the official documentation,
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
+
+## Highlight color custom
+The colors default
+![](/screenshots/color.png)
+
+You can custom the color in VS Code's settings
+![](/screenshots/colorCustom.png)
+
 ## Contribute
 Now you know how to develop the theme, you can fork this repository and send a pull request with your version. The request will be reviewed, and if successful, merged into this theme and published on the VS Code market.
 

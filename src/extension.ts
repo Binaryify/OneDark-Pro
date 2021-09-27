@@ -17,13 +17,20 @@ export async function activate() {
     const configArr = [
       { defaultVal: false, type: 'bold' },
       { defaultVal: true, type: 'italic' },
-      { defaultVal: false, type: 'vivid' }
+      { defaultVal: false, type: 'vivid' },
     ]
     const configuration = workspace.getConfiguration('oneDarkPro')
-    const isDefaultConfig = configArr.every(item => {
+    let isDefaultConfig = configArr.every((item) => {
       return configuration.get<boolean>(item.type) === item.defaultVal
     })
-
+    let colorConfig = configuration.get<object>(`color`)
+    let colorFlagStr = ''
+    for (let key in colorConfig) {
+      colorFlagStr += colorConfig[key]
+    }
+    if (colorFlagStr != '') {
+      isDefaultConfig = false
+    }
     if (!isDefaultConfig) {
       updateTheme()
     }
@@ -36,7 +43,7 @@ export async function activate() {
   }
 
   // Observe changes in the config
-  workspace.onDidChangeConfiguration(event => {
+  workspace.onDidChangeConfiguration((event) => {
     if (event.affectsConfiguration('oneDarkPro')) {
       updateTheme()
       updateCSS()
@@ -47,7 +54,7 @@ export async function activate() {
   })
 
   const settingArr = ['Vivid', 'Italic', 'Bold']
-  settingArr.forEach(settingItem => {
+  settingArr.forEach((settingItem) => {
     Commands.registerCommand(`oneDarkPro.set${settingItem}`, () => {
       workspace
         .getConfiguration()
