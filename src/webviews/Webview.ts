@@ -1,6 +1,6 @@
 import { Disposable, ViewColumn, WebviewPanel, window } from 'vscode'
 
-export abstract class WebviewController<TBootstrap> extends Disposable {
+export abstract class WebviewController extends Disposable {
   private panel: WebviewPanel | undefined
   private disposablePanel: Disposable | undefined
 
@@ -10,7 +10,7 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
 
   abstract get id(): string
   abstract get title(): string
-  abstract get content(): string
+  abstract get content(): Promise<string>
 
   dispose() {
     if (this.disposablePanel) {
@@ -19,7 +19,7 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
   }
 
   async show(): Promise<void> {
-    const fullHtml = this.content
+    const fullHtml = await this.content
 
     if (this.panel !== undefined) {
       this.panel.webview.html = fullHtml

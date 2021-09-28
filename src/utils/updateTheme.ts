@@ -1,22 +1,21 @@
 import { join } from 'path'
+import { Uri, workspace } from 'vscode'
+import { TextEncoder } from "util";
 import { generateTheme } from '../themes'
-import { promptToReload, writeFile } from './'
+import { promptToReload } from './'
 
 export async function updateTheme() {
+  const writeTheme = (fileName: string, themeName?: string) => {
+    const THEME_PATH = Uri.file(join(__dirname, '../../', 'themes', fileName))
+    const theme = generateTheme.fromSettings(themeName)
+    return workspace.fs.writeFile(THEME_PATH, new TextEncoder().encode(JSON.stringify(theme)))
+  };
+
   let promiseArr = []
   promiseArr = [
-    writeFile(
-      join(__dirname, '../../', 'themes', 'OneDark-Pro.json'),
-      await generateTheme.fromSettings()
-    ),
-    writeFile(
-      join(__dirname, '../../', 'themes', 'OneDark-Pro-flat.json'),
-      await generateTheme.fromSettings('One Dark Pro Flat')
-    ),
-    writeFile(
-      join(__dirname, '../../', 'themes', 'OneDark-Pro-darker.json'),
-      await generateTheme.fromSettings('One Dark Pro Darker')
-    ),
+    writeTheme('OneDark-Pro.json'),
+    writeTheme('OneDark-Pro-flat.json', 'One Dark Pro Flat'),
+    writeTheme('OneDark-Pro-darker.json', 'One Dark Pro Darker')
   ]
   await Promise.all(promiseArr)
   promptToReload()

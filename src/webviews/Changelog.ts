@@ -1,9 +1,10 @@
 import { WebviewController } from './Webview'
-import * as fs from 'fs'
+import { Uri, workspace } from 'vscode'
+import { TextDecoder } from "util";
 import * as path from 'path'
 import * as marked from 'marked'
 
-export class ChangelogWebview extends WebviewController<{}> {
+export class ChangelogWebview extends WebviewController {
   get id(): string {
     return 'Onedark Pro.Changelog'
   }
@@ -12,11 +13,15 @@ export class ChangelogWebview extends WebviewController<{}> {
     return 'Onedark Pro theme Changelog'
   }
 
-  get content(): string {
-    const content = fs.readFileSync(
-      path.join(__dirname, '../../', 'CHANGELOG.md'),
-      'utf-8'
-    )
-    return marked(content)
+  get content(): Promise<string> {
+    const changelogPath = Uri.file(path.join(__dirname, '../../', 'CHANGELOG.md'));
+    
+    return new Promise(resolve => {
+      const content = workspace.fs.readFile(changelogPath).then(data => {
+        return new TextDecoder().decode(data)
+      })
+  
+      resolve(marked(content))
+    })
   }
 }

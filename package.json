@@ -20,6 +20,7 @@
     "*"
   ],
   "main": "./out/extension.js",
+  "browser": "./out/web/extension.js",
   "categories": [
     "Themes"
   ],
@@ -47,9 +48,12 @@
     "lint": "eslint . --ext .ts",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "yarn build:ts -w",
-    "vscode:prepublish": "yarn build",
+    "vscode:prepublish": "yarn build && yarn package-web",
     "package": "vsce package",
-    "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin"
+    "build:sass": "yarn sass --no-source-map scss:styles && yarn sass --no-source-map scss:styles/origin",
+    "compile-web": "webpack --config ./build/web-extension.webpack.config.js",
+    "watch-web": "webpack --watch --config ./build/web-extension.webpack.config.js",
+    "package-web": "webpack --mode production --devtool hidden-source-map --config ./build/web-extension.webpack.config.js"
   },
   "prettier": {
     "singleQuote": true,
@@ -258,10 +262,16 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-sort": "1.5.0",
     "nodemon": "1.19.4",
+    "path-browserify": "^1.0.1",
     "prettier": "2.3.2",
+    "process": "^0.11.10",
     "sass": "1.29.0",
-    "ts-node": "10.2.1",
+    "ts-loader": "^9.2.3",
     "typescript": "4.1.5",
+    "util": "^0.12.4",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "ts-node": "10.2.1",
     "vsce": "1.96.1"
   },
   "galleryBanner": {
