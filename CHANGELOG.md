@@ -1,6 +1,12 @@
 # CHANGELOG
+## 3.13.0 | 2021.09.30
+- Enable your extension to run on VS Code for the web [#601](https://github.com/Binaryify/OneDark-Pro/pull/601) [#581](https://github.com/Binaryify/OneDark-Pro/issues/581)
+
+- Fixed setting sometime doesn't work problem [#606](https://github.com/Binaryify/OneDark-Pro/issues/606)
+
 ## 3.12.1 | 2021.09.26
 - Fixed One Dark Pro Darker theme's markdown style no apply problem
+
 ## 3.12.0 | 2021.09.19
 - Dynamically loading themes files, add `Starfall Ocean` in built-in themes [#605](https://github.com/Binaryify/OneDark-Pro/issues/605)
 

@@ -15,7 +15,7 @@ export const generateTheme = {
         colorObj[item] = value
       }
     })
-    return await Theme.init({
+    const buildConfig={
       bold: configuration.get<boolean>('bold', defaultSettings.bold),
       editorTheme:
         themeName ||
@@ -23,6 +23,7 @@ export const generateTheme = {
       italic: configuration.get<boolean>('italic', defaultSettings.italic),
       vivid: configuration.get<boolean>('vivid', defaultSettings.vivid),
       ...colorObj,
-    })
+    }
+    return await Theme.init(buildConfig)
   },
 }

@@ -23,5 +23,4 @@ export function updateCSS() {
         fileContents)
     })
   }
-  // promptToReload()
 }

@@ -8,7 +8,9 @@ async function createEditorTokens(config: ThemeConfiguration) {
 }
 
 function configFactory(configuration) {
-  let result: TokenColor[] = data.tokenColors.default
+  let result: TokenColor[] = JSON.parse(
+    JSON.stringify(data.tokenColors.default)
+  )
 
   function uniqBy(
     baseArray: TokenColor[],
@@ -87,9 +89,10 @@ export class Theme {
     // this.colors = createEditorTokens(configuration)
   }
   static async init(config) {
-    return {
+    const result = {
       ...new Theme(config),
       colors: await createEditorTokens(config),
     }
+    return result
   }
 }
