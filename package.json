@@ -269,7 +269,7 @@
     "ts-loader": "9.2.6",
     "typescript": "4.1.5",
     "util": "0.12.4",
-    "webpack": "5.45.1",
+    "webpack": "5.55.1",
     "webpack-cli": "4.8.0",
     "ts-node": "10.2.1",
     "vsce": "1.96.1"
