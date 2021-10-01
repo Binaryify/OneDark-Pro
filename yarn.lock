@@ -2193,6 +2193,13 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hosted-git-info@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-4.0.2.tgz#5e425507eede4fea846b7262f0838456c4209961"
+  integrity sha512-c9OGXbZ3guC/xOlCg1Ci/VgWlwsqDv1yMQL1CWqXDL0hDjXuNcq0zuR4xqPSuasI3kqFDhqSyTjREz5gzq0fXg==
+  dependencies:
+    lru-cache "^6.0.0"
+
 htmlparser2@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/htmlparser2/-/htmlparser2-6.1.0.tgz"
@@ -3824,6 +3831,11 @@ sass@1.42.1:
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
+sax@>=0.6.0:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
+
 schema-utils@^3.0.0, schema-utils@^3.1.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/schema-utils/-/schema-utils-3.1.1.tgz"
@@ -4621,10 +4633,10 @@ v8-compile-cache@^2.0.3, v8-compile-cache@^2.2.0:
   resolved "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.2.0.tgz"
   integrity sha512-gTpR5XQNKFwOd4clxfnhaqvfqMpqEwr4tOtCyz4MtYZX2JYhfr1JvBFKdS+7K/9rfpZR3VLX+YWBbKoxCgS43Q==
 
-vsce@1.96.1:
-  version "1.96.1"
-  resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.96.1.tgz#782eb094001f14ce9abecb5d3a1d8586a14bac4b"
-  integrity sha512-KnEVqjfc1dXrpZsbJ8J7B9VQ7GAAx8o5RqBNk42Srv1KF9+e2/aXchQHe9QZxeUs/FiliHoMGpGvnHTXwKIT2A==
+vsce@1.100.1:
+  version "1.100.1"
+  resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.100.1.tgz#6ea04464abe3ccf3a5a8a05de25692f1780b1104"
+  integrity sha512-1VjLyse5g6e2eQ6jUpslu7IDq44velwF8Jy8s7ePdwGNuG8EzfmaOfVyig3ZSMJ0l8DiJmZllx5bRAB4RMdnHg==
   dependencies:
     azure-devops-node-api "^11.0.1"
     chalk "^2.4.2"
@@ -4632,6 +4644,7 @@ vsce@1.96.1:
     commander "^6.1.0"
     denodeify "^1.2.1"
     glob "^7.0.6"
+    hosted-git-info "^4.0.2"
     leven "^3.1.0"
     lodash "^4.17.15"
     markdown-it "^10.0.0"
@@ -4644,6 +4657,7 @@ vsce@1.96.1:
     tmp "^0.2.1"
     typed-rest-client "^1.8.4"
     url-join "^1.1.0"
+    xml2js "^0.4.23"
     yauzl "^2.3.1"
     yazl "^2.2.2"
 
@@ -4842,6 +4856,19 @@ xdg-basedir@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/xdg-basedir/-/xdg-basedir-4.0.0.tgz"
   integrity sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==
+
+xml2js@^0.4.23:
+  version "0.4.23"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
+  integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~11.0.0"
+
+xmlbuilder@~11.0.0:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-11.0.1.tgz#be9bae1c8a046e76b31127726347d0ad7002beb3"
+  integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==
 
 y18n@^4.0.0:
   version "4.0.1"
