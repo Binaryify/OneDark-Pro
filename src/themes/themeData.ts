@@ -93,6 +93,13 @@ export default {
         },
       },
       {
+        name: 'variable.parameter.function.language.special.cls.python',
+        scope: 'variable.parameter.function.language.special.cls.python',
+        settings: {
+          foreground: 'chalky',
+        },
+      },
+      {
         name: 'storage.modifier.lifetime.rust',
         scope: 'storage.modifier.lifetime.rust',
         settings: {
@@ -1010,39 +1017,39 @@ export default {
         },
       },
       {
-        "name": "[VSCODE-CUSTOM] Asciidoc Inline Raw",
-        "scope": "markup.raw.monospace.asciidoc",
-        "settings": {
-          "foreground": "green"
-        }
+        name: '[VSCODE-CUSTOM] Asciidoc Inline Raw',
+        scope: 'markup.raw.monospace.asciidoc',
+        settings: {
+          foreground: 'green',
+        },
       },
       {
-        "name": "[VSCODE-CUSTOM] Asciidoc Inline Raw Punctuation Definition",
-        "scope": "punctuation.definition.asciidoc",
-        "settings": {
-          "foreground": "chalky"
-        }
+        name: '[VSCODE-CUSTOM] Asciidoc Inline Raw Punctuation Definition',
+        scope: 'punctuation.definition.asciidoc',
+        settings: {
+          foreground: 'chalky',
+        },
       },
       {
-        "name": "[VSCODE-CUSTOM] Asciidoc List Punctuation Definition",
-        "scope": "markup.list.asciidoc",
-        "settings": {
-          "foreground": "chalky"
-        }
+        name: '[VSCODE-CUSTOM] Asciidoc List Punctuation Definition',
+        scope: 'markup.list.asciidoc',
+        settings: {
+          foreground: 'chalky',
+        },
       },
       {
-        "name": "[VSCODE-CUSTOM] Asciidoc underline link",
-        "scope": "markup.link.asciidoc,markup.other.url.asciidoc",
-        "settings": {
-          "foreground": "purple"
-        }
+        name: '[VSCODE-CUSTOM] Asciidoc underline link',
+        scope: 'markup.link.asciidoc,markup.other.url.asciidoc',
+        settings: {
+          foreground: 'purple',
+        },
       },
       {
-        "name": "[VSCODE-CUSTOM] Asciidoc link name",
-        "scope": "string.unquoted.asciidoc,markup.other.url.asciidoc",
-        "settings": {
-          "foreground": "malibu"
-        }
+        name: '[VSCODE-CUSTOM] Asciidoc link name',
+        scope: 'string.unquoted.asciidoc,markup.other.url.asciidoc',
+        settings: {
+          foreground: 'malibu',
+        },
       },
       {
         name: 'Regular Expressions',

@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.1 | 2021.10.03
+- Improve Python highlight [#632](https://github.com/Binaryify/OneDark-Pro/pull/632)
+
 ## 3.13.0 | 2021.09.30
 - Enable your extension to run on VS Code for the web [#601](https://github.com/Binaryify/OneDark-Pro/pull/601) [#581](https://github.com/Binaryify/OneDark-Pro/issues/581)
 
