@@ -70,6 +70,9 @@ function configFactory(configuration) {
       'parameter.label:dart': {
         foreground: colorObj.lightWhite,
       },
+      macro: {
+        foreground: colorObj.whiskey,
+      },
     },
     tokenColors: result,
   }

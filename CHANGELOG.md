@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.2 | 2021.10.06
+- Improve C/C++ semantic highlight [#395](https://github.com/Binaryify/OneDark-Pro/issues/395)
+
 ## 3.13.1 | 2021.10.03
 - Improve Python highlight [#632](https://github.com/Binaryify/OneDark-Pro/pull/632)
 
