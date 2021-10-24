@@ -2,6 +2,8 @@
 
 Atom's iconic One Dark theme, and one of the most installed [themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) for VS Code!
 
+[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/zhuangtongfa.Material-theme)
+
 ## SPONSORS
 
 [![bloop](./screenshots/bloop_small.png)](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
