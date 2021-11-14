@@ -117,6 +117,11 @@
         "label": "One Dark Pro Darker",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-darker.json"
+      },
+      {
+        "label": "One Dark Pro Retro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-retro.json"
       }
     ],
     "configuration": {
@@ -129,6 +134,7 @@
           "enum": [
             "One Dark Pro",
             "One Dark Pro Flat",
+            "One Dark Pro Retro",
             "Nord",
             "Solarized",
             "Solarized Flat",
