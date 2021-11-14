@@ -122,6 +122,11 @@
         "label": "One Dark Pro Retro",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-retro.json"
+      },
+      {
+        "label": "One Dark Pro Gnome",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-gnome.json"
       }
     ],
     "configuration": {
@@ -135,6 +140,7 @@
             "One Dark Pro",
             "One Dark Pro Flat",
             "One Dark Pro Retro",
+            "One Dark Pro Gnome",
             "Nord",
             "Solarized",
             "Solarized Flat",

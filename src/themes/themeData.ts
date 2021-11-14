@@ -38,6 +38,7 @@ export default {
     'One Dark Pro Flat': () => import('./data/oneDarkProFlat'),
     'One Dark Pro Darker': () => import('./data/oneDarkProDarker'),
     'One Dark Pro Retro': () => import('./data/oneDarkProRetro'),
+    'One Dark Pro Gnome': () => import('./data/gnome'),
     Panda: () => import('./data/panda'),
     Solarized: () => import('./data/solarized'),
     'Solarized Flat': () => import('./data/solarizedFlat'),
