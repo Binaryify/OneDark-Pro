@@ -37,6 +37,10 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 
 ![ScreenShot](./screenshots/editordarker.png)
 
+### Retro theme
+
+![ScreenShot](./screenshots/retro.png)
+
 ### Terminal
 
 ![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/terminal.png)
@@ -152,7 +156,7 @@ You could set this in your setting.json to make code be italic
 [more info](https://binaryify.github.io/OneDark-Pro)
 
 ## Python & Pylance users
-Python users I recommend using [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extension for fast, feature-rich language support.  
+Python users I recommend using [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extension for fast, feature-rich language support.
 
 Semantic colors can be customized in settings.json by associating the Pylance semantic token types and modifiers with the desired colors.
 
