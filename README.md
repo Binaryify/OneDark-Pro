@@ -41,6 +41,10 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 
 ![ScreenShot](./screenshots/retro.png)
 
+### Gnome theme
+
+![ScreenShot](./screenshots/gnome.png)
+
 ### Terminal
 
 ![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/terminal.png)
