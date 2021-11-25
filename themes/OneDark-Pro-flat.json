@@ -29,6 +29,12 @@
     },
     "variable:c": {
       "foreground": "#abb2bf"
+    },
+    "variable:cpp": {
+      "foreground": "#abb2bf"
+    },
+    "variable:cs": {
+      "foreground": "#abb2bf"
     }
   },
   "tokenColors": [
@@ -1347,7 +1353,7 @@
       "name": "cs local variable",
       "scope": "entity.name.variable.local.cs",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#abb2bf"
       }
     },
     {
@@ -1960,6 +1966,13 @@
       ],
       "settings": {
         "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "c variable readwrite",
+      "scope": "variable.other.readwrite.c",
+      "settings": {
+        "foreground": "#abb2bf"
       }
     },
     {
