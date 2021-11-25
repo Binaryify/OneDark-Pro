@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.12.3 | 2021.11.25
+- Fixed C/C++ variables highlight error [#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
+
 ## 3.13.2 | 2021.10.06
 - Improve C/C++ semantic highlight [#395](https://github.com/Binaryify/OneDark-Pro/issues/395)
 
