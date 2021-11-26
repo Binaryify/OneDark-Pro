@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.12.4 | 2021.11.25
+## 3.13.4 | 2021.11.25
 - Fixed C/C++/C# variables highlight error [#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
 
 ## 3.13.2 | 2021.10.06

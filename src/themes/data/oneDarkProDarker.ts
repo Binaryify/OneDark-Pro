@@ -18,6 +18,7 @@ export default {
   'editor.findMatchBorder': '#457dff',
   'editor.findMatchHighlightBackground': '#6199ff2f',
   'editor.foreground': '#abb2bf',
+  'editorHoverWidget.highlightForeground': '#61afef',
   "editorInlayHint.foreground": "#abb2bf",
   "editorInlayHint.background": "#2c313c",
   'editor.lineHighlightBackground': '#2c313c',
