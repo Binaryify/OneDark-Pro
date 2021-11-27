@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.5 | 2021.11.27
+- Improve Parameter hint highlight  [#656](https://github.com/Binaryify/OneDark-Pro/issues/656)
+
 ## 3.13.4 | 2021.11.25
 - Fixed C/C++/C# variables highlight error [#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
 
