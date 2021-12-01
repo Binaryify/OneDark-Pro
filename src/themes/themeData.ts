@@ -1392,7 +1392,7 @@ export default {
         name: 'cs local variable',
         scope: 'entity.name.variable.local.cs',
         settings: {
-          foreground: 'lightWhite',
+          foreground: 'coral',
         },
       },
       {
@@ -1906,7 +1906,7 @@ export default {
         name: 'c variable readwrite',
         scope: 'variable.other.readwrite.c',
         settings: {
-          foreground: 'lightWhite',
+          foreground: 'coral',
         },
       },
     ],

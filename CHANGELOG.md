@@ -1,4 +1,9 @@
 # CHANGELOG
+
+## 3.13.6 | 2021.12.1
+
+- Reverse C/C++ highlight color change(conside add a option in next version)[#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
+
 ## 3.13.5 | 2021.11.27
 - Improve Parameter hint highlight  [#656](https://github.com/Binaryify/OneDark-Pro/issues/656)
 

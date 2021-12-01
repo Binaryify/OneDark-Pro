@@ -73,15 +73,6 @@ function configFactory(configuration) {
       macro: {
         foreground: colorObj.whiskey,
       },
-      'variable:c': {
-        foreground: colorObj.lightWhite,
-      },
-      'variable:cpp': {
-        foreground: colorObj.lightWhite,
-      },
-      'variable:cs': {
-        foreground: colorObj.lightWhite,
-      },
     },
     tokenColors: result,
   }
