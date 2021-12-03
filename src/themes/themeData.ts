@@ -45,6 +45,8 @@ export default {
     'Just Black': () => import('./data/justBlack'),
     Ocean: () => import('./data/ocean'),
     Tokyo: () => import('./data/tokyo'),
+    Retro: () => import('./data/retro'),
+    Gnome: () => import('./data/gnome'),
   },
   tokenColors: {
     default: [
