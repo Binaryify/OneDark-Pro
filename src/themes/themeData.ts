@@ -37,8 +37,6 @@ export default {
     'One Dark Pro': () => import('./data/oneDarkPro'),
     'One Dark Pro Flat': () => import('./data/oneDarkProFlat'),
     'One Dark Pro Darker': () => import('./data/oneDarkProDarker'),
-    'One Dark Pro Retro': () => import('./data/oneDarkProRetro'),
-    'One Dark Pro Gnome': () => import('./data/gnome'),
     Panda: () => import('./data/panda'),
     Solarized: () => import('./data/solarized'),
     'Solarized Flat': () => import('./data/solarizedFlat'),
@@ -47,6 +45,8 @@ export default {
     'Just Black': () => import('./data/justBlack'),
     Ocean: () => import('./data/ocean'),
     Tokyo: () => import('./data/tokyo'),
+    Retro: () => import('./data/retro'),
+    Gnome: () => import('./data/gnome'),
   },
   tokenColors: {
     default: [
