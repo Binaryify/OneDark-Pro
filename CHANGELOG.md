@@ -1,4 +1,11 @@
 # CHANGELOG
+## 3.13.7 | 2021.12.17
+- Improve php highlight [#663](https://github.com/Binaryify/OneDark-Pro/issues/663)
+
+- Improve quote highlight [#667](https://github.com/Binaryify/OneDark-Pro/issues/667)
+
+- Add Gnome/adwaita theme [#654](https://github.com/Binaryify/OneDark-Pro/pull/654)
+
 
 ## 3.13.6 | 2021.12.1
 
