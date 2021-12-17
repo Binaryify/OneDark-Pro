@@ -1967,6 +1967,13 @@
       }
     },
     {
+      "name": "php scope",
+      "scope": "entity.name.variable.parameter.php,punctuation.separator.colon.php,constant.other.php",
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+    {
       "name": "Markup: Heading",
       "scope": "markup.heading",
       "settings": {

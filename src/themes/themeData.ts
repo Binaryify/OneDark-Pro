@@ -1911,6 +1911,14 @@ export default {
           foreground: 'coral',
         },
       },
+      {
+        name: 'php scope',
+        scope:
+          'entity.name.variable.parameter.php,punctuation.separator.colon.php,constant.other.php',
+        settings: {
+          foreground: 'lightWhite',
+        },
+      },
     ],
     bold: [
       {
