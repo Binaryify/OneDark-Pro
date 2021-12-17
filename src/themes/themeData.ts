@@ -150,14 +150,7 @@ export default {
           foreground: 'whiskey',
         },
       },
-      {
-        name: 'punctuation.definition',
-        scope:
-          'punctuation.definition.string.begin,punctuation.definition.string.end',
-        settings: {
-          foreground: 'green',
-        },
-      },
+      
       {
         name: 'Text',
         scope: 'variable.parameter.function',
