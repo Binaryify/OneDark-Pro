@@ -144,13 +144,19 @@ export default {
         },
       },
       {
+        name: 'keyword.operator',
+        scope: ['keyword.operator.word'],
+        settings: {
+          foreground: 'purple',
+        },
+      },
+      {
         name: 'regexp operator.quantifier',
         scope: 'keyword.operator.quantifier.regexp',
         settings: {
           foreground: 'whiskey',
         },
       },
-      
       {
         name: 'Text',
         scope: 'variable.parameter.function',
@@ -1910,6 +1916,13 @@ export default {
           'entity.name.variable.parameter.php,punctuation.separator.colon.php,constant.other.php',
         settings: {
           foreground: 'lightWhite',
+        },
+      },
+      {
+        name: 'Assembly',
+        scope: ['constant.numeric.decimal.asm.x86_64'],
+        settings: {
+          foreground: 'purple',
         },
       },
     ],

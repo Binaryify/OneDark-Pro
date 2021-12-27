@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.8 | 2021.12.27
+- Support for assembly syntax [#668](https://github.com/Binaryify/OneDark-Pro/issues/668)
+
 ## 3.13.7 | 2021.12.17
 - Improve php highlight [#663](https://github.com/Binaryify/OneDark-Pro/issues/663)
 
