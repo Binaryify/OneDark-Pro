@@ -122,7 +122,7 @@ export default {
   'terminal.ansiWhite': '#e6e6e6',
   'terminal.ansiYellow': '#d18f52',
   'terminal.background': '#23272e',
-  'terminal.border': '#abb2bf',
+  "terminal.border": "#1e2227",
   'terminal.foreground': '#abb2bf',
   'terminal.selectionBackground': '#abb2bf30',
   'textBlockQuote.background': '#2e3440',

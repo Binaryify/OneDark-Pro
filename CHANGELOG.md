@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.9 | 2022.01.01
+- Import terminal border color [#670](https://github.com/Binaryify/OneDark-Pro/issues/670)
+
 ## 3.13.8 | 2021.12.27
 - Support for assembly syntax [#668](https://github.com/Binaryify/OneDark-Pro/issues/668)
 

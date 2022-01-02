@@ -144,7 +144,7 @@ export default {
   'terminal.ansiWhite': '#e6e6e6',
   'terminal.ansiYellow': '#d18f52',
   'terminal.background': '#282c34',
-  'terminal.border': '#abb2bf',
+  'terminal.border': '#21252b',
   'terminal.foreground': '#abb2bf',
   'terminal.selectionBackground': '#abb2bf30',
   'textLink.activeForeground': '#f0f0f0',
