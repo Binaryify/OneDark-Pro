@@ -1,43 +1,56 @@
 # CHANGELOG
+## 3.13.10 | 2022.01.06
+
+- Import terminal border color/panel border color [#670](https://github.com/Binaryify/OneDark-Pro/issues/670)
+
 ## 3.13.9 | 2022.01.01
+
 - Import terminal border color [#670](https://github.com/Binaryify/OneDark-Pro/issues/670)
 
 ## 3.13.8 | 2021.12.27
+
 - Support for assembly syntax [#668](https://github.com/Binaryify/OneDark-Pro/issues/668)
 
 ## 3.13.7 | 2021.12.17
+
 - Improve php highlight [#663](https://github.com/Binaryify/OneDark-Pro/issues/663)
 
 - Improve quote highlight [#667](https://github.com/Binaryify/OneDark-Pro/issues/667)
 
 - Add Gnome/adwaita theme [#654](https://github.com/Binaryify/OneDark-Pro/pull/654)
 
-
 ## 3.13.6 | 2021.12.1
 
 - Reverse C/C++ highlight color change(conside add a option in next version)[#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
 
 ## 3.13.5 | 2021.11.27
-- Improve Parameter hint highlight  [#656](https://github.com/Binaryify/OneDark-Pro/issues/656)
+
+- Improve Parameter hint highlight [#656](https://github.com/Binaryify/OneDark-Pro/issues/656)
 
 ## 3.13.4 | 2021.11.25
+
 - Fixed C/C++/C# variables highlight error [#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
 
 ## 3.13.2 | 2021.10.06
+
 - Improve C/C++ semantic highlight [#395](https://github.com/Binaryify/OneDark-Pro/issues/395)
 
 ## 3.13.1 | 2021.10.03
+
 - Improve Python highlight [#632](https://github.com/Binaryify/OneDark-Pro/pull/632)
 
 ## 3.13.0 | 2021.09.30
+
 - Enable your extension to run on VS Code for the web [#601](https://github.com/Binaryify/OneDark-Pro/pull/601) [#581](https://github.com/Binaryify/OneDark-Pro/issues/581)
 
 - Fixed setting sometime doesn't work problem [#606](https://github.com/Binaryify/OneDark-Pro/issues/606)
 
 ## 3.12.1 | 2021.09.26
+
 - Fixed One Dark Pro Darker theme's markdown style no apply problem
 
 ## 3.12.0 | 2021.09.19
+
 - Dynamically loading themes files, add `Starfall Ocean` in built-in themes [#605](https://github.com/Binaryify/OneDark-Pro/issues/605)
 
 - Add variables colors settings [#605](https://github.com/Binaryify/OneDark-Pro/issues/605)
@@ -45,19 +58,25 @@
 - One Dark Pro Flat/One Dark Pro Darker support set `Bold & Italics` [#606](https://github.com/Binaryify/OneDark-Pro/issues/606)
 
 - Support `Inlay hints` [#603](https://github.com/Binaryify/OneDark-Pro/issues/603)
+
 ## 3.11.4 | 2021.08.19
-- Added darker theme option [#585](https://github.com/Binaryify/OneDark-Pro/pull/585) 
+
+- Added darker theme option [#585](https://github.com/Binaryify/OneDark-Pro/pull/585)
 
 ## 3.11.3 | 2021.08.06
+
 - Fixed Markdown style was missing under the Flat theme
 
 ## 3.11.2 | 2021.07.28
+
 - Update README.MD
 
 ## 3.11.1 | 2021.07.19
+
 - Remove highlight for currently focused tab and add custom `tab.activeBorder` color code snippet in README.md [#565](https://github.com/Binaryify/OneDark-Pro/issues/565)
 
 ## 3.11.0 | 2021.07.18
+
 - Support virtual workspaces [#546](https://github.com/Binaryify/OneDark-Pro/issues/546)
 
 - Build script generate flat theme now
@@ -65,11 +84,15 @@
 - Add highlight for currently focused tab[#565](https://github.com/Binaryify/OneDark-Pro/issues/565)
 
 ## 3.10.16 | 2021.07.15
+
 - Update CodeStream logo [#566](https://github.com/Binaryify/OneDark-Pro/pull/566)
 
 ## 3.10.15 | 2021.07.12
+
 - Fixed checkbox visible issue [#563](https://github.com/Binaryify/OneDark-Pro/issues/563)
+
 ## 3.10.14 | 2021.05.05
+
 - Improve JavaScript highlight [#538](https://github.com/Binaryify/OneDark-Pro/issues/538)
 
 - Add secondary button styles [#541](https://github.com/Binaryify/OneDark-Pro/issues/541)
@@ -79,17 +102,21 @@
 - Improve editorOverviewRuler [#540](https://github.com/Binaryify/OneDark-Pro/issues/540)
 
 ## 3.10.13 | 2021.04.13
+
 - Fixed PHP highlight error [#533](https://github.com/Binaryify/OneDark-Pro/issues/533)
 
 ## 3.10.12 | 2021.04.10
+
 - Improve minimap gutter indicators [#534](https://github.com/Binaryify/OneDark-Pro/issues/534)
 
 - Improve PHP highlight [#533](https://github.com/Binaryify/OneDark-Pro/issues/533)
 
 ## 3.10.11 | 2021.04.07
+
 - Improve Dart/Flutter semantic highlighting [#394](https://github.com/Binaryify/OneDark-Pro/issues/394)
 
 ## 3.10.10 | 2021.04.06
+
 - Fix Python semantic highlighting error [#439]
 
 - Improve Dart/Flutter semantic highlighting [#394](https://github.com/Binaryify/OneDark-Pro/issues/394)
@@ -97,183 +124,232 @@
 - Added new gutter colors to shadow theme [#530](https://github.com/Binaryify/OneDark-Pro/pull/530)
 
 ## 3.10.9 | 2021.04.04
+
 - Fix Python semantic highlighting error [#439](https://github.com/Binaryify/OneDark-Pro/issues/439)
 
 ## 3.10.7 | 2021.04.04
+
 - Change default theme sidebar background back and improve color [#528](https://github.com/Binaryify/OneDark-Pro/issues/528)
 
 - Improve gutter indicators highlight color [#529](https://github.com/Binaryify/OneDark-Pro/issues/529)
 
 - Improve Welcome page/Interface Overview/Playground UI [#369](https://github.com/Binaryify/OneDark-Pro/issues/369)
 
-
 ## 3.10.4 | 2021.04.03
+
 - Improve focus border highlight [#527](https://github.com/Binaryify/OneDark-Pro/issues/527)
 
 ## 3.10.1 | 2021.04.03
+
 - Make default theme sidebar more flat
- 
+
 - Improve flat theme
 
 ## 3.9.15 | 2021.02.16
+
 - Add shadow theme[#512](https://github.com/Binaryify/OneDark-Pro/pull/512)
 
 ## 3.9.13 | 2021.01.28
+
 - Fixed [#502](https://github.com/Binaryify/OneDark-Pro/issues/502)
 
 ## 3.9.12 | 2020.12.19
+
 - Improve C# color highlight [#493](https://github.com/Binaryify/OneDark-Pro/issues/493)
 
 - Improve Elixir color highlight [#495](https://github.com/Binaryify/OneDark-Pro/pull/495)
 
 ## 3.9.11 | 2020.11.25
+
 - Update editorLineNumber.activeForeground color [#487](https://github.com/Binaryify/OneDark-Pro/issues/487)
 
 ## 3.9.10 | 2020.11.25
+
 - Add editorLineNumber.activeForeground highlight [#487](https://github.com/Binaryify/OneDark-Pro/issues/487)
 
 - Update license
 
 ## 3.9.7 | 2020.11.21
+
 - Update screenshots and docs
 
 ## 3.9.6 | 2020.11.16
-- Fixed golang syntax highlighting error  [#482](https://github.com/Binaryify/OneDark-Pro/issues/482)
+
+- Fixed golang syntax highlighting error [#482](https://github.com/Binaryify/OneDark-Pro/issues/482)
 
 ## 3.9.5 | 2020.11.15
+
 - Update docs and screenshots
 
 ## 3.9.3 | 2020.10.07
+
 - Improve Elixir highlight [#464](https://github.com/Binaryify/OneDark-Pro/issues/464)
 
 ## 3.9.2 | 2020.10.05
+
 - Update screenshots
 
 ## 3.9.1 | 2020.10.03
+
 - Fixed iffy wording on command pallet commands [#458](https://github.com/Binaryify/OneDark-Pro/pull/458)
 
 ## 3.9.0 | 2020.09.25
+
 - Add oneDarkProFlat theme [#453](https://github.com/Binaryify/OneDark-Pro/pull/453)
 
 ## 3.8.7 | 2020.08.29
+
 - Fixed JavaScript operator color error [#407](https://github.com/Binaryify/OneDark-Pro/issues/407)
 - Fixed [#412](https://github.com/Binaryify/OneDark-Pro/issues/412)
 
 ## 3.8.5 | 2020.07.20
+
 - Add black color theme support [#410](https://github.com/Binaryify/OneDark-Pro/pull/410)
 - Fixed config don't work issue [#366](https://github.com/Binaryify/OneDark-Pro/issues/366)
 
 ## 3.8.4 | 2020.07.19
+
 - Improve markdown image css
 
 ## 3.8.3 | 2020.07.06
+
 - Fixed rust highlight color error [#404](https://github.com/Binaryify/OneDark-Pro/issues/404)
 
 ## 3.8.2 | 2020.06.21
+
 - Improve terminal color
 
 ## 3.8.1 | 2020.06.20
+
 - Improve panel section header background color [#400](https://github.com/Binaryify/OneDark-Pro/issues/400)
 
 ## 3.8.0 | 2020.06.13
+
 - Support toggle markdown style in setting
 
 ## 3.7.3 | 2020.06.11
-- Support markdown preview color highlight 
+
+- Support markdown preview color highlight
 
 ## 3.7.1 | 2020.05.22
+
 - Improve terminal selection background color highlight
 
 ## 3.7.0 | 2020.05.20
+
 - Improve terminal color highlight [#382](https://github.com/Binaryify/OneDark-Pro/issues/382)
 
 - Improve Rust highlight [#393](https://github.com/Binaryify/OneDark-Pro/issues/393)
 
 ## 3.6.2 | 2020.05.18
+
 - Update README.MD
 
 ## 3.6.1 | 2020.05.14
+
 - Fixed C/C++ variables highlight error [#390](https://github.com/Binaryify/OneDark-Pro/issues/390)
+
 ## 3.6.0 | 2020.05.13
+
 - Revert markdown preview color highlight support change
 
 ## 3.5.5 | 2020.05.12
+
 - Limit markdown preview style in dark mode
 
 ## 3.5.0 | 2020.05.09
+
 - Add markdown preview color highlight support
 
 ## 3.4.0 | 2020.05.06
+
 ### Breaking change
+
 - Enable semantic highlighting by default [#386](https://github.com/Binaryify/OneDark-Pro/issues/386)  
-You could set `"editor.semanticHighlighting.enabled": false` in your `setting.json` to close this setting
+  You could set `"editor.semanticHighlighting.enabled": false` in your `setting.json` to close this setting
 
 ## 3.3.1 | 2020.04.22
+
 - Fixed terminal color error
 
 ## 3.3.0 | 2020.04.21
+
 - Update terminal color
 
 ## 3.2.5 | 2020.03.31
+
 - Fixed broken images url
 
 ## 3.2.4 | 2020.03.18
+
 - Update debug status bar background [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
 
 ## 3.2.3 | 2020.02.20
+
 - Fixed embedded YAML list dash highlight error[#370](https://github.com/Binaryify/OneDark-Pro/issues/370)
 
 ## 3.2.2 | 2020.02.04
+
 - Highlight diff to-file [#376](https://github.com/Binaryify/OneDark-Pro/pull/376)
 
 ## 3.2.1 | 2019.12.10
+
 - Fixed [#362](https://github.com/Binaryify/OneDark-Pro/issues/362)
 
 ## 3.2.0 | 2019.11.29
+
 - Won't prompt to reload after extension update when using default config
 
 - Remove update notification
 
 ## 3.1.2 | 2019.11.25
+
 - Fixed template expression highlight error [#358](https://github.com/Binaryify/OneDark-Pro/issues/358)
 
 ## 3.1.1 | 2019.11.24
-- Fixed i18n error 
+
+- Fixed i18n error
 
 ## 3.1.0 | 2019.11.24
+
 - Fixed rust highlight error [#356](https://github.com/Binaryify/OneDark-Pro/issues/356)
 
 - Fixed jsx highlight error [#358](https://github.com/Binaryify/OneDark-Pro/issues/358)
 
 - Show open changelog button on notification in the bottom right corne
 
-- Support commands to set/cancel `bold`, `italic`, `vivid` 
+- Support commands to set/cancel `bold`, `italic`, `vivid`
 
 ## 3.0.3 | 2019.11.18
-- Fixed the file name error 
+
+- Fixed the file name error
 
 ## 3.0.1 | 2019.11.18
+
 - Fixed work tree selected background color error
 
 - Fixed CHANGELOG.MD date error
 
 ## 3.0.0 | 2019.11.17
+
 - Refactoring with TypeScript
 
-- Support dynamic theme  
+- Support dynamic theme
 
-- Support switch to other editor theme  (Solarized, Nord, Panda, Ayu, VS Code(dark))
+- Support switch to other editor theme (Solarized, Nord, Panda, Ayu, VS Code(dark))
 
-- Support switch `bold`, `italic`, `vivid` 
+- Support switch `bold`, `italic`, `vivid`
 
 ### More
+
 - Read [release note](https://github.com/Binaryify/OneDark-Pro/blob/master/releaseNote.md)
 
-
 ## 2.28.3 | 2019.10.28
+
 - Improve comparison operators incorrectly highlight [#346](https://github.com/Binaryify/OneDark-Pro/issues/346)
 
 ## 2.28.2 | 2019.10.07
+
 - Update logo [#343](https://github.com/Binaryify/OneDark-Pro/pull/343)
 
 ## 2.28.1 | 2019.10.06
