@@ -1,4 +1,9 @@
 # CHANGELOG
+
+## 3.13.11 | 2022.01.13
+
+- Import markdown style [#672](https://github.com/Binaryify/OneDark-Pro/issues/672)
+
 ## 3.13.10 | 2022.01.06
 
 - Import terminal border color/panel border color [#670](https://github.com/Binaryify/OneDark-Pro/issues/670)
