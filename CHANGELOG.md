@@ -1,7 +1,9 @@
 # CHANGELOG
+## 3.13.16 | 2022.01.17
+- Improved startup performance [#675](https://github.com/Binaryify/OneDark-Pro/issues/675)
+
 ## 3.13.15 | 2022.01.17
 - Fixed some bug 
-
 
 ## 3.13.11 | 2022.01.13
 

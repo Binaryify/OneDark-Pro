@@ -2,7 +2,7 @@
   "name": "material-theme",
   "displayName": "One Dark Pro",
   "description": "Atom‘s iconic One Dark theme for Visual Studio Code",
-  "version": "3.13.15",
+  "version": "3.13.16",
   "publisher": "zhuangtongfa",
   "license": "MIT",
   "bugs": {
@@ -17,7 +17,7 @@
     "vscode": "^1.59.0"
   },
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "browser": "./out/web/extension.js",
@@ -269,19 +269,20 @@
     "process": "0.11.10",
     "sass": "1.42.1",
     "ts-loader": "9.2.6",
+    "ts-node": "10.2.1",
     "typescript": "4.4.3",
     "util": "0.12.4",
+    "vsce": "1.100.1",
     "webpack": "5.64.3",
-    "webpack-cli": "4.8.0",
-    "ts-node": "10.2.1",
-    "vsce": "1.100.1"
+    "webpack-cli": "4.8.0"
   },
   "galleryBanner": {
     "color": "#2d323b",
     "theme": "dark"
   },
   "dependencies": {
-    "marked": "^3.0.0"
+    "@types/marked": "^4.0.1",
+    "marked": "4"
   },
   "capabilities": {
     "untrustedWorkspaces": {
