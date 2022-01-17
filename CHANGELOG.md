@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 3.13.12 | 2022.01.17
+## 3.13.13 | 2022.01.17
 - Fixed activationEvents issue [#675](https://github.com/Binaryify/OneDark-Pro/issues/675)
 
 ## 3.13.11 | 2022.01.13
