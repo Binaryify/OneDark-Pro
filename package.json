@@ -2,7 +2,7 @@
   "name": "material-theme",
   "displayName": "One Dark Pro",
   "description": "Atom‘s iconic One Dark theme for Visual Studio Code",
-  "version": "3.13.11",
+  "version": "3.13.12",
   "publisher": "zhuangtongfa",
   "license": "MIT",
   "bugs": {
@@ -17,7 +17,7 @@
     "vscode": "^1.59.0"
   },
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "browser": "./out/web/extension.js",
