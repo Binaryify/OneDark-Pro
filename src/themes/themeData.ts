@@ -2026,7 +2026,7 @@ export default {
       },
       {
         name: 'Python Keyword Control',
-        scope: 'keyword.control.import.python,keyword.control.flow.python',
+        scope: 'keyword.control.import.python,keyword.control.flow.python,keyword.operator.logical.python',
         settings: {
           fontStyle: 'italic',
         },

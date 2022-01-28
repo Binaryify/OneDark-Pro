@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.13.17 | 2022.01.28
+- Fix markdown font-size issue [#682](https://github.com/Binaryify/OneDark-Pro/issues/682)
+
+- Fix Python keyword font-style error [#681](https://github.com/Binaryify/OneDark-Pro/issues/681)
+
 ## 3.13.16 | 2022.01.17
 - Improved startup performance [#675](https://github.com/Binaryify/OneDark-Pro/issues/675)
 
