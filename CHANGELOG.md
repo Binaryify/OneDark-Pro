@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.18 | 2022.02.05
+- Unify syntax highlighting for ruby string interpolation [#685](https://github.com/Binaryify/OneDark-Pro/pull/685)
+
 ## 3.13.17 | 2022.01.28
 - Fix markdown font-size issue [#682](https://github.com/Binaryify/OneDark-Pro/issues/682)
 

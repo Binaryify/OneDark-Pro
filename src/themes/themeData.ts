@@ -51,6 +51,12 @@ export default {
   tokenColors: {
     default: [
       {
+        scope: 'meta.embedded',
+        settings: {
+          foreground: 'lightWhite',
+        },
+      },
+      {
         name: 'unison punctuation',
         scope:
           'punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison',
@@ -2026,7 +2032,8 @@ export default {
       },
       {
         name: 'Python Keyword Control',
-        scope: 'keyword.control.import.python,keyword.control.flow.python,keyword.operator.logical.python',
+        scope:
+          'keyword.control.import.python,keyword.control.flow.python,keyword.operator.logical.python',
         settings: {
           fontStyle: 'italic',
         },
