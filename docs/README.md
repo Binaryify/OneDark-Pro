@@ -27,12 +27,12 @@ $ yarn
 
 Then use vscode open and press `F5` key
 
-Change the `src/themes/syntax.ts` or `src/themes/editorThemes/*` file then reload vscode and you will see the change
+Change the `src/themes/themeData.ts` or `src/themes/data/*` file then reload vscode and you will see the change
 
 You also can use `npm run package` to package extension file, the *.vsic file will be generate, then use vscode install the vsic file
 
 ### Principle
-VS Code will parse code and specify a scope for each piece of syntax. For example, the scope may be a keyword, a constant, or punctuation. **'syntax.ts'** includes the settings that tell VS Code how to format the text accordingly, using these scopes.
+VS Code will parse code and specify a scope for each piece of syntax. For example, the scope may be a keyword, a constant, or punctuation. **'themeData.ts'** includes the settings that tell VS Code how to format the text accordingly, using these scopes.
 
 ### Common scope list
 
@@ -97,7 +97,7 @@ This will show you the selected token's scope. There are four sections:
 ![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/scope.png)
 
 ### Add/Change code color
-Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'syntax.ts'** file, add/change code snippet like this:
+Now you know the rules for the theme, you simply need the code scope and the hex color you would like. Now edit the **'themeData.ts'** file, add/change code snippet like this:
 
 ```js
 {
