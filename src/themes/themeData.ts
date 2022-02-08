@@ -1066,13 +1066,6 @@ export default {
         },
       },
       {
-        name: 'Escape Characters',
-        scope: 'constant.character.escape',
-        settings: {
-          foreground: 'fountainBlue',
-        },
-      },
-      {
         name: 'Embedded',
         scope: 'punctuation.section.embedded, variable.interpolation',
         settings: {
