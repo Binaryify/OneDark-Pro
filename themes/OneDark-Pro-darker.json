@@ -1985,6 +1985,30 @@
       "settings": {
         "foreground": "#c678dd"
       }
+    },
+    {
+      "scope": [
+        "support.other.parenthesis.regexp"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "scope": [
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
     }
   ],
   "colors": {

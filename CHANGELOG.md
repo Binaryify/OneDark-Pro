@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.19 | 2022.02.08
+- Import regex highlighting [#678](https://github.com/Binaryify/OneDark-Pro/issues/678)
+
 ## 3.13.18 | 2022.02.05
 - Unify syntax highlighting for ruby string interpolation [#685](https://github.com/Binaryify/OneDark-Pro/pull/685)
 

@@ -1931,6 +1931,24 @@ export default {
           foreground: 'purple',
         },
       },
+      {
+        scope: ['support.other.parenthesis.regexp'],
+        settings: {
+          foreground: 'whiskey',
+        },
+      },
+      {
+        scope: ['constant.character.escape'],
+        settings: {
+          foreground: 'chalky',
+        },
+      },
+      {
+        scope: ['string.regexp'],
+        settings: {
+          foreground: 'coral',
+        },
+      },
     ],
     bold: [
       {
