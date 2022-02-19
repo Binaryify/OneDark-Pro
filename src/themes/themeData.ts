@@ -1933,7 +1933,7 @@ export default {
       {
         scope: ['constant.character.escape'],
         settings: {
-          foreground: 'chalky',
+          foreground: 'fountainBlue',
         },
       },
       {

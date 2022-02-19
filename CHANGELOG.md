@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.20 | 2022.02.19
+- Import regex highlighting [#678](https://github.com/Binaryify/OneDark-Pro/issues/678)
+
 ## 3.13.19 | 2022.02.08
 - Import regex highlighting [#678](https://github.com/Binaryify/OneDark-Pro/issues/678)
 
