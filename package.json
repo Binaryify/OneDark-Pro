@@ -265,7 +265,7 @@
     "eslint-plugin-sort": "1.5.0",
     "nodemon": "1.19.4",
     "path-browserify": "1.0.1",
-    "prettier": "2.4.1",
+    "prettier": "2.5.1",
     "process": "0.11.10",
     "sass": "1.42.1",
     "ts-loader": "9.2.6",
