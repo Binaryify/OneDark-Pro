@@ -274,7 +274,7 @@
     "util": "0.12.4",
     "vsce": "1.100.1",
     "webpack": "5.64.3",
-    "webpack-cli": "4.8.0"
+    "webpack-cli": "4.9.2"
   },
   "galleryBanner": {
     "color": "#2d323b",
