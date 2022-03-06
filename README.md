@@ -51,7 +51,13 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 
 ### Terminal
 
-![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/terminal.png)
+![ScreenShot](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/terminal.png) 
+
+
+## Donation
+
+If you like this extension, you could donate via **[PayPal](https://www.paypal.me/binaryify)**, or scan below QR code to donate via **WeChatPay**. Any amount is welcome. It will encourage me to make this extension better and better!
+![](screenshots/wechatPay.jpg)
 
 ### Setting
 
