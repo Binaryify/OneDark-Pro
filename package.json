@@ -258,7 +258,7 @@
     "@types/vscode": "1.65.0",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "all-contributors-cli": "6.20.0",
-    "docsify-cli": "4.4.3",
+    "docsify-cli": "4.4.4",
     "eslint": "8.10.0",
     "eslint-plugin-html": "6.2.0",
     "eslint-plugin-prettier": "4.0.0",
