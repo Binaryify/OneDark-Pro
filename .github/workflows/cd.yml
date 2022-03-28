@@ -16,7 +16,7 @@ jobs:
 
         # Make sure the version number in the tag matches the version in package.json
       - name: match-tag-to-package-version
-        uses: geritol/match-tag-to-package-version@0.0.2 # https://github.com/geritol/match-tag-to-package-version
+        uses: geritol/match-tag-to-package-version@0.2.0 # https://github.com/geritol/match-tag-to-package-version
         env:
           TAG_PREFIX: refs/tags/
 
