@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.21 | 2022.04.14
+- Change `invalid.illegal.unrecognized-tag.html` highlight color
+
 ## 3.13.20 | 2022.02.19
 - Import regex highlighting [#678](https://github.com/Binaryify/OneDark-Pro/issues/678)
 

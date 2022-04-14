@@ -1058,6 +1058,12 @@
       }
     },
     {
+      "scope": "invalid.illegal.unrecognized-tag.html",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
       "name": "Broken",
       "scope": "invalid.broken",
       "settings": {

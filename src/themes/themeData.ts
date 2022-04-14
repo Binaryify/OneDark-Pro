@@ -1095,6 +1095,12 @@ export default {
         },
       },
       {
+        scope: 'invalid.illegal.unrecognized-tag.html',
+        settings: {
+          foreground: 'coral',
+        },
+      },
+      {
         name: 'Broken',
         scope: 'invalid.broken',
         settings: {
