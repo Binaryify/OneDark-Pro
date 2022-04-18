@@ -629,16 +629,14 @@
         "variable.function"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#61afef"
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Classes",
       "scope": "entity.name.type.namespace",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#e5c07b"
+        "fontStyle": "bold"
       }
     },
     {
@@ -840,8 +838,7 @@
       "name": "Headings",
       "scope": "markup.heading",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#e06c75"
+        "fontStyle": "bold"
       }
     },
     {
@@ -862,8 +859,7 @@
       "name": "Bold",
       "scope": "markup.bold,todo.bold",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#d19a66"
+        "fontStyle": "bold"
       }
     },
     {
