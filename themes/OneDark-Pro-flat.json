@@ -629,13 +629,14 @@
         "variable.function"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#61afef"
       }
     },
     {
       "name": "Classes",
       "scope": "entity.name.type.namespace",
       "settings": {
+        "foreground": "#e5c07b",
         "fontStyle": "bold"
       }
     },
@@ -838,6 +839,7 @@
       "name": "Headings",
       "scope": "markup.heading",
       "settings": {
+        "foreground": "#e06c75",
         "fontStyle": "bold"
       }
     },
@@ -859,6 +861,7 @@
       "name": "Bold",
       "scope": "markup.bold,todo.bold",
       "settings": {
+        "foreground": "#d19a66",
         "fontStyle": "bold"
       }
     },
@@ -2017,13 +2020,6 @@
       }
     },
     {
-      "name": "Markup: Heading",
-      "scope": "markup.heading",
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "Markup: Strong",
       "scope": "markup.bold",
       "settings": {
@@ -2040,6 +2036,18 @@
     {
       "name": "CSS: Important Keyword",
       "scope": "keyword.other.important",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.require",
+        "support.function.any-method",
+        "variable.function"
+      ],
       "settings": {
         "fontStyle": "bold"
       }

@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.23 | 2022.04.21
+- Fix theme config array merge bug [#713](https://github.com/Binaryify/OneDark-Pro/issues/713)
+
 ## 3.13.22 | 2022.04.21
 - Change `invalid.deprecated.entity.other.attribute-name.html` highlight color
 

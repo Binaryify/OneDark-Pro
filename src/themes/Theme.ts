@@ -1,6 +1,6 @@
 import { Colors, ThemeConfiguration, TokenColor } from '../interface'
 import data from './themeData'
-
+import { uniqBy } from 'lodash'
 async function createEditorTokens(config: ThemeConfiguration) {
   return config.editorTheme in data.editorThemes
     ? (await data.editorThemes[config.editorTheme]()).default
@@ -12,22 +12,27 @@ function configFactory(configuration) {
     JSON.stringify(data.tokenColors.default)
   )
 
-  function uniqBy(
-    baseArray: TokenColor[],
-    overrides: TokenColor[]
-  ): TokenColor[] {
-    const obj = {}
-    baseArray
-      .concat(overrides)
-      .forEach((item) => (obj[item.name + item.scope] = item))
-    return Object.values(obj)
+  function mergeTheme(baseArray, overrides) {
+    let mergeArr = [...baseArray, ...overrides]
+    let newArr = uniqBy(mergeArr, 'scope')
+    overrides.forEach((item) => {
+      newArr.forEach((cell) => {
+        if (cell.scope === item.scope) {
+          cell.settings = {
+            ...cell.settings,
+            ...item.settings,
+          }
+        }
+      })
+    })
+    return JSON.parse(JSON.stringify(newArr))
   }
 
   if (configuration.bold) {
-    result = uniqBy(result, data.tokenColors.bold)
+    result = mergeTheme(result, data.tokenColors.bold)
   }
   if (configuration.italic) {
-    result = uniqBy(result, data.tokenColors.italic)
+    result = mergeTheme(result, data.tokenColors.italic)
   }
 
   // Fill in color placeholders with concrete color values

@@ -1860,6 +1860,7 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
+        "foreground": "#7f848e",
         "fontStyle": "italic"
       }
     },
