@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.13.22 | 2022.04.21
+- Change `invalid.deprecated.entity.other.attribute-name.html` highlight color
+
 ## 3.13.21 | 2022.04.14
 - Change `invalid.illegal.unrecognized-tag.html` highlight color
 

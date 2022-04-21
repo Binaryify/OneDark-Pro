@@ -1078,6 +1078,13 @@
       }
     },
     {
+      "name": "html Deprecated",
+      "scope": "invalid.deprecated.entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
       "name": "Unimplemented",
       "scope": "invalid.unimplemented",
       "settings": {

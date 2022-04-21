@@ -1131,6 +1131,13 @@ export default {
         },
       },
       {
+        name: 'html Deprecated',
+        scope: 'invalid.deprecated.entity.other.attribute-name.html',
+        settings: {
+          foreground: colorType.whiskey,
+        },
+      },
+      {
         name: 'Unimplemented',
         scope: 'invalid.unimplemented',
         settings: {
