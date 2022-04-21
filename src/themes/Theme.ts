@@ -1,11 +1,16 @@
 import { Colors, ThemeConfiguration, TokenColor } from '../interface'
 import data from './themeData'
-import { uniqBy } from 'lodash'
 async function createEditorTokens(config: ThemeConfiguration) {
   return config.editorTheme in data.editorThemes
     ? (await data.editorThemes[config.editorTheme]()).default
     : (await data.editorThemes['One Dark Pro']()).default
 }
+const uniqBy = (arr, fn, set = new Set()) =>
+  arr.filter((el) =>
+    ((v) => !set.has(v) && set.add(v))(
+      typeof fn === 'function' ? fn(el) : el[fn]
+    )
+  )
 
 function configFactory(configuration) {
   let result: TokenColor[] = JSON.parse(
