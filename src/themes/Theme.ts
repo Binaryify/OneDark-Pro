@@ -11,27 +11,25 @@ const uniqBy = (arr, fn, set = new Set()) =>
       typeof fn === 'function' ? fn(el) : el[fn]
     )
   )
-
+function mergeTheme(baseArray, overrides) {
+  let mergeArr = [...baseArray, ...overrides]
+  let newArr = uniqBy(mergeArr, 'scope')
+  overrides.forEach((item) => {
+    newArr.forEach((cell) => {
+      if (cell.scope === item.scope) {
+        cell.settings = {
+          ...cell.settings,
+          ...item.settings,
+        }
+      }
+    })
+  })
+  return JSON.parse(JSON.stringify(newArr))
+}
 function configFactory(configuration) {
   let result: TokenColor[] = JSON.parse(
     JSON.stringify(data.tokenColors.default)
   )
-
-  function mergeTheme(baseArray, overrides) {
-    let mergeArr = [...baseArray, ...overrides]
-    let newArr = uniqBy(mergeArr, 'scope')
-    overrides.forEach((item) => {
-      newArr.forEach((cell) => {
-        if (cell.scope === item.scope) {
-          cell.settings = {
-            ...cell.settings,
-            ...item.settings,
-          }
-        }
-      })
-    })
-    return JSON.parse(JSON.stringify(newArr))
-  }
 
   if (configuration.bold) {
     result = mergeTheme(result, data.tokenColors.bold)
