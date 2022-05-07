@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.13.25 | 2022.05.07
+- Improve flat theme [#726](https://github.com/Binaryify/OneDark-Pro/issues/726)
+
+- Improve Colorized Bracket Pairs support [#728](https://github.com/Binaryify/OneDark-Pro/issues/728)
+
 ## 3.13.24 | 2022.04.21
 - Fix theme config array merge bug [#713](https://github.com/Binaryify/OneDark-Pro/issues/713)
 
