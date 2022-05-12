@@ -1,4 +1,8 @@
 # CHANGELOG
+
+## 3.13.26 | 2022.05.12
+- Improve flat theme debugging statusbar's background [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
+
 ## 3.13.25 | 2022.05.07
 - Improve flat theme [#726](https://github.com/Binaryify/OneDark-Pro/issues/726)
 
