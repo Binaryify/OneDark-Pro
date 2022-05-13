@@ -1,5 +1,5 @@
 # CHANGELOG
-## 3.13.28 | 2022.05.13
+## 3.13.29 | 2022.05.13
 - Fixed flat theme debugging statusbar's hover background error [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
 
 ## 3.13.26 | 2022.05.12

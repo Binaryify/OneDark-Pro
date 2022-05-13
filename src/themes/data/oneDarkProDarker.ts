@@ -96,7 +96,7 @@ export default {
   'sideBarSectionHeader.foreground': '#abb2bf',
   'statusBar.background': '#1e2227',
   'statusBar.debuggingBackground': '#cc6633',
-  'statusBar.debuggingBorder': '#66017a',
+  'statusBar.debuggingBorder': '#ff000000',
   'statusBar.debuggingForeground': '#ffffff',
   'statusBar.foreground': '#9da5b4',
   'statusBar.noFolderBackground': '#1e2227',
