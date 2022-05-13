@@ -121,7 +121,6 @@ export default {
   'statusBar.debuggingForeground': '#fff',
   'statusBar.foreground': '#969aa4',
   'statusBar.noFolderBackground': '#282c34',
-  'statusBarItem.hoverBackground': '#2c313a',
   'statusBarItem.remoteBackground': '#282c34',
   'statusBarItem.remoteForeground': '#969aa4',
   "statusBarItem.warningBackground": "#282c34",
