@@ -56,8 +56,8 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 
 ## Donation
 
-If you like this extension, you could donate via **[PayPal](https://www.paypal.me/binaryify)**, or scan below QR code to donate via **WeChatPay**. Any amount is welcome. It will encourage me to make this extension better and better!
-![](screenshots/wechatPay.jpg)
+If you like this extension, you could donate via **[PayPal](https://www.paypal.me/binaryify)** It will encourage me to make this extension better and better!
+
 
 ### Setting
 
