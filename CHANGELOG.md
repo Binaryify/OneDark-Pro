@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.14.0 | 2022.06.11
+- Add "One Dark Mix" theme
+
 ## 3.13.29 | 2022.05.13
 - Fixed flat theme debugging statusbar's hover background error [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
 
