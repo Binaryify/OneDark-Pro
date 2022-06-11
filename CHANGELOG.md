@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.14.1 | 2022.06.11
+- Improve some UI color
+
 ## 3.14.0 | 2022.06.11
 - Add "One Dark Mix" theme
 
