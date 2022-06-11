@@ -71,7 +71,7 @@ export default {
   'list.focusForeground': '#f0f0f0',
   'list.highlightForeground': '#c5c5c5',
   'list.hoverBackground': '#2c313a',
-  'list.hoverForeground': '#fff',
+  'list.hoverForeground': '#abb2bf',
   'list.inactiveSelectionBackground': '#323842',
   'list.inactiveSelectionForeground': '#d7dae0',
   'list.warningForeground': '#d19a66',
