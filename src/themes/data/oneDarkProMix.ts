@@ -59,7 +59,7 @@ export default {
   'editorSuggestWidget.border': '#181a1f',
   'editorSuggestWidget.selectedBackground': '#2c313a',
   'editorWarning.foreground': '#d19a66',
-  'editorWhitespace.foreground': '#3b4048',
+  'editorWhitespace.foreground': '#ffffff1d',
   'editorWidget.background': '#21252b',
   focusBorder: '#3e4452c3',
   'gitDecoration.ignoredResourceForeground': '#636b78',
