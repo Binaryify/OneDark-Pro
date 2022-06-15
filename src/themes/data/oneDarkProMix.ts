@@ -8,7 +8,7 @@ export default {
   'button.secondaryBackground': '#30333d',
   'button.secondaryForeground': '#c0bdbd',
   'checkbox.border': '#404754',
-  'debugToolBar.background': '#21252bf',
+  'debugToolBar.background': '#21252b',
   descriptionForeground: '#abb2bf',
   'diffEditor.insertedTextBackground': '#00809b33',
   'dropdown.background': '#21252b',
