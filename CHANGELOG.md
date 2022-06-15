@@ -1,5 +1,6 @@
 # CHANGELOG
 ## 3.14.4 | 2022.06.11
+- Fix: One Dark Mix theme debugToolBar bgColor #747
 
 ## 3.14.3 | 2022.06.11
 - Improve some UI color
