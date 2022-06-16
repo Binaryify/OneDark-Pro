@@ -104,6 +104,7 @@ export default {
   'statusBarItem.remoteBackground': '#4d78cc',
   'statusBarItem.remoteForeground': '#f8fafd',
   'tab.activeBackground': '#23272e',
+  'tab.activeBorder': '#b4b4b4',
   'tab.activeForeground': '#dcdcdc',
   'tab.border': '#181a1f',
   'tab.hoverBackground': '#323842',
