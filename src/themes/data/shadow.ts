@@ -26,7 +26,6 @@ export default {
   'editor.wordHighlightBorder': '#848484',
   'editor.wordHighlightStrongBackground': '#ababab26',
   'editor.wordHighlightStrongBorder': '#848484',
-  'editorActiveLineNumber.foreground': '#ababab',
   'editorBracketMatch.background': '#555555',
   'editorBracketMatch.border': '#555555',
   'editorCursor.background': '#ffffffc9',

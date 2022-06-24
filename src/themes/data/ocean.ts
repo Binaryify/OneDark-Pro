@@ -307,7 +307,7 @@ export default {
   //"editor.symbolHighlightBackground": "#54bef260",
   //"editor.wordHighlightBackground": "#575757b8",
   //"editor.wordHighlightStrongBackground": "#004972b8",
-  //"editorActiveLineNumber.foreground": "#c6c6c6",
+  //"editorLineNumber.activeForeground": "#c6c6c6",
   //"editorBracketHighlight.foreground1": "#ffd700",
   //"editorBracketHighlight.foreground2": "#da70d6",
   //"editorBracketHighlight.foreground3": "#179fff",

@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.15.1 | 2022.06.24
+- Remove deprecated properties
+
 ## 3.15.0 | 2022.06.16
 - Add `tab.activeBorder` color to improve the actived tab visibility #746 (if you don't like the border, you can set "tab.activeBorder" to "#00000000" in your setting.json)
 
