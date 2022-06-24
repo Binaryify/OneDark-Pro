@@ -867,7 +867,6 @@ export default {
         name: 'Attribute IDs',
         scope: 'entity.other.attribute-name.id',
         settings: {
-          fontStyle: 'normal',
           foreground: colorType.malibu,
         },
       },
@@ -875,7 +874,6 @@ export default {
         name: 'Attribute class',
         scope: 'entity.other.attribute-name.class.css',
         settings: {
-          fontStyle: 'normal',
           foreground: colorType.whiskey,
         },
       },
