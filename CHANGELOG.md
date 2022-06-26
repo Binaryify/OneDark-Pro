@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.15.2 | 2022.06.26
+- swap ansiBrightWhite and ansiWhite #751
+
 ## 3.15.1 | 2022.06.24
 - Remove deprecated properties
 
