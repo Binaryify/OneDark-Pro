@@ -1,4 +1,6 @@
 # CHANGELOG
+## 3.15.3 | 2022.09.03
+- Fixed `toml` highlight error #759
 ## 3.15.2 | 2022.06.26
 - swap ansiBrightWhite and ansiWhite #751
 

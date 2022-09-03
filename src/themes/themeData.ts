@@ -1190,6 +1190,13 @@ export default {
         },
       },
       {
+        name: '[VSCODE-CUSTOM] toml support',
+        scope: 'support.type.property-name.toml, support.type.property-name.table.toml',
+        settings: {
+          foreground: colorType.coral,
+        },
+      },
+      {
         name: 'laravel blade tag',
         scope:
           'text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade',
