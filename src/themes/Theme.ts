@@ -81,6 +81,9 @@ function configFactory(configuration) {
       macro: {
         foreground: colorObj.whiskey,
       },
+      tomlArrayKey: {
+        foreground: colorObj.chalky,
+      },
     },
     tokenColors: result,
   }

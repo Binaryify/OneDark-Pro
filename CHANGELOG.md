@@ -1,63 +1,90 @@
 # CHANGELOG
+
+## 3.15.4 | 2022.09.03
+
+- Import `toml` semantic highlight support #759
+
+
 ## 3.15.3 | 2022.09.03
+
 - Fixed `toml` highlight error #759
+
+
 ## 3.15.2 | 2022.06.26
+
 - swap ansiBrightWhite and ansiWhite #751
 
 ## 3.15.1 | 2022.06.24
+
 - Remove deprecated properties
 
 ## 3.15.0 | 2022.06.16
+
 - Add `tab.activeBorder` color to improve the actived tab visibility #746 (if you don't like the border, you can set "tab.activeBorder" to "#00000000" in your setting.json)
 
 ## 3.14.4 | 2022.06.11
+
 - Fix: One Dark Mix theme debugToolBar bgColor #747
 
 ## 3.14.3 | 2022.06.11
+
 - Improve some UI color
 
 ## 3.14.0 | 2022.06.11
+
 - Add "One Dark Mix" theme
 
 ## 3.13.29 | 2022.05.13
+
 - Fixed flat theme debugging statusbar's hover background error [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
 
 ## 3.13.26 | 2022.05.12
+
 - Improve flat theme debugging statusbar's background [#374](https://github.com/Binaryify/OneDark-Pro/issues/374)
 
 ## 3.13.25 | 2022.05.07
+
 - Improve flat theme [#726](https://github.com/Binaryify/OneDark-Pro/issues/726)
 
 - Improve Colorized Bracket Pairs support [#728](https://github.com/Binaryify/OneDark-Pro/issues/728)
 
 ## 3.13.24 | 2022.04.21
+
 - Fix theme config array merge bug [#713](https://github.com/Binaryify/OneDark-Pro/issues/713)
 
 ## 3.13.22 | 2022.04.21
+
 - Change `invalid.deprecated.entity.other.attribute-name.html` highlight color
 
 ## 3.13.21 | 2022.04.14
+
 - Change `invalid.illegal.unrecognized-tag.html` highlight color
 
 ## 3.13.20 | 2022.02.19
+
 - Import regex highlighting [#678](https://github.com/Binaryify/OneDark-Pro/issues/678)
 
 ## 3.13.19 | 2022.02.08
+
 - Import regex highlighting [#678](https://github.com/Binaryify/OneDark-Pro/issues/678)
 
 ## 3.13.18 | 2022.02.05
+
 - Unify syntax highlighting for ruby string interpolation [#685](https://github.com/Binaryify/OneDark-Pro/pull/685)
 
 ## 3.13.17 | 2022.01.28
+
 - Fix markdown font-size issue [#682](https://github.com/Binaryify/OneDark-Pro/issues/682)
 
 - Fix Python keyword font-style error [#681](https://github.com/Binaryify/OneDark-Pro/issues/681)
 
 ## 3.13.16 | 2022.01.17
+
 - Improved startup performance [#675](https://github.com/Binaryify/OneDark-Pro/issues/675)
 
 ## 3.13.15 | 2022.01.17
-- Fixed some bug 
+
+- Fixed some bug
 
 ## 3.13.11 | 2022.01.13
 
