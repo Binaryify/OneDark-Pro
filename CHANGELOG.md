@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.15.5 | 2022.09.05
+
+- Import `toml` semantic highlight support #759
+
 
 ## 3.15.4 | 2022.09.03
 

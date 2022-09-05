@@ -794,6 +794,14 @@ export default {
         },
       },
       {
+        name: '[VSCODE-CUSTOM] toml support',
+        scope:
+          'support.type.property-name.toml, support.type.property-name.table.toml, support.type.property-name.array.toml',
+        settings: {
+          foreground: colorType.coral,
+        },
+      },
+      {
         name: 'Support type',
         scope: 'support.constant.property-value',
         settings: {
@@ -1185,13 +1193,6 @@ export default {
       {
         name: '[VSCODE-CUSTOM] JSON Punctuation for Property Name',
         scope: 'support.type.property-name.json punctuation',
-        settings: {
-          foreground: colorType.coral,
-        },
-      },
-      {
-        name: '[VSCODE-CUSTOM] toml support',
-        scope: 'support.type.property-name.toml, support.type.property-name.table.toml',
         settings: {
           foreground: colorType.coral,
         },
