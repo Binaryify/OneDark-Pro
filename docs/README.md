@@ -154,7 +154,7 @@ Please check the official documentation,
 The colors default
 ![](/screenshots/color.png)
 
-You can custom the color in VS Code's settings
+You can customize the color in VS Code's settings
 ![](/screenshots/colorCustom.png)
 
 ## Contribute
