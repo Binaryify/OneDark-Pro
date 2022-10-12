@@ -1,12 +1,15 @@
 # CHANGELOG
+## 3.15.6 | 2022.10.12
+- Improve `list.highlightForeground` contrast
+
 ## 3.15.5 | 2022.09.05
 
-- Import `toml` semantic highlight support #759
+- Improve `toml` semantic highlight support #759
 
 
 ## 3.15.4 | 2022.09.03
 
-- Import `toml` semantic highlight support #759
+- Improve `toml` semantic highlight support #759
 
 
 ## 3.15.3 | 2022.09.03
