@@ -1310,6 +1310,13 @@
       }
     },
     {
+        "name": "constant.language.symbol.hashkey.ruby",
+        "scope": "constant.language.symbol.hashkey.ruby",
+        "settings": {
+          "foreground": "#56b6c2"
+        }
+      },
+    {
       "name": "rgb-value",
       "scope": "rgb-value",
       "settings": {
