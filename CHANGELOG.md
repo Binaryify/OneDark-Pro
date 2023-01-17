@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.15.7 | 2023.01.17
+- Unify Ruby symbols color #771
+
+
 ## 3.15.6 | 2022.10.12
 - Improve `list.highlightForeground` contrast
 

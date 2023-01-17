@@ -1375,6 +1375,13 @@ export default {
         },
       },
       {
+        "name": "constant.language.symbol.hashkey.ruby",
+        "scope": "constant.language.symbol.hashkey.ruby",
+        "settings": {
+          "foreground": colorType.fountainBlue
+        }
+      },
+      {
         name: 'rgb-value',
         scope: 'rgb-value',
         settings: {
