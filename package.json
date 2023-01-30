@@ -298,17 +298,17 @@
   },
   "badges": [
     {
-      "url": "https://vsmarketplacebadge.apphb.com/version/zhuangtongfa.Material-theme.svg",
+      "url": "https://vsmarketplacebadges.dev/version/zhuangtongfa.Material-theme.svg",
       "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
       "description": "Extension version"
     },
     {
-      "url": "https://vsmarketplacebadge.apphb.com/installs/zhuangtongfa.Material-theme.svg",
+      "url": "https://vsmarketplacebadges.dev/installs/zhuangtongfa.Material-theme.svg",
       "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
       "description": "Extension installs"
     },
     {
-      "url": "https://vsmarketplacebadge.apphb.com/rating/zhuangtongfa.Material-theme.svg",
+      "url": "https://vsmarketplacebadges.dev/rating/zhuangtongfa.Material-theme.svg",
       "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
       "description": "Extension Rating"
     }
