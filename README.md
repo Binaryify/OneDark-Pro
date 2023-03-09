@@ -10,12 +10,6 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 
 ## SPONSORS
 
-[![bloop](./screenshots/bloop_small.png)](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
-
-Bored of trawling through the docs? Get JS and TS code examples from documentation and Open Source right in your IDE
-[Learn more](https://bloop.ai/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner).
-<br><br>
-
 [![codestream](https://alt-images.codestream.com/codestream_logo_pkief_material.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=onedarkpro&utm_medium=banner)
 
 Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites.
