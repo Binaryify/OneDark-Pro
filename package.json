@@ -14,7 +14,7 @@
     "url": "https://github.com/Binaryify/OneDark-Pro"
   },
   "engines": {
-    "vscode": "^1.66.0"
+    "vscode": "^1.76.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -261,7 +261,7 @@
     "@mskelton/eslint-config": "7.1.0",
     "@mskelton/prettier-config": "5.1.0",
     "@types/node": "16.11.33",
-    "@types/vscode": "1.66.0",
+    "@types/vscode": "1.76.0",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "all-contributors-cli": "6.20.0",
     "docsify-cli": "4.4.4",
@@ -298,17 +298,17 @@
   },
   "badges": [
     {
-      "url": "https://vsmarketplacebadges.dev/version/zhuangtongfa.Material-theme.svg",
+      "url": "https://vsmarketplacebadges.dev/version/zhuangtongfa.Material-theme.png",
       "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
       "description": "Extension version"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/installs/zhuangtongfa.Material-theme.svg",
+      "url": "https://vsmarketplacebadges.dev/installs/zhuangtongfa.Material-theme.png",
       "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
       "description": "Extension installs"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/rating/zhuangtongfa.Material-theme.svg",
+      "url": "https://vsmarketplacebadges.dev/rating/zhuangtongfa.Material-theme.png",
       "href": "https://marketplace.visualstudio.com/items/zhuangtongfa.Material-theme",
       "description": "Extension Rating"
     }
