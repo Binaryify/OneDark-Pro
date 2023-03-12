@@ -16,3 +16,8 @@ styles/
 !temp/.gitkeep
 flag.txt
 *.vsix
+
+# IDEA
+.fleet
+.idea
+*.iml
