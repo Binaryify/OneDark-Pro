@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.15.13 | 2023.05.12
+- Improve log highlight #784
+
+
 ## 3.15.7 | 2023.01.17
 - Unify Ruby symbols color #771
 

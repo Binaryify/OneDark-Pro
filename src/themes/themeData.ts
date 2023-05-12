@@ -1985,6 +1985,24 @@ export default {
           foreground: colorType.coral,
         },
       },
+      {
+        scope: ['log.info'],
+        settings: {
+          foreground: colorType.green,
+        },
+      },
+      {
+        scope: ['log.warning'],
+        settings: {
+          foreground: colorType.chalky,
+        },
+      },
+      {
+        scope: ['log.error'],
+        settings: {
+          foreground: colorType.coral,
+        },
+      },
     ],
     bold: [
       {

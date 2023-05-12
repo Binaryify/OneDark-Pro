@@ -2030,6 +2030,30 @@
       "settings": {
         "foreground": "#e06c75"
       }
+    },
+    {
+      "scope": [
+        "log.info"
+      ],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "scope": [
+        "log.warning"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "scope": [
+        "log.error"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
     }
   ],
   "colors": {
