@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.15.14 | 2023.05.24
+- Improve ts highlight #781 #786
+
 ## 3.15.13 | 2023.05.12
 - Improve log highlight #784
 

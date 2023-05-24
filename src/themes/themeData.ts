@@ -2003,6 +2003,18 @@ export default {
           foreground: colorType.coral,
         },
       },
+      {
+        scope: 'keyword.operator.expression.is',
+        settings: {
+          foreground: colorType.purple,
+        },
+      },
+      {
+        scope: 'entity.name.label',
+        settings: {
+          foreground: colorType.coral,
+        },
+      },
     ],
     bold: [
       {
