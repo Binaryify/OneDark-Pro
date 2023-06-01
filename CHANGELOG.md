@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.15.15 | 2023.06.01
+- Fix: Color of the 'list.highlightForeground' in Nord theme #787 #788
+
 ## 3.15.14 | 2023.05.24
 - Improve ts highlight #781 #786
 
