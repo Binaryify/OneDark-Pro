@@ -114,7 +114,7 @@ export default {
   'list.errorForeground': '#bf616a',
   'list.focusBackground': '#88c0d099',
   'list.focusForeground': '#d8dee9',
-  'list.highlightForeground': '#88c0d0',
+  'list.highlightForeground': '#d8dee9',
   'list.hoverBackground': '#3b4252',
   'list.hoverForeground': '#eceff4',
   'list.inactiveFocusBackground': '#434c5ecc',
