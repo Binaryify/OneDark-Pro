@@ -2110,14 +2110,6 @@ export default {
         },
       },
       {
-        name: 'Python Keyword Control',
-        scope:
-          'keyword.control.import.python,keyword.control.flow.python,keyword.operator.logical.python',
-        settings: {
-          fontStyle: 'italic',
-        },
-      },
-      {
         name: 'markup.italic.markdown',
         scope: 'markup.italic.markdown',
         settings: {
