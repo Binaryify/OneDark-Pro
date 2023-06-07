@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.15.16 | 2023.06.07
+- Enhancement: unify syntax highlighting of 'keyword control' for the Python language. #789
+
 ## 3.15.15 | 2023.06.01
 - Fix: Color of the 'list.highlightForeground' in Nord theme #787 #788
 
