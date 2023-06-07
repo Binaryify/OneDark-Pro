@@ -1925,6 +1925,13 @@ export default {
         },
       },
       {
+        name: 'Latex variable parameter',
+        scope: ['variable.parameter.function.latex'],
+        settings: {
+          foreground: colorType.coral,
+        },
+      },
+      {
         name: 'variable.other.object',
         scope: ['variable.other.object'],
         settings: {
