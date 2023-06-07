@@ -1959,6 +1959,15 @@
       }
     },
     {
+      "name": "Latex variable parameter",
+      "scope": [
+        "variable.parameter.function.latex"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
       "name": "variable.other.object",
       "scope": [
         "variable.other.object"

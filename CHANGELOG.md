@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.15.17 | 2023.06.07
+- Enhancement: better syntax highlighting for variables in Latex. #790
+
 ## 3.15.16 | 2023.06.07
 - Enhancement: unify syntax highlighting of 'keyword control' for the Python language. #789
 
