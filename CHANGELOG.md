@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.15.18 | 2023.07.04
+- Update `titleBar.inactiveBackground` color
+
 ## 3.15.17 | 2023.06.07
 - Enhancement: better syntax highlighting for variables in Latex. #790
 

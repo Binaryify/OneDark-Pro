@@ -159,7 +159,7 @@ export default {
   'textPreformat.foreground': '#d19a66',
   'titleBar.activeBackground': '#282c34',
   'titleBar.activeForeground': '#9da5b4',
-  'titleBar.inactiveBackground': '#21252b',
+  'titleBar.inactiveBackground': '#282c34',
   'titleBar.inactiveForeground': '#6b717d',
   'tree.indentGuidesStroke': '#343a45',
   'widget.shadow': '#23252c',
