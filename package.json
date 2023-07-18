@@ -2,7 +2,7 @@
   "name": "material-theme",
   "displayName": "One Dark Pro",
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "3.15.18",
+  "version": "3.16.0",
   "publisher": "zhuangtongfa",
   "license": "MIT",
   "bugs": {
@@ -147,7 +147,8 @@
             "Ocean",
             "Tokyo",
             "Retro",
-            "Gnome"
+            "Gnome",
+            "Dark Modern"
           ]
         },
         "oneDarkPro.italic": {

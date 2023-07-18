@@ -64,6 +64,7 @@ export default {
     Tokyo: () => import('./data/tokyo'),
     Retro: () => import('./data/retro'),
     Gnome: () => import('./data/gnome'),
+    'Dark Modern': () => import('./data/darkModern'),
   },
   tokenColors: {
     default: [
