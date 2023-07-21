@@ -2,6 +2,8 @@
 ## 3.16.0 | 2023.07.18
 - Add `Dark Modern` theme option #785
 
+- Fix C++ highlighting error #791
+
 ## 3.15.18 | 2023.07.04
 - Update `titleBar.inactiveBackground` color
 
