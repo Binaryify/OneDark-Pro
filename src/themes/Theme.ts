@@ -84,6 +84,9 @@ function configFactory(configuration) {
       tomlArrayKey: {
         foreground: colorObj.chalky,
       },
+      "memberOperatorOverload": {
+        foreground: colorObj.purple,
+      }
     },
     tokenColors: result,
   }
