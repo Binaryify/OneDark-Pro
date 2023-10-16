@@ -9,6 +9,19 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/zhuangtongfa.Material-theme) [![Version](https://vsmarketplacebadges.dev/version/zhuangtongfa.Material-theme.png)](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) [![Installs](https://vsmarketplacebadges.dev/installs/zhuangtongfa.Material-theme.png)](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
 
+## SPONSORS
+<h2>
+<a href="https://plugins.jetbrains.com/plugin/22655-mysql-proxy" target="__blank"  style="display:flex;align-items:center;">
+<img src="https://plugins.jetbrains.com/files/22655/412719/icon/pluginIcon.svg" style="margin-right:5px"/>MySQL Proxy
+
+</a>
+</h2>
+
+[A plugin for IDEA](https://plugins.jetbrains.com/plugin/22655-mysql-proxy) that records code CRUD operations, helping you identify potential issues in SQL and providing optimization suggestions.  
+
+一个记录代码 CRUD 操作的 IDEA 插件，帮助您识别潜在问题的SQL并提供优化建议。
+
+
 
 ## SCREENSHOT
 
