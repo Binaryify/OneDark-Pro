@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.16.1 | 2023.10.16
+- Update README.md
+
 ## 3.16.0 | 2023.07.18
 - Add `Dark Modern` theme option #785
 
