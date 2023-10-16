@@ -12,7 +12,7 @@ Atom's iconic One Dark theme, and one of the most installed [themes](https://mar
 ## SPONSORS
 <h2>
 <a href="https://plugins.jetbrains.com/plugin/22655-mysql-proxy" target="__blank"  style="display:flex;align-items:center;">
-<img src="https://plugins.jetbrains.com/files/22655/412719/icon/pluginIcon.svg" style="margin-right:5px"/>MySQL Proxy
+<img src="https://plugins.jetbrains.com/files/22655/412719/icon/pluginIcon.png" style="margin-right:5px"/>MySQL Proxy
 
 </a>
 </h2>
