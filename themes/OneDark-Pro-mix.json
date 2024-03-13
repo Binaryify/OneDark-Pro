@@ -29,6 +29,9 @@
     },
     "tomlArrayKey": {
       "foreground": "#e5c07b"
+    },
+    "memberOperatorOverload": {
+      "foreground": "#c678dd"
     }
   },
   "tokenColors": [
@@ -2136,9 +2139,9 @@
     "dropdown.background": "#21252b",
     "dropdown.border": "#21252b",
     "editor.background": "#282c34",
-    "editor.findMatchBackground": "#42557b",
-    "editor.findMatchBorder": "#457dff",
-    "editor.findMatchHighlightBackground": "#6199ff2f",
+    "editor.findMatchBackground": "#d19a6644",
+    "editor.findMatchBorder": "#ffffff5a",
+    "editor.findMatchHighlightBackground": "#ffffff22",
     "editor.foreground": "#abb2bf",
     "editorBracketHighlight.foreground1": "#d19a66",
     "editorBracketHighlight.foreground2": "#c678dd",
