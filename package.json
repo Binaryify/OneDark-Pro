@@ -60,11 +60,6 @@
     "semi": false
   },
   "contributes": {
-    "markdown.previewStyles": [
-      "./styles/base-inside.css",
-      "./styles/markdown-inside.css",
-      "./styles/atom-one-dark-inside.css"
-    ],
     "commands": [
       {
         "command": "oneDarkPro.showChangelog",
