@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.17.1 | 2024.04.25
+- Update README.md
+
 ## 3.17.0 | 2024.03.13
 - Improved match highlight background contrast
   
