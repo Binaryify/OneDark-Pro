@@ -62,10 +62,10 @@
   dependencies:
     eslint-config-prettier "^8.3.0"
 
-"@mskelton/prettier-config@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/@mskelton/prettier-config/-/prettier-config-5.1.0.tgz"
-  integrity sha512-Pg/Dng03SiU2xGliEZZJ9QNaKgE7jnwA3xt1XS9opo4cT9OdRzjG6mTT5mVm0STTM6eHlFjdJhWdAAEHSw+reQ==
+"@mskelton/prettier-config@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@mskelton/prettier-config/-/prettier-config-5.1.1.tgz#5d60e2748fca011e2d6c9cc9f66e0258256d8e83"
+  integrity sha512-wyYzFlz8jxC5c/prV0oT+tA99waRXRLRLxzMeaPMkhGi7/tgorFJTEHVJXIh1+KguMN2f2la/1XFss2OntvXAg==
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
