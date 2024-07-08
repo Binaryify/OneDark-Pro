@@ -59,6 +59,9 @@ MySQL Proxy
 
 If you like this extension, you could donate via **[PayPal](https://www.paypal.me/binaryify)** It will encourage me to make this extension better and better!
 
+Thanks List:
+- Andreas Georgiadis
+
 
 ### Setting
 
