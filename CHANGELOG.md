@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.17.3 | 2024.09.13
+- Improved C/C++ highlight #828
+  
 ## 3.17.2 | 2024.04.25
 - Update README.md
 

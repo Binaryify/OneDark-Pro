@@ -1529,6 +1529,16 @@
       }
     },
     {
+      "name": "c arithmetic",
+      "scope": [
+        "keyword.operator.arithmetic.c",
+        "keyword.operator.arithmetic.cpp"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
       "name": "Go package name",
       "scope": [
         "entity.name.package.go"

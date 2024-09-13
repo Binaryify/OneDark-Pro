@@ -1569,6 +1569,15 @@ export default {
         },
       },
       {
+        name: 'c arithmetic',
+        scope: [
+          'keyword.operator.arithmetic.c','keyword.operator.arithmetic.cpp'
+        ],
+        settings: {
+          foreground: colorType.purple,
+        },
+      },
+      {
         name: 'Go package name',
         scope: ['entity.name.package.go'],
         settings: {
