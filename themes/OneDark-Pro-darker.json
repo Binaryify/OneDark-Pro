@@ -2088,6 +2088,23 @@
       "settings": {
         "foreground": "#e06c75"
       }
+    },
+    {
+      "scope": [
+        "support.class.math.block.environment.latex",
+        "constant.other.general.math.tex"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.math.tex"
+      ],
+      "settings": {
+        "foreground": "#98c379"
+      }
     }
   ],
   "colors": {

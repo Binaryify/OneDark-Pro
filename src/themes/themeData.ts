@@ -1571,7 +1571,8 @@ export default {
       {
         name: 'c arithmetic',
         scope: [
-          'keyword.operator.arithmetic.c','keyword.operator.arithmetic.cpp'
+          'keyword.operator.arithmetic.c',
+          'keyword.operator.arithmetic.cpp',
         ],
         settings: {
           foreground: colorType.purple,
@@ -2032,6 +2033,23 @@ export default {
           foreground: colorType.coral,
         },
       },
+      {
+        scope: [
+          'support.class.math.block.environment.latex',
+          'constant.other.general.math.tex',
+        ],
+        settings: {
+          foreground: colorType.malibu,
+        },
+      },
+      {
+        scope:[
+          "constant.character.math.tex"
+        ],
+        settings: {
+          foreground: colorType.green,
+        },
+      }
     ],
     bold: [
       {

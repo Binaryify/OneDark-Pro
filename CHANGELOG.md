@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.17.4 | 2024.09.20
+- Improved latex highlight #827
+
 ## 3.17.3 | 2024.09.13
 - Improved C/C++ highlight #828
   
