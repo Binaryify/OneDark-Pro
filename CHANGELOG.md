@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.17.5 | 2024.09.21
+- Set active status background for top right icons #805
+
 ## 3.17.4 | 2024.09.20
 - Improved latex highlight #827
 

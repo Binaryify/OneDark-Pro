@@ -1,4 +1,5 @@
 export default {
+  "actionBar.toggledBackground":"#525761",
   'activityBar.background': '#282c34',
   'activityBar.foreground': '#c7ccd6',
   'activityBarBadge.background': '#21252b',
