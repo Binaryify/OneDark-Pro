@@ -2165,7 +2165,7 @@
     "editorOverviewRuler.deletedBackground": "#9A353D",
     "editorOverviewRuler.modifiedBackground": "#948B60",
     "editor.selectionBackground": "#67769660",
-    "editor.selectionHighlightBackground": "#ffffff10",
+    "editor.selectionHighlightBackground": "#ffd33d44",
     "editor.selectionHighlightBorder": "#dddddd",
     "editor.wordHighlightBackground": "#d2e0ff2f",
     "editor.wordHighlightBorder": "#7f848e",
