@@ -2292,8 +2292,6 @@
     "titleBar.inactiveForeground": "#6b717d",
     "tree.indentGuidesStroke": "#ffffff1d",
     "walkThrough.embeddedEditorBackground": "#2e3440",
-    "welcomePage.buttonHoverBackground": "#404754",
-    "editorStickyScroll.shadow": "#3e4452",
-    "sideBarStickyScroll.shadow": "#3e4452"
+    "welcomePage.buttonHoverBackground": "#404754"
   }
 }
