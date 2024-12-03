@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.17.7 | 2024.12.03
+- Added shadow for sticky scroll in editor and explorer sidebar #833
+
 ## 3.17.6 | 2024.11.07
 - Update colorCustomizations #831
 - Improved contrast
