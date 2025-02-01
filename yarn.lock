@@ -55,10 +55,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@mskelton/eslint-config@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@mskelton/eslint-config/-/eslint-config-7.1.0.tgz#2edd87d3db0f01809b27899fd7cbc6b422f17f1c"
-  integrity sha512-4rXcLyVnhmf/rymTHhYwmXIn0xYmRSCtI2bKu9XADtlUKGZ70x04GzJ8rJD32mqQ+3vBQKJIGGDqTdBNdBY8tA==
+"@mskelton/eslint-config@7.10.1":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@mskelton/eslint-config/-/eslint-config-7.10.1.tgz#7bf5d46a876e2e63f587bf1d7c67098e832efded"
+  integrity sha512-dcOnP0AVLW62HWKEHxVyMoium36hGJ0AkCqKROGxby8Lel8u5n/FGrbVBmXshD9SrZTGtbblF7K4aDn+yLFbUA==
   dependencies:
     eslint-config-prettier "^8.3.0"
 
