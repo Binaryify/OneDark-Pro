@@ -122,6 +122,11 @@
         "label": "One Dark Pro Mix",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-mix.json"
+      },
+      {
+        "label": "One Dark Pro More Darker Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-more-darker-flat.json"
       }
     ],
     "configuration": {
