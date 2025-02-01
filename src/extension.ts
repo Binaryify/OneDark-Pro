@@ -22,7 +22,9 @@ export async function activate() {
       if (await workspace.fs.stat(flagPath)) {
         flag = true
       }
-    } catch (error) {}
+    } catch (error) {
+      console.log(error)
+    }
     if (!flag) {
       await workspace.fs.writeFile(flagPath, new TextEncoder().encode('true'))
       const configArr = [
@@ -34,9 +36,9 @@ export async function activate() {
       let isDefaultConfig = configArr.every((item) => {
         return configuration.get<boolean>(item.type) === item.defaultVal
       })
-      let colorConfig = configuration.get<object>(`color`)
+      const colorConfig = configuration.get<object>(`color`)
       let colorFlagStr = ''
-      for (let key in colorConfig) {
+      for (const key in colorConfig) {
         colorFlagStr += colorConfig[key]
       }
       if (colorFlagStr != '') {

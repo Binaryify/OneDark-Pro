@@ -3,35 +3,35 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "annotation:dart": {
+      "foreground": "#d19a66"
+    },
     "enumMember": {
       "foreground": "#56b6c2"
+    },
+    "macro": {
+      "foreground": "#d19a66"
+    },
+    "memberOperatorOverload": {
+      "foreground": "#c678dd"
+    },
+    "parameter.label:dart": {
+      "foreground": "#abb2bf"
+    },
+    "property:dart": {
+      "foreground": "#d19a66"
+    },
+    "tomlArrayKey": {
+      "foreground": "#e5c07b"
+    },
+    "variable:dart": {
+      "foreground": "#d19a66"
     },
     "variable.constant": {
       "foreground": "#d19a66"
     },
     "variable.defaultLibrary": {
       "foreground": "#e5c07b"
-    },
-    "variable:dart": {
-      "foreground": "#d19a66"
-    },
-    "property:dart": {
-      "foreground": "#d19a66"
-    },
-    "annotation:dart": {
-      "foreground": "#d19a66"
-    },
-    "parameter.label:dart": {
-      "foreground": "#abb2bf"
-    },
-    "macro": {
-      "foreground": "#d19a66"
-    },
-    "tomlArrayKey": {
-      "foreground": "#e5c07b"
-    },
-    "memberOperatorOverload": {
-      "foreground": "#c678dd"
     }
   },
   "tokenColors": [
@@ -2128,20 +2128,7 @@
     "editor.findMatchBorder": "#ffffff5a",
     "editor.findMatchHighlightBackground": "#ffffff22",
     "editor.foreground": "#abb2bf",
-    "editorBracketHighlight.foreground1": "#d19a66",
-    "editorBracketHighlight.foreground2": "#c678dd",
-    "editorBracketHighlight.foreground3": "#56b6c2",
-    "editorHoverWidget.highlightForeground": "#61afef",
-    "editorInlayHint.foreground": "#abb2bf",
-    "editorInlayHint.background": "#2c313c",
     "editor.lineHighlightBackground": "#2c313c",
-    "editorLineNumber.activeForeground": "#abb2bf",
-    "editorGutter.addedBackground": "#109868",
-    "editorGutter.deletedBackground": "#9A353D",
-    "editorGutter.modifiedBackground": "#948B60",
-    "editorOverviewRuler.addedBackground": "#109868",
-    "editorOverviewRuler.deletedBackground": "#9A353D",
-    "editorOverviewRuler.modifiedBackground": "#948B60",
     "editor.selectionBackground": "#67769660",
     "editor.selectionHighlightBackground": "#ffd33d44",
     "editor.selectionHighlightBorder": "#dddddd",
@@ -2149,6 +2136,9 @@
     "editor.wordHighlightBorder": "#7f848e",
     "editor.wordHighlightStrongBackground": "#abb2bf26",
     "editor.wordHighlightStrongBorder": "#7f848e",
+    "editorBracketHighlight.foreground1": "#d19a66",
+    "editorBracketHighlight.foreground2": "#c678dd",
+    "editorBracketHighlight.foreground3": "#56b6c2",
     "editorBracketMatch.background": "#515a6b",
     "editorBracketMatch.border": "#515a6b",
     "editorCursor.background": "#ffffffc9",
@@ -2157,12 +2147,22 @@
     "editorGroup.background": "#181a1f",
     "editorGroup.border": "#181a1f",
     "editorGroupHeader.tabsBackground": "#1e2227",
+    "editorGutter.addedBackground": "#109868",
+    "editorGutter.deletedBackground": "#9A353D",
+    "editorGutter.modifiedBackground": "#948B60",
     "editorHoverWidget.background": "#1e2227",
     "editorHoverWidget.border": "#181a1f",
+    "editorHoverWidget.highlightForeground": "#61afef",
     "editorIndentGuide.activeBackground1": "#c8c8c859",
     "editorIndentGuide.background1": "#3b4048",
+    "editorInlayHint.background": "#2c313c",
+    "editorInlayHint.foreground": "#abb2bf",
+    "editorLineNumber.activeForeground": "#abb2bf",
     "editorLineNumber.foreground": "#495162",
     "editorMarkerNavigation.background": "#1e2227",
+    "editorOverviewRuler.addedBackground": "#109868",
+    "editorOverviewRuler.deletedBackground": "#9A353D",
+    "editorOverviewRuler.modifiedBackground": "#948B60",
     "editorRuler.foreground": "#abb2bf26",
     "editorSuggestWidget.background": "#1e2227",
     "editorSuggestWidget.border": "#181a1f",
@@ -2189,6 +2189,7 @@
     "minimapGutter.addedBackground": "#109868",
     "minimapGutter.deletedBackground": "#9A353D",
     "minimapGutter.modifiedBackground": "#948B60",
+    "multiDiffEditor.headerBackground": "#21252b",
     "panel.border": "#3e4452",
     "panelSectionHeader.background": "#1e2227",
     "peekViewEditor.background": "#1b1d23",

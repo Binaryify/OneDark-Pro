@@ -1,4 +1,9 @@
 # CHANGELOG
+## 3.18.0 | 2025.02.01
+- Fixed lint error
+- add `More darker flat` theme
+- add `multiDiffEditor.headerBackground`
+
 ## 3.17.7 | 2024.12.03
 - Added shadow for sticky scroll in editor and explorer sidebar #833
 

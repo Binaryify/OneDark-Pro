@@ -2,7 +2,7 @@
   "name": "material-theme",
   "displayName": "One Dark Pro",
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "3.17.7",
+  "version": "3.18.0",
   "publisher": "zhuangtongfa",
   "license": "MIT",
   "bugs": {
@@ -46,6 +46,7 @@
     "build:ts": "tsc -p src",
     "build": "yarn build:sass && yarn build:theme && yarn build:ts",
     "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "yarn build:ts -w",
     "vscode:prepublish": "yarn build && yarn package-web",
@@ -264,11 +265,14 @@
     "atom"
   ],
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/eslint-parser": "^7.0.0",
     "@mskelton/eslint-config": "7.1.0",
     "@mskelton/prettier-config": "5.1.1",
     "@types/node": "16.11.33",
     "@types/vscode": "1.76.0",
-    "@typescript-eslint/eslint-plugin": "4.33.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "all-contributors-cli": "6.20.0",
     "docsify-cli": "4.4.4",
     "eslint": "8.14.0",

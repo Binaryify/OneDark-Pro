@@ -12,8 +12,8 @@ const uniqBy = (arr, fn, set = new Set()) =>
     )
   )
 function mergeTheme(baseArray, overrides) {
-  let mergeArr = [...baseArray, ...overrides]
-  let newArr = uniqBy(mergeArr, 'scope')
+  const mergeArr = [...baseArray, ...overrides]
+  const newArr = uniqBy(mergeArr, 'scope')
   overrides.forEach((item) => {
     newArr.forEach((cell) => {
       if (cell.scope === item.scope) {
@@ -39,10 +39,10 @@ function configFactory(configuration) {
   }
 
   // Fill in color placeholders with concrete color values
-  let colorObj: Colors = configuration.vivid
+  const colorObj: Colors = configuration.vivid
     ? data.textColors.vivid
     : data.textColors.classic
-  for (let key in colorObj) {
+  for (const key in colorObj) {
     if (configuration[key]) {
       colorObj[key] = configuration[key]
     }
@@ -57,35 +57,35 @@ function configFactory(configuration) {
   })
   return {
     semanticTokenColors: {
+      'annotation:dart': {
+        foreground: colorObj.whiskey,
+      },
       enumMember: {
         foreground: colorObj.fountainBlue,
+      },
+      macro: {
+        foreground: colorObj.whiskey,
+      },
+      "memberOperatorOverload": {
+        foreground: colorObj.purple,
+      },
+      'parameter.label:dart': {
+        foreground: colorObj.lightWhite,
+      },
+      'property:dart': {
+        foreground: colorObj.whiskey,
+      },
+      tomlArrayKey: {
+        foreground: colorObj.chalky,
+      },
+      'variable:dart': {
+        foreground: colorObj.whiskey,
       },
       'variable.constant': {
         foreground: colorObj.whiskey,
       },
       'variable.defaultLibrary': {
         foreground: colorObj.chalky,
-      },
-      'variable:dart': {
-        foreground: colorObj.whiskey,
-      },
-      'property:dart': {
-        foreground: colorObj.whiskey,
-      },
-      'annotation:dart': {
-        foreground: colorObj.whiskey,
-      },
-      'parameter.label:dart': {
-        foreground: colorObj.lightWhite,
-      },
-      macro: {
-        foreground: colorObj.whiskey,
-      },
-      tomlArrayKey: {
-        foreground: colorObj.chalky,
-      },
-      "memberOperatorOverload": {
-        foreground: colorObj.purple,
       }
     },
     tokenColors: result,

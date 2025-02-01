@@ -17,13 +17,8 @@ export class ChangelogWebview extends WebviewController {
     const changelogPath = Uri.file(
       path.join(__dirname, '../../', 'CHANGELOG.md')
     )
-
-    return new Promise(async (resolve) => {
-      const content = workspace.fs.readFile(changelogPath).then((data) => {
-        return new TextDecoder().decode(data)
-      })
-
-      resolve(marked.parse(await content))
-    })
+    return Promise.resolve(workspace.fs.readFile(changelogPath))
+      .then((data) => new TextDecoder().decode(data))
+      .then((content) => marked.parse(content))
   }
 }

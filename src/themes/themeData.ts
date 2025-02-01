@@ -15,11 +15,31 @@ enum colorType {
 }
 
 export default {
+  editorThemes: {
+    Ayu: () => import('./data/ayu'),
+    'Dark Modern': () => import('./data/darkModern'),
+    Gnome: () => import('./data/gnome'),
+    'Just Black': () => import('./data/justBlack'),
+    Nord: () => import('./data/nord'),
+    Ocean: () => import('./data/ocean'),
+    'One Dark Pro': () => import('./data/oneDarkPro'),
+    'One Dark Pro Darker': () => import('./data/oneDarkProDarker'),
+    'One Dark Pro Flat': () => import('./data/oneDarkProFlat'),
+    'One Dark Pro Mix': () => import('./data/oneDarkProMix'),
+    Panda: () => import('./data/panda'),
+    Retro: () => import('./data/retro'),
+    Shadow: () => import('./data/shadow'),
+    Solarized: () => import('./data/solarized'),
+    'Solarized Flat': () => import('./data/solarizedFlat'),
+    Tokyo: () => import('./data/tokyo'),
+    'VS Code': () => import('./data/vscode'),
+  },
   textColors: {
     classic: {
       chalky: '#e5c07b',
       coral: '#e06c75',
       dark: '#5c6370',
+      deepRed: '#BE5046',
       error: '#f44747',
       fountainBlue: '#56b6c2',
       green: '#98c379',
@@ -29,12 +49,12 @@ export default {
       malibu: '#61afef',
       purple: '#c678dd',
       whiskey: '#d19a66',
-      deepRed: '#BE5046',
     },
     vivid: {
       chalky: '#e5c07b',
       coral: '#ef596f',
       dark: '#5c6370',
+      deepRed: '#BE5046',
       error: '#f44747',
       fountainBlue: '#2bbac5',
       green: '#89ca78',
@@ -44,29 +64,79 @@ export default {
       malibu: '#61afef',
       purple: '#d55fde',
       whiskey: '#d19a66',
-      deepRed: '#BE5046',
     },
   },
-  editorThemes: {
-    Ayu: () => import('./data/ayu'),
-    Nord: () => import('./data/nord'),
-    'One Dark Pro': () => import('./data/oneDarkPro'),
-    'One Dark Pro Flat': () => import('./data/oneDarkProFlat'),
-    'One Dark Pro Darker': () => import('./data/oneDarkProDarker'),
-    'One Dark Pro Mix': () => import('./data/oneDarkProMix'),
-    Panda: () => import('./data/panda'),
-    Solarized: () => import('./data/solarized'),
-    'Solarized Flat': () => import('./data/solarizedFlat'),
-    Shadow: () => import('./data/shadow'),
-    'VS Code': () => import('./data/vscode'),
-    'Just Black': () => import('./data/justBlack'),
-    Ocean: () => import('./data/ocean'),
-    Tokyo: () => import('./data/tokyo'),
-    Retro: () => import('./data/retro'),
-    Gnome: () => import('./data/gnome'),
-    'Dark Modern': () => import('./data/darkModern'),
-  },
   tokenColors: {
+    bold: [
+      {
+        name: 'Markup: Heading',
+        scope: 'markup.heading',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'Markup: Strong',
+        scope: 'markup.bold',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'Sections',
+        scope: 'entity.name.section',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'CSS: Important Keyword',
+        scope: 'keyword.other.important',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'Functions',
+        scope: [
+          'entity.name.function',
+          'meta.require',
+          'support.function.any-method',
+          'variable.function',
+        ],
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'Classes',
+        scope: 'entity.name.type.namespace',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'Headings',
+        scope: 'markup.heading',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'Bold',
+        scope: 'markup.bold,todo.bold',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+      {
+        name: 'markup.bold.markdown',
+        scope: 'markup.bold.markdown',
+        settings: {
+          fontStyle: 'bold',
+        },
+      },
+    ],
     default: [
       {
         scope: 'meta.embedded',
@@ -2050,76 +2120,6 @@ export default {
           foreground: colorType.green,
         },
       }
-    ],
-    bold: [
-      {
-        name: 'Markup: Heading',
-        scope: 'markup.heading',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'Markup: Strong',
-        scope: 'markup.bold',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'Sections',
-        scope: 'entity.name.section',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'CSS: Important Keyword',
-        scope: 'keyword.other.important',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'Functions',
-        scope: [
-          'entity.name.function',
-          'meta.require',
-          'support.function.any-method',
-          'variable.function',
-        ],
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'Classes',
-        scope: 'entity.name.type.namespace',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'Headings',
-        scope: 'markup.heading',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'Bold',
-        scope: 'markup.bold,todo.bold',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
-      {
-        name: 'markup.bold.markdown',
-        scope: 'markup.bold.markdown',
-        settings: {
-          fontStyle: 'bold',
-        },
-      },
     ],
     italic: [
       {

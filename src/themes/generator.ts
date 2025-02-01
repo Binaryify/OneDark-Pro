@@ -3,14 +3,14 @@ import { Theme } from './Theme'
 import * as defaultSettings from '../defaultConfig.json'
 import colorObjArr from '../utils/colorObjArr'
 export const generateTheme = {
-  default: async function () {
+  async default () {
     return await Theme.init(defaultSettings)
   },
-  fromSettings: async function (themeName?: string) {
+  async fromSettings (themeName?: string) {
     const configuration = workspace.getConfiguration('oneDarkPro')
-    let colorObj = {}
+    const colorObj = {}
     colorObjArr.forEach((item) => {
-      let value = configuration.get<object>('color')[item]
+      const value = configuration.get<object>('color')[item]
       if (value) {
         colorObj[item] = value
       }
