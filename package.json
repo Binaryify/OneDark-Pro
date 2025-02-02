@@ -267,7 +267,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/eslint-parser": "^7.0.0",
-    "@mskelton/eslint-config": "7.1.0",
+    "@mskelton/eslint-config": "9.2.0",
     "@mskelton/prettier-config": "5.1.1",
     "@types/node": "16.11.33",
     "@types/vscode": "1.76.0",
