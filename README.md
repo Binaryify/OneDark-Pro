@@ -42,6 +42,10 @@ MySQL Proxy
 
 ![ScreenShot](./screenshots/editordarker.png)
 
+### Night Flat theme
+
+![ScreenShot](./screenshots/editornightflat.png)
+
 ### Retro theme
 
 ![ScreenShot](./screenshots/retro.png)
