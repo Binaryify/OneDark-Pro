@@ -2202,6 +2202,7 @@
     "settings.headerForeground": "#fff",
     "sideBar.background": "#16191d",
     "sideBar.foreground": "#abb2bf",
+    "sideBar.border": "#37393d",
     "sideBarSectionHeader.background": "#16191d",
     "sideBarSectionHeader.foreground": "#abb2bf",
     "statusBar.background": "#16191d",

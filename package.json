@@ -125,9 +125,9 @@
         "path": "./themes/OneDark-Pro-mix.json"
       },
       {
-        "label": "One Dark Pro More Darker Flat",
+        "label": "One Dark Pro Night Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneDark-Pro-more-darker-flat.json"
+        "path": "./themes/OneDark-Pro-night-flat.json"
       }
     ],
     "configuration": {
@@ -154,7 +154,8 @@
             "Tokyo",
             "Retro",
             "Gnome",
-            "Dark Modern"
+            "Dark Modern",
+            "One Dark Pro Night Flat"
           ]
         },
         "oneDarkPro.italic": {
