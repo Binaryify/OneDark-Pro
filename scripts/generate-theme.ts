@@ -4,6 +4,7 @@ import * as defaultSettings from '../src/defaultConfig.json'
 import * as flatConfig from '../src/flatConfig.json'
 import * as darkerConfig from '../src/darkerConfig.json'
 import * as mixConfig from '../src/mixConfig.json'
+import * as nightFlatConfig from '../src/nightFlatConfig.json'
 import { promises as fs } from 'fs'
 
 export function writeFile(path: string, data: unknown): Promise<void> {
@@ -29,6 +30,10 @@ async function main() {
   writeFile(
     join(__dirname, '..', 'themes', 'OneDark-Pro-mix.json'),
     await Theme.init(mixConfig)
+  )
+  writeFile(
+    join(__dirname, '..', 'themes', 'OneDark-Pro-night-flat.json'),
+    await Theme.init(nightFlatConfig)
   )
 }
 main()

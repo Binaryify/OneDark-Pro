@@ -26,6 +26,7 @@ export default {
     'One Dark Pro Darker': () => import('./data/oneDarkProDarker'),
     'One Dark Pro Flat': () => import('./data/oneDarkProFlat'),
     'One Dark Pro Mix': () => import('./data/oneDarkProMix'),
+    'One Dark Pro Night Flat': () => import('./data/oneDarkProNightFlat'),
     Panda: () => import('./data/panda'),
     Retro: () => import('./data/retro'),
     Shadow: () => import('./data/shadow'),

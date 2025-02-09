@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.19.0 | 2025.02.09
+-  `More darker flat` -> `Night Flat` theme #861
+
 ## 3.18.0 | 2025.02.01
 - Fixed lint error
 - add `More darker flat` theme

@@ -92,6 +92,7 @@ export default {
   'settings.focusedRowBackground': '#23272e',
   'settings.headerForeground': '#fff',
   'sideBar.background': '#16191d',
+  'sideBar.border': '#37393d',
   'sideBar.foreground': '#abb2bf',
   'sideBarSectionHeader.background': '#16191d',
   'sideBarSectionHeader.foreground': '#abb2bf',
