@@ -270,7 +270,7 @@
     "@babel/eslint-parser": "^7.0.0",
     "@mskelton/eslint-config": "7.1.0",
     "@mskelton/prettier-config": "5.1.1",
-    "@types/node": "16.11.33",
+    "@types/node": "22.13.10",
     "@types/vscode": "1.76.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
