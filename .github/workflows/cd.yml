@@ -12,7 +12,7 @@ jobs:
     steps:
 
       - name: Checkout source code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
         # Make sure the version number in the tag matches the version in package.json
       - name: match-tag-to-package-version
