@@ -290,7 +290,7 @@
     "typescript": "4.6.4",
     "util": "0.12.5",
     "vsce": "2.7.0",
-    "webpack": "5.72.0",
+    "webpack": "5.94.0",
     "webpack-cli": "4.9.2"
   },
   "galleryBanner": {
