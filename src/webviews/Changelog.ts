@@ -2,7 +2,6 @@ import { WebviewController } from './Webview'
 import { Uri, workspace } from 'vscode'
 import { TextDecoder } from 'util'
 import * as path from 'path'
-import { marked } from 'marked'
 
 export class ChangelogWebview extends WebviewController {
   get id(): string {
@@ -15,10 +14,13 @@ export class ChangelogWebview extends WebviewController {
 
   get content(): Promise<string> {
     const changelogPath = Uri.file(
-      path.join(__dirname, '../../', 'CHANGELOG.md')
+      path.join(__dirname, '../../', 'CHANGELOG.md'),
     )
     return Promise.resolve(workspace.fs.readFile(changelogPath))
       .then((data) => new TextDecoder().decode(data))
-      .then((content) => marked.parse(content))
+      .then(async (content) => {
+        const { marked } = await import('marked')
+        return marked.parse(content, { async: false })
+      })
   }
 }

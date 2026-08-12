@@ -5,6 +5,7 @@
     "sourceMap": true,
     "strict": false,
     "target": "es6",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["node"]
   }
 }

@@ -1,12 +1,12 @@
 import { workspace } from 'vscode'
 import { Theme } from './Theme'
-import * as defaultSettings from '../defaultConfig.json'
+import defaultSettings from '../defaultConfig.json'
 import colorObjArr from '../utils/colorObjArr'
 export const generateTheme = {
-  async default () {
+  async default() {
     return await Theme.init(defaultSettings)
   },
-  async fromSettings (themeName?: string) {
+  async fromSettings(themeName?: string) {
     const configuration = workspace.getConfiguration('oneDarkPro')
     const colorObj = {}
     colorObjArr.forEach((item) => {
@@ -15,7 +15,7 @@ export const generateTheme = {
         colorObj[item] = value
       }
     })
-    const buildConfig={
+    const buildConfig = {
       bold: configuration.get<boolean>('bold', defaultSettings.bold),
       editorTheme:
         themeName ||
