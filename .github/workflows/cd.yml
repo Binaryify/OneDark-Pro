@@ -28,6 +28,6 @@ jobs:
 
         # Install deps, build, pack and deploy
       - name: Build
-        run: npm ci && npx vsce publish
+        run: npm ci && npx @vscode/vsce publish
         env:
           VSCE_PAT: ${{secrets.VSCE_PAT}}
