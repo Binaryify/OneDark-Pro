@@ -10,7 +10,7 @@ export async function updateTheme() {
     const theme = await generateTheme.fromSettings(themeName)
     return workspace.fs.writeFile(
       THEME_PATH,
-      new TextEncoder().encode(JSON.stringify(theme, null, 2))
+      new TextEncoder().encode(JSON.stringify(theme, null, 2)),
     )
   }
 

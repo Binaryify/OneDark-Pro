@@ -16,21 +16,21 @@ export async function updateCSS() {
       files.map((file) =>
         workspace.fs.writeFile(
           Uri.file(getCSSPath(file)),
-          new TextEncoder().encode('')
-        )
-      )
+          new TextEncoder().encode(''),
+        ),
+      ),
     )
   } else {
     await Promise.all(
       files.map(async (file) => {
         const fileContents = await workspace.fs.readFile(
-          Uri.file(getCSSPath(`./origin/${file}`))
+          Uri.file(getCSSPath(`./origin/${file}`)),
         )
         return workspace.fs.writeFile(
           Uri.file(getCSSPath(`./${file}`)),
-          fileContents
+          fileContents,
         )
-      })
+      }),
     )
   }
 }

@@ -8,8 +8,8 @@ async function createEditorTokens(config: ThemeConfiguration) {
 const uniqBy = (arr, fn, set = new Set()) =>
   arr.filter((el) =>
     ((v) => !set.has(v) && set.add(v))(
-      typeof fn === 'function' ? fn(el) : el[fn]
-    )
+      typeof fn === 'function' ? fn(el) : el[fn],
+    ),
   )
 function mergeTheme(baseArray, overrides) {
   const mergeArr = [...baseArray, ...overrides]
@@ -28,7 +28,7 @@ function mergeTheme(baseArray, overrides) {
 }
 function configFactory(configuration) {
   let result: TokenColor[] = JSON.parse(
-    JSON.stringify(data.tokenColors.default)
+    JSON.stringify(data.tokenColors.default),
   )
 
   if (configuration.bold) {
@@ -66,7 +66,7 @@ function configFactory(configuration) {
       macro: {
         foreground: colorObj.whiskey,
       },
-      "memberOperatorOverload": {
+      memberOperatorOverload: {
         foreground: colorObj.purple,
       },
       'parameter.label:dart': {
@@ -86,7 +86,7 @@ function configFactory(configuration) {
       },
       'variable.defaultLibrary': {
         foreground: colorObj.chalky,
-      }
+      },
     },
     tokenColors: result,
   }

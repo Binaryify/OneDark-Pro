@@ -2,6 +2,7 @@ enum colorType {
   chalky = 'chalky',
   coral = 'coral',
   dark = 'dark',
+  deepRed = 'deepRed',
   error = 'error',
   fountainBlue = 'fountainBlue',
   green = 'green',
@@ -11,7 +12,6 @@ enum colorType {
   malibu = 'malibu',
   purple = 'purple',
   whiskey = 'whiskey',
-  deepRed = 'deepRed',
 }
 
 export default {
@@ -2114,13 +2114,11 @@ export default {
         },
       },
       {
-        scope:[
-          "constant.character.math.tex"
-        ],
+        scope: ['constant.character.math.tex'],
         settings: {
           foreground: colorType.green,
         },
-      }
+      },
     ],
     italic: [
       {

@@ -75,7 +75,7 @@ export async function activate() {
         .update(
           `oneDarkPro.${settingItem.toLowerCase()}`,
           true,
-          ConfigurationTarget.Global
+          ConfigurationTarget.Global,
         )
     })
     Commands.registerCommand(`oneDarkPro.cancel${settingItem}`, () => {
@@ -84,7 +84,7 @@ export async function activate() {
         .update(
           `oneDarkPro.${settingItem.toLowerCase()}`,
           false,
-          ConfigurationTarget.Global
+          ConfigurationTarget.Global,
         )
     })
   })

@@ -34,8 +34,8 @@ export abstract class WebviewController extends Disposable {
         enableCommandUris: true,
         enableFindWidget: true,
         enableScripts: true,
-        retainContextWhenHidden: true
-      }
+        retainContextWhenHidden: true,
+      },
     )
 
     this.panel.webview.html = fullHtml
