@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: yarn
+          cache: npm
 
         # Make sure the version number in the tag matches the version in package.json
       - name: match-tag-to-package-version
@@ -28,6 +28,6 @@ jobs:
 
         # Install deps, build, pack and deploy
       - name: Build
-        run: yarn install --frozen-lockfile && yarn vsce publish
+        run: npm ci && npx vsce publish
         env:
           VSCE_PAT: ${{secrets.VSCE_PAT}}

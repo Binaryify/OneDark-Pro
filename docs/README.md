@@ -22,7 +22,7 @@ $ git clone git@github.com:Binaryify/OneDark-Pro.git
 Then run
 
 ```
-$ yarn
+$ npm install
 ```
 
 Then use vscode open and press `F5` key

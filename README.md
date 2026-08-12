@@ -243,7 +243,7 @@ To help with documentation, first fork and clone this repository.
 
 `cd` to the `OneDark-Pro` folder
 
-Run `yarn`
+Run `npm install`
 
 Then run
 `npm run docs` to serve the documentation
