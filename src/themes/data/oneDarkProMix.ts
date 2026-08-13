@@ -37,7 +37,7 @@ export default withModernUiTokens({
   'editorCursor.background': '#ffffffc9',
   'editorCursor.foreground': '#528bff',
   'editorError.foreground': '#c24038',
-  'editorGroup.emptyBackground': '#181a1f',
+  'editorGroup.emptyBackground': '#282c34',
   'editorGroup.border': '#181a1f',
   'editorGroupHeader.tabsBackground': '#21252b',
   'editorGutter.addedBackground': '#109868',
