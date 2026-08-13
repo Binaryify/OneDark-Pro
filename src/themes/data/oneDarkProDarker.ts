@@ -1,4 +1,6 @@
-export default {
+import { withModernUiTokens } from './modernUiTokens'
+
+export default withModernUiTokens({
   'actionBar.toggledBackground': '#525761',
   'activityBar.background': '#23272e',
   'activityBar.foreground': '#d7dae0',
@@ -35,7 +37,7 @@ export default {
   'editorCursor.background': '#ffffffc9',
   'editorCursor.foreground': '#528bff',
   'editorError.foreground': '#c24038',
-  'editorGroup.background': '#181a1f',
+  'editorGroup.emptyBackground': '#181a1f',
   'editorGroup.border': '#181a1f',
   'editorGroupHeader.tabsBackground': '#1e2227',
   'editorGutter.addedBackground': '#109868',
@@ -51,9 +53,9 @@ export default {
   'editorLineNumber.activeForeground': '#abb2bf',
   'editorLineNumber.foreground': '#495162',
   'editorMarkerNavigation.background': '#1e2227',
-  'editorOverviewRuler.addedBackground': '#109868',
-  'editorOverviewRuler.deletedBackground': '#9A353D',
-  'editorOverviewRuler.modifiedBackground': '#948B60',
+  'editorOverviewRuler.addedForeground': '#109868',
+  'editorOverviewRuler.deletedForeground': '#9A353D',
+  'editorOverviewRuler.modifiedForeground': '#948B60',
   'editorRuler.foreground': '#abb2bf26',
   'editorSuggestWidget.background': '#1e2227',
   'editorSuggestWidget.border': '#181a1f',
@@ -141,5 +143,5 @@ export default {
   'titleBar.inactiveForeground': '#6b717d',
   'tree.indentGuidesStroke': '#ffffff1d',
   'walkThrough.embeddedEditorBackground': '#2e3440',
-  'welcomePage.buttonHoverBackground': '#404754',
-}
+  'welcomePage.tileHoverBackground': '#404754',
+})
