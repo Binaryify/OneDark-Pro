@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.20.0 | 2026.08.13
+- Add modern UI colors for Chat, Inline Chat, Agents, Sticky Scroll, SCM Graph, and Multi Diff Editor
+- Update deprecated workbench color keys
+
 ## 3.19.0 | 2025.02.09
 -  `More darker flat` -> `Night Flat` theme #861
 
