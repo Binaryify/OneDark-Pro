@@ -1,4 +1,7 @@
 # CHANGELOG
+## 3.20.1 | 2026.08.13
+- Upgrade CD to Node 24
+
 ## 3.20.0 | 2026.08.13
 - Add modern UI colors for Chat, Inline Chat, Agents, Sticky Scroll, SCM Graph, and Multi Diff Editor
 - Update deprecated workbench color keys
