@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.20.2 | 2026.08.13
+- Fix the empty editor area being noticeably darker than the editor background
+- Regenerate the Mix and Night Flat themes when settings change
+
 ## 3.20.1 | 2026.08.13
 - Upgrade CD to Node 24
 

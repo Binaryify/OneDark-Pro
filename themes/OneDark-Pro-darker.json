@@ -2144,7 +2144,7 @@
     "editorCursor.background": "#ffffffc9",
     "editorCursor.foreground": "#528bff",
     "editorError.foreground": "#c24038",
-    "editorGroup.emptyBackground": "#181a1f",
+    "editorGroup.emptyBackground": "#23272e",
     "editorGroup.border": "#181a1f",
     "editorGroupHeader.tabsBackground": "#1e2227",
     "editorGutter.addedBackground": "#109868",
