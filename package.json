@@ -283,7 +283,7 @@
     "theme": "dark"
   },
   "dependencies": {
-    "marked": "18.0.9"
+    "marked": "18.0.10"
   },
   "capabilities": {
     "untrustedWorkspaces": {
