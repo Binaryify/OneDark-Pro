@@ -240,7 +240,11 @@ export default {
       },
       {
         name: 'keyword.operator',
-        scope: ['keyword.operator.word'],
+        scope: [
+          'keyword.operator.word',
+          'keyword.operator.wordlike',
+          'keyword.operator.wordlike keyword.operator',
+        ],
         settings: {
           foreground: colorType.purple,
         },
