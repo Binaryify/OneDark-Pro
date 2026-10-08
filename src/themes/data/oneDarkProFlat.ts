@@ -24,6 +24,7 @@ export default withModernUiTokens({
   'editor.findMatchHighlightBackground': '#ffffff22',
   'editor.foreground': '#abb2bf',
   'editor.lineHighlightBackground': '#2c313c',
+  'editor.linkedEditingBackground': '#d2e0ff1a',
   'editor.selectionBackground': '#67769660',
   'editor.selectionHighlightBackground': '#ffd33d44',
   'editor.selectionHighlightBorder': '#404859',
