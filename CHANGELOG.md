@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.20.3 | 2026.10.07
+- Use a readable linked editing highlight instead of VS Code's default red #769
+- Color C++ word operators (`and`, `or`, `not`, ...) like other keyword operators #867
+
 ## 3.20.2 | 2026.08.13
 - Fix the empty editor area being noticeably darker than the editor background
 - Regenerate the Mix and Night Flat themes when settings change
