@@ -2337,6 +2337,7 @@
     "sideBar.border": "#23272e",
     "sideBarSectionHeader.border": "#23272e",
     "editorGroupHeader.tabsBorder": "#23272e",
+    "editorOverviewRuler.border": "#23272e",
     "panelInput.border": "#23272e",
     "statusBar.border": "#23272e",
     "titleBar.border": "#23272e",

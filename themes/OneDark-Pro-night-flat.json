@@ -2337,6 +2337,7 @@
     "activityBar.border": "#16191d",
     "sideBarSectionHeader.border": "#16191d",
     "editorGroupHeader.tabsBorder": "#16191d",
+    "editorOverviewRuler.border": "#16191d",
     "panelInput.border": "#16191d",
     "statusBar.border": "#16191d",
     "titleBar.border": "#16191d",

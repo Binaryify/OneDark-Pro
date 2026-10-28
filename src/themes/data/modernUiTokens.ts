@@ -130,6 +130,7 @@ function createUnborderedTokens(colors: ThemeColors): ThemeColors {
     'editorGroup.border': flatBg,
     'editorGroupHeader.tabsBorder': flatBg,
     'editorStickyScroll.border': flatBg,
+    'editorOverviewRuler.border': flatBg,
     'tab.border': flatBg,
     'panel.border': flatBg,
     'panelInput.border': flatBg,
