@@ -1,4 +1,8 @@
 # CHANGELOG
+
+## 3.20.4 | 2026.10.28
+- Make One Dark Pro themes unbordered for Modern UI (borders match each theme's editor background) #900
+
 ## 3.20.3 | 2026.10.07
 - Use a readable linked editing highlight instead of VS Code's default red #769
 - Color C++ word operators (`and`, `or`, `not`, ...) like other keyword operators #867
