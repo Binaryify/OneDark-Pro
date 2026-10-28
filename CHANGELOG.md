@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.20.5 | 2026.10.29
+- Hide editor overview ruler / scrollbar border on non-Flat themes for Modern UI unbordered look #903
+
 ## 3.20.4 | 2026.10.28
 - Make One Dark Pro themes unbordered for Modern UI (borders match each theme's editor background) #900
 
