@@ -259,7 +259,7 @@
     "@types/node": "24.13.3",
     "@types/vscode": "1.76.0",
     "@typescript/native": "npm:typescript@7.0.2",
-    "@vscode/vsce": "3.9.2",
+    "@vscode/vsce": "4.0.0",
     "all-contributors-cli": "6.26.1",
     "assert": "2.1.0",
     "docsify-cli": "5.0.0",
