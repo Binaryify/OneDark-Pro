@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.20.6 | 2026.10.29
+- Restore classic panel/sidebar dividers; keep borderless only for Modern UI #904
+
 ## 3.20.5 | 2026.10.29
 - Hide editor overview ruler / scrollbar border on non-Flat themes for Modern UI unbordered look #903
 
