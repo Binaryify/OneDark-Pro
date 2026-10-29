@@ -1810,7 +1810,7 @@
         "beginning.punctuation.definition.list.markdown.xi"
       ],
       "settings": {
-        "foreground": "#7f848e"
+        "foreground": "#5c6370"
       }
     },
     {
@@ -1893,7 +1893,7 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "foreground": "#7f848e"
+        "foreground": "#5c6370"
       }
     },
     {
