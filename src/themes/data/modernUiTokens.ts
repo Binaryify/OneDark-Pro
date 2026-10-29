@@ -115,33 +115,15 @@ function createModernUiTokens(colors: ThemeColors): ThemeColors {
 }
 
 /**
- * Ayu-style unbordered chrome: paint panel/sidebar/tab/shell strokes with the
- * theme's editor background so Modern UI islands and classic chrome sit flush.
- * Uses editor.background (matches Flat/Night Flat shell; for standard/darker/mix
- * it is the main editor surface — same approach as the local Flat demo).
+ * Ayu-style unbordered Modern UI: paint the Modern UI-only shell/island tokens
+ * with the theme's editor background so islands sit flush (#900). Classic
+ * separators (sideBar/panel/editorGroup/...) are left untouched so the
+ * classic layout keeps its dividers and sash affordance (#904).
  */
 function createUnborderedTokens(colors: ThemeColors): ThemeColors {
   const flatBg = colors['editor.background']
   return {
-    'activityBar.border': flatBg,
-    'sideBar.border': flatBg,
-    'sideBarSectionHeader.border': flatBg,
-    'sideBarStickyScroll.border': flatBg,
-    'editorGroup.border': flatBg,
-    'editorGroupHeader.tabsBorder': flatBg,
-    'editorStickyScroll.border': flatBg,
     'editorOverviewRuler.border': flatBg,
-    'tab.border': flatBg,
-    'panel.border': flatBg,
-    'panelInput.border': flatBg,
-    'statusBar.border': flatBg,
-    'titleBar.border': flatBg,
-    'terminal.border': flatBg,
-    'terminalStickyScroll.border': flatBg,
-    'multiDiffEditor.border': flatBg,
-    'agentsPanel.border': flatBg,
-    'agentsChatInput.border': flatBg,
-    'agentsNewSessionButton.border': flatBg,
     'modernPanel.border': flatBg,
     'modernActivityBar.border': flatBg,
     'modernActivityBar.background': flatBg,
@@ -151,7 +133,6 @@ function createUnborderedTokens(colors: ThemeColors): ThemeColors {
     'editor.border': flatBg,
     'modernUI.shellBackground': flatBg,
     'modernUI.inactiveShellBackground': flatBg,
-    'widget.border': flatBg,
   }
 }
 
@@ -170,8 +151,7 @@ export function withModernUiTokens<T extends ThemeColors>(colors: T) {
     ...additions,
   }
 
-  // Unbordered overrides always win so classic borders and modernUi-derived
-  // strokes (panel.border, editorGroup.border, etc.) become flush.
+  // Unbordered Modern UI overrides always win over theme data.
   return {
     ...merged,
     ...createUnborderedTokens(merged),
