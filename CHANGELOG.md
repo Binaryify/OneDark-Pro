@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.20.7 | 2026.11.20
+- Color over-length git commit subject lines red instead of white #908
+- Highlight modified / renamed / new / deleted files in git commit messages #909
+
 ## 3.20.6 | 2026.10.29
 - Restore classic panel/sidebar dividers; keep borderless only for Modern UI #904
 
