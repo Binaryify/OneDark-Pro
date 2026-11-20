@@ -166,7 +166,7 @@
     },
     {
       "name": "markup diff",
-      "scope": "markup.changed.diff",
+      "scope": "markup.changed.diff,markup.changed.git-commit",
       "settings": {
         "foreground": "#e5c07b"
       }
@@ -180,14 +180,14 @@
     },
     {
       "name": "inserted.diff",
-      "scope": "markup.inserted.diff",
+      "scope": "markup.inserted.diff,markup.inserted.git-commit",
       "settings": {
         "foreground": "#98c379"
       }
     },
     {
       "name": "deleted.diff",
-      "scope": "markup.deleted.diff",
+      "scope": "markup.deleted.diff,markup.deleted.git-commit",
       "settings": {
         "foreground": "#e06c75"
       }
@@ -1095,6 +1095,13 @@
       "scope": "invalid.deprecated.entity.other.attribute-name.html",
       "settings": {
         "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "git-commit line too long",
+      "scope": "invalid.deprecated.line-too-long.git-commit,invalid.illegal.line-too-long.git-commit",
+      "settings": {
+        "foreground": "#e06c75"
       }
     },
     {

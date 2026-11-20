@@ -272,7 +272,7 @@ export default {
       },
       {
         name: 'markup diff',
-        scope: 'markup.changed.diff',
+        scope: 'markup.changed.diff,markup.changed.git-commit',
         settings: {
           foreground: colorType.chalky,
         },
@@ -287,14 +287,14 @@ export default {
       },
       {
         name: 'inserted.diff',
-        scope: 'markup.inserted.diff',
+        scope: 'markup.inserted.diff,markup.inserted.git-commit',
         settings: {
           foreground: colorType.green,
         },
       },
       {
         name: 'deleted.diff',
-        scope: 'markup.deleted.diff',
+        scope: 'markup.deleted.diff,markup.deleted.git-commit',
         settings: {
           foreground: colorType.coral,
         },
@@ -1218,6 +1218,14 @@ export default {
         scope: 'invalid.deprecated.entity.other.attribute-name.html',
         settings: {
           foreground: colorType.whiskey,
+        },
+      },
+      {
+        name: 'git-commit line too long',
+        scope:
+          'invalid.deprecated.line-too-long.git-commit,invalid.illegal.line-too-long.git-commit',
+        settings: {
+          foreground: colorType.coral,
         },
       },
       {
