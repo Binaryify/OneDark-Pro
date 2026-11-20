@@ -21,10 +21,13 @@ jobs:
           cache: npm
 
         # Make sure the version number in the tag matches the version in package.json
-      - name: match-tag-to-package-version
-        uses: geritol/match-tag-to-package-version@0.2.0 # https://github.com/geritol/match-tag-to-package-version
-        env:
-          TAG_PREFIX: refs/tags/
+      - name: Check tag matches package.json version
+        run: |
+          PKG_VERSION=$(node -p "require('./package.json').version")
+          if [ "$GITHUB_REF_NAME" != "$PKG_VERSION" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match package.json version $PKG_VERSION"
+            exit 1
+          fi
 
         # Install deps, build, pack and deploy
       - name: Build
