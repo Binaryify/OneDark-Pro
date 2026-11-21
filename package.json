@@ -276,7 +276,7 @@
     "typescript": "npm:@typescript/typescript6@6.0.2",
     "util": "0.12.5",
     "webpack": "5.109.2",
-    "webpack-cli": "7.2.2"
+    "webpack-cli": "7.2.3"
   },
   "galleryBanner": {
     "color": "#2d323b",
